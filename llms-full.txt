@@ -1,0 +1,17 @@
+# Doodle Baseball Game - Full Introduction
+
+> Doodle Baseball is a free-to-play, addictive online baseball game simulator inspired by classic browser games. Featuring charming food-based characters, players swing the bat to hit home runs and test their timing and reflexes. It's designed for quick, fun gameplay sessions suitable for all ages. Our goal is to provide a simple, accessible, and entertaining baseball game experience directly in your browser without downloads or installs.
+
+## Website Background
+This website hosts the popular Doodle Baseball game, offering a dedicated place to play and learn about the game. It aims to preserve and share this fun browser game experience, making it easily accessible to fans and new players alike. The focus is on providing a clean, fast-loading, and user-friendly interface for enjoying the game.
+
+## Content Details
+### [Play Game](https://doodlebaseball.info/#play)
+The heart of the website is the interactive Doodle Baseball game itself. Players click or tap to swing the bat at the right moment to hit various food items pitched towards them. The challenge lies in timing the swing perfectly to score points, achieve combos, and hit home runs. The game features simple controls, engaging visuals, and increasing difficulty.
+
+## User Value
+Users get instant access to a fun and engaging casual game without needing any installation or signup. It's a great way to pass the time, challenge reflexes, compete for high scores (informally), and enjoy a bit of nostalgia. The site also provides helpful information like how to play, tips, and answers to common questions, enhancing the overall experience.
+
+## Latest Update Content
+### [Main Game Platform](https://doodlebaseball.info/#play)
+The website ensures the Doodle Baseball game is consistently available and performs well across different devices and browsers. While the core game mechanics are preserved for authenticity, the surrounding website provides a modern and reliable platform for access. (Last Structure Update: July 2024) 

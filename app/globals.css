@@ -1,26 +1,150 @@
-@import "tailwindcss";
+/* 全局样式 - 为Next.js应用创建 */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* 导入字体 - 已注释掉，因为您在 layout.tsx 中使用 next/font */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 重置CSS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  /* 默认字体和颜色由 Tailwind 主题或 layout.tsx 中的字体变量控制 */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+  主要字体类 - next/font 会通过 CSS 变量注入这些字体。
+  Bangers 字体由 next/font 管理，可以通过 className="font-bangers" 或在 tailwind.config.js 中配置后使用。
+  如果您在 layout.tsx 中为 body 设置了 bangers.variable，则可以直接在 Tailwind 中使用 font-bangers。
+  如果需要在特定元素上强制应用，可以保留下面的 .font-bangers 类。
+*/
+.font-bangers {
+  font-family: var(--font-bangers); /* 确保 var(--font-bangers) 在 layout.tsx 中已定义并传递给 body */
+}
+
+/* 按钮样式 (自定义组件样式) */
+button,
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #3b82f6; /* 建议使用 Tailwind 颜色类，如 bg-blue-500 */
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb; /* 建议使用 Tailwind 颜色类，如 hover:bg-blue-600 */
+}
+
+/* 布局类 (自定义组件样式) */
+.container {
+  width: 100%;
+  max-width: 1200px; /* 建议使用 Tailwind 的 max-w-screen-xl 或其他 max-w-* 类 */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* 建议使用 Tailwind 的 px-4 */
+  padding-right: 1rem; /* 建议使用 Tailwind 的 px-4 */
+}
+
+/* 响应式栅格 (自定义组件样式) */
+/* Tailwind 本身提供了强大的 grid 功能，通常不需要自定义这些 */
+.grid {
+  display: grid;
+  gap: 1rem; /* 建议使用 Tailwind 的 gap-4 */
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) { /* sm breakpoint */
+  .grid-cols-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 768px) { /* md breakpoint */
+  .grid-cols-md-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
+
+@media (min-width: 1024px) { /* lg breakpoint */
+  .grid-cols-lg-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 间距工具类 (自定义工具类) */
+/* Tailwind 提供了丰富的间距工具类 (m-*, p-*)，通常不需要自定义这些，建议移除 */
+/*
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-8 { margin-top: 2rem; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-8 { margin-bottom: 2rem; }
+
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1rem; }
+.p-8 { padding: 2rem; }
+*/
+
+/* 卡片样式 (自定义组件样式) */
+.card {
+  background-color: white; /* 建议使用 Tailwind bg-white */
+  border-radius: 0.5rem; /* 建议使用 Tailwind rounded-lg */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 建议使用 Tailwind shadow-md */
+  padding: 1rem; /* 建议使用 Tailwind p-4 */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px); /* 建议使用 Tailwind hover:-translate-y-0.5 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 建议使用 Tailwind hover:shadow-lg */
+}
+
+/*
+  :root 变量定义 和 body 默认样式
+  这些通常由 Tailwind 的主题配置 (tailwind.config.js) 和您在 layout.tsx 中
+  为 body 设置的 className (如字体变量) 来处理。
+  如果 --foreground-rgb 和 --background-rgb 是特定于您应用的全局颜色变量，
+  并且您希望在 CSS 中直接使用它们，可以保留 :root 定义。
+  否则，建议将颜色定义移至 tailwind.config.js 的 theme.extend.colors 中。
+*/
+:root {
+  /* 如果您在 layout.tsx 中通过 className 控制 body 背景和文字颜色，这些可能不需要 */
+  /* --foreground-rgb: 255, 255, 255; */ /* 示例：白色文字 */
+  /* --background-rgb: 12, 36, 97; */   /* 示例：深蓝色背景 */
+}
+
+/*
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+*/
