@@ -22,7 +22,7 @@ export default function Header() {
             <Link href="/" className="flex-shrink-0 flex items-center">
               <Image
                 className="h-10 w-auto"
-                src="/images/games/games.png"
+                src="/images/games/index.png"
                 alt="Doodle Baseball Logo"
                 width={40}
                 height={40}
@@ -38,7 +38,7 @@ export default function Header() {
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               onClick={() => setMobileMenuOpen((open) => !open)}
             >
-              <span className="sr-only">打开主菜单</span>
+              <span className="sr-only">mainmamu</span>
               <div className="w-6 h-5 flex flex-col justify-between">
                 <span className="block w-full h-0.5 bg-white"></span>
                 <span className="block w-full h-0.5 bg-white"></span>

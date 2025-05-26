@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Poppins, Bangers } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -46,9 +47,11 @@ export default function RootLayout({
       </head>
       <body className={`${poppins.variable} ${bangers.variable} antialiased`}>
         <Header />
-        <main>{children}</main> {/* 建议将主要内容包裹在 <main> 标签中 */}
+        <main>{children}</main>
         <Footer />
       </body>
+      {/* 添加Google Analytics */}
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''} />
     </html>
   );
 }
