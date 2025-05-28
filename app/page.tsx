@@ -8,11 +8,11 @@ import TopPicksGame from './components/TopPicksGame'; // 导入toppicksgame组�
 
 // 为页面添加元数据
 export const metadata: Metadata = {
-  title: 'Doodle Baseball | Fun Food Baseball Game',
+  title: 'Doodle Baseball | Fun Food Baseball Game Online Free',
   description: 'Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!',
-  keywords: 'doodle baseball, baseball game, free game, online game, baseball simulator, fun game, sports game',
+  keywords: 'doodle baseball, baseball game, food baseball, online free, baseball simulator, unlocked game, sports game',
   openGraph: {
-    title: 'Doodle Baseball Game | Play Online for Free',
+    title: 'Doodle Baseball Game | Fun Food Baseball Game Online Free',
     description: 'Take up the bat and strike as many balls as possible in this delicious food-themed baseball game. Test your reflexes and timing!',
     images: [
       {
@@ -56,10 +56,10 @@ const faqJsonLd = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do I play Doodle Baseball?",
+      "name": "How to play Doodle Baseball?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Click the batting button to start, then click again when the ball approaches to swing your bat. Time it right to hit the ball and score runs!"
+        "text": "As soon as the doodle game is opened, you may begin playing with your engaging food teammates. The next step is to click on the baseball button to start the game. Then, if you coincide your swing time with the throwing of pitchers, you can hit the ball and gain scores."
       }
     },
     {
@@ -75,15 +75,7 @@ const faqJsonLd = {
       "name": "What's the highest score possible?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There's no limit to how many runs you can score! The historical record for a real baseball game was 49 runs, but in Doodle Baseball, you can keep going as long as you avoid strikes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there any special moves or power-ups?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The game focuses on timing and reflexes rather than power-ups. However, hitting a home run (when the ball goes into the seating area) allows all players on bases to complete their runs, scoring up to 4 runs at once!"
+        "text": "In doodle baseball, there's no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, doodle baseball lets you chase endless high scores. This makes doodle baseball free a thrilling challenge for players who want to beat their own records over and over again."
       }
     },
     {
@@ -93,22 +85,24 @@ const faqJsonLd = {
         "@type": "Answer",
         "text": "The game was created to celebrate American Independence Day, featuring favorite summer foods and snacks that people enjoy while watching baseball games. It adds a fun and whimsical touch to the classic sport!"
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any tricks to win Doodle Baseball?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While doodle baseball doesn't include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in doodle baseball, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying doodle baseball free will help you master timing and boost your scores in this lively food baseball game."
+      }
     }
   ]
 };
 
+// 面包屑导航数据
+const breadcrumbs = [
+  { name: 'Home', href: '/', current: true },
+];
+
 export default function HomePage() {
-  // const [isLoading, setIsLoading] = useState(true); // 状态移至 GameSection
-  // const [gameUrl, setGameUrl] = useState<string | undefined>(undefined); // 状态移至 GameSection
-  // const [loadError, setLoadError] = useState(false); // 状态移至 GameSection
-  // const iframeRef = useRef<HTMLIFrameElement>(null); // Ref 移至 GameSection
-
-  // useEffect(() => { ... }); // Effect 移至 GameSection
-
-  // const handleIframeLoad = () => { ... }; // 函数移至 GameSection
-  // const handleIframeError = () => { ... }; // 函数移至 GameSection
-  // const reloadGame = () => { ... }; // 函数移至 GameSection
-
   return (
     <>
       {/* 添加结构化数据 */}
@@ -131,8 +125,8 @@ export default function HomePage() {
           <div className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">About Doodle Baseball Game</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Discover why millions of players worldwide love this exciting doodle baseball game that combines classic sports action with unique food-themed characters!
+              <p className="text-lg text-gray-600 max-w-6xl mx-auto">
+              Doodle Baseball is an exciting and engaging doodle baseball game that brings players into a playful world where America's favorite pastime meets quirky food characters. This food baseball game offers a delightful twist to the traditional sport, making doodle baseball not just a sport simulation, but also a fun-filled adventure suitable for all ages. As you enter the doodle baseball field, you’ll discover a vibrant lineup of classic American snacks, ranging from hotdogs to pretzels, all taking their shot at a home run.
               </p>
             </div>
             
@@ -153,7 +147,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Easy to Learn, Hard to Master</h3>
                 <p className="text-gray-600">
-                  This doodle baseball game features intuitive one-button controls that anyone can pick up instantly. However, mastering the perfect swing timing in the doodle baseball game requires practice and skill, making it endlessly entertaining.
+                  The doodle baseball game features intuitive one-button controls that anyone can pick up instantly. However, mastering the perfect swing timing in the doodle baseball game requires practice and skill, making it endlessly entertaining.
                 </p>
               </div>
               
@@ -163,7 +157,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Unique Character Design</h3>
                 <p className="text-gray-600">
-                  Our doodle baseball game stands out with its deliciously creative food-themed characters. From hot dogs to burgers, every player in this doodle baseball game online brings their own special personality and style to the diamond!
+                  The doodle baseball game stands out with its deliciously creative food-themed characters. From hot dogs to burgers, every player in this doodle baseball game online brings their own special personality and style to the diamond!
                 </p>
               </div>
             </div>
@@ -194,7 +188,7 @@ export default function HomePage() {
               {/* YouTube视频嵌入 */}
               <div className="flex flex-col items-center justify-center h-full">
                 <div className="w-full aspect-video max-w-lg rounded-lg shadow-lg overflow-hidden">
-                  <iframe width="680" height="400" src="https://www.youtube.com/embed/-ZeX-L9x9mA?si=15bk1pNG_jvF4kO5" title="How to Play Doodle Baseball - Video Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-64 md:h-80"></iframe>
+                  <iframe width="680" height="400" src="https://www.youtube.com/embed/-ZeX-L9x9mA?si=15bk1pNG_jvF4kO5" title="How to Play Doodle Baseball" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-64 md:h-80"></iframe>
                 </div>
               </div>
             </div>
@@ -204,7 +198,11 @@ export default function HomePage() {
           <div className="mb-16" id="features">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">Special Features of Doodle Baseball</h2>
+              <p className="text-lg text-gray-600 max-w-6xl mx-auto">
+              A fun part of doodle baseball is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in doodle baseball free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that’s a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all doodle baseball players.
+              </p>
             </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4 text-blue-600">Pitcher's Hat Colors</h3>
@@ -270,6 +268,51 @@ export default function HomePage() {
             </div>
           </div>
 
+          {/* Tips and Tricks 部分 */}
+          <div className="mb-16" id="tips-and-tricks">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">Tips and Tricks</h2>
+              <p className="text-lg text-gray-600 max-w-6xl mx-auto">
+                To excel at doodle baseball, players need more than luck—they need skillful strategy and quick reflexes. Whether you're new to this playful food baseball game or aiming to set a new high score in doodle baseball free, the following tips can help you master every pitch and swing.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
+                <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+                  <i className="fas fa-bullseye text-yellow-600 text-xl"></i>
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-800">Accurate Control</h3>
+                <p className="text-gray-600">
+                  In doodle baseball, controlling your movements and timing is key. During each pitch, observe the ball's path closely in this food baseball game. Predicting the ball's trajectory in doodle baseball will help you make more accurate swings and boost your overall score. The more you practice doodle baseball, the more skilled you'll become at making contact and racking up runs.
+                </p>
+              </div>
+
+              <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
+                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                  <i className="fas fa-hat-wizard text-purple-600 text-xl"></i>
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-800">Strategic Selection</h3>
+                <p className="text-gray-600">
+                  Doodle baseball introduces an added layer of challenge with different hat colors signifying each pitching style. In this food baseball game, it's crucial to pay attention to the hat colors for strategic swing timing. For instance, if the doodle baseball pitcher sports a red hat, get ready for a super-fast straight pitch—almost impossible to hit. Be patient and wait for pitches that are easier to handle, especially when playing doodle baseball free and aiming for a high score.
+                </p>
+              </div>
+
+              <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
+                <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                  <i className="fas fa-bolt text-teal-600 text-xl"></i>
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-800">Quick Reaction</h3>
+                <p className="text-gray-600">
+                  One of the most important skills in doodle baseball is developing a lightning-quick reaction. This food baseball game rewards players who can respond instantly to unexpected pitch types and speeds. Sharpening your reflexes through regular practice in doodle baseball free will dramatically increase your batting average, letting you climb the leaderboard in this fun food baseball game.
+                </p>
+              </div>
+            </div>
+            <p className="text-center text-lg text-gray-600 mt-10 max-w-6xl mx-auto">
+              By combining accurate control, smart decisions, and quick reflexes, you'll become a true champion in doodle baseball. Keep playing doodle baseball free, and enjoy the uniquely charming food baseball game experience that fans everywhere can't stop talking about!
+            </p>
+          </div>
+
           {/* FAQ部分 */}
           <div id="faq">
             <div className="text-center mb-12">
@@ -277,10 +320,12 @@ export default function HomePage() {
             </div>
             <div className="space-y-6 max-w-4xl mx-auto">
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
-                <h3 className="text-xl font-semibold mb-2">How do I play Doodle Baseball?</h3>
-                <p className="text-gray-600">
-                  Click the batting button to start, then click again when the ball approaches to swing your bat. Time it right to hit the ball and score runs!
-                </p>
+                <h3 className="text-xl font-semibold mb-2">How to play Doodle Baseball?</h3>
+                <ul className="text-gray-600 list-disc list-inside">
+                  <li>As soon as the doodle game is opened, you may begin playing with your engaging  food teammates.</li>
+                  <li>The next step is to click on the baseball button to start the game.</li>
+                  <li>Then, if you coincide your swing time with the throwing of pitchers, you can hit the ball and gain scores.</li>
+                </ul>
               </div>
               
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
@@ -293,14 +338,21 @@ export default function HomePage() {
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">What's the highest score possible?</h3>
                 <p className="text-gray-600">
-                  There's no limit to how many runs you can score! The historical record for a real baseball game was 49 runs, but in Doodle Baseball, you can keep going as long as you avoid strikes.
+                In doodle baseball, there’s no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, doodle baseball lets you chase endless high scores. This makes doodle baseball free a thrilling challenge for players who want to beat their own records over and over again.
+                </p>
+              </div>
+
+              <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
+                <h3 className="text-xl font-semibold mb-2">Why are the players food items?</h3>
+                <p className="text-gray-600">
+                The game was created to celebrate American Independence Day, featuring favorite summer foods and snacks that people enjoy while watching baseball games. It adds a fun and whimsical touch to the classic sport!
                 </p>
               </div>
               
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
-                <h3 className="text-xl font-semibold mb-2">Are there any special moves or power-ups?</h3>
+                <h3 className="text-xl font-semibold mb-2">Are there any tricks to win Doodle Baseball?</h3>
                 <p className="text-gray-600">
-                  The game focuses on timing and reflexes rather than power-ups. However, hitting a home run (when the ball goes into the seating area) allows all players on bases to complete their runs, scoring up to 4 runs at once!
+                While doodle baseball doesn’t include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in doodle baseball, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying doodle baseball free will help you master timing and boost your scores in this lively food baseball game.
                 </p>
               </div>
             </div>
@@ -308,130 +360,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 客户端脚本 */}
-      <script id="game-script" dangerouslySetInnerHTML={{ __html: `
-        document.addEventListener('DOMContentLoaded', function() {
-          // 游戏加载逻辑
-          const gameIframe = document.getElementById('game-iframe');
-          const gameLoading = document.getElementById('game-loading');
-          const gameError = document.getElementById('game-error');
-          const reloadGame = document.getElementById('reload-game');
-          const shareBtn = document.getElementById('share-btn');
-          const shareMenu = document.getElementById('share-menu');
-          const fullscreenBtn = document.getElementById('fullscreen-btn');
-          const shareButtons = document.querySelectorAll('.share-button');
-          
-          // 设置游戏源
-          const gameSource = 'https://www.addictinggames.com/embed/html5-games/24972';
-          
-          // 加载游戏
-          function loadGame() {
-            if (gameLoading) gameLoading.style.display = 'flex';
-            if (gameError) gameError.style.display = 'none';
-            
-            gameIframe.src = gameSource;
-            
-            gameIframe.onload = function() {
-              if (gameLoading) gameLoading.style.display = 'none';
-            };
-            
-            gameIframe.onerror = function() {
-              if (gameLoading) gameLoading.style.display = 'none';
-              if (gameError) gameError.style.display = 'flex';
-            };
-          }
-          
-          // 初始加载
-          loadGame();
-          
-          // 重新加载游戏
-          if (reloadGame) {
-            reloadGame.addEventListener('click', loadGame);
-          }
-          
-          // 分享菜单
-          if (shareBtn && shareMenu) {
-            shareBtn.addEventListener('click', function(e) {
-              e.stopPropagation();
-              shareMenu.classList.toggle('hidden');
-            });
-            
-            document.addEventListener('click', function(e) {
-              if (!shareMenu.contains(e.target) && e.target !== shareBtn) {
-                shareMenu.classList.add('hidden');
-              }
-            });
-          }
-          
-          // 全屏功能
-          if (fullscreenBtn) {
-            fullscreenBtn.addEventListener('click', function() {
-              const gameContainer = document.querySelector('.game-container');
-              
-              if (!document.fullscreenElement) {
-                if (gameContainer.requestFullscreen) {
-                  gameContainer.requestFullscreen();
-                } else if (gameContainer.webkitRequestFullscreen) {
-                  gameContainer.webkitRequestFullscreen();
-                } else if (gameContainer.msRequestFullscreen) {
-                  gameContainer.msRequestFullscreen();
-                }
-              } else {
-                if (document.exitFullscreen) {
-                  document.exitFullscreen();
-                } else if (document.webkitExitFullscreen) {
-                  document.webkitExitFullscreen();
-                } else if (document.msExitFullscreen) {
-                  document.msExitFullscreen();
-                }
-              }
-            });
-          }
-          
-          // 分享功能
-          if (shareButtons) {
-            shareButtons.forEach(button => {
-              button.addEventListener('click', function() {
-                const platform = this.getAttribute('data-platform');
-                const url = encodeURIComponent(window.location.href);
-                const title = encodeURIComponent('Play Doodle Baseball Game Online for Free!');
-                
-                switch(platform) {
-                  case 'facebook':
-                    window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
-                    break;
-                  case 'twitter':
-                    window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
-                    break;
-                  case 'whatsapp':
-                    window.open('https://api.whatsapp.com/send?text=' + title + ' ' + url, '_blank');
-                    break;
-                  case 'copy':
-                    navigator.clipboard.writeText(window.location.href).then(() => {
-                      alert('Link copied to clipboard!');
-                    });
-                    break;
-                  case 'like':
-                    this.classList.toggle('liked');
-                    const icon = this.querySelector('i');
-                    if (icon.classList.contains('text-blue-400')) {
-                      icon.classList.remove('text-blue-400');
-                      icon.classList.add('text-red-500');
-                    } else {
-                      icon.classList.remove('text-red-500');
-                      icon.classList.add('text-blue-400');
-                    }
-                    break;
-                }
-                
-                if (platform !== 'like') {
-                  shareMenu.classList.add('hidden');
-                }
-              });
-            });
-          }
-        });
-      `}} />
+
 
     </>
   );

@@ -73,13 +73,13 @@ export default function GameSection() {
                 className="absolute inset-0 bg-red-800 bg-opacity-90 text-white flex flex-col items-center justify-center text-center p-4"
                 style={{ display: loadError ? 'flex' : 'none', zIndex: 20 }}
               >
-                <p className="mb-4 text-lg">哎呀！加载游戏时出错了。</p>
+                <p className="mb-4 text-lg">Oops! Game loading error.</p>
                 <button
                   id="reload-game"
                   className="bg-white text-red-700 hover:bg-gray-200 font-bold py-2 px-4 rounded mb-2 transition-colors"
                   onClick={reloadGame}
                 >
-                  再试一次
+                  Try Again
                 </button>
               </div>
               {/* 游戏iframe */}

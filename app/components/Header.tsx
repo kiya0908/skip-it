@@ -8,6 +8,7 @@ const menuItems = [
   { href: "/#play", label: "Play Game" },
   { href: "/#how-to-play", label: "How to Play" },
   { href: "/#features", label: "Features" },
+  { href: "/#tips-and-tricks", label: "Tips&Tricks" },
   { href: "/#faq", label: "FAQ" },
 ];
 
@@ -59,9 +60,9 @@ export default function Header() {
             ))}
             <button
               className="ml-4 bg-[#d7263d] text-white px-5 py-2 rounded-md font-bold text-sm hover:bg-[#a81c2a] transition-colors"
-              onClick={() => window.location.href = "/fullscreen.html"}
+              onClick={() => window.location.href = "/doodle-baseball-download"}
             >
-              Play Fullscreen
+              Download
             </button>
           </nav>
         </div>
@@ -82,9 +83,9 @@ export default function Header() {
             ))}
             <button
               className="mt-2 px-5 py-2 rounded-md bg-[#d7263d] text-white font-bold text-base hover:bg-[#a81c2a] transition-colors shadow"
-              onClick={() => { setMobileMenuOpen(false); window.location.href = "/fullscreen.html"; }}
+              onClick={() => { setMobileMenuOpen(false); window.location.href = "/doodle-baseball-download"; }}
             >
-              Play Fullscreen
+              Download
             </button>
           </div>
         </div>
