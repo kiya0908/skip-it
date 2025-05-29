@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   keywords: 'doodle baseball, baseball game, food baseball, online free, baseball simulator, unlocked game, sports game',
   openGraph: {
     title: 'Doodle Baseball Game | Fun Food Baseball Game Online Free',
-    description: 'Take up the bat and strike as many balls as possible in this delicious food-themed baseball game. Test your reflexes and timing!',
+    description: 'Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!',
     images: [
       {
-        url: 'https://doodlebaseball.info/index.png',
+        url: 'https://doodlebaseball.info/doodlebaseball.png',
         width: 1200,
         height: 630,
         alt: 'Doodle Baseball',
@@ -47,7 +47,7 @@ const gameJsonLd = {
     "bestRating": "5",
     "ratingCount": "1" 
   },
-  "image": "https://doodlebaseball.info/index.png" 
+  "image": "https://doodlebaseball.info/doodlebaseball.png" 
 };
 
 const faqJsonLd = {
