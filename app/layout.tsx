@@ -20,12 +20,12 @@ const bangers = Bangers({
 });
 
 export const metadata: Metadata = {
-  title: "Doodle Baseball | Fun Food Baseball Game",
-  description: "Play Doodle Baseball and other fun online games for free. Enjoy food-themed baseball action and more!",
-  keywords: "doodle baseball, baseball game, online game, free game",
+  title: "Doodle Baseball | Fun Food Baseball Game Online Free",
+  description: "Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!",
+  keywords: "doodle baseball, baseball game, food baseball, online free, baseball simulator, unlocked game, sports game",
   openGraph: {
-    title: "Doodle Baseball Game | Play Online for Free",
-    description: "Take up the bat and strike as many balls as possible in this delicious food-themed baseball game. Test your reflexes and timing!",
+    title: "Doodle Baseball Game | Fun Food Baseball Game Online Free",
+    description: "Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!",
     images: "/images/games/games.png", // 确保此图片路径相对于 public 文件夹是正确的
     type: "website"
   },
@@ -39,6 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google AdSense Script */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7718142048250196"
+          crossOrigin="anonymous"></script>
         {/* 添加 Font Awesome CDN */}
         <link
           rel="stylesheet"
