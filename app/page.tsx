@@ -126,7 +126,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">About Doodle Baseball Game</h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
-              Doodle Baseball is an exciting and engaging doodle baseball game that brings players into a playful world where America's favorite pastime meets quirky food characters. This food baseball game offers a delightful twist to the traditional sport, making doodle baseball not just a sport simulation, but also a fun-filled adventure suitable for all ages. As you enter the doodle baseball field, you’ll discover a vibrant lineup of classic American snacks, ranging from hotdogs to pretzels, all taking their shot at a home run.
+              <strong>Doodle Baseball</strong> is an exciting and engaging doodle baseball game that brings players into a playful world where America's favorite pastime meets quirky food characters. This food baseball game offers a delightful twist to the traditional sport, making <strong>Doodle Baseball</strong> not just a sport simulation, but also a fun-filled adventure suitable for all ages. As you enter the <strong>Doodle Baseball</strong> field, you’ll discover a vibrant lineup of classic American snacks, ranging from hotdogs to pretzels, all taking their shot at a home run.
               </p>
             </div>
             
@@ -137,7 +137,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Authentic Baseball Experience</h3>
                 <p className="text-gray-600">
-                  The doodle baseball game captures the essence of America's favorite pastime with realistic physics and engaging gameplay. Play the doodle baseball game online anytime to enjoy the ultimate baseball simulation experience!
+                  The <strong>Doodle Baseball</strong> game captures the essence of America's favorite pastime with realistic physics and engaging gameplay. Play the <strong>Doodle Baseball</strong> game online anytime to enjoy the ultimate baseball simulation experience!
                 </p>
               </div>
               
@@ -147,7 +147,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Easy to Learn, Hard to Master</h3>
                 <p className="text-gray-600">
-                  The doodle baseball game features intuitive one-button controls that anyone can pick up instantly. However, mastering the perfect swing timing in the doodle baseball game requires practice and skill, making it endlessly entertaining.
+                  The <strong>Doodle Baseball</strong> game features intuitive one-button controls that anyone can pick up instantly. However, mastering the perfect swing timing in the <strong>Doodle Baseball</strong> game requires practice and skill, making it endlessly entertaining.
                 </p>
               </div>
               
@@ -157,7 +157,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Unique Character Design</h3>
                 <p className="text-gray-600">
-                  The doodle baseball game stands out with its deliciously creative food-themed characters. From hot dogs to burgers, every player in this doodle baseball game online brings their own special personality and style to the diamond!
+                  The <strong>Doodle Baseball</strong> game stands out with its deliciously creative food-themed characters. From hot dogs to burgers, every player in this <strong>Doodle Baseball</strong> game online brings their own special personality and style to the diamond!
                 </p>
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">Special Features of Doodle Baseball</h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
-              A fun part of doodle baseball is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in doodle baseball free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that’s a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all doodle baseball players.
+              A fun part of <strong>Doodle Baseball</strong> is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in <strong>Doodle Baseball</strong> free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that’s a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all <strong>Doodle Baseball</strong> players.
               </p>
             </div>
 
@@ -273,7 +273,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">Tips and Tricks</h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
-                To excel at doodle baseball, players need more than luck—they need skillful strategy and quick reflexes. Whether you're new to this playful food baseball game or aiming to set a new high score in doodle baseball free, the following tips can help you master every pitch and swing.
+                To excel at <strong>Doodle Baseball</strong>, players need more than luck—they need skillful strategy and quick reflexes. Whether you're new to this playful food baseball game or aiming to set a new high score in <strong>Doodle Baseball</strong> free, the following tips can help you master every pitch and swing.
               </p>
             </div>
 
@@ -284,7 +284,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">Accurate Control</h3>
                 <p className="text-gray-600">
-                  In doodle baseball, controlling your movements and timing is key. During each pitch, observe the ball's path closely in this food baseball game. Predicting the ball's trajectory in doodle baseball will help you make more accurate swings and boost your overall score. The more you practice doodle baseball, the more skilled you'll become at making contact and racking up runs.
+                  In <strong>Doodle Baseball</strong>, controlling your movements and timing is key. During each pitch, observe the ball's path closely in this food baseball game. Predicting the ball's trajectory in <strong>Doodle Baseball</strong> will help you make more accurate swings and boost your overall score. The more you practice <strong>Doodle Baseball</strong>, the more skilled you'll become at making contact and racking up runs.
                 </p>
               </div>
 
@@ -294,7 +294,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">Strategic Selection</h3>
                 <p className="text-gray-600">
-                  Doodle baseball introduces an added layer of challenge with different hat colors signifying each pitching style. In this food baseball game, it's crucial to pay attention to the hat colors for strategic swing timing. For instance, if the doodle baseball pitcher sports a red hat, get ready for a super-fast straight pitch—almost impossible to hit. Be patient and wait for pitches that are easier to handle, especially when playing doodle baseball free and aiming for a high score.
+                  <strong>Doodle Baseball</strong> introduces an added layer of challenge with different hat colors signifying each pitching style. In this food baseball game, it's crucial to pay attention to the hat colors for strategic swing timing. For instance, if the <strong>Doodle Baseball</strong> pitcher sports a red hat, get ready for a super-fast straight pitch—almost impossible to hit. Be patient and wait for pitches that are easier to handle, especially when playing <strong>Doodle Baseball</strong> free and aiming for a high score.
                 </p>
               </div>
 
@@ -304,12 +304,12 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">Quick Reaction</h3>
                 <p className="text-gray-600">
-                  One of the most important skills in doodle baseball is developing a lightning-quick reaction. This food baseball game rewards players who can respond instantly to unexpected pitch types and speeds. Sharpening your reflexes through regular practice in doodle baseball free will dramatically increase your batting average, letting you climb the leaderboard in this fun food baseball game.
+                  One of the most important skills in <strong>Doodle Baseball</strong> is developing a lightning-quick reaction. This food baseball game rewards players who can respond instantly to unexpected pitch types and speeds. Sharpening your reflexes through regular practice in <strong>Doodle Baseball</strong> free will dramatically increase your batting average, letting you climb the leaderboard in this fun food baseball game.
                 </p>
               </div>
             </div>
             <p className="text-center text-lg text-gray-600 mt-10 max-w-6xl mx-auto">
-              By combining accurate control, smart decisions, and quick reflexes, you'll become a true champion in doodle baseball. Keep playing doodle baseball free, and enjoy the uniquely charming food baseball game experience that fans everywhere can't stop talking about!
+              By combining accurate control, smart decisions, and quick reflexes, you'll become a true champion in <strong>Doodle Baseball</strong>. Keep playing <strong>Doodle Baseball</strong> free, and enjoy the uniquely charming food baseball game experience that fans everywhere can't stop talking about!
             </p>
           </div>
 
@@ -338,7 +338,7 @@ export default function HomePage() {
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">What's the highest score possible?</h3>
                 <p className="text-gray-600">
-                In doodle baseball, there’s no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, doodle baseball lets you chase endless high scores. This makes doodle baseball free a thrilling challenge for players who want to beat their own records over and over again.
+                In <strong>Doodle Baseball</strong>, there’s no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, <strong>Doodle Baseball</strong> lets you chase endless high scores. This makes <strong>Doodle Baseball</strong> free a thrilling challenge for players who want to beat their own records over and over again.
                 </p>
               </div>
 
@@ -352,7 +352,7 @@ export default function HomePage() {
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Are there any tricks to win Doodle Baseball?</h3>
                 <p className="text-gray-600">
-                While doodle baseball doesn’t include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in doodle baseball, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying doodle baseball free will help you master timing and boost your scores in this lively food baseball game.
+                While <strong>Doodle Baseball</strong> doesn’t include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in <strong>Doodle Baseball</strong>, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying <strong>Doodle Baseball</strong> free will help you master timing and boost your scores in this lively food baseball game.
                 </p>
               </div>
             </div>

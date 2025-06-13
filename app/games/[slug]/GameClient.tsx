@@ -153,9 +153,7 @@ export default function GameClient({ game }: { game: Game }) {
           <div className="mb-16">
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">About {game.title}</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                {game.description}
-              </p>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto" dangerouslySetInnerHTML={{ __html: game.description }} />
             </div>
           </div>
           
@@ -166,7 +164,7 @@ export default function GameClient({ game }: { game: Game }) {
             </div>
             <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-3xl mx-auto">
               <ol className="list-decimal list-inside text-gray-700 space-y-2 text-base">
-                {game.howToPlay.map((step: string, idx: number) => <li key={idx}>{step}</li>)}
+                {game.howToPlay.map((step: string, idx: number) => <li key={idx} dangerouslySetInnerHTML={{ __html: step }} />)}
               </ol>
             </div>
           </div>
@@ -181,7 +179,7 @@ export default function GameClient({ game }: { game: Game }) {
                 {game.features.map((f: string, idx: number) => (
                   <li key={idx} className="flex items-start">
                     <i className="fas fa-check-circle text-green-500 text-lg mr-3 mt-0.5"></i>
-                    <span>{f}</span>
+                    <span dangerouslySetInnerHTML={{ __html: f }} />
                   </li>
                 ))}
               </ul>

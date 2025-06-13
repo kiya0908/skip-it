@@ -27,97 +27,147 @@
   {
     "slug": "Baseball",
     "title": "Baseball",
-    "description": "Baseball is a sports game that lets you experience being part of the great American pastime as a batter, all in the comfort of your browser! There are 2 modes available to play, and both of them are just as fun as the other.\n\nBottom of the Ninth gives you the chance to win a walk-off win. Your team is batting, and you're down by 4 points. You need to score 5 runs with only 3 outs available to win the game.\n\nArcade mode gives you a simple objective. You are given 10 pitches, and you'll have to hit the ball into the target in the outfield. The closer the ball is to the center of the target, the higher the score. The difficulty of the mode, which you'll choose before starting, will also be a factor in your final score.\n\nKeep those home runs coming and don't give the defending team a chance to protect their lead!",
+    "description": "Experience the pure excitement of America's favorite pastime with our classic <b>Baseball</b> game! Step into the batter's box and feel the pressure in two thrilling modes. In 'Bottom of the Ninth,' your team is down, and you're the last hope for a walk-off victory. Can you hit the game-winning home run? Or, test your precision in 'Arcade Mode,' where every hit counts towards a high score. This online <b>Baseball</b> game offers realistic physics and challenging gameplay that will keep you coming back for more. Grab your bat and get ready to play ball in the best browser </b>Baseball</b> game!",
     "coverImage": "/images/games/Baseball.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/baseball/index.html",
     "rating": 4.4,
     "howToPlay": [
-      "Click on the screen to swing your bat. The position of your cursor when you click determines how the ball is hit (e.g. hitting the ball in a lower position sends the ball flying a little higher but with a lower forward distance)."
+      "Choose your game mode: 'Bottom of the Ninth' for a high-stakes challenge or 'Arcade' for score-chasing.",
+      "Move your mouse to position the bat's target reticle over the incoming pitch.",
+      "Click the left mouse button at the perfect moment to swing the bat.",
+      "Aim your cursor's position to control the ball's trajectory—lower for a high pop fly, higher for a line drive."
     ],
-    "features": [],
+    "features": [
+      "Two engaging game modes: high-pressure 'Bottom of the Ninth' and skill-based 'Arcade Mode'.",
+      "A core <b>Baseball</b> experience focusing purely on the thrill of batting.",
+      "Realistic batting physics that respond to your cursor's position upon swinging.",
+      "Clean 3D graphics and an immersive stadium atmosphere.",
+      "Intuitive point-and-click controls suitable for all <b>Baseball</b> fans.",
+      "No downloads required, play this <b>Baseball</b> game instantly in your browser."
+    ],
     "isTopPick": true,
     "seo": {
-      "title": "Baseball",
-      "description": "Experience the thrill of America's favorite pastime! Step up to the plate as a batter in this engaging baseball game. Play in browser with two exciting modes.",
-      "keywords": ""
+      "title": "Play Baseball Online - Free Browser Sports Game",
+      "description": "Step up to the plate in our free online Baseball game! Play two exciting modes, hit home runs, and lead your team to victory. No download needed.",
+      "keywords": "baseball, online baseball game, free sports game, browser baseball, batting game"
     }
   },
   {
     "slug": "Hotfoot_Baseball",
     "title": "Hotfoot Baseball",
-    "description": "Hotfoot Baseball is a lively sports game featuring cartoony players and easy one-click controls. Swing, run, and score as you make quick decisions to outplay your opponents. Choose your favorite baseball nation and aim for the championship. With simplified rules and fast-paced action, this game brings the thrill of baseball to everyone!\n\nLast Updated\n\nFeb 14, 2025\n\nControls\nUse the left mouse button to swing the bat.\nWhen your player reaches the base, click the player again to run to the next base.",
+    "description": "<b>Hotfoot Baseball</b> is a lively and fast-paced sports game that brings the action to you with cartoony players and super easy one-click controls. In this game, you don't just swing; you're in control of the baserunning too! Make quick, strategic decisions to outplay your opponents and leg out an extra base. Choose your favorite baseball nation and lead them to the championship. With its simplified rules, <b>Hotfoot Baseball</b> strips away the complexity to deliver pure, fast-paced fun for everyone. Can you win the <b>Hotfoot Baseball</b> championship trophy?",
     "coverImage": "/images/games/Hotfoot_Baseball.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/hotfoot-baseball/index.html",
     "rating": 4.0,
     "howToPlay": [
-      "Use the left mouse button to swing the bat.\nWhen your player reaches the base, click the player again to run to the next base."
+      "Use the left mouse button to swing the bat when the ball is over the plate.",
+      "After a successful hit, your player will automatically run to first base.",
+      "When your player is safely on a base, click on them again to make them run to the next base.",
+      "Time your baserunning carefully to avoid getting thrown out!"
     ],
-    "features": [],
+    "features": [
+      "Unique gameplay mechanic combining batting and active baserunning decisions.",
+      "Charming and vibrant cartoon art style with fun player animations.",
+      "Simple and accessible one-click controls for both swinging and running.",
+      "Play as different national teams in a full championship mode.",
+      "Fast-paced matches perfect for quick gaming sessions.",
+      "<b>Hotfoot Baseball</b> offers a simplified yet strategic take on the sport."
+    ],
     "isTopPick": true,
     "seo": {
-      "title": "Hotfoot Baseball",
-      "description": "Hotfoot Baseball: cartoony sports with easy one-click action! Swing, run, score. Quick decisions outplay rivals. Aim for the Hotfoot Baseball championship!",
-      "keywords": ""
+      "title": "Play Hotfoot Baseball Free Online | Fast-Paced Action Game",
+      "description": "Play Hotfoot Baseball! Experience cartoony sports action with easy one-click controls. Swing, run, and make strategic decisions to win the championship!",
+      "keywords": "hotfoot baseball, arcade baseball, one-click game, sports game, free online game"
     }
   },
   {
     "slug": "ESPN_Arcade_Baseball",
     "title": "ESPN Arcade Baseball",
-    "description": "Time for some baseball fun! ESPN Arcade Baseball has 2 different modes: Precision Hitter and Bottom of the Ninth. In Precision Hitter the goal is to score as many points as you can in 10 pitches. To score points you need to land the ball as close to the center of the target as possible. In Bottom of the Ninth, your team is 2 runs down. Your job is to come back and win with only 3 outs left! This game was produced by ESPN Arcade.",
+    "description": "It's time for some major league fun with <b>ESPN Arcade Baseball</b>! This officially branded game from ESPN Arcade offers two distinct and challenging modes for every type of player. Test your aim in 'Precision Hitter,' where the goal is to rack up points by hitting targets in the outfield. Or, feel the ultimate pressure in 'Bottom of the Ninth,' where your team is down by two runs with only three outs left. <b>ESPN Arcade Baseball</b> delivers a polished, high-quality experience. Can you become a legend in this top-tier <b>ESPN Arcade Baseball</b> game?",
     "coverImage": "/images/games/ESPN_Arcade_Baseball.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/espn-arcade-baseball/index.html",
     "rating": 4.4,
     "howToPlay": [
-      "Left mouse button"
+      "Select your game mode: 'Precision Hitter' or 'Bottom of the Ninth'.",
+      "Use your mouse to aim the bat.",
+      "Click the left mouse button to swing as the pitch comes in.",
+      "In 'Precision Hitter', aim for the center of the target for maximum points.",
+      "In 'Bottom of the Ninth', focus on making solid contact to score runs."
     ],
-    "features": [],
+    "features": [
+      "Official ESPN branding for an authentic arcade sports feel.",
+      "Two exciting game modes: skill-based 'Precision Hitter' and clutch 'Bottom of the Ninth'.",
+      "Polished graphics and smooth animations enhance the gameplay.",
+      "Simple mouse-based controls for aiming and swinging.",
+      "High-score system to challenge yourself and beat your personal best.",
+      "<b>ESPN Arcade Baseball</b> is a premier browser-based batting challenge."
+    ],
     "isTopPick": true,
     "seo": {
-      "title": "ESPN Arcade Baseball",
-      "description": "Play ESPN Arcade Baseball! Two modes: aim for target scores in Precision Hitter or clutch a win in Bottom of the Ninth with 3 outs. An ESPN Arcade production!",
-      "keywords": ""
+      "title": "Play ESPN Arcade Baseball Online | Free Sports Game",
+      "description": "Play ESPN Arcade Baseball! Two modes: aim for target scores in Precision Hitter or clutch a win in Bottom of the Ninth. An official ESPN Arcade production!",
+      "keywords": "espn arcade baseball, espn game, baseball game, arcade sports, free game"
     }
   },
   {
     "slug": "Baseball_Pro",
     "title": "Baseball Pro",
-    "description": "Baseball Pro is a sports game to become a pro baseballer and hit all the incoming ball to get high scores!",
+    "description": "Do you have what it takes to become a <b>Baseball Pro</b>? This addictive sports game challenges you to step up to the plate and prove your skills. The objective is simple: hit every single incoming ball to achieve the highest score possible. As you make contact, you'll feel the satisfying crack of the bat and watch the ball soar. The game gets progressively faster and more difficult, testing your reflexes and timing. Perfect for quick sessions, <b>Baseball Pro</b> is all about chasing that new high score and cementing your status as a true <b>Baseball Pro</b>.",
     "coverImage": "/images/games/Baseball_Pro.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/baseball-pro/index.html",
     "rating": 4.15,
     "howToPlay": [
-      "Press the left mouse button or space bar to swing."
+      "Wait for the pitcher to throw the ball.",
+      "Press the left mouse button or the space bar to swing your bat.",
+      "Time your swing perfectly to make contact with the ball.",
+      "Keep hitting consecutive balls to increase your score and combo."
     ],
-    "features": [],
+    "features": [
+      "A straightforward and highly addictive batting challenge.",
+      "Simple two-button controls (left mouse or space bar) for instant action.",
+      "Clean, minimalist graphics that keep the focus on the gameplay.",
+      "Increasing difficulty keeps the game challenging and engaging.",
+      "High-score tracking to encourage repeat play and personal competition.",
+      "<b>Baseball Pro</b> is the perfect game to test your batting reflexes."
+    ],
     "isTopPick": true,
     "seo": {
-      "title": "Baseball Pro",
-      "description": "Baseball Pro is a sports game to become a pro baseballer and hit all the incoming ball to get high scores!",
-      "keywords": ""
+      "title": "Baseball Pro - Free Online Batting Game | Become a Pro",
+      "description": "Play Baseball Pro and become a batting legend! Hit every incoming ball to get the highest score in this addictive and free online sports game.",
+      "keywords": "baseball pro, pro baseball, batting game, baseball arcade, high score game"
     }
   },
   {
     "slug": "Monster_Bash_FRVR",
     "title": "Monster Bash FRVR",
-    "description": "Monster Bash is a simple arcade baseball game that's all about hitting a baseball to get a good distance. Your goal is to go as far as you can, but you're going to have to put in a bit of work before you get to that sweet high score. Each time you hit the ball, it'll hit a few different things that'll help you long the way, this includes gold-filled mushrooms which will give you gold, some monsters that'll push the ball further, and some other monsters that open up whole new stages. As you gain more distance and collect more gold, you'll be able to upgrade your equipment to get even better scores! Some stuff are only cosmetic (the hat and the shades), but getting a good score is better when you're all dressed up, right?",
+    "description": "<b>Monster Bash FRVR</b> is a unique and exciting arcade baseball game with a twist! Your goal isn't just to hit home runs, but to launch the ball as far as possible. Each hit is an adventure, as your ball bounces off gold-filled mushrooms, gets a boost from friendly monsters, and unlocks entirely new stages. Collect gold on every run to upgrade your gear, from powerful bats to stylish hats. While some items are cosmetic, powerful upgrades are key to reaching epic distances. <b>Monster Bash FRVR</b> combines classic timing gameplay with a fun upgrade system, making every attempt in <b>Monster Bash FRVR</b> a new opportunity for a record-breaking score!",
     "coverImage": "/images/games/Monster_Bash_FRVR.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/monster-bash-frvr/index.html",
     "rating": 4.55,
     "howToPlay": [
-      "Tap/click anywhere on the screen to throw the ball, and tap/click again to hit."
+      "Tap or click anywhere on the screen to toss the ball into the air.",
+      "As the ball drops, tap or click again at the perfect moment to hit it with your bat.",
+      "Watch the ball fly and bounce off various objects to maximize its distance.",
+      "Use the gold you collect to purchase upgrades between attempts."
     ],
-    "features": [],
+    "features": [
+      "Unique distance-based scoring instead of traditional baseball rules.",
+      "Engaging upgrade system: improve your power, bounce, and speed with gold.",
+      "A fun monster theme with various creatures that help or hinder your ball.",
+      "Unlock new stages and environments as you achieve greater distances.",
+      "Simple two-tap control scheme that's easy to learn.",
+      "Cosmetic items like hats and shades to customize your monster character in <b>Monster Bash FRVR</b>."
+    ],
     "isTopPick": true,
     "seo": {
-      "title": "Monster Bash FRVR",
-      "description": "Monster Bash: arcade baseball fun! Hit for max distance. Bash mushrooms for gold, get monster boosts & unlock new stages. Upgrade gear for top scores!",
-      "keywords": ""
+      "title": "Monster Bash FRVR | Free Arcade Baseball Upgrade Game",
+      "description": "Play Monster Bash FRVR! A fun arcade baseball game where you hit for max distance. Bash mushrooms for gold, get monster boosts, and upgrade your gear for top scores!",
+      "keywords": "monster bash frvr, monster baseball, arcade game, upgrade game, distance game"
     }
   }
 ]
-
