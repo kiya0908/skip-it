@@ -1,5 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Download Doodle Baseball | Play on PC, Console, and Mobile',
+  description: 'Get Doodle Baseball for your favorite platform! Download links and system requirements for PC (Steam), Xbox, PlayStation, Nintendo Switch, Android, and iOS.',
+  keywords: 'Doodle Baseball, download, PC, console, mobile, Steam, Xbox, PlayStation, Nintendo Switch, Android, iOS',
+};
 
 const DownloadPage = () => {
   return (
