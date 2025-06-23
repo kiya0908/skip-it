@@ -23,7 +23,7 @@ export default function Header() {
             <Link href="/" className="flex-shrink-0 flex items-center">
               <Image
                 className="h-10 w-auto"
-                src="/images/games/index.png"
+                src="/images/games/doodlebaseball.png"
                 alt="Doodle Baseball Logo"
                 width={40}
                 height={40}
