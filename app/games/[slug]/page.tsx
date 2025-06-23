@@ -2,6 +2,7 @@ import React from 'react';
 import games from '../../../data/games.json';
 import GameClient from './GameClient';
 import { Metadata } from 'next';
+import { redirect } from 'next/navigation';
 
 // 动态生成元数据
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
@@ -43,6 +44,11 @@ export default function GamePage({ params }: { params: { slug: string } }) {
   
   if (!game) {
     return <div className="max-w-2xl mx-auto py-20 text-center text-xl">Game Not Found</div>;
+  }
+
+  // 如果是 doodle-baseball，重定向到主页
+  if (game.slug === 'doodle-baseball') {
+    redirect('/');
   }
   
   // JSON-LD 结构化数据

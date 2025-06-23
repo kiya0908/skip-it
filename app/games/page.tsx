@@ -22,14 +22,12 @@ export default function GamesPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8">
             {games.map((game: any) => (
-              <div key={game.slug} className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col transition-transform hover:scale-105">
+              <Link href={`/games/${game.slug}`} key={game.slug} className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col transition-transform hover:scale-105 cursor-pointer">
                 <img src={game.coverImage} alt={game.title + ' cover'} className="w-full h-40 sm:h-48 object-cover" />
-                <div className="p-3 sm:p-4 flex-1 flex flex-col">
-                  <h2 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">{game.title}</h2>
-                  <p className="text-gray-600 mb-2 sm:mb-4 flex-1 text-sm sm:text-base">{game.description}</p>
-                  <a href={game.playUrl} target="_blank" rel="noopener noreferrer" className="mt-auto inline-block bg-blue-600 text-white px-3 py-2 sm:px-4 sm:py-2 rounded hover:bg-blue-700 text-center text-base sm:text-lg font-semibold transition-colors">Play Now</a>
+                <div className="p-3 sm:p-4">
+                  <h2 className="text-lg sm:text-xl font-bold">{game.title}</h2>
                 </div>
-              </div>
+               </Link>
             ))}
           </div>
         </div>

@@ -1,4 +1,29 @@
 [
+  {
+    "slug": "doodle-baseball",
+    "title": "Doodle Baseball",
+    "description": "Play Doodle Baseball online for free! Swing your bat and hit home runs in this fun food-themed baseball game.",
+    "coverImage": "/images/games/doodlebaseball.png",
+    "youtube": "https://www.youtube.com/embed/-ZeX-L9x9mA?si=15bk1pNG_jvF4kO5",
+    "playUrl": "https://1games.io/game/doodle-baseball/",
+    "rating": 4.37,
+    "howToPlay": [
+      "Click the 'Play Now' button to start.",
+      "Wait for the pitcher to throw the ball.",
+      "Click or tap to swing the bat at the right time.",
+      "Score runs by hitting the ball and avoid strikes."
+    ],
+    "features": [
+      "Unique food-themed characters",
+      "Multiple pitch types",
+      "Simple one-button controls"
+    ],
+    "seo": {
+      "title": "Doodle Baseball | Fun Food Baseball Game",
+      "description": "Play Doodle Baseball and other fun online games for free. Enjoy food-themed baseball action and more!",
+      "keywords": "doodle baseball, baseball game, online game, free game"
+    }
+  },
     {
     "slug": "Baseball",
     "title": "Baseball",
