@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: 'Have questions or feedback about Doodle Baseball? Contact our team and we\'ll get back to you promptly.',
     images: [
       {
-        url: 'https://example.com/images/doodle-baseball-preview.jpg', // 请替换为您的实际图片URL
+        url: ' https://doodlebaseball.info/images/games/doodlebaseball.png', // 请替换为您的实际图片URL
         width: 1200,
         height: 630,
         alt: 'Doodle Baseball Preview',

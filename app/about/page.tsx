@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: 'Learn more about our fan-made Doodle Baseball website and the popular food-themed baseball game!',
     images: [
       {
-        url: 'https://example.com/images/doodle-baseball-preview.jpg', // 替换为您的实际图片URL
+        url: ' https://doodlebaseball.info/images/games/doodlebaseball.png', // 替换为您的实际图片URL
         width: 1200, // 可选
         height: 630, // 可选
         alt: 'Doodle Baseball Preview', // 可选
