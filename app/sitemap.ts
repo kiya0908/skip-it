@@ -25,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const gamesRoutes = gamesData.map((game: Game) => ({
     url: `${baseUrl}/games/${game.slug}`,
     lastModified: new Date().toISOString(),
-    changeFrequency: 'monthly' as 'monthly',
+    changeFrequency: 'weekly' as 'weekly',
     priority: 0.9,
   }));
 
