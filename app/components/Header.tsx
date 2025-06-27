@@ -58,12 +58,13 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <button
-              className="ml-4 bg-[#d7263d] text-white px-5 py-2 rounded-md font-bold text-sm hover:bg-[#a81c2a] transition-colors"
-              onClick={() => window.location.href = "/doodle-baseball-download"}
+            <a
+            href="/doodle-baseball-download"
+            className="mt-2 px-5 py-2 rounded-md bg-[#d7263d] text-white font-bold text-base hover:bg-[#a81c2a] transition-colors shadow inline-block" // 注意：<a>标签是行内元素，可能需要加上 inline-block 或 block 才能让样式生效
+            onClick={() => { setMobileMenuOpen(false); }} // 您仍然可以保留 onClick 来处理关闭菜单等额外逻辑
             >
               Download
-            </button>
+            </a>
           </nav>
         </div>
       </div>
@@ -81,12 +82,14 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <button
-              className="mt-2 px-5 py-2 rounded-md bg-[#d7263d] text-white font-bold text-base hover:bg-[#a81c2a] transition-colors shadow"
-              onClick={() => { setMobileMenuOpen(false); window.location.href = "/doodle-baseball-download"; }}
+
+            <a
+            href="/doodle-baseball-download"
+            className="mt-2 px-5 py-2 rounded-md bg-[#d7263d] text-white font-bold text-base hover:bg-[#a81c2a] transition-colors shadow inline-block" // 注意：<a>标签是行内元素，可能需要加上 inline-block 或 block 才能让样式生效
+            onClick={() => { setMobileMenuOpen(false); }} // 您仍然可以保留 onClick 来处理关闭菜单等额外逻辑
             >
               Download
-            </button>
+            </a>
           </div>
         </div>
       )}
