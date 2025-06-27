@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1.0 : 0.8,
   }));
 
-  const gamesRoutes = gamesData.map((game: Game) => ({
+  const gamesRoutes = gamesData.filter(game => game.slug !== 'doodle-baseball').map((game: Game) => ({
     url: `${baseUrl}/games/${game.slug}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly' as 'weekly',
@@ -30,4 +30,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   return [...staticRoutes, ...gamesRoutes];
-} 
+}
