@@ -76,6 +76,7 @@
       "<b>Hotfoot Baseball</b> offers a simplified yet strategic take on the sport."
     ],
     "isTopPick": true,
+    "isHot": true,
     "seo": {
       "title": "Play Hotfoot Baseball Free Online | Fast-Paced Action Game",
       "description": "Play Hotfoot Baseball! Experience cartoony sports action with easy one-click controls. Swing, run, and make strategic decisions to win the championship!",
@@ -106,6 +107,7 @@
       "<b>ESPN Arcade Baseball</b> is a premier browser-based batting challenge."
     ],
     "isTopPick": true,
+    "isHot": true,
     "seo": {
       "title": "Play ESPN Arcade Baseball Online | Free Sports Game",
       "description": "Play ESPN Arcade Baseball! Two modes: aim for target scores in Precision Hitter or clutch a win in Bottom of the Ninth. An official ESPN Arcade production!",
@@ -287,6 +289,7 @@
         "Compete to become the ultimate long-shot legend."
       ],
       "isTopPick": true,
+      "isHot": true,
       "seo": {
         "title": "Basketball Orbit - The Ultimate Long-Shot Basketball Game",
         "description": "Launch basketballs into space in Basketball Orbit! Master one-click timing, upgrade your skills, and conquer challenging levels. Can you make the ultimate shot?",

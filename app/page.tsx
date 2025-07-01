@@ -5,6 +5,7 @@ import Image from 'next/image';
 // import gamesData from '.././data/games.json'; // gamesData 将在 GameSection 中导入
 import GameSection from './GameSection'; // 导入新的客户端组件
 import TopPicksGame from './components/TopPicksGame'; // 导入toppicksgame组件
+import HotGame from './components/HotGame'; // 导入hotgame组件
 
 // 为页面添加元数据
 export const metadata: Metadata = {
@@ -115,8 +116,14 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      <GameSection /> {/* 使用新的客户端组件渲染游戏区域 */}
-      <TopPicksGame /> {/* TopPicksGame组件显示在游戏iframe区域下方 */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex gap-8">
+          <div className="flex-1">
+            <GameSection />
+          </div>
+
+        </div>
+      </div>
 
       {/* 游戏内容综合区域 */}
       <section className="py-16 bg-white">

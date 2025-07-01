@@ -4,6 +4,7 @@ import GameClient from './GameClient';
 import { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
+
 // 动态生成元数据
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const game = games.find((g) => g.slug === params.slug);
@@ -77,9 +78,10 @@ export default function GamePage({ params }: { params: { slug: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      
-      {/* 使用客户端组件渲染游戏详情 */}
-      <GameClient game={game} />
+      {/* 页面主内容 */}
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <GameClient game={game} />
+      </div>
     </>
   );
 }

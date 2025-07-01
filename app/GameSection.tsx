@@ -3,6 +3,9 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import gamesData from '../data/games.json'; // 调整路径
+import HotGame from '../app/components/HotGame';
+import TopPicksGame from '../app/components/TopPicksGame';
+
 
 export default function GameSection() {
   const [isLoading, setIsLoading] = useState(true);
@@ -48,11 +51,12 @@ export default function GameSection() {
   };
 
   return (
+    <main className="bg-white min-h-screen">
     <section id="play" className="py-6 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
         <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Doodle Baseball Game</h1>
-        <div className="container mx-auto px-4 py-8">
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <div className="flex gap-6">
+          <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
             {/* 游戏区域 */}
             <div className="game-container relative w-full aspect-video bg-gray-900">
               {/* Loading Indicator */}
@@ -142,8 +146,13 @@ export default function GameSection() {
               </div>
             </div>
           </div>
+          <HotGame />
         </div>
       </div>
+    
     </section>
+    <TopPicksGame />
+  </main>
+  
   );
 }

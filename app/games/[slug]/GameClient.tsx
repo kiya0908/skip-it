@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import TopPicksGame from '../../components/TopPicksGame';
+import HotGame from '../../components/HotGame';
 
 interface Game {
   slug: string;
@@ -23,7 +24,14 @@ interface Game {
 export default function GameClient({ game }: { game: Game }) {
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
+  const [showShareMenu, setShowShareMenu] = useState(false);
+  const [isLiked, setIsLiked] = useState(false); // State for the like button
+
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const shareBtnRef = useRef<HTMLButtonElement>(null);
+  const shareMenuRef = useRef<HTMLDivElement>(null);
+  const fullscreenBtnRef = useRef<HTMLButtonElement>(null);
+  const gameContainerRef = useRef<HTMLDivElement>(null); // Ref for the game container div
 
   const handleIframeLoad = () => {
     setIsLoading(false);
@@ -46,16 +54,80 @@ export default function GameClient({ game }: { game: Game }) {
     }
   };
 
+  // Fullscreen Handler
+  const handleFullscreen = useCallback(() => {
+    if (gameContainerRef.current) {
+      if (!document.fullscreenElement) {
+        if (gameContainerRef.current.requestFullscreen) {
+          gameContainerRef.current.requestFullscreen();
+        } else if ((gameContainerRef.current as any).webkitRequestFullscreen) { // For Safari
+          (gameContainerRef.current as any).webkitRequestFullscreen();
+        } else if ((gameContainerRef.current as any).msRequestFullscreen) { // For IE/Edge
+          (gameContainerRef.current as any).msRequestFullscreen();
+        }
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if ((document as any).webkitExitFullscreen) {
+          (document as any).webkitExitFullscreen();
+        } else if ((document as any).msExitFullscreen) {
+          (document as any).msExitFullscreen();
+        }
+      }
+    }
+  }, []);
+
+  // Share Handler
+  const handleShare = useCallback((platform: string) => {
+    const url = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent(`Play ${game.title} Online for Free!`);
+
+    switch (platform) {
+      case 'facebook':
+        window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
+        break;
+      case 'twitter':
+        window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
+        break;
+      case 'whatsapp':
+        window.open('https://api.whatsapp.com/send?text=' + title + ' ' + url, '_blank');
+        break;
+      case 'copy':
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          alert('Link copied to clipboard!');
+        }).catch(err => {
+          console.error('Failed to copy text: ', err);
+        });
+        break;
+    }
+    // Close share menu after sharing (except for 'like', which is handled by its own click)
+    setShowShareMenu(false);
+  }, [game.title]); // Dependency on game.title to ensure 'title' is up-to-date
+
+  // Effect for closing share menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (showShareMenu && shareMenuRef.current && !shareMenuRef.current.contains(event.target as Node) &&
+          shareBtnRef.current && !shareBtnRef.current.contains(event.target as Node)) {
+        setShowShareMenu(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showShareMenu]); // Dependency on showShareMenu to ensure listener is active when needed
+
   return (
     <main className="bg-white min-h-screen">
       {/* 游戏区域 */}
       <section id="play" className="py-6 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
           <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6 tracking-wide">{game.title}</h1>
-          <div className="container mx-auto px-4 py-8">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="flex gap-6">
+            <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
               {/* 游戏区域 */}
-              <div className="game-container relative w-full aspect-video bg-gray-900">
+              <div ref={gameContainerRef} className="game-container relative w-full aspect-video bg-gray-900">
                 {/* Loading Indicator */}
                 <div
                   id="game-loading"
@@ -98,57 +170,76 @@ export default function GameClient({ game }: { game: Game }) {
                   style={{ display: isLoading || loadError ? 'none' : 'block' }}
                 ></iframe>
               </div>
-              <div className="game-footer text-white flex justify-between items-center">
+              <div className="game-footer text-white flex justify-between items-center p-4">
                 <div className="flex items-center">
                   <p className="text-xl font-bangers mr-4 text-gray-900">{game.title}</p>
                   <div className="star-rating">
                     <div className="flex mr-2">
-                      <i className="fas fa-star text-yellow-300"></i>
-                      <i className="fas fa-star text-yellow-300"></i>
-                      <i className="fas fa-star text-yellow-300"></i>
-                      <i className="fas fa-star text-yellow-300"></i>
-                      <i className="fas fa-star text-yellow-300"></i>
+                      {/* Render stars based on game.rating */}
+                      {[...Array(5)].map((_, i) => (
+                        <i
+                          key={i}
+                          className={`fas fa-star ${i < Math.floor(game.rating) ? 'text-yellow-300' : 'text-gray-300'}`}
+                        ></i>
+                      ))}
                     </div>
                     <span className="text-xl text-gray-900">{game.rating}</span>
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  <button className="footer-btn share-button" data-platform="like" title="Like">
-                    <i className="fas fa-heart text-blue-400 text-xl"></i>
+                  <button
+                    className="footer-btn share-button"
+                    title="Like"
+                    onClick={() => setIsLiked(!isLiked)}
+                  >
+                    <i className={`fas fa-heart text-xl ${isLiked ? 'text-red-500' : 'text-blue-400'}`}></i>
                   </button>
                   <div className="relative">
-                    <button className="footer-btn" id="share-btn" title="Share">
+                    <button
+                      ref={shareBtnRef}
+                      className="footer-btn"
+                      id="share-btn"
+                      title="Share"
+                      onClick={() => setShowShareMenu(!showShareMenu)}
+                    >
                       <i className="fas fa-share-alt text-blue-400 text-xl"></i>
                     </button>
-                    <div id="share-menu" className="hidden absolute bottom-full right-0 mb-2 bg-[#0c2461] rounded-lg shadow-lg p-2 w-48">
-                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" data-platform="copy">
+                    <div
+                      ref={shareMenuRef}
+                      id="share-menu"
+                      className={`${showShareMenu ? '' : 'hidden'} absolute bottom-full right-0 mb-2 bg-[#0c2461] rounded-lg shadow-lg p-2 w-48 z-10`}
+                    >
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('copy')}>
                         <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link
                       </button>
-                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" data-platform="facebook">
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('facebook')}>
                         <i className="fab fa-facebook text-blue-400 mr-2"></i> Facebook
                       </button>
-                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" data-platform="twitter">
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('twitter')}>
                         <i className="fab fa-twitter text-blue-400 mr-2"></i> Twitter
                       </button>
-                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" data-platform="whatsapp">
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('whatsapp')}>
                         <i className="fab fa-whatsapp text-blue-400 mr-2"></i> WhatsApp
                       </button>
                     </div>
                   </div>
-                  <button className="footer-btn" id="fullscreen-btn" title="Fullscreen">
+                  <button ref={fullscreenBtnRef} className="footer-btn" id="fullscreen-btn" title="Fullscreen" onClick={handleFullscreen}>
                     <i className="fas fa-expand-arrows-alt text-blue-400 text-xl"></i>
                   </button>
                 </div>
               </div>
             </div>
+            <HotGame />
           </div>
         </div>
       </section>
+
+      {/* TopPicksGame 区域，和首页一致 */}
       <TopPicksGame />
 
       {/* 游戏内容综合区域 */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-8 bg-white">
+        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
           {/* 关于游戏部分 */}
           <div className="mb-16">
             <div className="text-center mb-8">
@@ -156,7 +247,7 @@ export default function GameClient({ game }: { game: Game }) {
               <p className="text-lg text-gray-600 max-w-3xl mx-auto" dangerouslySetInnerHTML={{ __html: game.description }} />
             </div>
           </div>
-          
+
           {/* 如何游玩部分 */}
           <div className="mb-16">
             <div className="text-center mb-8">
@@ -168,7 +259,7 @@ export default function GameClient({ game }: { game: Game }) {
               </ol>
             </div>
           </div>
-          
+
           {/* 游戏特点部分 */}
           <div className="mb-16">
             <div className="text-center mb-8">
@@ -187,100 +278,6 @@ export default function GameClient({ game }: { game: Game }) {
           </div>
         </div>
       </section>
-      
-      {/* 添加客户端脚本 */}
-      <script id="game-script" dangerouslySetInnerHTML={{ __html: `
-        document.addEventListener('DOMContentLoaded', function() {
-          // 分享菜单
-          const shareBtn = document.getElementById('share-btn');
-          const shareMenu = document.getElementById('share-menu');
-          const fullscreenBtn = document.getElementById('fullscreen-btn');
-          const shareButtons = document.querySelectorAll('.share-button');
-          
-          if (shareBtn && shareMenu) {
-            shareBtn.addEventListener('click', function(e) {
-              e.stopPropagation();
-              shareMenu.classList.toggle('hidden');
-            });
-            
-            document.addEventListener('click', function(e) {
-              if (!shareMenu.contains(e.target) && e.target !== shareBtn) {
-                shareMenu.classList.add('hidden');
-              }
-            });
-          }
-          
-          // 全屏功能
-          if (fullscreenBtn) {
-            fullscreenBtn.addEventListener('click', function() {
-              const gameContainer = document.querySelector('.game-container');
-              
-              if (!document.fullscreenElement) {
-                if (gameContainer.requestFullscreen) {
-                  gameContainer.requestFullscreen();
-                } else if (gameContainer.webkitRequestFullscreen) {
-                  gameContainer.webkitRequestFullscreen();
-                } else if (gameContainer.msRequestFullscreen) {
-                  gameContainer.msRequestFullscreen();
-                }
-              } else {
-                if (document.exitFullscreen) {
-                  document.exitFullscreen();
-                } else if (document.webkitExitFullscreen) {
-                  document.webkitExitFullscreen();
-                } else if (document.msExitFullscreen) {
-                  document.msExitFullscreen();
-                }
-              }
-            });
-          }
-          
-          // 分享功能
-          if (shareButtons) {
-            shareButtons.forEach(button => {
-              button.addEventListener('click', function() {
-                const platform = this.getAttribute('data-platform');
-                const url = encodeURIComponent(window.location.href);
-                const title = encodeURIComponent('Play ${game.title} Online for Free!');
-                
-                switch(platform) {
-                  case 'facebook':
-                    window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
-                    break;
-                  case 'twitter':
-                    window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
-                    break;
-                  case 'whatsapp':
-                    window.open('https://api.whatsapp.com/send?text=' + title + ' ' + url, '_blank');
-                    break;
-                  case 'copy':
-                    navigator.clipboard.writeText(window.location.href).then(() => {
-                      alert('Link copied to clipboard!');
-                    });
-                    break;
-                  case 'like':
-                    this.classList.toggle('liked');
-                    const icon = this.querySelector('i');
-                    if (icon.classList.contains('text-blue-400')) {
-                      icon.classList.remove('text-blue-400');
-                      icon.classList.add('text-red-500');
-                    } else {
-                      icon.classList.remove('text-red-500');
-                      icon.classList.add('text-blue-400');
-                    }
-                    break;
-                }
-                
-                if (platform !== 'like') {
-                  shareMenu.classList.add('hidden');
-                }
-              });
-            });
-          }
-        });
-      `}} />
-      
-      
     </main>
   );
 }
