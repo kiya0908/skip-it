@@ -123,7 +123,7 @@ export default function GameClient({ game }: { game: Game }) {
       {/* 游戏区域 */}
       <section id="play" className="py-6 bg-white">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6 tracking-wide">{game.title}</h1>
+          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">{game.title}</h1>
           <div className="flex gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
               {/* 游戏区域 */}
