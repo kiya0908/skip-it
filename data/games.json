@@ -47,6 +47,7 @@
       "No downloads required, play this <b>Baseball</b> game instantly in your browser."
     ],
     "isTopPick": true,
+    "isHot": true,
     "seo": {
       "title": "Play Baseball Online | Free Browser Sports Game",
       "description": "Step up to the plate in our free online Baseball game! Play two exciting modes, hit home runs, and lead your team to victory. No download needed.",
@@ -76,7 +77,6 @@
       "<b>Hotfoot Baseball</b> offers a simplified yet strategic take on the sport."
     ],
     "isTopPick": true,
-    "isHot": true,
     "seo": {
       "title": "Play Hotfoot Baseball Free Online | Fast-Paced Action Game",
       "description": "Play Hotfoot Baseball! Experience cartoony sports action with easy one-click controls. Swing, run, and make strategic decisions to win the championship!",
@@ -107,7 +107,6 @@
       "<b>ESPN Arcade Baseball</b> is a premier browser-based batting challenge."
     ],
     "isTopPick": true,
-    "isHot": true,
     "seo": {
       "title": "Play ESPN Arcade Baseball Online | Free Sports Game",
       "description": "Play ESPN Arcade Baseball! Two modes: aim for target scores in Precision Hitter or clutch a win in Bottom of the Ninth. An official ESPN Arcade production!",
@@ -137,6 +136,7 @@
       "<b>Baseball Pro</b> is the perfect game to test your batting reflexes."
     ],
     "isTopPick": true,
+    "isHot": true,
     "seo": {
       "title": "Baseball Pro - Free Online Batting Game | Become a Pro",
       "description": "Play Baseball Pro and become a batting legend! Hit every incoming ball to get the highest score in this addictive and free online sports game.",
@@ -289,7 +289,6 @@
         "Compete to become the ultimate long-shot legend."
       ],
       "isTopPick": true,
-      "isHot": true,
       "seo": {
         "title": "Basketball Orbit - The Ultimate Long-Shot Basketball Game",
         "description": "Launch basketballs into space in Basketball Orbit! Master one-click timing, upgrade your skills, and conquer challenging levels. Can you make the ultimate shot?",

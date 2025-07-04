@@ -9,12 +9,12 @@ import HotGame from './components/HotGame'; // 导入hotgame组件
 
 // 为页面添加元数据
 export const metadata: Metadata = {
-  title: 'Doodle Baseball | Fun Food Baseball Game Online Free',
-  description: 'Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!',
-  keywords: 'doodle baseball, baseball game, food baseball, online free, baseball simulator, unlocked game, sports game',
+  title: 'Doodle Baseball|Fourth of July Food Baseball Game Online',
+  description: 'Play Doodle Baseball, the ultimate Fourth of July food baseball game! Celebrate Independence Day, hit home runs, and enjoy classic snacks online for free.',
+  keywords: '',
   openGraph: {
-    title: 'Doodle Baseball Game | Fun Food Baseball Game Online Free',
-    description: 'Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!',
+    title: 'Doodle Baseball|Fourth of July Food Baseball Game Online',
+    description: 'Play Doodle Baseball, the ultimate Fourth of July food baseball game! Celebrate Independence Day, hit home runs, and enjoy classic snacks online for free.',
     images: [
       {
         url: 'https://doodlebaseball.info/doodlebaseball.png',
@@ -38,8 +38,8 @@ const gameJsonLd = {
   "@type": "VideoGame",
   "name": "Doodle Baseball Game",
   "url": "https://doodlebaseball.info/",
-  "description": "Play the addictive Doodle Baseball game online for free! Swing your bat and hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!",
-  "genre": ["Sports Game", "Casual Game", "Arcade Game"],
+  "description": "Play Doodle Baseball, the ultimate Fourth of July food baseball game! Celebrate Independence Day online for free, hit home runs, and enjoy classic American snacks in this fun baseball game.",
+  "genre": ["Sports Game", "Casual Game", "Arcade Game","Independence Day Game"],
   "playPlatform": "WebBrowser",
   "applicationCategory": "Game",
   "aggregateRating": {
@@ -84,7 +84,7 @@ const faqJsonLd = {
       "name": "Why are the players food items?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The game was created to celebrate American Independence Day, featuring favorite summer foods and snacks that people enjoy while watching baseball games. It adds a fun and whimsical touch to the classic sport!"
+        "text": "This food baseball game was created to celebrate the Fourth of July, American Independence Day.The food characters represent classic snacks people enjoy during holiday baseball games, making Doodle Baseball a perfect Fourth of July baseball experience."
       }
     },
     {
@@ -133,7 +133,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">About Doodle Baseball Game</h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
-              <strong>Doodle Baseball</strong> is an exciting and engaging doodle baseball game that brings players into a playful world where America's favorite pastime meets quirky food characters. This food baseball game offers a delightful twist to the traditional sport, making <strong>Doodle Baseball</strong> not just a sport simulation, but also a fun-filled adventure suitable for all ages. As you enter the <strong>Doodle Baseball</strong> field, you’ll discover a vibrant lineup of classic American snacks, ranging from hotdogs to pretzels, all taking their shot at a home run.
+                Originally launched as a <strong>Fourth of July baseball</strong> celebration, <strong>Doodle Baseball</strong> is an exciting game that brings players into a playful world where America's favorite pastime meets quirky food characters. This <strong>food baseball</strong> game offers a delightful twist on the traditional sport, making <strong>Doodle Baseball</strong> not just a simulation, but a fun-filled adventure perfect for the holiday and suitable for all ages. As you enter the <strong>Doodle Baseball</strong> field, you'll discover a vibrant lineup of classic American snacks, all taking their shot at a home run. Whether you're searching for a fun <strong>food baseball game</strong> or a <strong>Fourth of July baseball</strong> experience, Doodle Baseball is the perfect choice for all ages.
               </p>
             </div>
             
@@ -175,7 +175,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-5xl font-bangers font-bold mb-4 text-center text-gray-900 tracking-wide">How to Play Doodle Baseball Online</h2>
               <p className="text-lg text-center text-gray-700 mb-10 max-w-4xl mx-auto">
-                Learn how to play <strong>Doodle Baseball</strong> and master this fun, food-themed <strong>baseball game online</strong>! Follow these simple steps and watch the video tutorial to become a home run champion.
+                Learn how to play <strong>Doodle Baseball</strong> and master this fun, food-themed <strong>fourth of july baseball</strong> game! Follow these simple steps and watch the video tutorial to become a home run champion. Enjoy the festive <strong>Fourth of July baseball</strong> atmosphere as you swing for the fences!
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -206,7 +206,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">Special Features of Doodle Baseball</h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
-              A fun part of <strong>Doodle Baseball</strong> is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in <strong>Doodle Baseball</strong> free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that’s a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all <strong>Doodle Baseball</strong> players.
+              A fun part of <strong>Doodle Baseball</strong> is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in <strong>Doodle Baseball</strong> free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that's a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all <strong>Doodle Baseball</strong> players.
               </p>
             </div>
 
@@ -345,21 +345,21 @@ export default function HomePage() {
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">What's the highest score possible?</h3>
                 <p className="text-gray-600">
-                In <strong>Doodle Baseball</strong>, there’s no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, <strong>Doodle Baseball</strong> lets you chase endless high scores. This makes <strong>Doodle Baseball</strong> free a thrilling challenge for players who want to beat their own records over and over again.
+                In <strong>Doodle Baseball</strong>, there's no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, <strong>Doodle Baseball</strong> lets you chase endless high scores. This makes <strong>Doodle Baseball</strong> free a thrilling challenge for players who want to beat their own records over and over again.
                 </p>
               </div>
 
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Why are the players food items?</h3>
                 <p className="text-gray-600">
-                The game was created to celebrate American Independence Day, featuring favorite summer foods and snacks that people enjoy while watching baseball games. It adds a fun and whimsical touch to the classic sport!
+                  This <strong>food baseball</strong> game was created to celebrate the <strong>Fourth of July</strong>, American Independence Day. The food characters represent the classic summer snacks people enjoy while watching baseball games, making <strong>Doodle Baseball</strong> a perfect <strong>Fourth of July baseball</strong> experience and a fun, whimsical touch to the classic sport!
                 </p>
               </div>
               
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Are there any tricks to win Doodle Baseball?</h3>
                 <p className="text-gray-600">
-                While <strong>Doodle Baseball</strong> doesn’t include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in <strong>Doodle Baseball</strong>, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying <strong>Doodle Baseball</strong> free will help you master timing and boost your scores in this lively food baseball game.
+                While <strong>Doodle Baseball</strong> doesn't include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in <strong>Doodle Baseball</strong>, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying <strong>Doodle Baseball</strong> free will help you master timing and boost your scores in this lively food baseball game.
                 </p>
               </div>
             </div>
