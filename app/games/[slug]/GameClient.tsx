@@ -22,6 +22,7 @@ interface Game {
 }
 
 export default function GameClient({ game }: { game: Game }) {
+  console.log('GameClient received:', game);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
   const [showShareMenu, setShowShareMenu] = useState(false);
@@ -117,14 +118,15 @@ export default function GameClient({ game }: { game: Game }) {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [showShareMenu]); // Dependency on showShareMenu to ensure listener is active when needed
-
   return (
     <main className="bg-white min-h-screen">
       {/* 游戏区域 */}
       <section id="play" className="py-6 bg-white">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">{game.title}</h1>
-          <div className="flex gap-6">
+          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">
+            <a href={`/games/${game.slug}`} className="text-gray-900 hover:underline">{game.title}</a>
+          </h1>
+          <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
               {/* 游戏区域 */}
               <div ref={gameContainerRef} className="game-container relative w-full aspect-video bg-gray-900">
@@ -229,7 +231,10 @@ export default function GameClient({ game }: { game: Game }) {
                 </div>
               </div>
             </div>
-            <HotGame />
+              {/* Hotgames 区域，和首页gamesection一致 */}
+            <div className="w-full lg:w-80">
+              <HotGame />
+            </div>
           </div>
         </div>
       </section>
@@ -238,32 +243,41 @@ export default function GameClient({ game }: { game: Game }) {
       <TopPicksGame />
 
       {/* 游戏内容综合区域 */}
-      <section className="py-8 bg-white">
+      <section className="py-8 bg-white" id="about">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
           {/* 关于游戏部分 */}
           <div className="mb-16">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">About {game.title}</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto" dangerouslySetInnerHTML={{ __html: game.description }} />
+              <h2 id="about" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
+                <a href="#about" className="text-gray-900 hover:underline">About {game.title}</a>
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto" dangerouslySetInnerHTML={{ __html: game.description + ' ' }} />
             </div>
           </div>
 
           {/* 如何游玩部分 */}
-          <div className="mb-16">
+          <div className="mb-16" id="how-to-play">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">How to Play</h2>
+              <h2 id="how-to-play" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
+                <a href="#how-to-play" className="text-gray-900 hover:underline">How to Play {game.title}</a>
+              </h2>
             </div>
             <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-3xl mx-auto">
               <ol className="list-decimal list-inside text-gray-700 space-y-2 text-base">
                 {game.howToPlay.map((step: string, idx: number) => <li key={idx} dangerouslySetInnerHTML={{ __html: step }} />)}
               </ol>
+              <p className="mt-6 text-base text-gray-600">
+                Want to master more games? Visit our <a href="/games" className="text-blue-600 hover:underline">All Games</a> page for more fun baseball experiences.
+              </p>
             </div>
           </div>
 
           {/* 游戏特点部分 */}
-          <div className="mb-16">
+          <div className="mb-16" id="features">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">Special Features</h2>
+              <h2 id="features" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
+                <a href="#features" className="text-gray-900 hover:underline">Special Features</a>
+              </h2>
             </div>
             <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-3xl mx-auto">
               <ul className="space-y-2">
@@ -274,6 +288,9 @@ export default function GameClient({ game }: { game: Game }) {
                   </li>
                 ))}
               </ul>
+              <p className="mt-6 text-base text-gray-600">
+                Looking for more unique games? Explore our <a href="/games" className="text-blue-600 hover:underline">full collection</a>.
+              </p>
             </div>
           </div>
         </div>

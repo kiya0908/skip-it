@@ -3,12 +3,23 @@
 > Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!
 
 ## Core Content
-- [Play Game](https://doodlebaseball.info/#play): The main Doodle Baseball game experience.
+- [Play Game](https://doodlebaseball.info/#play): Experience the main Doodle Baseball gameplay.
+- [All Games](https://doodlebaseball.info/games): Browse and discover all available baseball mini-games.
 
 ## Important Resources
-- [How to Play](https://doodlebaseball.info/#how-to-play): Instructions on playing the game.
-- [Features](https://doodlebaseball.info/#features): Key features of the game website.
-- [FAQ](https://doodlebaseball.info/#faq): Frequently asked questions.
+- [How to Play](https://doodlebaseball.info/#how-to-play): Step-by-step instructions for new players.
+- [Features](https://doodlebaseball.info/#features): Explore the key features of the Doodle Baseball website.
+- [FAQ](https://doodlebaseball.info/#faq): Frequently asked questions and answers.
+- [About](https://doodlebaseball.info/about): Learn more about our website and development team.
+- [Contact](https://doodlebaseball.info/contact): Get in touch for support or feedback.
+- [Privacy Policy](https://doodlebaseball.info/privacy): Read our privacy policy and data protection practices.
+- [Terms of Service](https://doodlebaseball.info/terms): Review the terms and conditions for using our site.
 
 ## Latest Update
 - [Main Game Stable](https://doodlebaseball.info/#play): The core game experience is stable and available.
+
+## Support
+- [Contact Us](https://doodlebaseball.info/contact): Reach out to us for any questions or support needs.
+
+## More
+- For more game details, please visit the [All Games](https://doodlebaseball.info/games) page.

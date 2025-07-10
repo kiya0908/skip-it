@@ -131,7 +131,9 @@ export default function HomePage() {
           {/* 关于游戏部分 */}
           <div className="mb-16">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">About Doodle Baseball Game</h2>
+              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
+                About <Link href="#play" className="hover:underline">Doodle Baseball Game</Link>
+              </h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
                 Originally launched as a <strong>Fourth of July baseball</strong> celebration, <strong>Doodle Baseball</strong> is an exciting game that brings players into a playful world where America's favorite pastime meets quirky food characters. This <strong>food baseball</strong> game offers a delightful twist on the traditional sport, making <strong>Doodle Baseball</strong> not just a simulation, but a fun-filled adventure perfect for the holiday and suitable for all ages. As you enter the <strong>Doodle Baseball</strong> field, you'll discover a vibrant lineup of classic American snacks, all taking their shot at a home run. Whether you're searching for a fun <strong>food baseball game</strong> or a <strong>Fourth of July baseball</strong> experience, Doodle Baseball is the perfect choice for all ages.
               </p>
@@ -173,7 +175,9 @@ export default function HomePage() {
           {/* 如何玩游戏部分 */}
           <div className="mb-16" id="how-to-play">
             <div className="text-center mb-12">
-              <h2 className="text-5xl font-bangers font-bold mb-4 text-center text-gray-900 tracking-wide">How to Play Doodle Baseball Online</h2>
+              <h2 className="text-4xl font-bangers font-bold mb-4 text-center text-gray-900 tracking-wide">
+                How to Play <Link href="#play" className="hover:underline">Doodle Baseball Online</Link>
+              </h2>
               <p className="text-lg text-center text-gray-700 mb-10 max-w-4xl mx-auto">
                 Learn how to play <strong>Doodle Baseball</strong> and master this fun, food-themed <strong>fourth of july baseball</strong> game! Follow these simple steps and watch the video tutorial to become a home run champion. Enjoy the festive <strong>Fourth of July baseball</strong> atmosphere as you swing for the fences!
               </p>
@@ -204,7 +208,9 @@ export default function HomePage() {
           {/* 游戏特点部分 */}
           <div className="mb-16" id="features">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">Special Features of Doodle Baseball</h2>
+              <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">
+                Special Features of <Link href="#features" className="hover:underline">Doodle Baseball</Link>
+              </h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
               A fun part of <strong>Doodle Baseball</strong> is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in <strong>Doodle Baseball</strong> free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that's a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all <strong>Doodle Baseball</strong> players.
               </p>
@@ -278,7 +284,9 @@ export default function HomePage() {
           {/* Tips and Tricks 部分 */}
           <div className="mb-16" id="tips-and-tricks">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">Tips and Tricks</h2>
+              <h2 className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
+                Tips and Tricks for <Link href="#tips-and-tricks" className="hover:underline">Food Baseball</Link>
+              </h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
                 To excel at <strong>Doodle Baseball</strong>, players need more than luck—they need skillful strategy and quick reflexes. Whether you're new to this playful food baseball game or aiming to set a new high score in <strong>Doodle Baseball</strong> free, the following tips can help you master every pitch and swing.
               </p>
@@ -323,7 +331,9 @@ export default function HomePage() {
           {/* FAQ部分 */}
           <div id="faq">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">Frequently Asked Questions</h2>
+              <h2 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-12 tracking-wide">
+                Frequently Asked Questions about <Link href="#faq" className="hover:underline">Doodle Baseball</Link>
+              </h2>
             </div>
             <div className="space-y-6 max-w-4xl mx-auto">
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">

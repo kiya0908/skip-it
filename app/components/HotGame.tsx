@@ -11,18 +11,16 @@ interface Game {
 }
 
 const HotGame = () => {
-  const allGames: Game[] = gamesData;
-  // 只筛选 isHot 为 true 的游戏，并限制显示前6个
-  const hotGames = allGames.filter((game: any) => game.isHot).slice(0, 6);
-  const targetWidth = 150; // pixels
-  const targetHeight = 84; // pixels
+  const allGames: Game[] = gamesData as Game[];
+  // 只筛选 isHot 为 true 的游戏，并限制显示前10个
+  const hotGames = allGames.filter((game) => game.isHot).slice(0, 10);
 
   if (hotGames.length === 0) {
     return null; 
   }
 
   return (
-    <div className="w-[250px] bg-[#0c2461] rounded-lg p-3"> 
+    <div className="w-full bg-[#0c2461] rounded-lg p-3"> 
       <h2 className="text-2xl font-bangers text-white mb-4">
         Hot Games
       </h2>

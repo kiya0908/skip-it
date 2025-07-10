@@ -10,7 +10,7 @@ interface Game {
 }
 
 const TopPicksGame = () => {
-  const allGames: Game[] = gamesData;
+  const allGames: Game[] = gamesData as Game[];
   const topPicks = allGames.filter(game => game.isTopPick);
   const targetWidth = 187; // pixels
   const targetHeight = 106; // pixels

@@ -18,6 +18,7 @@
       "Multiple pitch types",
       "Simple one-button controls"
     ],
+    "isHeader": true,
     "seo": {
       "title": "Doodle Baseball | Fun Food Baseball Game",
       "description": "Play Doodle Baseball and other fun online games for free. Enjoy food-themed baseball action and more!",
@@ -48,12 +49,87 @@
     ],
     "isTopPick": true,
     "isHot": true,
+    "isHeader": true,
     "seo": {
       "title": "Play Baseball Online | Free Browser Sports Game",
       "description": "Step up to the plate in our free online Baseball game! Play two exciting modes, hit home runs, and lead your team to victory. No download needed.",
       "keywords": "baseball, online baseball game, free sports game, browser baseball, batting game"
     }
   },
+    {
+      "slug": "Squid_Game_Online",
+      "title": "Squid Game Online",
+      "description": "<b>Squid Game Online</b> is the ultimate free, multiplayer survival experience inspired by the viral Netflix show. Step into a high-stakes arena with 30 players and compete in seven thrilling mini-games, each directly modeled after the iconic <b>Squid Game Online</b> challenges. In <b>Squid Game Online</b>, you must master games like Red Light, Green Light, Dalgona Candy, Tug of War, and more—where a single mistake leads to instant elimination by the relentless Pink Soldiers. The tension and excitement of <b>Squid Game Online</b> are heightened by immersive soundtracks, competitive multiplayer action, and authentic references to the series. Every round in <b>Squid Game Online</b> is a battle for survival—hone your skills, team up or compete, and see if you can be the last one standing in this intense online adaptation. Whether you’re a fan of the show or seeking your next multiplayer obsession, <b>Squid Game Online</b> promises non-stop action and nail-biting suspense.",
+      "coverImage": "/images/games/Squid_Game_Online.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/squid-game-online/index.html",
+      "rating": 4.25,
+      "howToPlay": [
+        "1. Use the WASD or arrow keys to move your character.",
+        "2. Press Space to jump over obstacles or gaps.",
+        "3. Use the Left Mouse Button (LMB) to interact: scratch the Dalgona cookie, drag the rope, or hit when needed.",
+        "4. Press 'E' to pick up weapons in judgment-based games.",
+        "5. Drop weapons with 'G' if necessary.",
+        "6. Use 'T' to chat with other players in the lobby or in-game.",
+        "7. Choose your region and enter a nickname before joining a match.",
+        "8. Survive each mini-game by following the specific rules—fail and you'll be eliminated!",
+        "9. Outlast all other players to win the round in <b>Squid Game Online</b>."
+      ],
+      "features": [
+        "Authentic recreation of <b>Squid Game Online</b> challenges, including Red Light, Green Light, Dalgona Candy, Tug of War, Marbles, and more.",
+        "Compete with up to 30 players in real-time multiplayer matches in <b>Squid Game Online</b>.",
+        "Progress through seven distinct mini-games true to the <b>Squid Game Online</b> series.",
+        "Immersive sound design and atmosphere that mirror the Netflix show.",
+        "Easy browser-based access—play <b>Squid Game Online</b> instantly, no downloads required.",
+        "Intuitive controls and clear instructions for seamless gameplay.",
+        "Dynamic, ever-changing rooms and lobbies to keep <b>Squid Game Online</b> fresh and competitive.",
+        "Regular updates and active player community."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "seo": {
+        "title": "Squid Game Online: Free Multiplayer Survival Challenge",
+        "description": "Play Squid Game Online—compete in 7 viral mini-games with 30 players. Survive, win, and experience true Squid Game thrills online.",
+        "keywords": "Squid Game Online, multiplayer survival, browser game, Netflix, mini-games"
+      }
+    },
+    {
+      "slug": "Squid_Game",
+      "title": "Squid Game",
+      "description": "Step into the ultimate survival arena with <b>Squid Game</b>, a thrilling online multiplayer game developed by Kogama and inspired by the sensational Netflix series. In <b>Squid Game</b>, you’ll face a series of deadly challenges with players from around the world. Start as a tourist and explore the waiting room, where you can pick up weapons and interact with others before the real action begins. When the countdown ends, <b>Squid Game</b> throws you into a gauntlet of obstacle courses and elimination rounds. Only the strongest and smartest will survive! Level up in <b>Squid Game</b> to unlock new weapons and cosmetic items, and compete to top the online leaderboards. Whether you’re fighting for survival or showing off your skills, <b>Squid Game</b> offers endless excitement and replay value for fans of the series and newcomers alike.",
+      "coverImage": "/images/games/Squid_Game.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/squid-game/index.html",
+      "rating": 4.3,
+      "howToPlay": [
+        "1. Use the WASD or arrow keys to move your character around the map.",
+        "2. Press Space to jump over obstacles and avoid traps.",
+        "3. Left-click to attack or interact with objects and other players.",
+        "4. Enter the game as a tourist and use the waiting room to practice or battle others.",
+        "5. Survive each challenge by carefully following the rules and outlasting opponents.",
+        "6. Sign up for an account in <b>Squid Game</b> to save your progress and unlock rewards.",
+        "7. Advance through levels, improve your skills, and aim for the top spot in <b>Squid Game</b>!"
+      ],
+      "features": [
+        "Multiplayer online battles inspired by <b>Squid Game</b> Netflix series.",
+        "Varied survival challenges and obstacle courses true to <b>Squid Game</b>.",
+        "Real-time competition against global players in <b>Squid Game</b> matches.",
+        "Level-up system to unlock weapons, cosmetics, and more in <b>Squid Game</b>.",
+        "Browser-based gameplay—no download needed for <b>Squid Game</b>.",
+        "Engaging waiting room with mini-battles before main events.",
+        "Regular updates and an active <b>Squid Game</b> player community.",
+        "Easy to learn, difficult to master mechanics."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "seo": {
+        "title": "Squid Game: Online Survival Multiplayer Game",
+        "description": "Play Squid Game—compete online in deadly survival challenges. Unlock weapons and level up. Join the action now!",
+        "keywords": "Squid Game, online survival, Kogama, multiplayer, obstacle course, Netflix"
+      }
+    },
   {
     "slug": "Hotfoot_Baseball",
     "title": "Hotfoot Baseball",
@@ -137,6 +213,7 @@
     ],
     "isTopPick": true,
     "isHot": true,
+    
     "seo": {
       "title": "Baseball Pro - Free Online Batting Game | Become a Pro",
       "description": "Play Baseball Pro and become a batting legend! Hit every incoming ball to get the highest score in this addictive and free online sports game.",
@@ -605,5 +682,430 @@
         "description": "Bounce and shoot in Jump Up 3D: Mini Basketball! A fun trampoline basketball game with simple controls and vibrant graphics. Beat your high score. Play free!",
         "keywords": "Jump Up 3D Mini Basketball, trampoline, basketball, 3d, mini, casual, one touch, skill"
       }
+    },
+        {
+        "slug": "Bloxd_io",
+        "title": "Bloxd.io",
+        "description": "<b>Bloxd.io</b> is an online game with graphics and gameplay similar to Minecraft. Join a variety of game modes like Bloxdhop, EvilTower, and DoodleCube, each with a different objective. Whether you're parkouring, building, or fighting, there's a mode for you.",
+        "coverImage": "/images/games/Bloxd.io.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/bloxdio/index.html",
+        "rating": 4.4,
+        "howToPlay": [
+            "Move with WASD keys.",
+            "Jump with the Spacebar.",
+            "Crouch with Shift or C.",
+            "Sprint by double-tapping the W key.",
+            "Place blocks with the right mouse button.",
+            "Destroy blocks with the left mouse button.",
+            "Switch items with the number keys or mouse wheel."
+        ],
+        "features": [
+            "Minecraft-style blocky graphics.",
+            "Multiple game modes: Survival, Creative, Bed Wars, and more.",
+            "Online multiplayer with a global community.",
+            "Parkour (Bloxdhop) and building (DoodleCube) challenges.",
+            "Free to play in your browser."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Bloxd.io on Doodle Baseball",
+            "description": "Enjoy Bloxd.io, a free-to-play online game with various modes like survival and parkour. Build, fight, and explore in this blocky multiplayer world.",
+            "keywords": "Bloxd.io, block game, multiplayer, minecraft game, online game, free game"
+        }
+    },
+    {
+        "slug": "Paper_io_2",
+        "title": "Paper.io 2",
+        "description": "<b>Paper.io 2</b> is a real-time multiplayer .io game where you have to capture as much territory as possible. Control your character, create a loop back to your own colored area to claim new ground, and eliminate opponents by hitting their tail.",
+        "coverImage": "/images/games/Paper.io_2.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/paper-io-2/index.html",
+        "rating": 4.2,
+        "howToPlay": [
+            "Use your mouse or touch screen to move your character.",
+            "Create a loop back to your own territory to capture it.",
+            "Eliminate other players by hitting their exposed tail.",
+            "Avoid having your own tail hit by opponents."
+        ],
+        "features": [
+            "Real-time online multiplayer.",
+            "Unlockable skins to customize your character.",
+            "Fast-paced and addictive gameplay.",
+            "Simple and intuitive controls.",
+            "Compete for the highest score on the leaderboard."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Paper.io 2 on Doodle Baseball",
+            "description": "Capture as much territory as you can in Paper.io 2, a free multiplayer .io game. Compete with players worldwide and become the biggest on the map.",
+            "keywords": "Paper.io 2, paper.io, .io game, multiplayer game, online game, free game"
+        }
+    },
+    {
+        "slug": "Kirka_io",
+        "title": "Kirka.io",
+        "description": "<b>Kirka.io</b> is a blocky first-person shooter with a fast-paced and competitive gameplay. Play a variety of game modes and maps, customize your character and weapons, and compete on the leaderboards.",
+        "coverImage": "/images/games/Kirka.io.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/kirka-io/index.html",
+        "rating": 4.3,
+        "howToPlay": [
+            "Move with WASD keys.",
+            "Jump with the Spacebar.",
+            "Shoot with the left mouse button.",
+            "Aim with the right mouse button.",
+            "Crouch with Shift.",
+            "Dash with E.",
+            "Switch weapons with keys 1, 2, 3."
+        ],
+        "features": [
+            "Fast-paced online FPS gameplay.",
+            "Voxel-based, Minecraft-like graphics.",
+            "Multiple game modes including Team Deathmatch and Parkour.",
+            "Character and weapon customization.",
+            "Create or join clans and participate in clan wars.",
+            "Daily quests and leaderboards."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Kirka.io on Doodle Baseball",
+            "description": "Jump into the action with Kirka.io, a free-to-play browser FPS with voxel graphics. Compete in various game modes, customize your loadout, and climb the leaderboards.",
+            "keywords": "Kirka.io, Kirka, .io game, browser FPS, online shooter, free to play FPS"
+        }
+    },
+    {
+        "slug": "Penalty_Shooters_2",
+        "title": "Penalty Shooters 2",
+        "description": "<b>Penalty Shooters 2</b> is a popular online soccer game that focuses on the thrilling experience of penalty shootouts. Play as both the shooter and the goalkeeper, choose from 12 fantasy leagues, and lead your team to victory.",
+        "coverImage": "/images/games/Penalty_Shooters_2.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/penalty-shooters-2/index.html",
+        "rating": 4.2,
+        "howToPlay": [
+            "As the shooter, click and hold to aim, then release to shoot.",
+            "Holding longer increases the shot's height.",
+            "Vary your shots as the AI goalkeeper remembers your previous attempts.",
+            "As the goalkeeper, a target will appear before the shot. Click it quickly to make a save."
+        ],
+        "features": [
+            "Play as both the penalty taker and the goalkeeper.",
+            "Choose from 12 fantasy leagues and 360 unique teams.",
+            "Two-phase tournament system with group and knockout stages.",
+            "Realistic soccer gameplay with a cheering crowd.",
+            "Customize your team's appearance and jerseys."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Penalty Shooters 2 on Doodle Baseball",
+            "description": "Experience the thrill of a penalty shootout in Penalty Shooters 2. Play as both kicker and goalie, and lead your team to victory in this free online soccer game.",
+            "keywords": "Penalty Shooters 2, penalty shootout game, soccer game, football game, free online games, sports games"
+        }
+    },
+    {
+        "slug": "Moto_X3M",
+        "title": "Moto X3M",
+        "description": "<b>Moto X3M</b> is a fast-paced bike racing game with 22 challenging levels full of obstacles, ramps, and explosions. Reach the finish line in the fastest time possible and perform stunts to reduce your time.",
+        "coverImage": "/images/games/Moto_X3M.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/moto-x3m/index.html",
+        "rating": 4.8,
+        "howToPlay": [
+            "Use W or Up Arrow to accelerate.",
+            "Use S or Down Arrow to brake.",
+            "Use A/D or Left/Right Arrows to balance your bike.",
+            "Perform flips and other stunts to get a time bonus.",
+            "Finish each level as fast as you can to earn stars."
+        ],
+        "features": [
+            "22 challenging and unique levels.",
+            "A variety of obstacles including loops, ramps, and explosives.",
+            "Unlock new motorcycles as you progress.",
+            "Physics-based gameplay that requires skill and timing.",
+            "Part of the popular Moto X3M game series."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Moto X3M on Doodle Baseball",
+            "description": "Race through 22 challenging levels in Moto X3M, a free online bike game. Perform stunts, overcome obstacles, and unlock new bikes. Play now!",
+            "keywords": "Moto X3M, bike racing game, stunt game, physics game, free online game, motorcycle game"
+        }
+    },
+    {
+        "slug": "Soccer_Legends_2021",
+        "title": "Soccer Legends 2021",
+        "description": "<b>Soccer Legends 2021</b> is a two-player soccer game where you can play as your favorite soccer legends. Compete in tournaments or play a quick match with a friend. Use special moves like a fireball kick or teleporting to outsmart your opponents.",
+        "coverImage": "/images/games/Soccer_Legends_2021.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/soccer-legends-2021/index.html",
+        "rating": 4.3,
+        "howToPlay": [
+            "Player 1: Use AD to move, W to jump, S to slide, B to shoot, and V for a supershot.",
+            "Player 2: Use Left/Right arrows to move, Up arrow to jump, Down arrow to slide, L to shoot, and K for a supershot.",
+            "Score more goals than your opponent within the time limit."
+        ],
+        "features": [
+            "Play as various soccer legends with unique abilities.",
+            "Single-player, two-player, and tournament modes.",
+            "Use special 'superkicks' to gain an advantage.",
+            "Team up with a friend for 2v2 matches.",
+            "Vibrant and attractive 2D graphics."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Soccer Legends 2021 on Doodle Baseball",
+            "description": "Play Soccer Legends 2021, a fast-paced, arcade-style soccer game. Compete with friends in 2-player mode or win the tournament as your favorite legend.",
+            "keywords": "Soccer Legends 2021, soccer legends, 2 player soccer game, football legends, soccer games, free online games"
+        }
+    },
+    {
+        "slug": "Shell_Shockers",
+        "title": "Shell Shockers",
+        "description": "<b>Shell Shockers</b> is a multiplayer .io FPS game where you play as an egg and battle other players with a variety of weapons. It's a fun and unique twist on the classic shooter genre.",
+        "coverImage": "/images/games/Shell_Shockers.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/shell-shockers/index.html",
+        "rating": 4.4,
+        "howToPlay": [
+            "Use WASD to move.",
+            "Use the mouse to aim and shoot.",
+            "Jump with the Spacebar.",
+            "Reload with R.",
+            "Switch weapons with E or number keys.",
+            "Throw grenades with Q."
+        ],
+        "features": [
+            "Unique egg-based FPS gameplay.",
+            "Multiple game modes: Free For All, Teams, and Captula the Spatula.",
+            "A wide variety of weapons to choose from.",
+            "Customize your egg's appearance.",
+            "Cross-platform play on web browsers and mobile devices."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Shell Shockers on Doodle Baseball",
+            "description": "Join the action in Shell Shockers, the world's most popular egg-based multiplayer shooter. Grab your weapon and crack some eggs!",
+            "keywords": "Shell Shockers, Shellshock.io, egg game, online shooter, free to play, multiplayer game, FPS game"
+        }
+    },
+    {
+        "slug": "Smash_Karts",
+        "title": "Smash Karts",
+        "description": "<b>Smash Karts</b> is a 3D kart battle game where you pick up weapons and blow up other karts to win. Play online with friends in fast-paced multiplayer mayhem.",
+        "coverImage": "/images/games/Smash_Karts.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/smash-karts/index.html",
+        "rating": 4.5,
+        "howToPlay": [
+            "Use the Arrow keys or WASD to drive your kart.",
+            "Press the Spacebar to use weapons and power-ups.",
+            "Drive through boxes to collect random items.",
+            "Get the most kills within the three-minute round to win."
+        ],
+        "features": [
+            "Real-time online multiplayer kart battles.",
+            "A wide array of weapons and power-ups.",
+            "Extensive customization for karts and characters.",
+            "Unlock dozens of unique characters.",
+            "Fast-paced, pick-up-and-play action."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Smash Karts on Doodle Baseball",
+            "description": "Jump into the driver's seat in Smash Karts! A fast-paced, online multiplayer kart battle game. Pick up weapons, destroy your opponents, and customize your kart.",
+            "keywords": "Smash Karts, .io game, multiplayer kart game, online battle arena, kart racing game, free to play game"
+        }
+    },
+    {
+        "slug": "Bullet_Force",
+        "title": "Bullet Force",
+        "description": "<b>Bullet Force</b> is a fantastic multiplayer FPS game with great 3D graphics. Create a room or join a full-scale war, and customize your soldier with a wide range of weapons and attachments.",
+        "coverImage": "/images/games/Bullet_Force.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/bullet-force-multiplayer/index.html",
+        "rating": 4.5,
+        "howToPlay": [
+            "Use WASD to move.",
+            "Use the mouse to aim and shoot.",
+            "Jump with the Spacebar.",
+            "Crouch with C.",
+            "Run with Shift.",
+            "Reload with R.",
+            "Switch weapons with number keys."
+        ],
+        "features": [
+            "Fast-paced online multiplayer FPS action.",
+            "Extensive weapon and soldier customization.",
+            "Over 20 weapons and 100 weapon camouflages.",
+            "Multiple game modes including Team Deathmatch and Conquest.",
+            "Create custom matches with your own settings.",
+            "Offline mode with bots for practice."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Bullet Force on Doodle Baseball",
+            "description": "Join the action in Bullet Force, a free-to-play online FPS with extensive customization and multiple game modes. Play now in your browser!",
+            "keywords": "Bullet Force, FPS game, multiplayer shooter, online shooter, free FPS game, military shooter"
+        }
+    },
+    {
+        "slug": "Pixel_Warfare",
+        "title": "Pixel Warfare",
+        "description": "<b>Pixel Warfare</b> is a beloved classic Minecraft-style FPS game. Battle it out in blocky maps with a variety of weapons, all available from the start. Join a room and start shooting!",
+        "coverImage": "/images/games/Pixel_Warfare.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/pixel-warfare/index.html",
+        "rating": 4.4,
+        "howToPlay": [
+            "Use WASD or Arrow Keys to move.",
+            "Use the mouse to aim and shoot.",
+            "Jump with the Spacebar.",
+            "Sprint with Shift.",
+            "Crouch with C.",
+            "Reload with R.",
+            "Select weapons with number keys or mouse scroll."
+        ],
+        "features": [
+            "Classic blocky, retro pixel art style.",
+            "Fast-paced first-person shooter gameplay.",
+            "Multiple game modes including Deathmatch and Team Deathmatch.",
+            "Extensive arsenal of weapons available from the start.",
+            "Numerous diverse maps for different combat scenarios.",
+            "Create custom game rooms with your own settings."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Pixel Warfare on Doodle Baseball",
+            "description": "Experience the classic blocky shooter, Pixel Warfare. Join fast-paced multiplayer battles with a huge arsenal of weapons. Play for free in your browser!",
+            "keywords": "Pixel Warfare, blocky shooting game, retro FPS, Minecraft-style shooter, free browser FPS, multiplayer games"
+        }
+    },
+    {
+        "slug": "Crazy_Roll_3D",
+        "title": "Crazy Roll 3D",
+        "description": "<b>Crazy Roll 3D</b> is an addictive endless running game where you control a ball through a world of obstacles. Roll as far as you can, avoid falling off the edge, and collect diamonds to buy new skins.",
+        "coverImage": "/images/games/Crazy_Roll_3D.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/crazy-roll-3d/index.html",
+        "rating": 4.5,
+        "howToPlay": [
+            "Use A/D or Left/Right arrow keys to steer the ball.",
+            "Navigate the ball through the course, avoiding obstacles and gaps.",
+            "Collect diamonds to purchase new ball skins and items.",
+            "Use keys 1, 2, or 3 to activate power-ups."
+        ],
+        "features": [
+            "Addictive endless runner gameplay.",
+            "Vibrant and colorful 3D graphics.",
+            "Levels get progressively harder as you play.",
+            "Unlock new balls and platform themes.",
+            "Compete on the global leaderboards for the highest score.",
+            "Available in single-player and 2-player modes."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Crazy Roll 3D on Doodle Baseball",
+            "description": "Test your reflexes in Crazy Roll 3D, an addictive 3D endless running game. Steer the ball, avoid obstacles, and see how far you can go!",
+            "keywords": "Crazy Roll 3D, endless running game, 3D ball game, arcade game, online game, free game, skill game"
+        }
+    },
+    {
+        "slug": "Basket_Random",
+        "title": "Basket Random",
+        "description": "<b>Basket Random</b> is a fun and chaotic 2-player basketball game with ragdoll physics. The first to 5 points wins! Each round features different courts, player appearances, and ball types, making every match a new and hilarious experience.",
+        "coverImage": "/images/games/Basket_Random.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/basket-random/index.html",
+        "rating": 4.4,
+        "howToPlay": [
+            "Player 1: Use the 'W' key to jump and shoot.",
+            "Player 2: Use the 'Up Arrow' key to jump and shoot.",
+            "The first team to score 5 points wins the game."
+        ],
+        "features": [
+            "Hilarious and unpredictable random physics.",
+            "Wacky characters with ragdoll movements.",
+            "Changing environments and ball types each round.",
+            "Simple one-button controls.",
+            "Designed for two-player competitive fun."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Basket Random on Doodle Baseball",
+            "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
+            "keywords": "Basket Random, 2 player game, basketball game, arcade game, sports game, wacky game, physics game"
+        }
+    },
+    {
+        "slug": "Moto_X3M_6_Spooky_Land",
+        "title": "Moto X3M 6: Spooky Land",
+        "description": "<b>Moto X3M 6: Spooky Land</b> is the sixth installment of the popular Moto X3M series, this time with a spooky Halloween theme. Navigate through 22 challenging levels filled with bone-spikes, green goo, and other creepy obstacles.",
+        "coverImage": "/images/games/Moto_X3M_6_Spooky_Land.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/moto-x3m-6-spooky-land/index.html",
+        "rating": 4.8,
+        "howToPlay": [
+            "Use W or Up Arrow to accelerate.",
+            "Use S or Down Arrow to brake.",
+            "Use A/D or Left/Right Arrows to balance your bike.",
+            "Perform flips and other stunts to reduce your time.",
+            "Finish each level as quickly as possible to earn stars."
+        ],
+        "features": [
+            "Spooky Halloween-themed tracks and obstacles.",
+            "22 increasingly challenging levels.",
+            "Unlock new bikes and riders with the stars you earn.",
+            "Perform stunts and tricks to get a better time.",
+            "Fast-paced, physics-based motorcycle gameplay."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "seo": {
+            "title": "Play Moto X3M 6: Spooky Land on Doodle Baseball",
+            "description": "Race through a spooky world in Moto X3M 6: Spooky Land! A free online bike game with 22 Halloween-themed levels. Perform stunts and unlock new riders.",
+            "keywords": "Moto X3M 6, Spooky Land, Halloween game, motorcycle game, stunt game, bike game, racing game"
+        }
+    },
+    {
+        "slug": "Getaway_Shootout",
+        "title": "Getaway Shootout",
+        "description": "<b>Getaway Shootout</b> is a chaotic race to the getaway objective. Compete with three others and use weapons and power-ups to win. The game is known for its quirky physics and hilarious gameplay.",
+        "coverImage": "/images/games/Getaway_Shootout.jpg",
+        "youtube": "",
+        "playUrl": "https://games.crazygames.com/en_US/getaway-shootout/index.html",
+        "rating": 4.4,
+        "howToPlay": [
+            "Use two buttons to rotate your character left and right.",
+            "Release the buttons to jump.",
+            "Use a third button to activate power-ups and weapons.",
+            "Be the first to reach the getaway vehicle to win."
+        ],
+        "features": [
+            "Chaotic and hilarious racing gameplay.",
+            "Local multiplayer to compete against a friend or the computer.",
+            "A wide array of insane weapons and power-ups.",
+            "Unique and unpredictable physics-based movement.",
+            "Over 20 different characters to unlock and play."
+        ],
+        "isTopPick": true,
+        "isHot": true,
+        "isHeader": false,
+        "seo": {
+            "title": "Play Getaway Shootout on Doodle Baseball",
+            "description": "Race to freedom in Getaway Shootout, a chaotic and funny multiplayer game. Use weapons and quirky physics to beat your opponents to the getaway vehicle.",
+            "keywords": "Getaway Shootout, action racing game, multiplayer physics game, funny multiplayer games, indie action game"
+        }
     }
   ]
