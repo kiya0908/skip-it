@@ -86,4 +86,3 @@ export default function GamePage({ params }: { params: { slug: string } }) {
   );
 }
 
-// 步骤 5: 更新 page.tsx 中的 JSON-LD 结构

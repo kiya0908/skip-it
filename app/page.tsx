@@ -6,6 +6,7 @@ import Image from 'next/image';
 import GameSection from './GameSection'; // 导入新的客户端组件
 import TopPicksGame from './components/TopPicksGame'; // 导入toppicksgame组件
 import HotGame from './components/HotGame'; // 导入hotgame组件
+import RelatedGames from './components/RelatedGames';//导入ralatedgame组件
 
 // 为页面添加元数据
 export const metadata: Metadata = {
@@ -375,6 +376,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <RelatedGames />
       </section>
 
 

@@ -6,16 +6,17 @@ interface Game {
   slug: string;
   title: string;
   coverImage: string;
-  isTopPick?: boolean;
+  isRelated?: boolean;
 }
 
-const TopPicksGame = () => {
+const RelatedGames = () => {
   const allGames: Game[] = gamesData as Game[];
-  const topPicks = allGames.filter(game => game.isTopPick).slice(0, 18);
+  // 筛选isRelated=true的游戏，并且最多显示30个
+  const relatedGames = allGames.filter(game => game.isRelated === true).slice(0, 30);
   const targetWidth = 187; // pixels
   const targetHeight = 106; // pixels
 
-  if (topPicks.length === 0) {
+  if (relatedGames.length === 0) {
     return null; 
   }
 
@@ -23,10 +24,10 @@ const TopPicksGame = () => {
     <section className="py-8 bg-[#0c2461]"> 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-3xl font-bangers text-white mb-6 text-center sm:text-left">
-          Top Picks Games
+          Related Games
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-          {topPicks.map((game) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
+          {relatedGames.map((game) => (
             <Link key={game.slug} href={`/games/${game.slug}`} 
                className="block group shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1">
                   <div className={`relative group rounded-lg overflow-hidden`}
@@ -49,9 +50,16 @@ const TopPicksGame = () => {
             </Link>
           ))}
         </div>
+        {/* More Games按钮 */}
+        <div className="text-center">
+          <Link href="/games"
+                className="inline-block bg-white text-[#0c2461] px-8 py-3 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl">
+            More Games
+          </Link>
+        </div>
       </div>
     </section>
   );
 };
 
-export default TopPicksGame;
+export default RelatedGames;

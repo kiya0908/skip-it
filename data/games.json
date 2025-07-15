@@ -25,7 +25,7 @@
       "keywords": "doodle baseball, baseball game, online game, free game"
     }
   },
-    {
+  {
     "slug": "Baseball",
     "title": "Baseball",
     "description": "Experience the pure excitement of America's favorite pastime with our classic <b>Baseball</b> game! Step into the batter's box and feel the pressure in two thrilling modes. In 'Bottom of the Ninth,' your team is down, and you're the last hope for a walk-off victory. Can you hit the game-winning home run? Or, test your precision in 'Arcade Mode,' where every hit counts towards a high score. This online <b>Baseball</b> game offers realistic physics and challenging gameplay that will keep you coming back for more. Grab your bat and get ready to play ball in the best browser </b>Baseball</b> game!",
@@ -50,86 +50,89 @@
     "isTopPick": true,
     "isHot": true,
     "isHeader": true,
+    "isRelated": true,
     "seo": {
       "title": "Play Baseball Online | Free Browser Sports Game",
       "description": "Step up to the plate in our free online Baseball game! Play two exciting modes, hit home runs, and lead your team to victory. No download needed.",
       "keywords": "baseball, online baseball game, free sports game, browser baseball, batting game"
     }
   },
-    {
-      "slug": "Squid_Game_Online",
-      "title": "Squid Game Online",
-      "description": "<b>Squid Game Online</b> is the ultimate free, multiplayer survival experience inspired by the viral Netflix show. Step into a high-stakes arena with 30 players and compete in seven thrilling mini-games, each directly modeled after the iconic <b>Squid Game Online</b> challenges. In <b>Squid Game Online</b>, you must master games like Red Light, Green Light, Dalgona Candy, Tug of War, and more—where a single mistake leads to instant elimination by the relentless Pink Soldiers. The tension and excitement of <b>Squid Game Online</b> are heightened by immersive soundtracks, competitive multiplayer action, and authentic references to the series. Every round in <b>Squid Game Online</b> is a battle for survival—hone your skills, team up or compete, and see if you can be the last one standing in this intense online adaptation. Whether you’re a fan of the show or seeking your next multiplayer obsession, <b>Squid Game Online</b> promises non-stop action and nail-biting suspense.",
-      "coverImage": "/images/games/Squid_Game_Online.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/squid-game-online/index.html",
-      "rating": 4.25,
-      "howToPlay": [
-        "1. Use the WASD or arrow keys to move your character.",
-        "2. Press Space to jump over obstacles or gaps.",
-        "3. Use the Left Mouse Button (LMB) to interact: scratch the Dalgona cookie, drag the rope, or hit when needed.",
-        "4. Press 'E' to pick up weapons in judgment-based games.",
-        "5. Drop weapons with 'G' if necessary.",
-        "6. Use 'T' to chat with other players in the lobby or in-game.",
-        "7. Choose your region and enter a nickname before joining a match.",
-        "8. Survive each mini-game by following the specific rules—fail and you'll be eliminated!",
-        "9. Outlast all other players to win the round in <b>Squid Game Online</b>."
-      ],
-      "features": [
-        "Authentic recreation of <b>Squid Game Online</b> challenges, including Red Light, Green Light, Dalgona Candy, Tug of War, Marbles, and more.",
-        "Compete with up to 30 players in real-time multiplayer matches in <b>Squid Game Online</b>.",
-        "Progress through seven distinct mini-games true to the <b>Squid Game Online</b> series.",
-        "Immersive sound design and atmosphere that mirror the Netflix show.",
-        "Easy browser-based access—play <b>Squid Game Online</b> instantly, no downloads required.",
-        "Intuitive controls and clear instructions for seamless gameplay.",
-        "Dynamic, ever-changing rooms and lobbies to keep <b>Squid Game Online</b> fresh and competitive.",
-        "Regular updates and active player community."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "seo": {
-        "title": "Squid Game Online: Free Multiplayer Survival Challenge",
-        "description": "Play Squid Game Online—compete in 7 viral mini-games with 30 players. Survive, win, and experience true Squid Game thrills online.",
-        "keywords": "Squid Game Online, multiplayer survival, browser game, Netflix, mini-games"
-      }
-    },
-    {
-      "slug": "Squid_Game",
-      "title": "Squid Game",
-      "description": "Step into the ultimate survival arena with <b>Squid Game</b>, a thrilling online multiplayer game developed by Kogama and inspired by the sensational Netflix series. In <b>Squid Game</b>, you’ll face a series of deadly challenges with players from around the world. Start as a tourist and explore the waiting room, where you can pick up weapons and interact with others before the real action begins. When the countdown ends, <b>Squid Game</b> throws you into a gauntlet of obstacle courses and elimination rounds. Only the strongest and smartest will survive! Level up in <b>Squid Game</b> to unlock new weapons and cosmetic items, and compete to top the online leaderboards. Whether you’re fighting for survival or showing off your skills, <b>Squid Game</b> offers endless excitement and replay value for fans of the series and newcomers alike.",
-      "coverImage": "/images/games/Squid_Game.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/squid-game/index.html",
-      "rating": 4.3,
-      "howToPlay": [
-        "1. Use the WASD or arrow keys to move your character around the map.",
-        "2. Press Space to jump over obstacles and avoid traps.",
-        "3. Left-click to attack or interact with objects and other players.",
-        "4. Enter the game as a tourist and use the waiting room to practice or battle others.",
-        "5. Survive each challenge by carefully following the rules and outlasting opponents.",
-        "6. Sign up for an account in <b>Squid Game</b> to save your progress and unlock rewards.",
-        "7. Advance through levels, improve your skills, and aim for the top spot in <b>Squid Game</b>!"
-      ],
-      "features": [
-        "Multiplayer online battles inspired by <b>Squid Game</b> Netflix series.",
-        "Varied survival challenges and obstacle courses true to <b>Squid Game</b>.",
-        "Real-time competition against global players in <b>Squid Game</b> matches.",
-        "Level-up system to unlock weapons, cosmetics, and more in <b>Squid Game</b>.",
-        "Browser-based gameplay—no download needed for <b>Squid Game</b>.",
-        "Engaging waiting room with mini-battles before main events.",
-        "Regular updates and an active <b>Squid Game</b> player community.",
-        "Easy to learn, difficult to master mechanics."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "seo": {
-        "title": "Squid Game: Online Survival Multiplayer Game",
-        "description": "Play Squid Game—compete online in deadly survival challenges. Unlock weapons and level up. Join the action now!",
-        "keywords": "Squid Game, online survival, Kogama, multiplayer, obstacle course, Netflix"
-      }
-    },
+  {
+    "slug": "Squid_Game_Online",
+    "title": "Squid Game Online",
+    "description": "<b>Squid Game Online</b> is the ultimate free, multiplayer survival experience inspired by the viral Netflix show. Step into a high-stakes arena with 30 players and compete in seven thrilling mini-games, each directly modeled after the iconic <b>Squid Game Online</b> challenges. In <b>Squid Game Online</b>, you must master games like Red Light, Green Light, Dalgona Candy, Tug of War, and more—where a single mistake leads to instant elimination by the relentless Pink Soldiers. The tension and excitement of <b>Squid Game Online</b> are heightened by immersive soundtracks, competitive multiplayer action, and authentic references to the series. Every round in <b>Squid Game Online</b> is a battle for survival—hone your skills, team up or compete, and see if you can be the last one standing in this intense online adaptation. Whether you’re a fan of the show or seeking your next multiplayer obsession, <b>Squid Game Online</b> promises non-stop action and nail-biting suspense.",
+    "coverImage": "/images/games/Squid_Game_Online.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/squid-game-online/index.html",
+    "rating": 4.25,
+    "howToPlay": [
+      "1. Use the WASD or arrow keys to move your character.",
+      "2. Press Space to jump over obstacles or gaps.",
+      "3. Use the Left Mouse Button (LMB) to interact: scratch the Dalgona cookie, drag the rope, or hit when needed.",
+      "4. Press 'E' to pick up weapons in judgment-based games.",
+      "5. Drop weapons with 'G' if necessary.",
+      "6. Use 'T' to chat with other players in the lobby or in-game.",
+      "7. Choose your region and enter a nickname before joining a match.",
+      "8. Survive each mini-game by following the specific rules—fail and you'll be eliminated!",
+      "9. Outlast all other players to win the round in <b>Squid Game Online</b>."
+    ],
+    "features": [
+      "Authentic recreation of <b>Squid Game Online</b> challenges, including Red Light, Green Light, Dalgona Candy, Tug of War, Marbles, and more.",
+      "Compete with up to 30 players in real-time multiplayer matches in <b>Squid Game Online</b>.",
+      "Progress through seven distinct mini-games true to the <b>Squid Game Online</b> series.",
+      "Immersive sound design and atmosphere that mirror the Netflix show.",
+      "Easy browser-based access—play <b>Squid Game Online</b> instantly, no downloads required.",
+      "Intuitive controls and clear instructions for seamless gameplay.",
+      "Dynamic, ever-changing rooms and lobbies to keep <b>Squid Game Online</b> fresh and competitive.",
+      "Regular updates and active player community."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Squid Game Online: Free Multiplayer Survival Challenge",
+      "description": "Play Squid Game Online—compete in 7 viral mini-games with 30 players. Survive, win, and experience true Squid Game thrills online.",
+      "keywords": "Squid Game Online, multiplayer survival, browser game, Netflix, mini-games"
+    }
+  },
+  {
+    "slug": "Squid_Game",
+    "title": "Squid Game",
+    "description": "Step into the ultimate survival arena with <b>Squid Game</b>, a thrilling online multiplayer game developed by Kogama and inspired by the sensational Netflix series. In <b>Squid Game</b>, you’ll face a series of deadly challenges with players from around the world. Start as a tourist and explore the waiting room, where you can pick up weapons and interact with others before the real action begins. When the countdown ends, <b>Squid Game</b> throws you into a gauntlet of obstacle courses and elimination rounds. Only the strongest and smartest will survive! Level up in <b>Squid Game</b> to unlock new weapons and cosmetic items, and compete to top the online leaderboards. Whether you’re fighting for survival or showing off your skills, <b>Squid Game</b> offers endless excitement and replay value for fans of the series and newcomers alike.",
+    "coverImage": "/images/games/Squid_Game.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/squid-game/index.html",
+    "rating": 4.3,
+    "howToPlay": [
+      "1. Use the WASD or arrow keys to move your character around the map.",
+      "2. Press Space to jump over obstacles and avoid traps.",
+      "3. Left-click to attack or interact with objects and other players.",
+      "4. Enter the game as a tourist and use the waiting room to practice or battle others.",
+      "5. Survive each challenge by carefully following the rules and outlasting opponents.",
+      "6. Sign up for an account in <b>Squid Game</b> to save your progress and unlock rewards.",
+      "7. Advance through levels, improve your skills, and aim for the top spot in <b>Squid Game</b>!"
+    ],
+    "features": [
+      "Multiplayer online battles inspired by <b>Squid Game</b> Netflix series.",
+      "Varied survival challenges and obstacle courses true to <b>Squid Game</b>.",
+      "Real-time competition against global players in <b>Squid Game</b> matches.",
+      "Level-up system to unlock weapons, cosmetics, and more in <b>Squid Game</b>.",
+      "Browser-based gameplay—no download needed for <b>Squid Game</b>.",
+      "Engaging waiting room with mini-battles before main events.",
+      "Regular updates and an active <b>Squid Game</b> player community.",
+      "Easy to learn, difficult to master mechanics."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Squid Game: Online Survival Multiplayer Game",
+      "description": "Play Squid Game—compete online in deadly survival challenges. Unlock weapons and level up. Join the action now!",
+      "keywords": "Squid Game, online survival, Kogama, multiplayer, obstacle course, Netflix"
+    }
+  },
   {
     "slug": "Hotfoot_Baseball",
     "title": "Hotfoot Baseball",
@@ -213,7 +216,7 @@
     ],
     "isTopPick": true,
     "isHot": true,
-    
+    "isRelated": true,
     "seo": {
       "title": "Baseball Pro - Free Online Batting Game | Become a Pro",
       "description": "Play Baseball Pro and become a batting legend! Hit every incoming ball to get the highest score in this addictive and free online sports game.",
@@ -249,863 +252,890 @@
       "keywords": "monster bash frvr, monster baseball, arcade game, upgrade game, distance game"
     }
   },
-  
-    {
-      "slug": "Basketball_Superstars",
-      "title": "Basketball Superstars",
-      "description": "Step onto the court in <b>Basketball Superstars</b>, a dynamic basketball experience where you create, train, and become the ultimate player. In <b>Basketball Superstars</b>, your journey from a rookie to a legend is in your hands. Customize your gear, enhance your unique skills, and face intense rivals in fast-paced matches. Whether you are outsmarting opponents with clever plays or perfecting your shooting strategy, each game of <b>Basketball Superstars</b> delivers non-stop action and excitement. Strive to dominate the court and showcase your prowess in this thrilling game. Aggressive play is the key to victory in <b>Basketball Superstars</b>; stay close to your opponent, look for the perfect moment to steal, and drive to the hoop with relentless force. Quick decisions and powerful attacks will give you the edge in every match of <b>Basketball Superstars</b>.",
-      "coverImage": "/images/games/Basketball_Superstars.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketball-superstars/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Move: Use the Arrow Keys to dribble and navigate the court.",
-        "Shoot: Press and hold the Spacebar, then release at the right moment to score.",
-        "Dunk: Get close to the hoop and press the Spacebar to perform a powerful dunk.",
-        "Steal: Approach your opponent and tap the Spacebar to snatch the ball.",
-        "Block: Time your jump and press the Spacebar to block your opponent’s shot."
-      ],
-      "features": [
-        "Create and develop your own unique player in Basketball Superstars.",
-        "Deep customization options for your character's appearance and gear.",
-        "Engage in fast-paced, 1-on-1 arcade basketball matches.",
-        "Upgrade your core skills: defense, shooting, speed, and dunking.",
-        "Earn in-game currency to unlock powerful packs and boosts.",
-        "Intuitive controls make Basketball Superstars easy to learn but hard to master."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Basketball Superstars - Free 1v1 Basketball Game",
-        "description": "Become a legend in Basketball Superstars! Create and train your player, customize gear, and dominate in fast-paced 1v1 matches. Play for free and show your skills.",
-        "keywords": "Basketball Superstars, online basketball, sports game, 1v1, free basketball, customization, arcade"
-      }
-    },
-    {
-      "slug": "Basketball_Stars",
-      "title": "Basketball Stars",
-      "description": "Hit the court with legends in <b>Basketball Stars</b>, the acclaimed 2-player basketball game from Madpuffers. Play as iconic characters like LeBron James and Stephen Curry in fast-paced, action-packed matches. <b>Basketball Stars</b> lets you team up with a friend for 2v2 cooperative play or go head-to-head in intense 1v1 duels. If you're playing solo, you can enter the tournament mode and battle your way to becoming a champion. The gameplay in <b>Basketball Stars</b> stays true to the sport, featuring three-pointers, alley-oops, and massive slam dunks. Each player has a unique special ability, like a mega dunk or a defensive shield, adding a strategic layer to every game of <b>Basketball Stars</b>. Choose your duo wisely and conquer the court in this amazing sports game.",
-      "coverImage": "/images/games/Basketball_Stars.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketball-stars-2019/index.html",
-      "rating": 4.15,
-      "howToPlay": [
-        "Player 1 Controls:",
-        "Move: WASD keys",
-        "Shoot/Steal: B key",
-        "Pump/Block: S key",
-        "Dash: A/D key twice",
-        "Super Shot: K key",
-        "Player 2 Controls:",
-        "Move: Arrow keys",
-        "Shoot/Steal: L key",
-        "Pump/Block: Down arrow key",
-        "Dash: Left/Right arrow key twice",
-        "Super Shot: Z key"
-      ],
-      "features": [
-        "Play as famous basketball legends, each with unique skills.",
-        "Engage in exciting 1v1 or 2v2 matches.",
-        "Features a robust 2-player local multiplayer mode.",
-        "Compete in Tournament Mode to prove you're the best.",
-        "Perform classic moves like alley-oops, dunks, and three-pointers.",
-        "Basketball Stars is the thrilling prequel to Basketball Legends."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Basketball Stars - Free 2 Player Basketball Game",
-        "description": "Challenge friends in Basketball Stars, a fast-paced 2-player game. Play as legends, use super shots, and compete in tournaments. Play Basketball Stars free!",
-        "keywords": "Basketball Stars, 2 player, madpuffers, sports game, free basketball, basketball legends, online"
-      }
-    },
-    {
-      "slug": "Basket_Random",
-      "title": "Basket Random",
-      "description": "Prepare for hilarious, physics-driven chaos in <b>Basket Random</b>, a one-of-a-kind 2-player arcade sports game. The core of <b>Basket Random</b> is its complete unpredictability; each round throws you into a new court with different player outfits and wild physics. With simple one-button controls, you and a friend will frantically bounce and battle for the ball. The goal is simple: be the first to score 5 points. However, achieving that goal in <b>Basket Random</b> is anything but simple. Your players will flail, spin, and jump in the most unexpected ways, leading to laugh-out-loud moments. Every dunk in <b>Basket Random</b> transports you to the next bizarre level, ensuring the fun never stops.",
-      "coverImage": "/images/games/Basket_Random.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basket-random/index.html",
-      "rating": 4.4,
-      "howToPlay": [
-        "Player 1: Press the 'W' key to jump and shoot.",
-        "Player 2: Press the 'Up Arrow' key to jump and shoot."
-      ],
-      "features": [
-        "Experience hilarious, physics-based gameplay in Basket Random.",
-        "Every round features randomly generated courts, characters, and physics.",
-        "Extremely simple one-button controls ideal for two players.",
-        "Fast-paced, chaotic, and highly entertaining 2-player matches.",
-        "A unique and wacky take on the game of basketball.",
-        "The first player to score 5 points wins the game of Basket Random."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Basket Random - Wacky 2 Player Physics Basketball Game",
-        "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
-        "keywords": "Basket Random, physics game, 2 player, wacky basketball, one button, random game, funny sports game"
-      }
-    },
-    {
-      "slug": "Basketball_Orbit",
-      "title": "Basketball Orbit",
-      "description": "Aim for the stars in <b>Basketball Orbit</b>, an exhilarating basketball simulation where you launch balls to unbelievable heights! This isn't your average shooting game; in <b>Basketball Orbit</b>, your goal is to conquer tricky levels by perfecting your long-distance shots, even sending the ball beyond Earth's atmosphere. The gameplay in <b>Basketball Orbit</b> revolves around a unique one-click timing mechanic. Watch the power meter and click when it hits green for a perfect, soaring launch. You can upgrade your strength, speed, and bounce to shoot even farther. With patience and precision, you can become the ultimate long-shot legend in <b>Basketball Orbit</b> and achieve the perfect swish from space!",
-      "coverImage": "/images/games/Basketball_Orbit.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketball-orbit/index.html",
-      "rating": 4.5,
-      "howToPlay": [
-        "Use the Left Mouse Button or Spacebar to shoot the ball.",
-        "Time your click to hit the green portion of the power meter for the most powerful shot.",
-        "Once near the basket, click and move your mouse to aim your final shot."
-      ],
-      "features": [
-        "Master a unique one-click timing mechanic for precision shooting.",
-        "Launch basketballs to incredible heights, even into outer space!",
-        "Upgrade your core attributes: strength, speed, and bounce.",
-        "Unlock new characters and backgrounds to customize your game.",
-        "Basketball Orbit offers an addictive and unique take on basketball shooting.",
-        "Compete to become the ultimate long-shot legend."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Basketball Orbit - The Ultimate Long-Shot Basketball Game",
-        "description": "Launch basketballs into space in Basketball Orbit! Master one-click timing, upgrade your skills, and conquer challenging levels. Can you make the ultimate shot?",
-        "keywords": "Basketball Orbit, basketball shooting, one-click game, physics, sports game, free basketball, skill"
-      }
-    },
-    {
-      "slug": "BasketBros",
-      "title": "BasketBros",
-      "description": "Get ready for high-flying, hard-hitting action in <b>BasketBros</b>, a fast-paced basketball game you can play online or offline. In <b>BasketBros</b>, you choose your baller, customize their style, and compete in intense matches. The gameplay is all about speed and aggression; fight your opponent for the ball and throw down sick dunks to score. You can challenge players from around the world in online multiplayer or have a friend join you for a 2-player game on the same computer. Winning games in <b>BasketBros</b> earns you upgrades and unlocks new characters and gear, so you can constantly evolve your style. If you want to hone your skills, the practice mode in <b>BasketBros</b> is the perfect place to master your moves before hitting the competitive court.",
-      "coverImage": "/images/games/BasketBros.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketbros/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Player 1: Use WASD to move and the G key to shoot/dunk.",
-        "Player 2: Use the Arrow keys to move and the L key to shoot/dunk."
-      ],
-      "features": [
-        "Engage in fast-paced, arcade-style basketball action with BasketBros.",
-        "Full online multiplayer mode to challenge players worldwide.",
-        "Local 2-player mode to compete with a friend on the same device.",
-        "Deep character customization with many unlockable outfits and players.",
-        "Compete in quick matches or challenging tournaments.",
-        "Master stylish dunks and aggressive plays to dominate the court."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "BasketBros - Free Online Multiplayer Basketball Game",
-        "description": "Jump into the action with BasketBros! A fast-paced online basketball game with deep customization and 2-player mode. Throw dunks and dominate the court. Play free!",
-        "keywords": "BasketBros, BasketBros.io, online basketball, 2 player, multiplayer sports, basketball arcade"
-      }
-    },
-    {
-      "slug": "Tap-Tap_Shots",
-      "title": "Tap-Tap Shots",
-      "description": "Test your rhythm and reflexes in <b>Tap-Tap Shots</b>, an addictive one-button basketball game that's easy to play but incredibly hard to master. In <b>Tap-Tap Shots</b>, you must tap continuously to make the basketball jump through a series of hoops. The goal is to score as many times as you can before the clock runs out on a single shot. After each successful basket, the hoop moves to a new position, presenting a fresh challenge. Finding the perfect tapping rhythm is the secret to success in <b>Tap-Tap Shots</b>. This endless arcade game tracks your high score, constantly pushing you to improve. How many consecutive shots can you make in <b>Tap-Tap Shots</b>?",
-      "coverImage": "/images/games/Tap-Tap_Shots.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/tap-tap-shots/index.html",
-      "rating": 4.2,
-      "howToPlay": [
-        "Click the left mouse button to make the ball jump.",
-        "Time your taps carefully to guide the ball through the hoop.",
-        "Score before the timer runs out to continue your streak."
-      ],
-      "features": [
-        "Simple and addictive one-button gameplay.",
-        "Endless challenge with hoops that move after each score.",
-        "A timed-shot mechanic that tests your speed and precision.",
-        "Perfect for quick gaming sessions on desktop or mobile.",
-        "Tap-Tap Shots is a great game to test and improve your reflexes.",
-        "Strive to beat your own high score with every new game."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Tap-Tap Shots - Endless Basketball Tapping Game",
-        "description": "How many hoops can you score in Tap-Tap Shots? Tap to keep the ball airborne and score before time runs out. Play this addictive one-button basketball game free!",
-        "keywords": "Tap-Tap Shots, tapping game, one button, basketball game, arcade, skill game, endless, high score"
-      }
-    },
-    {
-      "slug": "Basketball_Legends_2020",
-      "title": "Basketball Legends 2020",
-      "description": "Play with the biggest names in the sport in <b>Basketball Legends 2020</b>, the fantastic sequel to the popular Basketball Stars. This two-player basketball game lets you control cartoon versions of iconic players like LeBron James and James Harden. In <b>Basketball Legends 2020</b>, you can challenge the tough AI solo or team up with a friend for epic 2v2 matches. Each player has a powerful special ability, making every game a unique strategic challenge. <b>Basketball Legends 2020</b> offers various game modes, including a full tournament, quick play for instant action, and a training mode to perfect your moves. The gameplay captures the spirit of basketball with high-flying dunks, alley-oops, and game-winning three-pointers. Step onto the court and become a legend in <b>Basketball Legends 2020</b>.",
-      "coverImage": "/images/games/Basketball_Legends_2020.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketball-legends-2020/index.html",
-      "rating": 4.15,
-      "howToPlay": [
-        "Player 1 Controls:",
-        "Move: AD keys",
-        "Shoot/Punch: K key",
-        "Pump/Block: S key",
-        "Dash: D key twice",
-        "Super Shot: L key",
-        "Player 2 Controls:",
-        "Move: Left/Right Arrow keys",
-        "Shoot/Punch: X key",
-        "Pump/Block: Down Arrow key",
-        "Dash: Right Arrow key twice",
-        "Super Shot: Z key"
-      ],
-      "features": [
-        "Play as hilarious cartoon versions of real basketball legends.",
-        "Features solo, 2-player, and 2v2 game modes.",
-        "Each character in Basketball Legends 2020 has a unique super shot.",
-        "Multiple game modes including Tournament, Quick Match, and Training.",
-        "Fast-paced arcade gameplay developed by MadPuffers.",
-        "Perform awesome dunks, alley-oops, and blocks."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Basketball Legends 2020 - 2 Player Sports Game",
-        "description": "Play as your favorite stars in Basketball Legends 2020! Compete in 1v1 or 2v2 matches with a friend. Unleash super shots and become a champion. Play free!",
-        "keywords": "Basketball Legends 2020, basketball legends, 2 player, sports, madpuffers, free basketball game"
-      }
-    },
-    {
-      "slug": "Hoop_World_3D",
-      "title": "Hoop World 3D",
-      "description": "Flip, fly, and dunk your way through incredible levels in <b>Hoop World 3D</b>, a spectacular game that takes basketball to a new dimension! In <b>Hoop World 3D</b>, your goal is to perform amazing acrobatic flips while soaring through the air to land the perfect dunk. The controls are simple: just hold and release to jump and flip. However, mastering the timing to clear obstacles like trampolines and slides is a true test of skill. The more flips you perform before dunking, the higher your score. With stunning 3D graphics and addictive gameplay, <b>Hoop World 3D</b> provides an exhilarating and visually impressive experience. Get ready to jump and explore the thrilling environments of <b>Hoop World 3D</b>!",
-      "coverImage": "/images/games/Hoop_World_3D.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/hoop-world-3d/index.html",
-      "rating": 4.4,
-      "howToPlay": [
-        "Hold the left mouse button to start jumping and flipping.",
-        "Release the left mouse button at the right moment to perform the dunk."
-      ],
-      "features": [
-        "Unique flip-and-dunk gameplay mechanic.",
-        "Simple and intuitive one-touch controls.",
-        "Stunning 3D graphics and thrilling environments.",
-        "Navigate challenging levels with obstacles like trampolines and slides.",
-        "Hoop World 3D is a test of timing and precision.",
-        "Perform multiple flips to achieve a higher score."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Hoop World 3D - Free Flip and Dunk Basketball Game",
-        "description": "Experience the thrill of Hoop World 3D! Perform amazing flips and spectacular dunks in this stunning 3D basketball game. Master the timing and score big. Play now!",
-        "keywords": "Hoop World 3D, dunk game, 3d basketball, flipping game, skill game, arcade, sports, one touch"
-      }
-    },
-    {
-      "slug": "Ragdoll_Throw_Challenge",
-      "title": "Ragdoll Throw Challenge",
-      "description": "Embrace the chaos in <b>Ragdoll Throw Challenge</b>, a hilarious physics-based game where control is wobbly and the results are unpredictable! In <b>Ragdoll Throw Challenge</b>, you guide a floppy character through various absurd challenges. Whether you're flinging dynamite, shooting arrows, or trying to dunk a basketball, mastering the clumsy movements is the key to success. The gameplay in <b>Ragdoll Throw Challenge</b> is simple to understand but difficult to execute with precision, leading to endless fun. Each challenge, from the Cannon launch to the Bow and Arrow duel, requires a unique balance of timing and force. Prepare for ultimate chaos and fun in <b>Ragdoll Throw Challenge</b>!",
-      "coverImage": "/images/games/Ragdoll_Throw_Challenge.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/ragdoll-throw-challenge/index.html",
-      "rating": 4.2,
-      "howToPlay": [
-        "Use AD or Arrow keys to rotate your character's arms.",
-        "Press the Spacebar to grab an object.",
-        "Release the Spacebar to throw the object with force."
-      ],
-      "features": [
-        "Hilarious physics-based gameplay with wobbly ragdoll characters.",
-        "Multiple distinct game modes, including archery, dynamite throwing, and basketball.",
-        "Simple controls that lead to complex and challenging movements.",
-        "A fun and casual experience perfect for short play sessions.",
-        "Ragdoll Throw Challenge is all about mastering clumsy physics for chaotic fun.",
-        "Each mode offers a unique physics puzzle to solve."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Ragdoll Throw Challenge - Physics-Based Casual Game",
-        "description": "Take on the Ragdoll Throw Challenge! Control a wobbly character in hilarious physics-based tasks like archery and basketball. Enjoy the ultimate chaos free online.",
-        "keywords": "Ragdoll Throw Challenge, ragdoll, physics game, funny game, casual, skill, challenge, wobbly"
-      }
-    },
-    {
-      "slug": "Basket_Battle",
-      "title": "Basket Battle",
-      "description": "Enter the arena for a fast-paced <b>Basket Battle</b>, a dynamic sports game where precision and reflexes determine the winner. In <b>Basket Battle</b>, your goal is to outscore your opponent by skillfully throwing the ball into the basket. But it's not just about offense; you must also play defense by intercepting your rival's shots to maintain control. This game puts your timing and strategic thinking to the test. Every match in <b>Basket Battle</b> is an intense duel of skill. As you progress, the challenges escalate, requiring advanced techniques like trick shots and bank shots to secure victory. Customize your player and ball to show off your style as you dominate the court in every thrilling <b>Basket Battle</b>.",
-      "coverImage": "/images/games/Basket_Battle.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basket-battle-zmg/index.html",
-      "rating": 4.25,
-      "howToPlay": [
-        "Click, drag, and release the left mouse button to aim and shoot the basketball.",
-        "Time your shots to score and intercept your opponent's ball."
-      ],
-      "features": [
-        "Fast-paced, one-on-one basketball duels.",
-        "Intuitive drag-and-release shooting controls.",
-        "Gameplay that requires both offensive and defensive skills.",
-        "Unlock unique skins for your players and basketballs.",
-        "Compete in challenging tournaments for rare rewards.",
-        "Master trick shots and timing to dominate every Basket Battle."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Basket Battle - Intense 1v1 Basketball Shooting Game",
-        "description": "Challenge opponents in a fast-paced Basket Battle! Aim, shoot, and defend in this intense 1v1 basketball game. Master your timing to dominate the court. Play now!",
-        "keywords": "Basket Battle, basketball game, shooting, 1v1, sports game, skill game, arcade basketball"
-      }
-    },
-    {
-      "slug": "Basket_Blitz_2",
-      "title": "Basket Blitz 2",
-      "description": "Test your shooting precision in <b>Basket Blitz 2</b>, an exhilarating basketball game focused on hitting the perfect shot. The goal in <b>Basket Blitz 2</b> is simple: flick the basketball into the hoop. However, to truly master the game, you must aim for a 'swish'—a perfect shot that doesn't touch the rim. Each swish resets the timer, giving you more time to rack up points. Stringing together consecutive swishes in <b>Basket Blitz 2</b> activates combo multipliers, skyrocketing your score. As the clock ticks down, the pressure mounts in this race to keep your streak alive. The more precise your shots, the higher your score will climb in <b>Basket Blitz 2</b>. Unlock fun new ball designs as you earn rewards!",
-      "coverImage": "/images/games/Basket_Blitz_2.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basket-blitz/index.html",
-      "rating": 4.35,
-      "howToPlay": [
-        "On PC: Drag and release the left mouse button to throw the basketball.",
-        "On Mobile: Swipe up with your finger to shoot the ball.",
-        "Aim for perfect 'swishes' to reset the timer and earn bonus points."
-      ],
-      "features": [
-        "Fast-paced, score-chasing basketball gameplay.",
-        "Focus on precision shooting and hitting 'swishes'.",
-        "Combo multipliers for stringing together perfect shots.",
-        "Unlock dozens of fun and unique basketball skins.",
-        "Intuitive flick-to-shoot controls work great on PC and mobile.",
-        "Basket Blitz 2 is an addictive test of accuracy and speed."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Basket Blitz 2 - Free Basketball Shooting Game",
-        "description": "Aim for the perfect shot in Basket Blitz 2! Flick the ball and score as many swishes as you can before time runs out. Get the highest score and play for free.",
-        "keywords": "Basket Blitz 2, basketball shooting, arcade, skill, sports, swish game, high score, flick game"
-      }
-    },
-    {
-      "slug": "Flappy_Dunk",
-      "title": "Flappy Dunk",
-      "description": "Experience the addictive fusion of two classic concepts in <b>Flappy Dunk</b>! This casual basketball game challenges you to tap to propel a basketball with wings through an endless series of hoops. The gameplay in <b>Flappy Dunk</b> is simple to learn but fiendishly difficult to master. Your goal is to keep the ball airborne and guide it through each hoop to score points. As you progress, you can unlock a variety of new and cool ball designs. <b>Flappy Dunk</b> seamlessly blends one-touch controls with a continuous stream of challenges, making it the perfect game for quick sessions and high-score chasing. Can you keep the rhythm and achieve an unbeatable score in <b>Flappy Dunk</b>?",
-      "coverImage": "/images/games/Flappy_Dunk.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/flappy-dunk/index.html",
-      "rating": 4.0,
-      "howToPlay": [
-        "Use the left mouse button or tap the screen to make the ball 'flap' upwards.",
-        "Time your taps to guide the ball through the hoops without hitting anything."
-      ],
-      "features": [
-        "Addictive one-touch 'flappy' gameplay.",
-        "Endless hoop-scoring challenge.",
-        "Unlock a wide variety of cool new ball skins.",
-        "Simple to learn but difficult to master.",
-        "Perfect for quick gaming sessions and chasing high scores.",
-        "Flappy Dunk is a great test of timing and rhythm."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Flappy Dunk - Free Casual Basketball Tapping Game",
-        "description": "Tap to guide your basketball through endless hoops in Flappy Dunk! An addictive one-touch game that's easy to learn but hard to master. Chase the high score!",
-        "keywords": "Flappy Dunk, flappy game, tapping, one touch, basketball, casual, endless, skill, high score"
-      }
-    },
-    {
-      "slug": "Basketball_FRVR",
-      "title": "Basketball FRVR",
-      "description": "Enjoy a pure and relaxing shooting experience with <b>Basketball FRVR</b>. This simple-to-learn but engaging basketball game is all about sinking as many shots as you can. In <b>Basketball FRVR</b>, there's no time limit, allowing you to find your rhythm and perfect your shot at your own pace. The challenge comes from the moving basket, which will test the skills of even seasoned players. Aim for a 'swish'—a clean shot that doesn't hit the rim—to earn bonus points. With its clean graphics and smooth, satisfying gameplay, <b>Basketball FRVR</b> is the perfect game to play whenever you have a free moment. Drag to aim, release to shoot, and see how high you can score in <b>Basketball FRVR</b>!",
-      "coverImage": "/images/games/Basketball_FRVR.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketball-frvr/index.html",
-      "rating": 4.35,
-      "howToPlay": [
-        "Click and drag the mouse to aim your shot.",
-        "Release the mouse button to throw the ball.",
-        "Score bonus points for not hitting the rim."
-      ],
-      "features": [
-        "Simple and satisfying drag-and-shoot gameplay.",
-        "No time limit for a relaxed gaming experience.",
-        "The moving basket provides an escalating challenge.",
-        "Earn bonus points for making clean 'swish' shots.",
-        "Clean, minimalist graphics and smooth animations.",
-        "Basketball FRVR is a perfect game for all ages and skill levels."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Play Basketball FRVR - Free Basketball Hoop Shooter Game",
-        "description": "Shoot some hoops in Basketball FRVR, a relaxing and fun basketball shooter. With no time limit and a moving basket, it's the perfect challenge. Play for free!",
-        "keywords": "Basketball FRVR, basketball shooter, frvr games, hoop game, sports, casual, free basketball"
-      }
-    },
-    {
-      "slug": "Basketball_Clash",
-      "title": "Basketball Clash",
-      "description": "Showcase your shooting skills on a global stage in <b>Basketball Clash</b>, the ultimate multiplayer basketball showdown. This game provides endless entertainment by pitting you against players from around the world in thrilling shooting competitions. In <b>Basketball Clash</b>, your goal is to score more points than your opponent within the time limit. Success requires a combination of agility, precision, and strategic thinking to sink shots from various positions on the court. Rise through the ranks and prove you have what it takes to be among the top 100 shooters worldwide. Do you have the talent to dominate the court and lead your team to triumph in every <b>Basketball Clash</b>?",
-      "coverImage": "/images/games/Basketball_Clash.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/basketball-clash/index.html",
-      "rating": 4.2,
-      "howToPlay": [
-        "Click, drag, and release the left mouse button to aim and shoot the ball.",
-        "Adjust your aim and power to score from different locations on the court."
-      ],
-      "features": [
-        "Exciting real-time multiplayer basketball shootouts.",
-        "Compete against players from around the globe.",
-        "Intuitive drag-and-release shooting controls.",
-        "Test your agility, logic, and strategic thinking.",
-        "Climb the global leaderboards to prove your skill.",
-        "Basketball Clash offers fast-paced, competitive fun."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Basketball Clash - Online Multiplayer Shooting Game",
-        "description": "Compete against players worldwide in Basketball Clash! Showcase your talent in thrilling multiplayer shootouts and climb the global leaderboard. Play for free!",
-        "keywords": "Basketball Clash, multiplayer basketball, shooting, online sports, pvp, basketball competition"
-      }
-    },
-    {
-      "slug": "Jump_Up_3D_Mini_Basketball",
-      "title": "Jump Up 3D: Mini Basketball",
-      "description": "Bounce to the top in <b>Jump Up 3D: Mini Basketball</b>, a fun and vibrant trampoline basketball game. With incredibly simple controls, anyone can start aiming for that perfect shot. In <b>Jump Up 3D: Mini Basketball</b>, you control a character on a trampoline, and your goal is to time your jumps and shots to sink the ball in the hoop. The lively animations and colorful graphics make every session a blast. Challenge yourself to beat your personal high score or compete with friends for the ultimate bragging rights. It's time to bounce, shoot, and score big in the delightful world of <b>Jump Up 3D: Mini Basketball</b>!",
-      "coverImage": "/images/games/Jump_Up_3D_Mini_Basketball.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/jump-up-3d-mini-basketball/index.html",
-      "rating": 4.35,
-      "howToPlay": [
-        "Use the left mouse button to shoot the ball.",
-        "Time your shot with the bounce of the trampoline to score."
-      ],
-      "features": [
-        "Fun and unique trampoline basketball gameplay.",
-        "Extremely simple one-touch shooting controls.",
-        "Vibrant 3D graphics and lively animations.",
-        "Perfect for players of all ages.",
-        "Challenge yourself to beat your high score.",
-        "Jump Up 3D: Mini Basketball offers a fresh take on basketball games."
-      ],
-      "isTopPick": true,
-      "seo": {
-        "title": "Jump Up 3D: Mini Basketball - Free Trampoline Game",
-        "description": "Bounce and shoot in Jump Up 3D: Mini Basketball! A fun trampoline basketball game with simple controls and vibrant graphics. Beat your high score. Play free!",
-        "keywords": "Jump Up 3D Mini Basketball, trampoline, basketball, 3d, mini, casual, one touch, skill"
-      }
-    },
-        {
-        "slug": "Bloxd_io",
-        "title": "Bloxd.io",
-        "description": "<b>Bloxd.io</b> is an online game with graphics and gameplay similar to Minecraft. Join a variety of game modes like Bloxdhop, EvilTower, and DoodleCube, each with a different objective. Whether you're parkouring, building, or fighting, there's a mode for you.",
-        "coverImage": "/images/games/Bloxd.io.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/bloxdio/index.html",
-        "rating": 4.4,
-        "howToPlay": [
-            "Move with WASD keys.",
-            "Jump with the Spacebar.",
-            "Crouch with Shift or C.",
-            "Sprint by double-tapping the W key.",
-            "Place blocks with the right mouse button.",
-            "Destroy blocks with the left mouse button.",
-            "Switch items with the number keys or mouse wheel."
-        ],
-        "features": [
-            "Minecraft-style blocky graphics.",
-            "Multiple game modes: Survival, Creative, Bed Wars, and more.",
-            "Online multiplayer with a global community.",
-            "Parkour (Bloxdhop) and building (DoodleCube) challenges.",
-            "Free to play in your browser."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Bloxd.io on Doodle Baseball",
-            "description": "Enjoy Bloxd.io, a free-to-play online game with various modes like survival and parkour. Build, fight, and explore in this blocky multiplayer world.",
-            "keywords": "Bloxd.io, block game, multiplayer, minecraft game, online game, free game"
-        }
-    },
-    {
-        "slug": "Paper_io_2",
-        "title": "Paper.io 2",
-        "description": "<b>Paper.io 2</b> is a real-time multiplayer .io game where you have to capture as much territory as possible. Control your character, create a loop back to your own colored area to claim new ground, and eliminate opponents by hitting their tail.",
-        "coverImage": "/images/games/Paper.io_2.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/paper-io-2/index.html",
-        "rating": 4.2,
-        "howToPlay": [
-            "Use your mouse or touch screen to move your character.",
-            "Create a loop back to your own territory to capture it.",
-            "Eliminate other players by hitting their exposed tail.",
-            "Avoid having your own tail hit by opponents."
-        ],
-        "features": [
-            "Real-time online multiplayer.",
-            "Unlockable skins to customize your character.",
-            "Fast-paced and addictive gameplay.",
-            "Simple and intuitive controls.",
-            "Compete for the highest score on the leaderboard."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Paper.io 2 on Doodle Baseball",
-            "description": "Capture as much territory as you can in Paper.io 2, a free multiplayer .io game. Compete with players worldwide and become the biggest on the map.",
-            "keywords": "Paper.io 2, paper.io, .io game, multiplayer game, online game, free game"
-        }
-    },
-    {
-        "slug": "Kirka_io",
-        "title": "Kirka.io",
-        "description": "<b>Kirka.io</b> is a blocky first-person shooter with a fast-paced and competitive gameplay. Play a variety of game modes and maps, customize your character and weapons, and compete on the leaderboards.",
-        "coverImage": "/images/games/Kirka.io.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/kirka-io/index.html",
-        "rating": 4.3,
-        "howToPlay": [
-            "Move with WASD keys.",
-            "Jump with the Spacebar.",
-            "Shoot with the left mouse button.",
-            "Aim with the right mouse button.",
-            "Crouch with Shift.",
-            "Dash with E.",
-            "Switch weapons with keys 1, 2, 3."
-        ],
-        "features": [
-            "Fast-paced online FPS gameplay.",
-            "Voxel-based, Minecraft-like graphics.",
-            "Multiple game modes including Team Deathmatch and Parkour.",
-            "Character and weapon customization.",
-            "Create or join clans and participate in clan wars.",
-            "Daily quests and leaderboards."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Kirka.io on Doodle Baseball",
-            "description": "Jump into the action with Kirka.io, a free-to-play browser FPS with voxel graphics. Compete in various game modes, customize your loadout, and climb the leaderboards.",
-            "keywords": "Kirka.io, Kirka, .io game, browser FPS, online shooter, free to play FPS"
-        }
-    },
-    {
-        "slug": "Penalty_Shooters_2",
-        "title": "Penalty Shooters 2",
-        "description": "<b>Penalty Shooters 2</b> is a popular online soccer game that focuses on the thrilling experience of penalty shootouts. Play as both the shooter and the goalkeeper, choose from 12 fantasy leagues, and lead your team to victory.",
-        "coverImage": "/images/games/Penalty_Shooters_2.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/penalty-shooters-2/index.html",
-        "rating": 4.2,
-        "howToPlay": [
-            "As the shooter, click and hold to aim, then release to shoot.",
-            "Holding longer increases the shot's height.",
-            "Vary your shots as the AI goalkeeper remembers your previous attempts.",
-            "As the goalkeeper, a target will appear before the shot. Click it quickly to make a save."
-        ],
-        "features": [
-            "Play as both the penalty taker and the goalkeeper.",
-            "Choose from 12 fantasy leagues and 360 unique teams.",
-            "Two-phase tournament system with group and knockout stages.",
-            "Realistic soccer gameplay with a cheering crowd.",
-            "Customize your team's appearance and jerseys."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Penalty Shooters 2 on Doodle Baseball",
-            "description": "Experience the thrill of a penalty shootout in Penalty Shooters 2. Play as both kicker and goalie, and lead your team to victory in this free online soccer game.",
-            "keywords": "Penalty Shooters 2, penalty shootout game, soccer game, football game, free online games, sports games"
-        }
-    },
-    {
-        "slug": "Moto_X3M",
-        "title": "Moto X3M",
-        "description": "<b>Moto X3M</b> is a fast-paced bike racing game with 22 challenging levels full of obstacles, ramps, and explosions. Reach the finish line in the fastest time possible and perform stunts to reduce your time.",
-        "coverImage": "/images/games/Moto_X3M.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/moto-x3m/index.html",
-        "rating": 4.8,
-        "howToPlay": [
-            "Use W or Up Arrow to accelerate.",
-            "Use S or Down Arrow to brake.",
-            "Use A/D or Left/Right Arrows to balance your bike.",
-            "Perform flips and other stunts to get a time bonus.",
-            "Finish each level as fast as you can to earn stars."
-        ],
-        "features": [
-            "22 challenging and unique levels.",
-            "A variety of obstacles including loops, ramps, and explosives.",
-            "Unlock new motorcycles as you progress.",
-            "Physics-based gameplay that requires skill and timing.",
-            "Part of the popular Moto X3M game series."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Moto X3M on Doodle Baseball",
-            "description": "Race through 22 challenging levels in Moto X3M, a free online bike game. Perform stunts, overcome obstacles, and unlock new bikes. Play now!",
-            "keywords": "Moto X3M, bike racing game, stunt game, physics game, free online game, motorcycle game"
-        }
-    },
-    {
-        "slug": "Soccer_Legends_2021",
-        "title": "Soccer Legends 2021",
-        "description": "<b>Soccer Legends 2021</b> is a two-player soccer game where you can play as your favorite soccer legends. Compete in tournaments or play a quick match with a friend. Use special moves like a fireball kick or teleporting to outsmart your opponents.",
-        "coverImage": "/images/games/Soccer_Legends_2021.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/soccer-legends-2021/index.html",
-        "rating": 4.3,
-        "howToPlay": [
-            "Player 1: Use AD to move, W to jump, S to slide, B to shoot, and V for a supershot.",
-            "Player 2: Use Left/Right arrows to move, Up arrow to jump, Down arrow to slide, L to shoot, and K for a supershot.",
-            "Score more goals than your opponent within the time limit."
-        ],
-        "features": [
-            "Play as various soccer legends with unique abilities.",
-            "Single-player, two-player, and tournament modes.",
-            "Use special 'superkicks' to gain an advantage.",
-            "Team up with a friend for 2v2 matches.",
-            "Vibrant and attractive 2D graphics."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Soccer Legends 2021 on Doodle Baseball",
-            "description": "Play Soccer Legends 2021, a fast-paced, arcade-style soccer game. Compete with friends in 2-player mode or win the tournament as your favorite legend.",
-            "keywords": "Soccer Legends 2021, soccer legends, 2 player soccer game, football legends, soccer games, free online games"
-        }
-    },
-    {
-        "slug": "Shell_Shockers",
-        "title": "Shell Shockers",
-        "description": "<b>Shell Shockers</b> is a multiplayer .io FPS game where you play as an egg and battle other players with a variety of weapons. It's a fun and unique twist on the classic shooter genre.",
-        "coverImage": "/images/games/Shell_Shockers.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/shell-shockers/index.html",
-        "rating": 4.4,
-        "howToPlay": [
-            "Use WASD to move.",
-            "Use the mouse to aim and shoot.",
-            "Jump with the Spacebar.",
-            "Reload with R.",
-            "Switch weapons with E or number keys.",
-            "Throw grenades with Q."
-        ],
-        "features": [
-            "Unique egg-based FPS gameplay.",
-            "Multiple game modes: Free For All, Teams, and Captula the Spatula.",
-            "A wide variety of weapons to choose from.",
-            "Customize your egg's appearance.",
-            "Cross-platform play on web browsers and mobile devices."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Shell Shockers on Doodle Baseball",
-            "description": "Join the action in Shell Shockers, the world's most popular egg-based multiplayer shooter. Grab your weapon and crack some eggs!",
-            "keywords": "Shell Shockers, Shellshock.io, egg game, online shooter, free to play, multiplayer game, FPS game"
-        }
-    },
-    {
-        "slug": "Smash_Karts",
-        "title": "Smash Karts",
-        "description": "<b>Smash Karts</b> is a 3D kart battle game where you pick up weapons and blow up other karts to win. Play online with friends in fast-paced multiplayer mayhem.",
-        "coverImage": "/images/games/Smash_Karts.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/smash-karts/index.html",
-        "rating": 4.5,
-        "howToPlay": [
-            "Use the Arrow keys or WASD to drive your kart.",
-            "Press the Spacebar to use weapons and power-ups.",
-            "Drive through boxes to collect random items.",
-            "Get the most kills within the three-minute round to win."
-        ],
-        "features": [
-            "Real-time online multiplayer kart battles.",
-            "A wide array of weapons and power-ups.",
-            "Extensive customization for karts and characters.",
-            "Unlock dozens of unique characters.",
-            "Fast-paced, pick-up-and-play action."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Smash Karts on Doodle Baseball",
-            "description": "Jump into the driver's seat in Smash Karts! A fast-paced, online multiplayer kart battle game. Pick up weapons, destroy your opponents, and customize your kart.",
-            "keywords": "Smash Karts, .io game, multiplayer kart game, online battle arena, kart racing game, free to play game"
-        }
-    },
-    {
-        "slug": "Bullet_Force",
-        "title": "Bullet Force",
-        "description": "<b>Bullet Force</b> is a fantastic multiplayer FPS game with great 3D graphics. Create a room or join a full-scale war, and customize your soldier with a wide range of weapons and attachments.",
-        "coverImage": "/images/games/Bullet_Force.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/bullet-force-multiplayer/index.html",
-        "rating": 4.5,
-        "howToPlay": [
-            "Use WASD to move.",
-            "Use the mouse to aim and shoot.",
-            "Jump with the Spacebar.",
-            "Crouch with C.",
-            "Run with Shift.",
-            "Reload with R.",
-            "Switch weapons with number keys."
-        ],
-        "features": [
-            "Fast-paced online multiplayer FPS action.",
-            "Extensive weapon and soldier customization.",
-            "Over 20 weapons and 100 weapon camouflages.",
-            "Multiple game modes including Team Deathmatch and Conquest.",
-            "Create custom matches with your own settings.",
-            "Offline mode with bots for practice."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Bullet Force on Doodle Baseball",
-            "description": "Join the action in Bullet Force, a free-to-play online FPS with extensive customization and multiple game modes. Play now in your browser!",
-            "keywords": "Bullet Force, FPS game, multiplayer shooter, online shooter, free FPS game, military shooter"
-        }
-    },
-    {
-        "slug": "Pixel_Warfare",
-        "title": "Pixel Warfare",
-        "description": "<b>Pixel Warfare</b> is a beloved classic Minecraft-style FPS game. Battle it out in blocky maps with a variety of weapons, all available from the start. Join a room and start shooting!",
-        "coverImage": "/images/games/Pixel_Warfare.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/pixel-warfare/index.html",
-        "rating": 4.4,
-        "howToPlay": [
-            "Use WASD or Arrow Keys to move.",
-            "Use the mouse to aim and shoot.",
-            "Jump with the Spacebar.",
-            "Sprint with Shift.",
-            "Crouch with C.",
-            "Reload with R.",
-            "Select weapons with number keys or mouse scroll."
-        ],
-        "features": [
-            "Classic blocky, retro pixel art style.",
-            "Fast-paced first-person shooter gameplay.",
-            "Multiple game modes including Deathmatch and Team Deathmatch.",
-            "Extensive arsenal of weapons available from the start.",
-            "Numerous diverse maps for different combat scenarios.",
-            "Create custom game rooms with your own settings."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Pixel Warfare on Doodle Baseball",
-            "description": "Experience the classic blocky shooter, Pixel Warfare. Join fast-paced multiplayer battles with a huge arsenal of weapons. Play for free in your browser!",
-            "keywords": "Pixel Warfare, blocky shooting game, retro FPS, Minecraft-style shooter, free browser FPS, multiplayer games"
-        }
-    },
-    {
-        "slug": "Crazy_Roll_3D",
-        "title": "Crazy Roll 3D",
-        "description": "<b>Crazy Roll 3D</b> is an addictive endless running game where you control a ball through a world of obstacles. Roll as far as you can, avoid falling off the edge, and collect diamonds to buy new skins.",
-        "coverImage": "/images/games/Crazy_Roll_3D.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/crazy-roll-3d/index.html",
-        "rating": 4.5,
-        "howToPlay": [
-            "Use A/D or Left/Right arrow keys to steer the ball.",
-            "Navigate the ball through the course, avoiding obstacles and gaps.",
-            "Collect diamonds to purchase new ball skins and items.",
-            "Use keys 1, 2, or 3 to activate power-ups."
-        ],
-        "features": [
-            "Addictive endless runner gameplay.",
-            "Vibrant and colorful 3D graphics.",
-            "Levels get progressively harder as you play.",
-            "Unlock new balls and platform themes.",
-            "Compete on the global leaderboards for the highest score.",
-            "Available in single-player and 2-player modes."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Crazy Roll 3D on Doodle Baseball",
-            "description": "Test your reflexes in Crazy Roll 3D, an addictive 3D endless running game. Steer the ball, avoid obstacles, and see how far you can go!",
-            "keywords": "Crazy Roll 3D, endless running game, 3D ball game, arcade game, online game, free game, skill game"
-        }
-    },
-    {
-        "slug": "Basket_Random",
-        "title": "Basket Random",
-        "description": "<b>Basket Random</b> is a fun and chaotic 2-player basketball game with ragdoll physics. The first to 5 points wins! Each round features different courts, player appearances, and ball types, making every match a new and hilarious experience.",
-        "coverImage": "/images/games/Basket_Random.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/basket-random/index.html",
-        "rating": 4.4,
-        "howToPlay": [
-            "Player 1: Use the 'W' key to jump and shoot.",
-            "Player 2: Use the 'Up Arrow' key to jump and shoot.",
-            "The first team to score 5 points wins the game."
-        ],
-        "features": [
-            "Hilarious and unpredictable random physics.",
-            "Wacky characters with ragdoll movements.",
-            "Changing environments and ball types each round.",
-            "Simple one-button controls.",
-            "Designed for two-player competitive fun."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Basket Random on Doodle Baseball",
-            "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
-            "keywords": "Basket Random, 2 player game, basketball game, arcade game, sports game, wacky game, physics game"
-        }
-    },
-    {
-        "slug": "Moto_X3M_6_Spooky_Land",
-        "title": "Moto X3M 6: Spooky Land",
-        "description": "<b>Moto X3M 6: Spooky Land</b> is the sixth installment of the popular Moto X3M series, this time with a spooky Halloween theme. Navigate through 22 challenging levels filled with bone-spikes, green goo, and other creepy obstacles.",
-        "coverImage": "/images/games/Moto_X3M_6_Spooky_Land.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/moto-x3m-6-spooky-land/index.html",
-        "rating": 4.8,
-        "howToPlay": [
-            "Use W or Up Arrow to accelerate.",
-            "Use S or Down Arrow to brake.",
-            "Use A/D or Left/Right Arrows to balance your bike.",
-            "Perform flips and other stunts to reduce your time.",
-            "Finish each level as quickly as possible to earn stars."
-        ],
-        "features": [
-            "Spooky Halloween-themed tracks and obstacles.",
-            "22 increasingly challenging levels.",
-            "Unlock new bikes and riders with the stars you earn.",
-            "Perform stunts and tricks to get a better time.",
-            "Fast-paced, physics-based motorcycle gameplay."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "seo": {
-            "title": "Play Moto X3M 6: Spooky Land on Doodle Baseball",
-            "description": "Race through a spooky world in Moto X3M 6: Spooky Land! A free online bike game with 22 Halloween-themed levels. Perform stunts and unlock new riders.",
-            "keywords": "Moto X3M 6, Spooky Land, Halloween game, motorcycle game, stunt game, bike game, racing game"
-        }
-    },
-    {
-        "slug": "Getaway_Shootout",
-        "title": "Getaway Shootout",
-        "description": "<b>Getaway Shootout</b> is a chaotic race to the getaway objective. Compete with three others and use weapons and power-ups to win. The game is known for its quirky physics and hilarious gameplay.",
-        "coverImage": "/images/games/Getaway_Shootout.jpg",
-        "youtube": "",
-        "playUrl": "https://games.crazygames.com/en_US/getaway-shootout/index.html",
-        "rating": 4.4,
-        "howToPlay": [
-            "Use two buttons to rotate your character left and right.",
-            "Release the buttons to jump.",
-            "Use a third button to activate power-ups and weapons.",
-            "Be the first to reach the getaway vehicle to win."
-        ],
-        "features": [
-            "Chaotic and hilarious racing gameplay.",
-            "Local multiplayer to compete against a friend or the computer.",
-            "A wide array of insane weapons and power-ups.",
-            "Unique and unpredictable physics-based movement.",
-            "Over 20 different characters to unlock and play."
-        ],
-        "isTopPick": true,
-        "isHot": true,
-        "isHeader": false,
-        "seo": {
-            "title": "Play Getaway Shootout on Doodle Baseball",
-            "description": "Race to freedom in Getaway Shootout, a chaotic and funny multiplayer game. Use weapons and quirky physics to beat your opponents to the getaway vehicle.",
-            "keywords": "Getaway Shootout, action racing game, multiplayer physics game, funny multiplayer games, indie action game"
-        }
+  {
+    "slug": "Basketball_Superstars",
+    "title": "Basketball Superstars",
+    "description": "Step onto the court in <b>Basketball Superstars</b>, a dynamic basketball experience where you create, train, and become the ultimate player. In <b>Basketball Superstars</b>, your journey from a rookie to a legend is in your hands. Customize your gear, enhance your unique skills, and face intense rivals in fast-paced matches. Whether you are outsmarting opponents with clever plays or perfecting your shooting strategy, each game of <b>Basketball Superstars</b> delivers non-stop action and excitement. Strive to dominate the court and showcase your prowess in this thrilling game. Aggressive play is the key to victory in <b>Basketball Superstars</b>; stay close to your opponent, look for the perfect moment to steal, and drive to the hoop with relentless force. Quick decisions and powerful attacks will give you the edge in every match of <b>Basketball Superstars</b>.",
+    "coverImage": "/images/games/Basketball_Superstars.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketball-superstars/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Move: Use the Arrow Keys to dribble and navigate the court.",
+      "Shoot: Press and hold the Spacebar, then release at the right moment to score.",
+      "Dunk: Get close to the hoop and press the Spacebar to perform a powerful dunk.",
+      "Steal: Approach your opponent and tap the Spacebar to snatch the ball.",
+      "Block: Time your jump and press the Spacebar to block your opponent’s shot."
+    ],
+    "features": [
+      "Create and develop your own unique player in Basketball Superstars.",
+      "Deep customization options for your character's appearance and gear.",
+      "Engage in fast-paced, 1-on-1 arcade basketball matches.",
+      "Upgrade your core skills: defense, shooting, speed, and dunking.",
+      "Earn in-game currency to unlock powerful packs and boosts.",
+      "Intuitive controls make Basketball Superstars easy to learn but hard to master."
+    ],
+    "isTopPick": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Basketball Superstars - Free 1v1 Basketball Game",
+      "description": "Become a legend in Basketball Superstars! Create and train your player, customize gear, and dominate in fast-paced 1v1 matches. Play for free and show your skills.",
+      "keywords": "Basketball Superstars, online basketball, sports game, 1v1, free basketball, customization, arcade"
     }
-  ]
+  },
+  {
+    "slug": "Basketball_Stars",
+    "title": "Basketball Stars",
+    "description": "Hit the court with legends in <b>Basketball Stars</b>, the acclaimed 2-player basketball game from Madpuffers. Play as iconic characters like LeBron James and Stephen Curry in fast-paced, action-packed matches. <b>Basketball Stars</b> lets you team up with a friend for 2v2 cooperative play or go head-to-head in intense 1v1 duels. If you're playing solo, you can enter the tournament mode and battle your way to becoming a champion. The gameplay in <b>Basketball Stars</b> stays true to the sport, featuring three-pointers, alley-oops, and massive slam dunks. Each player has a unique special ability, like a mega dunk or a defensive shield, adding a strategic layer to every game of <b>Basketball Stars</b>. Choose your duo wisely and conquer the court in this amazing sports game.",
+    "coverImage": "/images/games/Basketball_Stars.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketball-stars-2019/index.html",
+    "rating": 4.15,
+    "howToPlay": [
+      "Player 1 Controls:",
+      "Move: WASD keys",
+      "Shoot/Steal: B key",
+      "Pump/Block: S key",
+      "Dash: A/D key twice",
+      "Super Shot: K key",
+      "Player 2 Controls:",
+      "Move: Arrow keys",
+      "Shoot/Steal: L key",
+      "Pump/Block: Down arrow key",
+      "Dash: Left/Right arrow key twice",
+      "Super Shot: Z key"
+    ],
+    "features": [
+      "Play as famous basketball legends, each with unique skills.",
+      "Engage in exciting 1v1 or 2v2 matches.",
+      "Features a robust 2-player local multiplayer mode.",
+      "Compete in Tournament Mode to prove you're the best.",
+      "Perform classic moves like alley-oops, dunks, and three-pointers.",
+      "Basketball Stars is the thrilling prequel to Basketball Legends."
+    ],
+    "isTopPick": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Basketball Stars - Free 2 Player Basketball Game",
+      "description": "Challenge friends in Basketball Stars, a fast-paced 2-player game. Play as legends, use super shots, and compete in tournaments. Play Basketball Stars free!",
+      "keywords": "Basketball Stars, 2 player, madpuffers, sports game, free basketball, basketball legends, online"
+    }
+  },
+  {
+    "slug": "Basket_Random",
+    "title": "Basket Random",
+    "description": "Prepare for hilarious, physics-driven chaos in <b>Basket Random</b>, a one-of-a-kind 2-player arcade sports game. The core of <b>Basket Random</b> is its complete unpredictability; each round throws you into a new court with different player outfits and wild physics. With simple one-button controls, you and a friend will frantically bounce and battle for the ball. The goal is simple: be the first to score 5 points. However, achieving that goal in <b>Basket Random</b> is anything but simple. Your players will flail, spin, and jump in the most unexpected ways, leading to laugh-out-loud moments. Every dunk in <b>Basket Random</b> transports you to the next bizarre level, ensuring the fun never stops.",
+    "coverImage": "/images/games/Basket_Random.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basket-random/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Player 1: Press the 'W' key to jump and shoot.",
+      "Player 2: Press the 'Up Arrow' key to jump and shoot."
+    ],
+    "features": [
+      "Experience hilarious, physics-based gameplay in Basket Random.",
+      "Every round features randomly generated courts, characters, and physics.",
+      "Extremely simple one-button controls ideal for two players.",
+      "Fast-paced, chaotic, and highly entertaining 2-player matches.",
+      "A unique and wacky take on the game of basketball.",
+      "The first player to score 5 points wins the game of Basket Random."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Basket Random - Wacky 2 Player Physics Basketball Game",
+      "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
+      "keywords": "Basket Random, physics game, 2 player, wacky basketball, one button, random game, funny sports game"
+    }
+  },
+  {
+    "slug": "Basketball_Orbit",
+    "title": "Basketball Orbit",
+    "description": "Aim for the stars in <b>Basketball Orbit</b>, an exhilarating basketball simulation where you launch balls to unbelievable heights! This isn't your average shooting game; in <b>Basketball Orbit</b>, your goal is to conquer tricky levels by perfecting your long-distance shots, even sending the ball beyond Earth's atmosphere. The gameplay in <b>Basketball Orbit</b> revolves around a unique one-click timing mechanic. Watch the power meter and click when it hits green for a perfect, soaring launch. You can upgrade your strength, speed, and bounce to shoot even farther. With patience and precision, you can become the ultimate long-shot legend in <b>Basketball Orbit</b> and achieve the perfect swish from space!",
+    "coverImage": "/images/games/Basketball_Orbit.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketball-orbit/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Use the Left Mouse Button or Spacebar to shoot the ball.",
+      "Time your click to hit the green portion of the power meter for the most powerful shot.",
+      "Once near the basket, click and move your mouse to aim your final shot."
+    ],
+    "features": [
+      "Master a unique one-click timing mechanic for precision shooting.",
+      "Launch basketballs to incredible heights, even into outer space!",
+      "Upgrade your core attributes: strength, speed, and bounce.",
+      "Unlock new characters and backgrounds to customize your game.",
+      "Basketball Orbit offers an addictive and unique take on basketball shooting.",
+      "Compete to become the ultimate long-shot legend."
+    ],
+    "isTopPick": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Basketball Orbit - The Ultimate Long-Shot Basketball Game",
+      "description": "Launch basketballs into space in Basketball Orbit! Master one-click timing, upgrade your skills, and conquer challenging levels. Can you make the ultimate shot?",
+      "keywords": "Basketball Orbit, basketball shooting, one-click game, physics, sports game, free basketball, skill"
+    }
+  },
+  {
+    "slug": "BasketBros",
+    "title": "BasketBros",
+    "description": "Get ready for high-flying, hard-hitting action in <b>BasketBros</b>, a fast-paced basketball game you can play online or offline. In <b>BasketBros</b>, you choose your baller, customize their style, and compete in intense matches. The gameplay is all about speed and aggression; fight your opponent for the ball and throw down sick dunks to score. You can challenge players from around the world in online multiplayer or have a friend join you for a 2-player game on the same computer. Winning games in <b>BasketBros</b> earns you upgrades and unlocks new characters and gear, so you can constantly evolve your style. If you want to hone your skills, the practice mode in <b>BasketBros</b> is the perfect place to master your moves before hitting the competitive court.",
+    "coverImage": "/images/games/BasketBros.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketbros/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Player 1: Use WASD to move and the G key to shoot/dunk.",
+      "Player 2: Use the Arrow keys to move and the L key to shoot/dunk."
+    ],
+    "features": [
+      "Engage in fast-paced, arcade-style basketball action with BasketBros.",
+      "Full online multiplayer mode to challenge players worldwide.",
+      "Local 2-player mode to compete with a friend on the same device.",
+      "Deep character customization with many unlockable outfits and players.",
+      "Compete in quick matches or challenging tournaments.",
+      "Master stylish dunks and aggressive plays to dominate the court."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "BasketBros - Free Online Multiplayer Basketball Game",
+      "description": "Jump into the action with BasketBros! A fast-paced online basketball game with deep customization and 2-player mode. Throw dunks and dominate the court. Play free!",
+      "keywords": "BasketBros, BasketBros.io, online basketball, 2 player, multiplayer sports, basketball arcade"
+    }
+  },
+  {
+    "slug": "Tap-Tap_Shots",
+    "title": "Tap-Tap Shots",
+    "description": "Test your rhythm and reflexes in <b>Tap-Tap Shots</b>, an addictive one-button basketball game that's easy to play but incredibly hard to master. In <b>Tap-Tap Shots</b>, you must tap continuously to make the basketball jump through a series of hoops. The goal is to score as many times as you can before the clock runs out on a single shot. After each successful basket, the hoop moves to a new position, presenting a fresh challenge. Finding the perfect tapping rhythm is the secret to success in <b>Tap-Tap Shots</b>. This endless arcade game tracks your high score, constantly pushing you to improve. How many consecutive shots can you make in <b>Tap-Tap Shots</b>?",
+    "coverImage": "/images/games/Tap-Tap_Shots.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tap-tap-shots/index.html",
+    "rating": 4.2,
+    "howToPlay": [
+      "Click the left mouse button to make the ball jump.",
+      "Time your taps carefully to guide the ball through the hoop.",
+      "Score before the timer runs out to continue your streak."
+    ],
+    "features": [
+      "Simple and addictive one-button gameplay.",
+      "Endless challenge with hoops that move after each score.",
+      "A timed-shot mechanic that tests your speed and precision.",
+      "Perfect for quick gaming sessions on desktop or mobile.",
+      "Tap-Tap Shots is a great game to test and improve your reflexes.",
+      "Strive to beat your own high score with every new game."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Play Tap-Tap Shots - Endless Basketball Tapping Game",
+      "description": "How many hoops can you score in Tap-Tap Shots? Tap to keep the ball airborne and score before time runs out. Play this addictive one-button basketball game free!",
+      "keywords": "Tap-Tap Shots, tapping game, one button, basketball game, arcade, skill game, endless, high score"
+    }
+  },
+  {
+    "slug": "Basketball_Legends_2020",
+    "title": "Basketball Legends 2020",
+    "description": "Play with the biggest names in the sport in <b>Basketball Legends 2020</b>, the fantastic sequel to the popular Basketball Stars. This two-player basketball game lets you control cartoon versions of iconic players like LeBron James and James Harden. In <b>Basketball Legends 2020</b>, you can challenge the tough AI solo or team up with a friend for epic 2v2 matches. Each player has a powerful special ability, making every game a unique strategic challenge. <b>Basketball Legends 2020</b> offers various game modes, including a full tournament, quick play for instant action, and a training mode to perfect your moves. The gameplay captures the spirit of basketball with high-flying dunks, alley-oops, and game-winning three-pointers. Step onto the court and become a legend in <b>Basketball Legends 2020</b>.",
+    "coverImage": "/images/games/Basketball_Legends_2020.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketball-legends-2020/index.html",
+    "rating": 4.15,
+    "howToPlay": [
+      "Player 1 Controls:",
+      "Move: AD keys",
+      "Shoot/Punch: K key",
+      "Pump/Block: S key",
+      "Dash: D key twice",
+      "Super Shot: L key",
+      "Player 2 Controls:",
+      "Move: Left/Right Arrow keys",
+      "Shoot/Punch: X key",
+      "Pump/Block: Down Arrow key",
+      "Dash: Right Arrow key twice",
+      "Super Shot: Z key"
+    ],
+    "features": [
+      "Play as hilarious cartoon versions of real basketball legends.",
+      "Features solo, 2-player, and 2v2 game modes.",
+      "Each character in Basketball Legends 2020 has a unique super shot.",
+      "Multiple game modes including Tournament, Quick Match, and Training.",
+      "Fast-paced arcade gameplay developed by MadPuffers.",
+      "Perform awesome dunks, alley-oops, and blocks."
+    ],
+    "isTopPick": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Basketball Legends 2020 - 2 Player Sports Game",
+      "description": "Play as your favorite stars in Basketball Legends 2020! Compete in 1v1 or 2v2 matches with a friend. Unleash super shots and become a champion. Play free!",
+      "keywords": "Basketball Legends 2020, basketball legends, 2 player, sports, madpuffers, free basketball game"
+    }
+  },
+  {
+    "slug": "Hoop_World_3D",
+    "title": "Hoop World 3D",
+    "description": "Flip, fly, and dunk your way through incredible levels in <b>Hoop World 3D</b>, a spectacular game that takes basketball to a new dimension! In <b>Hoop World 3D</b>, your goal is to perform amazing acrobatic flips while soaring through the air to land the perfect dunk. The controls are simple: just hold and release to jump and flip. However, mastering the timing to clear obstacles like trampolines and slides is a true test of skill. The more flips you perform before dunking, the higher your score. With stunning 3D graphics and addictive gameplay, <b>Hoop World 3D</b> provides an exhilarating and visually impressive experience. Get ready to jump and explore the thrilling environments of <b>Hoop World 3D</b>!",
+    "coverImage": "/images/games/Hoop_World_3D.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/hoop-world-3d/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Hold the left mouse button to start jumping and flipping.",
+      "Release the left mouse button at the right moment to perform the dunk."
+    ],
+    "features": [
+      "Unique flip-and-dunk gameplay mechanic.",
+      "Simple and intuitive one-touch controls.",
+      "Stunning 3D graphics and thrilling environments.",
+      "Navigate challenging levels with obstacles like trampolines and slides.",
+      "Hoop World 3D is a test of timing and precision.",
+      "Perform multiple flips to achieve a higher score."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Play Hoop World 3D - Free Flip and Dunk Basketball Game",
+      "description": "Experience the thrill of Hoop World 3D! Perform amazing flips and spectacular dunks in this stunning 3D basketball game. Master the timing and score big. Play now!",
+      "keywords": "Hoop World 3D, dunk game, 3d basketball, flipping game, skill game, arcade, sports, one touch"
+    }
+  },
+  {
+    "slug": "Ragdoll_Throw_Challenge",
+    "title": "Ragdoll Throw Challenge",
+    "description": "Embrace the chaos in <b>Ragdoll Throw Challenge</b>, a hilarious physics-based game where control is wobbly and the results are unpredictable! In <b>Ragdoll Throw Challenge</b>, you guide a floppy character through various absurd challenges. Whether you're flinging dynamite, shooting arrows, or trying to dunk a basketball, mastering the clumsy movements is the key to success. The gameplay in <b>Ragdoll Throw Challenge</b> is simple to understand but difficult to execute with precision, leading to endless fun. Each challenge, from the Cannon launch to the Bow and Arrow duel, requires a unique balance of timing and force. Prepare for ultimate chaos and fun in <b>Ragdoll Throw Challenge</b>!",
+    "coverImage": "/images/games/Ragdoll_Throw_Challenge.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/ragdoll-throw-challenge/index.html",
+    "rating": 4.2,
+    "howToPlay": [
+      "Use AD or Arrow keys to rotate your character's arms.",
+      "Press the Spacebar to grab an object.",
+      "Release the Spacebar to throw the object with force."
+    ],
+    "features": [
+      "Hilarious physics-based gameplay with wobbly ragdoll characters.",
+      "Multiple distinct game modes, including archery, dynamite throwing, and basketball.",
+      "Simple controls that lead to complex and challenging movements.",
+      "A fun and casual experience perfect for short play sessions.",
+      "Ragdoll Throw Challenge is all about mastering clumsy physics for chaotic fun.",
+      "Each mode offers a unique physics puzzle to solve."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Play Ragdoll Throw Challenge - Physics-Based Casual Game",
+      "description": "Take on the Ragdoll Throw Challenge! Control a wobbly character in hilarious physics-based tasks like archery and basketball. Enjoy the ultimate chaos free online.",
+      "keywords": "Ragdoll Throw Challenge, ragdoll, physics game, funny game, casual, skill, challenge, wobbly"
+    }
+  },
+  {
+    "slug": "Basket_Battle",
+    "title": "Basket Battle",
+    "description": "Enter the arena for a fast-paced <b>Basket Battle</b>, a dynamic sports game where precision and reflexes determine the winner. In <b>Basket Battle</b>, your goal is to outscore your opponent by skillfully throwing the ball into the basket. But it's not just about offense; you must also play defense by intercepting your rival's shots to maintain control. This game puts your timing and strategic thinking to the test. Every match in <b>Basket Battle</b> is an intense duel of skill. As you progress, the challenges escalate, requiring advanced techniques like trick shots and bank shots to secure victory. Customize your player and ball to show off your style as you dominate the court in every thrilling <b>Basket Battle</b>.",
+    "coverImage": "/images/games/Basket_Battle.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basket-battle-zmg/index.html",
+    "rating": 4.25,
+    "howToPlay": [
+      "Click, drag, and release the left mouse button to aim and shoot the basketball.",
+      "Time your shots to score and intercept your opponent's ball."
+    ],
+    "features": [
+      "Fast-paced, one-on-one basketball duels.",
+      "Intuitive drag-and-release shooting controls.",
+      "Gameplay that requires both offensive and defensive skills.",
+      "Unlock unique skins for your players and basketballs.",
+      "Compete in challenging tournaments for rare rewards.",
+      "Master trick shots and timing to dominate every Basket Battle."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Play Basket Battle - Intense 1v1 Basketball Shooting Game",
+      "description": "Challenge opponents in a fast-paced Basket Battle! Aim, shoot, and defend in this intense 1v1 basketball game. Master your timing to dominate the court. Play now!",
+      "keywords": "Basket Battle, basketball game, shooting, 1v1, sports game, skill game, arcade basketball"
+    }
+  },
+  {
+    "slug": "Basket_Blitz_2",
+    "title": "Basket Blitz 2",
+    "description": "Test your shooting precision in <b>Basket Blitz 2</b>, an exhilarating basketball game focused on hitting the perfect shot. The goal in <b>Basket Blitz 2</b> is simple: flick the basketball into the hoop. However, to truly master the game, you must aim for a 'swish'—a perfect shot that doesn't touch the rim. Each swish resets the timer, giving you more time to rack up points. Stringing together consecutive swishes in <b>Basket Blitz 2</b> activates combo multipliers, skyrocketing your score. As the clock ticks down, the pressure mounts in this race to keep your streak alive. The more precise your shots, the higher your score will climb in <b>Basket Blitz 2</b>. Unlock fun new ball designs as you earn rewards!",
+    "coverImage": "/images/games/Basket_Blitz_2.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basket-blitz/index.html",
+    "rating": 4.35,
+    "howToPlay": [
+      "On PC: Drag and release the left mouse button to throw the basketball.",
+      "On Mobile: Swipe up with your finger to shoot the ball.",
+      "Aim for perfect 'swishes' to reset the timer and earn bonus points."
+    ],
+    "features": [
+      "Fast-paced, score-chasing basketball gameplay.",
+      "Focus on precision shooting and hitting 'swishes'.",
+      "Combo multipliers for stringing together perfect shots.",
+      "Unlock dozens of fun and unique basketball skins.",
+      "Intuitive flick-to-shoot controls work great on PC and mobile.",
+      "Basket Blitz 2 is an addictive test of accuracy and speed."
+    ],
+    "isTopPick": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Basket Blitz 2 - Free Basketball Shooting Game",
+      "description": "Aim for the perfect shot in Basket Blitz 2! Flick the ball and score as many swishes as you can before time runs out. Get the highest score and play for free.",
+      "keywords": "Basket Blitz 2, basketball shooting, arcade, skill, sports, swish game, high score, flick game"
+    }
+  },
+  {
+    "slug": "Flappy_Dunk",
+    "title": "Flappy Dunk",
+    "description": "Experience the addictive fusion of two classic concepts in <b>Flappy Dunk</b>! This casual basketball game challenges you to tap to propel a basketball with wings through an endless series of hoops. The gameplay in <b>Flappy Dunk</b> is simple to learn but fiendishly difficult to master. Your goal is to keep the ball airborne and guide it through each hoop to score points. As you progress, you can unlock a variety of new and cool ball designs. <b>Flappy Dunk</b> seamlessly blends one-touch controls with a continuous stream of challenges, making it the perfect game for quick sessions and high-score chasing. Can you keep the rhythm and achieve an unbeatable score in <b>Flappy Dunk</b>?",
+    "coverImage": "/images/games/Flappy_Dunk.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/flappy-dunk/index.html",
+    "rating": 4.0,
+    "howToPlay": [
+      "Use the left mouse button or tap the screen to make the ball 'flap' upwards.",
+      "Time your taps to guide the ball through the hoops without hitting anything."
+    ],
+    "features": [
+      "Addictive one-touch 'flappy' gameplay.",
+      "Endless hoop-scoring challenge.",
+      "Unlock a wide variety of cool new ball skins.",
+      "Simple to learn but difficult to master.",
+      "Perfect for quick gaming sessions and chasing high scores.",
+      "Flappy Dunk is a great test of timing and rhythm."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Play Flappy Dunk - Free Casual Basketball Tapping Game",
+      "description": "Tap to guide your basketball through endless hoops in Flappy Dunk! An addictive one-touch game that's easy to learn but hard to master. Chase the high score!",
+      "keywords": "Flappy Dunk, flappy game, tapping, one touch, basketball, casual, endless, skill, high score"
+    }
+  },
+  {
+    "slug": "Basketball_FRVR",
+    "title": "Basketball FRVR",
+    "description": "Enjoy a pure and relaxing shooting experience with <b>Basketball FRVR</b>. This simple-to-learn but engaging basketball game is all about sinking as many shots as you can. In <b>Basketball FRVR</b>, there's no time limit, allowing you to find your rhythm and perfect your shot at your own pace. The challenge comes from the moving basket, which will test the skills of even seasoned players. Aim for a 'swish'—a clean shot that doesn't hit the rim—to earn bonus points. With its clean graphics and smooth, satisfying gameplay, <b>Basketball FRVR</b> is the perfect game to play whenever you have a free moment. Drag to aim, release to shoot, and see how high you can score in <b>Basketball FRVR</b>!",
+    "coverImage": "/images/games/Basketball_FRVR.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketball-frvr/index.html",
+    "rating": 4.35,
+    "howToPlay": [
+      "Click and drag the mouse to aim your shot.",
+      "Release the mouse button to throw the ball.",
+      "Score bonus points for not hitting the rim."
+    ],
+    "features": [
+      "Simple and satisfying drag-and-shoot gameplay.",
+      "No time limit for a relaxed gaming experience.",
+      "The moving basket provides an escalating challenge.",
+      "Earn bonus points for making clean 'swish' shots.",
+      "Clean, minimalist graphics and smooth animations.",
+      "Basketball FRVR is a perfect game for all ages and skill levels."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Play Basketball FRVR - Free Basketball Hoop Shooter Game",
+      "description": "Shoot some hoops in Basketball FRVR, a relaxing and fun basketball shooter. With no time limit and a moving basket, it's the perfect challenge. Play for free!",
+      "keywords": "Basketball FRVR, basketball shooter, frvr games, hoop game, sports, casual, free basketball"
+    }
+  },
+  {
+    "slug": "Basketball_Clash",
+    "title": "Basketball Clash",
+    "description": "Showcase your shooting skills on a global stage in <b>Basketball Clash</b>, the ultimate multiplayer basketball showdown. This game provides endless entertainment by pitting you against players from around the world in thrilling shooting competitions. In <b>Basketball Clash</b>, your goal is to score more points than your opponent within the time limit. Success requires a combination of agility, precision, and strategic thinking to sink shots from various positions on the court. Rise through the ranks and prove you have what it takes to be among the top 100 shooters worldwide. Do you have the talent to dominate the court and lead your team to triumph in every <b>Basketball Clash</b>?",
+    "coverImage": "/images/games/Basketball_Clash.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basketball-clash/index.html",
+    "rating": 4.2,
+    "howToPlay": [
+      "Click, drag, and release the left mouse button to aim and shoot the ball.",
+      "Adjust your aim and power to score from different locations on the court."
+    ],
+    "features": [
+      "Exciting real-time multiplayer basketball shootouts.",
+      "Compete against players from around the globe.",
+      "Intuitive drag-and-release shooting controls.",
+      "Test your agility, logic, and strategic thinking.",
+      "Climb the global leaderboards to prove your skill.",
+      "Basketball Clash offers fast-paced, competitive fun."
+    ],
+    "isTopPick": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Basketball Clash - Online Multiplayer Shooting Game",
+      "description": "Compete against players worldwide in Basketball Clash! Showcase your talent in thrilling multiplayer shootouts and climb the global leaderboard. Play for free!",
+      "keywords": "Basketball Clash, multiplayer basketball, shooting, online sports, pvp, basketball competition"
+    }
+  },
+  {
+    "slug": "Jump_Up_3D_Mini_Basketball",
+    "title": "Jump Up 3D: Mini Basketball",
+    "description": "Bounce to the top in <b>Jump Up 3D: Mini Basketball</b>, a fun and vibrant trampoline basketball game. With incredibly simple controls, anyone can start aiming for that perfect shot. In <b>Jump Up 3D: Mini Basketball</b>, you control a character on a trampoline, and your goal is to time your jumps and shots to sink the ball in the hoop. The lively animations and colorful graphics make every session a blast. Challenge yourself to beat your personal high score or compete with friends for the ultimate bragging rights. It's time to bounce, shoot, and score big in the delightful world of <b>Jump Up 3D: Mini Basketball</b>!",
+    "coverImage": "/images/games/Jump_Up_3D_Mini_Basketball.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/jump-up-3d-mini-basketball/index.html",
+    "rating": 4.35,
+    "howToPlay": [
+      "Use the left mouse button to shoot the ball.",
+      "Time your shot with the bounce of the trampoline to score."
+    ],
+    "features": [
+      "Fun and unique trampoline basketball gameplay.",
+      "Extremely simple one-touch shooting controls.",
+      "Vibrant 3D graphics and lively animations.",
+      "Perfect for players of all ages.",
+      "Challenge yourself to beat your high score.",
+      "Jump Up 3D: Mini Basketball offers a fresh take on basketball games."
+    ],
+    "isTopPick": true,
+    "seo": {
+      "title": "Jump Up 3D: Mini Basketball - Free Trampoline Game",
+      "description": "Bounce and shoot in Jump Up 3D: Mini Basketball! A fun trampoline basketball game with simple controls and vibrant graphics. Beat your high score. Play free!",
+      "keywords": "Jump Up 3D Mini Basketball, trampoline, basketball, 3d, mini, casual, one touch, skill"
+    }
+  },
+  {
+    "slug": "Bloxd_io",
+    "title": "Bloxd.io",
+    "description": "<b>Bloxd.io</b> is an online game with graphics and gameplay similar to Minecraft. Join a variety of game modes like Bloxdhop, EvilTower, and DoodleCube, each with a different objective. Whether you're parkouring, building, or fighting, there's a mode for you.",
+    "coverImage": "/images/games/Bloxd.io.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/bloxdio/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Move with WASD keys.",
+      "Jump with the Spacebar.",
+      "Crouch with Shift or C.",
+      "Sprint by double-tapping the W key.",
+      "Place blocks with the right mouse button.",
+      "Destroy blocks with the left mouse button.",
+      "Switch items with the number keys or mouse wheel."
+    ],
+    "features": [
+      "Minecraft-style blocky graphics.",
+      "Multiple game modes: Survival, Creative, Bed Wars, and more.",
+      "Online multiplayer with a global community.",
+      "Parkour (Bloxdhop) and building (DoodleCube) challenges.",
+      "Free to play in your browser."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Bloxd.io on Doodle Baseball",
+      "description": "Enjoy Bloxd.io, a free-to-play online game with various modes like survival and parkour. Build, fight, and explore in this blocky multiplayer world.",
+      "keywords": "Bloxd.io, block game, multiplayer, minecraft game, online game, free game"
+    }
+  },
+  {
+    "slug": "Paper_io_2",
+    "title": "Paper.io 2",
+    "description": "<b>Paper.io 2</b> is a real-time multiplayer .io game where you have to capture as much territory as possible. Control your character, create a loop back to your own colored area to claim new ground, and eliminate opponents by hitting their tail.",
+    "coverImage": "/images/games/Paper.io_2.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/paper-io-2/index.html",
+    "rating": 4.2,
+    "howToPlay": [
+      "Use your mouse or touch screen to move your character.",
+      "Create a loop back to your own territory to capture it.",
+      "Eliminate other players by hitting their exposed tail.",
+      "Avoid having your own tail hit by opponents."
+    ],
+    "features": [
+      "Real-time online multiplayer.",
+      "Unlockable skins to customize your character.",
+      "Fast-paced and addictive gameplay.",
+      "Simple and intuitive controls.",
+      "Compete for the highest score on the leaderboard."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Paper.io 2 on Doodle Baseball",
+      "description": "Capture as much territory as you can in Paper.io 2, a free multiplayer .io game. Compete with players worldwide and become the biggest on the map.",
+      "keywords": "Paper.io 2, paper.io, .io game, multiplayer game, online game, free game"
+    }
+  },
+  {
+    "slug": "Kirka_io",
+    "title": "Kirka.io",
+    "description": "<b>Kirka.io</b> is a blocky first-person shooter with a fast-paced and competitive gameplay. Play a variety of game modes and maps, customize your character and weapons, and compete on the leaderboards.",
+    "coverImage": "/images/games/Kirka.io.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/kirka-io/index.html",
+    "rating": 4.3,
+    "howToPlay": [
+      "Move with WASD keys.",
+      "Jump with the Spacebar.",
+      "Shoot with the left mouse button.",
+      "Aim with the right mouse button.",
+      "Crouch with Shift.",
+      "Dash with E.",
+      "Switch weapons with keys 1, 2, 3."
+    ],
+    "features": [
+      "Fast-paced online FPS gameplay.",
+      "Voxel-based, Minecraft-like graphics.",
+      "Multiple game modes including Team Deathmatch and Parkour.",
+      "Character and weapon customization.",
+      "Create or join clans and participate in clan wars.",
+      "Daily quests and leaderboards."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Kirka.io on Doodle Baseball",
+      "description": "Jump into the action with Kirka.io, a free-to-play browser FPS with voxel graphics. Compete in various game modes, customize your loadout, and climb the leaderboards.",
+      "keywords": "Kirka.io, Kirka, .io game, browser FPS, online shooter, free to play FPS"
+    }
+  },
+  {
+    "slug": "Penalty_Shooters_2",
+    "title": "Penalty Shooters 2",
+    "description": "<b>Penalty Shooters 2</b> is a popular online soccer game that focuses on the thrilling experience of penalty shootouts. Play as both the shooter and the goalkeeper, choose from 12 fantasy leagues, and lead your team to victory.",
+    "coverImage": "/images/games/Penalty_Shooters_2.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/penalty-shooters-2/index.html",
+    "rating": 4.2,
+    "howToPlay": [
+      "As the shooter, click and hold to aim, then release to shoot.",
+      "Holding longer increases the shot's height.",
+      "Vary your shots as the AI goalkeeper remembers your previous attempts.",
+      "As the goalkeeper, a target will appear before the shot. Click it quickly to make a save."
+    ],
+    "features": [
+      "Play as both the penalty taker and the goalkeeper.",
+      "Choose from 12 fantasy leagues and 360 unique teams.",
+      "Two-phase tournament system with group and knockout stages.",
+      "Realistic soccer gameplay with a cheering crowd.",
+      "Customize your team's appearance and jerseys."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Penalty Shooters 2 on Doodle Baseball",
+      "description": "Experience the thrill of a penalty shootout in Penalty Shooters 2. Play as both kicker and goalie, and lead your team to victory in this free online soccer game.",
+      "keywords": "Penalty Shooters 2, penalty shootout game, soccer game, football game, free online games, sports games"
+    }
+  },
+  {
+    "slug": "Moto_X3M",
+    "title": "Moto X3M",
+    "description": "<b>Moto X3M</b> is a fast-paced bike racing game with 22 challenging levels full of obstacles, ramps, and explosions. Reach the finish line in the fastest time possible and perform stunts to reduce your time.",
+    "coverImage": "/images/games/Moto_X3M.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/moto-x3m/index.html",
+    "rating": 4.8,
+    "howToPlay": [
+      "Use W or Up Arrow to accelerate.",
+      "Use S or Down Arrow to brake.",
+      "Use A/D or Left/Right Arrows to balance your bike.",
+      "Perform flips and other stunts to get a time bonus.",
+      "Finish each level as fast as you can to earn stars."
+    ],
+    "features": [
+      "22 challenging and unique levels.",
+      "A variety of obstacles including loops, ramps, and explosives.",
+      "Unlock new motorcycles as you progress.",
+      "Physics-based gameplay that requires skill and timing.",
+      "Part of the popular Moto X3M game series."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Moto X3M on Doodle Baseball",
+      "description": "Race through 22 challenging levels in Moto X3M, a free online bike game. Perform stunts, overcome obstacles, and unlock new bikes. Play now!",
+      "keywords": "Moto X3M, bike racing game, stunt game, physics game, free online game, motorcycle game"
+    }
+  },
+  {
+    "slug": "Soccer_Legends_2021",
+    "title": "Soccer Legends 2021",
+    "description": "<b>Soccer Legends 2021</b> is a two-player soccer game where you can play as your favorite soccer legends. Compete in tournaments or play a quick match with a friend. Use special moves like a fireball kick or teleporting to outsmart your opponents.",
+    "coverImage": "/images/games/Soccer_Legends_2021.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/soccer-legends-2021/index.html",
+    "rating": 4.3,
+    "howToPlay": [
+      "Player 1: Use AD to move, W to jump, S to slide, B to shoot, and V for a supershot.",
+      "Player 2: Use Left/Right arrows to move, Up arrow to jump, Down arrow to slide, L to shoot, and K for a supershot.",
+      "Score more goals than your opponent within the time limit."
+    ],
+    "features": [
+      "Play as various soccer legends with unique abilities.",
+      "Single-player, two-player, and tournament modes.",
+      "Use special 'superkicks' to gain an advantage.",
+      "Team up with a friend for 2v2 matches.",
+      "Vibrant and attractive 2D graphics."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Soccer Legends 2021 on Doodle Baseball",
+      "description": "Play Soccer Legends 2021, a fast-paced, arcade-style soccer game. Compete with friends in 2-player mode or win the tournament as your favorite legend.",
+      "keywords": "Soccer Legends 2021, soccer legends, 2 player soccer game, football legends, soccer games, free online games"
+    }
+  },
+  {
+    "slug": "Shell_Shockers",
+    "title": "Shell Shockers",
+    "description": "<b>Shell Shockers</b> is a multiplayer .io FPS game where you play as an egg and battle other players with a variety of weapons. It's a fun and unique twist on the classic shooter genre.",
+    "coverImage": "/images/games/Shell_Shockers.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/shell-shockers/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Use WASD to move.",
+      "Use the mouse to aim and shoot.",
+      "Jump with the Spacebar.",
+      "Reload with R.",
+      "Switch weapons with E or number keys.",
+      "Throw grenades with Q."
+    ],
+    "features": [
+      "Unique egg-based FPS gameplay.",
+      "Multiple game modes: Free For All, Teams, and Captula the Spatula.",
+      "A wide variety of weapons to choose from.",
+      "Customize your egg's appearance.",
+      "Cross-platform play on web browsers and mobile devices."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Shell Shockers on Doodle Baseball",
+      "description": "Join the action in Shell Shockers, the world's most popular egg-based multiplayer shooter. Grab your weapon and crack some eggs!",
+      "keywords": "Shell Shockers, Shellshock.io, egg game, online shooter, free to play, multiplayer game, FPS game"
+    }
+    
+  },
+  {
+    "slug": "Smash_Karts",
+    "title": "Smash Karts",
+    "description": "<b>Smash Karts</b> is a 3D kart battle game where you pick up weapons and blow up other karts to win. Play online with friends in fast-paced multiplayer mayhem.",
+    "coverImage": "/images/games/Smash_Karts.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/smash-karts/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Use the Arrow keys or WASD to drive your kart.",
+      "Press the Spacebar to use weapons and power-ups.",
+      "Drive through boxes to collect random items.",
+      "Get the most kills within the three-minute round to win."
+    ],
+    "features": [
+      "Real-time online multiplayer kart battles.",
+      "A wide array of weapons and power-ups.",
+      "Extensive customization for karts and characters.",
+      "Unlock dozens of unique characters.",
+      "Fast-paced, pick-up-and-play action."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Smash Karts on Doodle Baseball",
+      "description": "Jump into the driver's seat in Smash Karts! A fast-paced, online multiplayer kart battle game. Pick up weapons, destroy your opponents, and customize your kart.",
+      "keywords": "Smash Karts, .io game, multiplayer kart game, online battle arena, kart racing game, free to play game"
+    }
+    
+  },
+  {
+    "slug": "Bullet_Force",
+    "title": "Bullet Force",
+    "description": "<b>Bullet Force</b> is a fantastic multiplayer FPS game with great 3D graphics. Create a room or join a full-scale war, and customize your soldier with a wide range of weapons and attachments.",
+    "coverImage": "/images/games/Bullet_Force.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/bullet-force-multiplayer/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Use WASD to move.",
+      "Use the mouse to aim and shoot.",
+      "Jump with the Spacebar.",
+      "Crouch with C.",
+      "Run with Shift.",
+      "Reload with R.",
+      "Switch weapons with number keys."
+    ],
+    "features": [
+      "Fast-paced online multiplayer FPS action.",
+      "Extensive weapon and soldier customization.",
+      "Over 20 weapons and 100 weapon camouflages.",
+      "Multiple game modes including Team Deathmatch and Conquest.",
+      "Create custom matches with your own settings.",
+      "Offline mode with bots for practice."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Bullet Force on Doodle Baseball",
+      "description": "Join the action in Bullet Force, a free-to-play online FPS with extensive customization and multiple game modes. Play now in your browser!",
+      "keywords": "Bullet Force, FPS game, multiplayer shooter, online shooter, free FPS game, military shooter"
+    }
+    
+  },
+  {
+    "slug": "Pixel_Warfare",
+    "title": "Pixel Warfare",
+    "description": "<b>Pixel Warfare</b> is a beloved classic Minecraft-style FPS game. Battle it out in blocky maps with a variety of weapons, all available from the start. Join a room and start shooting!",
+    "coverImage": "/images/games/Pixel_Warfare.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/pixel-warfare/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Use WASD or Arrow Keys to move.",
+      "Use the mouse to aim and shoot.",
+      "Jump with the Spacebar.",
+      "Sprint with Shift.",
+      "Crouch with C.",
+      "Reload with R.",
+      "Select weapons with number keys or mouse scroll."
+    ],
+    "features": [
+      "Classic blocky, retro pixel art style.",
+      "Fast-paced first-person shooter gameplay.",
+      "Multiple game modes including Deathmatch and Team Deathmatch.",
+      "Extensive arsenal of weapons available from the start.",
+      "Numerous diverse maps for different combat scenarios.",
+      "Create custom game rooms with your own settings."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Pixel Warfare on Doodle Baseball",
+      "description": "Experience the classic blocky shooter, Pixel Warfare. Join fast-paced multiplayer battles with a huge arsenal of weapons. Play for free in your browser!",
+      "keywords": "Pixel Warfare, blocky shooting game, retro FPS, Minecraft-style shooter, free browser FPS, multiplayer games"
+    }
+    
+  },
+  {
+    "slug": "Crazy_Roll_3D",
+    "title": "Crazy Roll 3D",
+    "description": "<b>Crazy Roll 3D</b> is an addictive endless running game where you control a ball through a world of obstacles. Roll as far as you can, avoid falling off the edge, and collect diamonds to buy new skins.",
+    "coverImage": "/images/games/Crazy_Roll_3D.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/crazy-roll-3d/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Use A/D or Left/Right arrow keys to steer the ball.",
+      "Navigate the ball through the course, avoiding obstacles and gaps.",
+      "Collect diamonds to purchase new ball skins and items.",
+      "Use keys 1, 2, or 3 to activate power-ups."
+    ],
+    "features": [
+      "Addictive endless runner gameplay.",
+      "Vibrant and colorful 3D graphics.",
+      "Levels get progressively harder as you play.",
+      "Unlock new balls and platform themes.",
+      "Compete on the global leaderboards for the highest score.",
+      "Available in single-player and 2-player modes."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Crazy Roll 3D on Doodle Baseball",
+      "description": "Test your reflexes in Crazy Roll 3D, an addictive 3D endless running game. Steer the ball, avoid obstacles, and see how far you can go!",
+      "keywords": "Crazy Roll 3D, endless running game, 3D ball game, arcade game, online game, free game, skill game"
+    }
+    
+  },
+  {
+    "slug": "Basket_Random",
+    "title": "Basket Random",
+    "description": "<b>Basket Random</b> is a fun and chaotic 2-player basketball game with ragdoll physics. The first to 5 points wins! Each round features different courts, player appearances, and ball types, making every match a new and hilarious experience.",
+    "coverImage": "/images/games/Basket_Random.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/basket-random/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Player 1: Use the 'W' key to jump and shoot.",
+      "Player 2: Use the 'Up Arrow' key to jump and shoot.",
+      "The first team to score 5 points wins the game."
+    ],
+    "features": [
+      "Hilarious and unpredictable random physics.",
+      "Wacky characters with ragdoll movements.",
+      "Changing environments and ball types each round.",
+      "Simple one-button controls.",
+      "Designed for two-player competitive fun."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Basket Random on Doodle Baseball",
+      "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
+      "keywords": "Basket Random, 2 player game, basketball game, arcade game, sports game, wacky game, physics game"
+    }
+    
+  },
+  {
+    "slug": "Moto_X3M_6_Spooky_Land",
+    "title": "Moto X3M 6: Spooky Land",
+    "description": "<b>Moto X3M 6: Spooky Land</b> is the sixth installment of the popular Moto X3M series, this time with a spooky Halloween theme. Navigate through 22 challenging levels filled with bone-spikes, green goo, and other creepy obstacles.",
+    "coverImage": "/images/games/Moto_X3M_6_Spooky_Land.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/moto-x3m-6-spooky-land/index.html",
+    "rating": 4.8,
+    "howToPlay": [
+      "Use W or Up Arrow to accelerate.",
+      "Use S or Down Arrow to brake.",
+      "Use A/D or Left/Right Arrows to balance your bike.",
+      "Perform flips and other stunts to reduce your time.",
+      "Finish each level as quickly as possible to earn stars."
+    ],
+    "features": [
+      "Spooky Halloween-themed tracks and obstacles.",
+      "22 increasingly challenging levels.",
+      "Unlock new bikes and riders with the stars you earn.",
+      "Perform stunts and tricks to get a better time.",
+      "Fast-paced, physics-based motorcycle gameplay."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isRelated":true,
+    "seo": {
+      "title": "Play Moto X3M 6: Spooky Land on Doodle Baseball",
+      "description": "Race through a spooky world in Moto X3M 6: Spooky Land! A free online bike game with 22 Halloween-themed levels. Perform stunts and unlock new riders.",
+      "keywords": "Moto X3M 6, Spooky Land, Halloween game, motorcycle game, stunt game, bike game, racing game"
+    }
+    
+  },
+  {
+    "slug": "Getaway_Shootout",
+    "title": "Getaway Shootout",
+    "description": "<b>Getaway Shootout</b> is a chaotic race to the getaway objective. Compete with three others and use weapons and power-ups to win. The game is known for its quirky physics and hilarious gameplay.",
+    "coverImage": "/images/games/Getaway_Shootout.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/getaway-shootout/index.html",
+    "rating": 4.4,
+    "howToPlay": [
+      "Use two buttons to rotate your character left and right.",
+      "Release the buttons to jump.",
+      "Use a third button to activate power-ups and weapons.",
+      "Be the first to reach the getaway vehicle to win."
+    ],
+    "features": [
+      "Chaotic and hilarious racing gameplay.",
+      "Local multiplayer to compete against a friend or the computer.",
+      "A wide array of insane weapons and power-ups.",
+      "Unique and unpredictable physics-based movement.",
+      "Over 20 different characters to unlock and play."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Getaway Shootout on Doodle Baseball",
+      "description": "Race to freedom in Getaway Shootout, a chaotic and funny multiplayer game. Use weapons and quirky physics to beat your opponents to the getaway vehicle.",
+      "keywords": "Getaway Shootout, action racing game, multiplayer physics game, funny multiplayer games, indie action game"
+    }
+    
+  }
+]
