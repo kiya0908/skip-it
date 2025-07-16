@@ -7,6 +7,7 @@ import GameSection from './GameSection'; // 导入新的客户端组件
 import TopPicksGame from './components/TopPicksGame'; // 导入toppicksgame组件
 import HotGame from './components/HotGame'; // 导入hotgame组件
 import RelatedGames from './components/RelatedGames';//导入ralatedgame组件
+import Comments from './components/Comments'; // 导入评论组件
 
 // 为页面添加元数据
 export const metadata: Metadata = {
@@ -117,18 +118,17 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex gap-8">
-          <div className="flex-1">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="gap-8">
+           <div>
             <GameSection />
           </div>
-
         </div>
       </div>
 
       {/* 游戏内容综合区域 */}
       <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
           {/* 关于游戏部分 */}
           <div className="mb-16">
             <div className="text-center mb-12">
@@ -375,8 +375,15 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+          {/*Comments 组件 */}
+          <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
+            <Comments />
+          </div>
+          {/* RelatedGames 组件 */}
+          <div>
+            <RelatedGames />
+          </div>
         </div>
-        <RelatedGames />
       </section>
 
 

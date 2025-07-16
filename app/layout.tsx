@@ -48,6 +48,11 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         />
+        {/* 新增：游戏资源预连接优化 */}
+        <link rel="preconnect" href="https://games.crazygames.com" />
+        <link rel="preconnect" href="https://1games.io" />
+        <link rel="dns-prefetch" href="https://games.crazygames.com" />
+        <link rel="dns-prefetch" href="https://1games.io" />
       </head>
       <body className={`${poppins.variable} ${bangers.variable} antialiased`}>
         <Header />

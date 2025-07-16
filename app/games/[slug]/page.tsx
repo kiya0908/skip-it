@@ -79,7 +79,7 @@ export default function GamePage({ params }: { params: { slug: string } }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* 页面主内容 */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
         <GameClient game={game} />
       </div>
     </>

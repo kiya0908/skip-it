@@ -12,8 +12,6 @@ interface Game {
 const TopPicksGame = () => {
   const allGames: Game[] = gamesData as Game[];
   const topPicks = allGames.filter(game => game.isTopPick).slice(0, 18);
-  const targetWidth = 187; // pixels
-  const targetHeight = 106; // pixels
 
   if (topPicks.length === 0) {
     return null; 
@@ -21,7 +19,7 @@ const TopPicksGame = () => {
 
   return (
     <section className="py-8 bg-[#0c2461]"> 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
         <p className="text-3xl font-bangers text-white mb-6 text-center sm:text-left">
           Top Picks Games
         </p>
@@ -29,14 +27,12 @@ const TopPicksGame = () => {
           {topPicks.map((game) => (
             <Link key={game.slug} href={`/games/${game.slug}`} 
                className="block group shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1">
-                  <div className={`relative group rounded-lg overflow-hidden`}
-                       style={{ width: `${targetWidth}px`, height: `${targetHeight}px` }}
-                       >
+                  <div className="relative group rounded-lg overflow-hidden w-full aspect-[187/106]">
                       <Image
                         src={game.coverImage}
                         alt={game.title}
                         fill
-                        sizes={`${targetWidth}px`}
+                        sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
                         priority
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                       />

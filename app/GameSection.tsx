@@ -16,6 +16,7 @@ export default function GameSection() {
   const [isLoading, setIsLoading] = useState(true);
   const [gameUrl, setGameUrl] = useState<string | undefined>(undefined);
   const [loadError, setLoadError] = useState(false);
+  // 完全移除：加载进度状态，回到原始简单状态
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
@@ -24,6 +25,9 @@ export default function GameSection() {
       if (firstGame && firstGame.playUrl) {
         setGameUrl(firstGame.playUrl);
         setLoadError(false);
+        
+        // 移除：预加载机制，可能导致冲突和性能问题
+        
       } else {
         console.error("Game data is missing playUrl for the first game.");
         setLoadError(true);
@@ -39,6 +43,7 @@ export default function GameSection() {
   const handleIframeLoad = () => {
     setIsLoading(false);
     setLoadError(false);
+    // 完全移除：所有进度相关逻辑
   };
 
   const handleIframeError = () => {
@@ -52,6 +57,7 @@ export default function GameSection() {
       setGameUrl(gamesData[0].playUrl + (gamesData[0].playUrl.includes('?') ? '&' : '?') + 'timestamp=' + new Date().getTime());
       setIsLoading(true);
       setLoadError(false);
+      // 完全移除：所有进度相关逻辑
     }
   };
 
@@ -70,10 +76,12 @@ export default function GameSection() {
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                     </svg>
                     <p>Loading Game...</p>
+                    {/* 完全移除：进度条相关内容，回到原始简单状态 */}
                   </div>
                 )}
                 {loadError && (
                   <div className="absolute inset-0 bg-red-800 bg-opacity-90 text-white flex flex-col items-center justify-center text-center p-4 z-20">
+                    {/* 移除：超时状态判断，统一错误提示 */}
                     <p className="mb-4 text-lg">Oops! Game loading error.</p>
                     <button onClick={reloadGame} className="bg-white text-red-700 hover:bg-gray-200 font-bold py-2 px-4 rounded transition-colors">
                       Try Again
@@ -89,6 +97,7 @@ export default function GameSection() {
                     scrolling="no"
                     allowFullScreen
                     allow="autoplay; fullscreen"
+                    // 移除：复杂的iframe属性，恢复简单配置提高加载速度
                     onLoad={handleIframeLoad}
                     onError={handleIframeError}
                     style={{ display: isLoading || loadError ? 'none' : 'block' }}
@@ -120,7 +129,7 @@ export default function GameSection() {
       </section>
       
       <TopPicksGame />
-  </div>
+    </div>
   );
 }
 

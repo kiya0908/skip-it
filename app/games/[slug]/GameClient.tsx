@@ -3,6 +3,8 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import TopPicksGame from '../../components/TopPicksGame';
 import HotGame from '../../components/HotGame';
+import RelatedGames from '../../components/RelatedGames';//导入ralatedgame组件
+import Comments from '../../components/Comments'; // 导入评论组件
 
 interface Game {
   slug: string;
@@ -109,7 +111,7 @@ export default function GameClient({ game }: { game: Game }) {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (showShareMenu && shareMenuRef.current && !shareMenuRef.current.contains(event.target as Node) &&
-          shareBtnRef.current && !shareBtnRef.current.contains(event.target as Node)) {
+        shareBtnRef.current && !shareBtnRef.current.contains(event.target as Node)) {
         setShowShareMenu(false);
       }
     };
@@ -119,9 +121,9 @@ export default function GameClient({ game }: { game: Game }) {
     };
   }, [showShareMenu]); // Dependency on showShareMenu to ensure listener is active when needed
   return (
-    <main className="bg-white min-h-screen">
+    <main className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
       {/* 游戏区域 */}
-      <section id="play" className="py-6 bg-white">
+      <section id="play" className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
           <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">
             <a href={`/games/${game.slug}`} className="text-gray-900 hover:underline">{game.title}</a>
@@ -231,8 +233,8 @@ export default function GameClient({ game }: { game: Game }) {
                 </div>
               </div>
             </div>
-              {/* Hotgames 区域，和首页gamesection一致 */}
-            <div className="w-full lg:w-80">
+            {/* Hotgames 区域，和首页gamesection一致 */}
+            <div className="w-full lg:w-80 space-y-6">
               <HotGame />
             </div>
           </div>
@@ -293,6 +295,14 @@ export default function GameClient({ game }: { game: Game }) {
               </p>
             </div>
           </div>
+          {/*Comments 组件 */}
+          <div>
+            <Comments />
+          </div>
+            {/* RelatedGames 组件 */}
+            <div>
+              <RelatedGames />
+            </div>
         </div>
       </section>
     </main>
