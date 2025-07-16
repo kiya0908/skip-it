@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import gamesData from '../../data/games.json';
+import { memo, useCallback } from 'react';
 
 interface Game {
   slug: string;
@@ -13,8 +14,11 @@ const RelatedGames = () => {
   const allGames: Game[] = gamesData as Game[];
   // 筛选isRelated=true的游戏，并且最多显示30个
   const relatedGames = allGames.filter(game => game.isRelated === true).slice(0, 30);
-  const targetWidth = 187; // pixels
-  const targetHeight = 106; // pixels
+  
+  // 优化图片加载，只预加载首屏可见的图片
+  const getImageLoadingPriority = useCallback((index: number) => {
+    return index < 6 ? "eager" : "lazy";
+  }, []);
 
   if (relatedGames.length === 0) {
     return null; 
@@ -36,8 +40,9 @@ const RelatedGames = () => {
                         alt={game.title}
                         fill
                         sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
-                        priority
+                        loading={getImageLoadingPriority(relatedGames.indexOf(game)) as "lazy" | "eager"}
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        quality={75}
                       />
                   <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-white text-center font-bold text-lg px-2 transform scale-90 group-hover:scale-100 transition-transform duration-300">
@@ -60,4 +65,4 @@ const RelatedGames = () => {
   );
 };
 
-export default RelatedGames;
+export default memo(RelatedGames);

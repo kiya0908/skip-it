@@ -52,17 +52,23 @@ export default function GamePage({ params }: { params: { slug: string } }) {
     redirect('/');
   }
   
-  // JSON-LD 结构化数据
+  // JSON-LD 结构化数据 - 优化为更完整的游戏信息
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "VideoGame",
     "name": game.title,
-    "description": game.description,
+    "description": game.description.replace(/<\/?b>/g, ''), // 移除HTML标签以确保纯文本
     "image": game.coverImage,
     "url": `https://doodlebaseball.info/games/${game.slug}`,
-    "genre": "Sports Game",
+    "genre": ["Sports Game", "Browser Game", "Online Game"],
     "playMode": "SinglePlayer",
     "applicationCategory": "Game",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": game.rating.toString(),

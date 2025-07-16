@@ -1,23 +1,21 @@
 "use client";
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import gamesData from '@/data/games.json';
 import HotGame from '@/app/components/HotGame';
 import TopPicksGame from '@/app/components/TopPicksGame';
-
-interface Game {
-  slug: string;
-  title: string;
-  playUrl: string;
-  rating: number;
-  coverImage: string;
-}
 
 export default function GameSection() {
   const [isLoading, setIsLoading] = useState(true);
   const [gameUrl, setGameUrl] = useState<string | undefined>(undefined);
   const [loadError, setLoadError] = useState(false);
-  // 完全移除：加载进度状态，回到原始简单状态
+  const [showShareMenu, setShowShareMenu] = useState(false);
+  const [isLiked, setIsLiked] = useState(false); // State for the like button
+
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const shareBtnRef = useRef<HTMLButtonElement>(null);
+  const shareMenuRef = useRef<HTMLDivElement>(null);
+  const fullscreenBtnRef = useRef<HTMLButtonElement>(null);
+  const gameContainerRef = useRef<HTMLDivElement>(null); // Ref for the game container div
 
   useEffect(() => {
     if (gamesData && gamesData.length > 0) {
@@ -25,9 +23,6 @@ export default function GameSection() {
       if (firstGame && firstGame.playUrl) {
         setGameUrl(firstGame.playUrl);
         setLoadError(false);
-        
-        // 移除：预加载机制，可能导致冲突和性能问题
-        
       } else {
         console.error("Game data is missing playUrl for the first game.");
         setLoadError(true);
@@ -43,13 +38,13 @@ export default function GameSection() {
   const handleIframeLoad = () => {
     setIsLoading(false);
     setLoadError(false);
-    // 完全移除：所有进度相关逻辑
   };
 
   const handleIframeError = () => {
     setIsLoading(false);
     setLoadError(true);
     console.error("Iframe failed to load content for URL:", gameUrl);
+    console.log("可能是由于跨域限制或X-Frame-Options导致iframe加载失败");
   };
 
   const reloadGame = () => {
@@ -57,9 +52,73 @@ export default function GameSection() {
       setGameUrl(gamesData[0].playUrl + (gamesData[0].playUrl.includes('?') ? '&' : '?') + 'timestamp=' + new Date().getTime());
       setIsLoading(true);
       setLoadError(false);
-      // 完全移除：所有进度相关逻辑
     }
   };
+
+  // Fullscreen Handler
+  const handleFullscreen = useCallback(() => {
+    // 确保游戏已加载且iframe可用
+    if (iframeRef.current && !isLoading && !loadError) {
+      if (!document.fullscreenElement) {
+        if (iframeRef.current.requestFullscreen) {
+          iframeRef.current.requestFullscreen();
+        } else if ((iframeRef.current as any).webkitRequestFullscreen) { // For Safari
+          (iframeRef.current as any).webkitRequestFullscreen();
+        } else if ((iframeRef.current as any).msRequestFullscreen) { // For IE/Edge
+          (iframeRef.current as any).msRequestFullscreen();
+        }
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if ((document as any).webkitExitFullscreen) {
+          (document as any).webkitExitFullscreen();
+        } else if ((document as any).msExitFullscreen) {
+          (document as any).msExitFullscreen();
+        }
+      }
+    }
+  }, [isLoading, loadError]);
+
+  // Share Handler
+  const handleShare = useCallback((platform: string) => {
+    const url = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent(`Play ${gamesData[0]?.title || 'Doodle Baseball'} Online for Free!`);
+
+    switch (platform) {
+      case 'facebook':
+        window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
+        break;
+      case 'twitter':
+        window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
+        break;
+      case 'whatsapp':
+        window.open('https://api.whatsapp.com/send?text=' + title + ' ' + url, '_blank');
+        break;
+      case 'copy':
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          alert('Link copied to clipboard!');
+        }).catch(err => {
+          console.error('Failed to copy text: ', err);
+        });
+        break;
+    }
+    // Close share menu after sharing
+    setShowShareMenu(false);
+  }, []);
+
+  // Effect for closing share menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (showShareMenu && shareMenuRef.current && !shareMenuRef.current.contains(event.target as Node) &&
+        shareBtnRef.current && !shareBtnRef.current.contains(event.target as Node)) {
+        setShowShareMenu(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showShareMenu]);
 
   return (
     <div className="bg-white min-h-screen">
@@ -68,7 +127,7 @@ export default function GameSection() {
           <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Doodle Baseball Game</h1>
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
-              <div className="game-container relative w-full aspect-video bg-gray-900">
+              <div ref={gameContainerRef} className="game-container relative w-full aspect-video bg-gray-900">
                 {isLoading && (
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-80 flex flex-col items-center justify-center text-white z-30">
                     <svg className="animate-spin h-10 w-10 text-white mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -97,27 +156,68 @@ export default function GameSection() {
                     scrolling="no"
                     allowFullScreen
                     allow="autoplay; fullscreen"
-                    // 移除：复杂的iframe属性，恢复简单配置提高加载速度
                     onLoad={handleIframeLoad}
                     onError={handleIframeError}
                     style={{ display: isLoading || loadError ? 'none' : 'block' }}
                   ></iframe>
                 )}
               </div>
-              <div className="p-4 flex justify-between items-center">
-                <div>
-                  <h2 className="text-xl font-bangers text-gray-900">{gamesData[0].title}</h2>
-                  <div className="flex items-center">
-                    <div className="flex mr-2 text-yellow-400">
+              <div className="game-footer text-white flex justify-between items-center p-4">
+                <div className="flex items-center">
+                  <p className="text-xl font-bangers mr-4 text-gray-900">{gamesData[0].title}</p>
+                  <div className="star-rating">
+                    <div className="flex mr-2">
+                      {/* Render stars based on game rating */}
                       {[...Array(5)].map((_, i) => (
-                        <i key={i} className={`fas fa-star ${i < Math.round(gamesData[0]?.rating ?? 0) ? 'text-yellow-400' : 'text-gray-300'}`}></i>
+                        <i
+                          key={i}
+                          className={`fas fa-star ${i < Math.floor(gamesData[0]?.rating ?? 0) ? 'text-yellow-300' : 'text-gray-300'}`}
+                        ></i>
                       ))}
                     </div>
-                    <span className="text-lg text-gray-900">{gamesData[0].rating.toFixed(1)}</span>
+                    <span className="text-xl text-gray-900">{gamesData[0]?.rating?.toFixed(1)}</span>
                   </div>
                 </div>
                 <div className="flex space-x-3">
-                  {/* Share and Fullscreen buttons can be added here */}
+                  <button
+                    className="footer-btn share-button"
+                    title="Like"
+                    onClick={() => setIsLiked(!isLiked)}
+                  >
+                    <i className={`fas fa-heart text-xl ${isLiked ? 'text-red-500' : 'text-blue-400'}`}></i>
+                  </button>
+                  <div className="relative">
+                    <button
+                      ref={shareBtnRef}
+                      className="footer-btn"
+                      id="share-btn"
+                      title="Share"
+                      onClick={() => setShowShareMenu(!showShareMenu)}
+                    >
+                      <i className="fas fa-share-alt text-blue-400 text-xl"></i>
+                    </button>
+                    <div
+                      ref={shareMenuRef}
+                      id="share-menu"
+                      className={`${showShareMenu ? '' : 'hidden'} absolute bottom-full right-0 mb-2 bg-[#0c2461] rounded-lg shadow-lg p-2 w-48 z-10`}
+                    >
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('copy')}>
+                        <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link
+                      </button>
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('facebook')}>
+                        <i className="fab fa-facebook text-blue-400 mr-2"></i> Facebook
+                      </button>
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('twitter')}>
+                        <i className="fab fa-twitter text-blue-400 mr-2"></i> Twitter
+                      </button>
+                      <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('whatsapp')}>
+                        <i className="fab fa-whatsapp text-blue-400 mr-2"></i> WhatsApp
+                      </button>
+                    </div>
+                  </div>
+                  <button ref={fullscreenBtnRef} className="footer-btn" id="fullscreen-btn" title="Fullscreen" onClick={handleFullscreen}>
+                    <i className="fas fa-expand-arrows-alt text-blue-400 text-xl"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -127,7 +227,7 @@ export default function GameSection() {
           </div>
         </div>
       </section>
-      
+
       <TopPicksGame />
     </div>
   );

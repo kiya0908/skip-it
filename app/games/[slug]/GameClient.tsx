@@ -123,8 +123,8 @@ export default function GameClient({ game }: { game: Game }) {
   return (
     <main className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
       {/* 游戏区域 */}
-      <section id="play" className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
+      <section id="play" className="py-6 bg-white">
+        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-8">
           <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">
             <a href={`/games/${game.slug}`} className="text-gray-900 hover:underline">{game.title}</a>
           </h1>
@@ -188,6 +188,8 @@ export default function GameClient({ game }: { game: Game }) {
                       ))}
                     </div>
                     <span className="text-xl text-gray-900">{game.rating}</span>
+                    
+                  
                   </div>
                 </div>
                 <div className="flex space-x-3">

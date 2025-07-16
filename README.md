@@ -18,7 +18,32 @@ The project follows the Next.js App Router conventions:
     - `app/page.tsx`: The main landing page.
     - `app/games/[slug]/page.tsx`: Dynamic route for individual game detail pages.
     - `app/about/`, `app/contact/`, `app/privacy/`, `app/terms/`: Directories for static pages.
-    - `app/components/`: Reusable React components (e.g., `TopPicksGame.tsx`).
+    - `app/components/`: Reusable React components organized by functionality:
+      - **Game Display Components**:
+        - `GameSection.tsx`: Main component for displaying the featured game with iframe, controls, and sharing options
+        - `TopPicksGame.tsx`: Displays a curated list of top-rated games marked as "isTopPick" in the data
+        - `HotGame.tsx`: Shows popular games marked as "isHot" in the sidebar
+        - `GameGrid.tsx`: Reusable grid layout for displaying multiple games with pagination
+        - `RelatedGames.tsx`: Shows games marked as "isRelated" for recommendation purposes
+      
+      - **Layout Components**:
+        - `Header.tsx`: Site navigation header with search functionality
+        - `Footer.tsx`: Site footer with links to About, Contact, Privacy, and Terms pages
+        - `Comments.tsx`: User comment section for games
+      
+      - **Performance Optimization Components**:
+        - `PerformanceOptimizer.tsx`: Main performance optimization wrapper that combines multiple optimizers
+        - `FontOptimizer.tsx`: Optimizes font loading based on network conditions
+        - `ImageOptimizer.tsx`: Adjusts image quality based on network speed
+        - `ScriptOptimizer.tsx`: Handles delayed loading of non-critical scripts
+        - `ClientOptimizer.tsx`: Client-side optimizations for better performance
+        - `CriticalCSS.tsx`: Inlines critical CSS to reduce render-blocking resources
+        - `ResourcePreload.tsx`: Preloads important resources for faster loading
+      
+      - **Image Optimization Components**:
+        - `LazyImage.tsx`: Lazy-loading image component with loading states
+        - `OptimizedImage.tsx`: Enhanced Next.js Image component with optimization features
+        - `OptimizedFonts.tsx`: Configures optimized font loading with Next.js font system
     - `app/sitemap.ts`: Configuration for dynamic sitemap generation.
     - `app/globals.css`: Global styles, likely including Tailwind CSS imports.
 - `data/games.json`: JSON file serving as the data source for games.

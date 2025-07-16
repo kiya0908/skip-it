@@ -1,13 +1,9 @@
-import React from 'react'; // React, useState, useEffect, useRef 不再需要在这里导入
+import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
-// import gamesData from '.././data/games.json'; // gamesData 将在 GameSection 中导入
-import GameSection from './GameSection'; // 导入新的客户端组件
-import TopPicksGame from './components/TopPicksGame'; // 导入toppicksgame组件
-import HotGame from './components/HotGame'; // 导入hotgame组件
-import RelatedGames from './components/RelatedGames';//导入ralatedgame组件
-import Comments from './components/Comments'; // 导入评论组件
+import GameSection from './GameSection';
+import RelatedGames from './components/RelatedGames';
+import Comments from './components/Comments';
 
 // 为页面添加元数据
 export const metadata: Metadata = {
@@ -41,16 +37,16 @@ const gameJsonLd = {
   "name": "Doodle Baseball Game",
   "url": "https://doodlebaseball.info/",
   "description": "Play Doodle Baseball, the ultimate Fourth of July food baseball game! Celebrate Independence Day online for free, hit home runs, and enjoy classic American snacks in this fun baseball game.",
-  "genre": ["Sports Game", "Casual Game", "Arcade Game","Independence Day Game"],
+  "genre": ["Sports Game", "Casual Game", "Arcade Game", "Independence Day Game"],
   "playPlatform": "WebBrowser",
   "applicationCategory": "Game",
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.36", 
+    "ratingValue": "4.36",
     "bestRating": "5",
-    "ratingCount": "1" 
+    "ratingCount": "1"
   },
-  "image": "https://doodlebaseball.info/doodlebaseball.png" 
+  "image": "https://doodlebaseball.info/doodlebaseball.png"
 };
 
 const faqJsonLd = {
@@ -100,10 +96,7 @@ const faqJsonLd = {
   ]
 };
 
-// 面包屑导航数据
-const breadcrumbs = [
-  { name: 'Home', href: '/', current: true },
-];
+
 
 export default function HomePage() {
   return (
@@ -120,7 +113,7 @@ export default function HomePage() {
 
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="gap-8">
-           <div>
+          <div>
             <GameSection />
           </div>
         </div>
@@ -139,7 +132,7 @@ export default function HomePage() {
                 Originally launched as a <strong>Fourth of July baseball</strong> celebration, <strong>Doodle Baseball</strong> is an exciting game that brings players into a playful world where America's favorite pastime meets quirky food characters. This <strong>food baseball</strong> game offers a delightful twist on the traditional sport, making <strong>Doodle Baseball</strong> not just a simulation, but a fun-filled adventure perfect for the holiday and suitable for all ages. As you enter the <strong>Doodle Baseball</strong> field, you'll discover a vibrant lineup of classic American snacks, all taking their shot at a home run. Whether you're searching for a fun <strong>food baseball game</strong> or a <strong>Fourth of July baseball</strong> experience, Doodle Baseball is the perfect choice for all ages.
               </p>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
@@ -150,7 +143,7 @@ export default function HomePage() {
                   The <strong>Doodle Baseball</strong> game captures the essence of America's favorite pastime with realistic physics and engaging gameplay. Play the <strong>Doodle Baseball</strong> game online anytime to enjoy the ultimate baseball simulation experience!
                 </p>
               </div>
-              
+
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
                   <i className="fas fa-gamepad text-green-600 text-xl"></i>
@@ -160,7 +153,7 @@ export default function HomePage() {
                   The <strong>Doodle Baseball</strong> game features intuitive one-button controls that anyone can pick up instantly. However, mastering the perfect swing timing in the <strong>Doodle Baseball</strong> game requires practice and skill, making it endlessly entertaining.
                 </p>
               </div>
-              
+
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
                   <i className="fas fa-hamburger text-red-600 text-xl"></i>
@@ -200,7 +193,7 @@ export default function HomePage() {
               {/* YouTube视频嵌入 */}
               <div className="flex flex-col items-center justify-center h-full">
                 <div className="w-full aspect-video max-w-lg rounded-lg shadow-lg overflow-hidden">
-                  <iframe width="680" height="400" src="https://www.youtube.com/embed/-ZeX-L9x9mA?si=15bk1pNG_jvF4kO5" title="How to Play Doodle Baseball" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-64 md:h-80"></iframe>
+                  <iframe width="680" height="400" src="https://www.youtube-nocookie.com/embed/-ZeX-L9x9mA?si=15bk1pNG_jvF4kO5" title="How to Play Doodle Baseball" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-64 md:h-80" loading="lazy"></iframe>
                 </div>
               </div>
             </div>
@@ -213,7 +206,7 @@ export default function HomePage() {
                 Special Features of <Link href="#features" className="hover:underline">Doodle Baseball</Link>
               </h2>
               <p className="text-lg text-gray-600 max-w-6xl mx-auto">
-              A fun part of <strong>Doodle Baseball</strong> is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in <strong>Doodle Baseball</strong> free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that's a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all <strong>Doodle Baseball</strong> players.
+                A fun part of <strong>Doodle Baseball</strong> is the peanut pitcher, whose hat changes color to indicate his pitching style. A white hat signals a straightforward, easy pitch, perfect for hitting home runs in <strong>Doodle Baseball</strong> free mode. Blue indicates a slower, curved ball, while green brings a swirling ball that's a bit harder to land. If you see a yellow hat, brace yourself for a fast, zig-zagging pitch that really tests your food baseball game skills. Purple makes the ball disappear partway—a truly unique challenge, and red is a super-fast, almost unhittable pitch recognized by all <strong>Doodle Baseball</strong> players.
               </p>
             </div>
 
@@ -250,7 +243,7 @@ export default function HomePage() {
                   </li>
                 </ul>
               </div>
-              
+
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4 text-blue-600">Meet the Food Players</h3>
                 <p className="text-gray-600 mb-6">
@@ -345,18 +338,18 @@ export default function HomePage() {
                   <li>Then, if you coincide your swing time with the throwing of pitchers, you can hit the ball and gain scores.</li>
                 </ul>
               </div>
-              
+
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">What's the goal of the game?</h3>
                 <p className="text-gray-600">
                   Hit as many balls as possible to score runs. A player scores by completing a circuit around all four bases. Try to avoid strikes (missing the ball) as three strikes will end your game.
                 </p>
               </div>
-              
+
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">What's the highest score possible?</h3>
                 <p className="text-gray-600">
-                In <strong>Doodle Baseball</strong>, there's no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, <strong>Doodle Baseball</strong> lets you chase endless high scores. This makes <strong>Doodle Baseball</strong> free a thrilling challenge for players who want to beat their own records over and over again.
+                  In <strong>Doodle Baseball</strong>, there's no maximum score—you can keep playing this food baseball game for as long as you avoid strikes. Unlike traditional baseball records, where the highest score is 49 runs, <strong>Doodle Baseball</strong> lets you chase endless high scores. This makes <strong>Doodle Baseball</strong> free a thrilling challenge for players who want to beat their own records over and over again.
                 </p>
               </div>
 
@@ -366,11 +359,11 @@ export default function HomePage() {
                   This <strong>food baseball</strong> game was created to celebrate the <strong>Fourth of July</strong>, American Independence Day. The food characters represent the classic summer snacks people enjoy while watching baseball games, making <strong>Doodle Baseball</strong> a perfect <strong>Fourth of July baseball</strong> experience and a fun, whimsical touch to the classic sport!
                 </p>
               </div>
-              
+
               <div className="shadcn-card p-6 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Are there any tricks to win Doodle Baseball?</h3>
                 <p className="text-gray-600">
-                While <strong>Doodle Baseball</strong> doesn't include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in <strong>Doodle Baseball</strong>, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying <strong>Doodle Baseball</strong> free will help you master timing and boost your scores in this lively food baseball game.
+                  While <strong>Doodle Baseball</strong> doesn't include complicated power-ups, players can improve in this food baseball game by focusing on timing and sharp reflexes. The best tip is to aim for home runs in <strong>Doodle Baseball</strong>, which send the ball into the crowd and score up to 4 runs at once if all bases are loaded. Practicing and enjoying <strong>Doodle Baseball</strong> free will help you master timing and boost your scores in this lively food baseball game.
                 </p>
               </div>
             </div>
