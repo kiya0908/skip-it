@@ -25,6 +25,185 @@
       "keywords": "doodle baseball, baseball game, online game, free game"
     }
   },
+  
+    {
+      "slug": "Asteroid_Breaker",
+      "title": "Asteroid Breaker",
+      "description": "Get ready for non-stop action with <b>Asteroid Breaker</b>, the ultimate idle defense game where your fully automated turret faces endless waves of asteroids. For those who crave hands-on control, you can manually aim for devastating precision shots. As you play <b>Asteroid Breaker</b>, you'll earn XP to unlock powerful roguelite-style upgrades, making you stronger with each wave. Invest your earnings in a permanent skill tree to build a turret so formidable that no asteroid can withstand its power. Dive into the cosmic chaos of <b>Asteroid Breaker</b> and become the ultimate defender of the galaxy!",
+      "coverImage": "/images/games/Asteroid_Breaker.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/asteroid-breaker-ezu/index.html",
+      "rating": 4.65,
+      "howToPlay": [
+        "Interact with UI: Use the left mouse button.",
+        "Use Abilities: Press keys 1, 2, 3, 4, or 5 to activate special powers."
+      ],
+      "features": [
+        "Engaging idle defense gameplay with auto-firing turret.",
+        "Manual control option for precision targeting.",
+        "Roguelite upgrade system for varied and replayable runs. [16]",
+        "Permanent skill tree for long-term power progression.",
+        "Endless waves of increasingly challenging asteroids."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "isRelated": true,
+      "seo": {
+        "title": "Play Asteroid Breaker - Online Idle Defense Game",
+        "description": "Blast endless asteroids in Asteroid Breaker! An idle defense game with roguelite upgrades and a permanent skill tree. Build the ultimate turret today!",
+        "keywords": "asteroid breaker, idle game, defense game, turret game, space shooter, roguelite, online game"
+      }
+    },
+    {
+      "slug": "Tap_Reveal",
+      "title": "Tap Reveal",
+      "description": "Exercise your mind with <b>Tap Reveal</b>, a captivating casual puzzle game designed to put your logic to the ultimate test. Your goal is to tap away colorful blocks to methodically uncover the beautiful hidden images concealed beneath. Each puzzle in <b>Tap Reveal</b> is a unique brain teaser, meticulously crafted to challenge your reasoning and provide a deeply satisfying sense of accomplishment. Whether you want to unwind or sharpen your intellect, <b>Tap Reveal</b> offers an addictive and relaxing gameplay experience for puzzle enthusiasts of all ages. [20]",
+      "coverImage": "/images/games/Tap_Reveal.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/tap-reveal/index.html",
+      "rating": 4.45,
+      "howToPlay": [
+        "Move Arrow (PC): Left-click on an arrow to move it in its indicated direction.",
+        "Move Arrow (Mobile): Tap on an arrow to move it.",
+        "Adjust View: Drag the left-click button or your finger to move the camera. Use the scroll wheel or pinch to zoom in and out."
+      ],
+      "features": [
+        "Relaxing and satisfying tap-based puzzle gameplay. [7]",
+        "Hundreds of handcrafted levels with unique hidden images. [7]",
+        "Engaging logic puzzles that sharpen your mind. [7]",
+        "Beautifully designed artwork and calming visuals. [7]",
+        "Stress-relieving mechanics perfect for unwinding."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "isRelated": true,
+      "seo": {
+        "title": "Tap Reveal - Relaxing Logic Puzzle Game",
+        "description": "Uncover hidden images in Tap Reveal! Tap away blocks in this relaxing and addictive logic puzzle game. Perfect for brain training and stress relief.",
+        "keywords": "tap reveal, puzzle game, logic game, brain teaser, relaxing game, casual game, image puzzle"
+      }
+    },
+    {
+      "slug": "TimeWarriors",
+      "title": "TimeWarriors",
+      "description": "Embark on an epic journey through history with <b>TimeWarriors</b>, a thrilling strategy game where you command an army from the Stone Age to futuristic warfare. In <b>TimeWarriors</b>, you will upgrade your troops, construct mighty bases, and deploy unique units and tactics to vanquish your foes. Master the art of war in every era, outsmart your opponents, and rise as the ultimate commander. Your strategic prowess will determine your success in <b>TimeWarriors</b>, where victory depends on balancing attack, defense, and resource management to rewrite history! [9]",
+      "coverImage": "/images/games/TimeWarriors.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/timewarriors/index.html",
+      "rating": 4.45,
+      "howToPlay": [
+        "Interact: Use the left mouse button to select units, upgrade your base, and manage resources.",
+        "Deploy Troops: When you have enough food, click on a unit's icon to send them into battle.",
+        "Objective: Destroy the enemy's base while defending your own to advance through the ages."
+      ],
+      "features": [
+        "Lead your army through different historical eras, from Stone Age to future tech. [9]",
+        "Strategic gameplay focused on resource management and tactical deployment. [10, 12]",
+        "Unlock and command a variety of units, each with unique abilities. [10, 15]",
+        "Upgrade your base and troops to gain an advantage in battle. [14, 15]",
+        "Engaging battles that test your ability to attack, defend, and strategize."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": false,
+      "isRelated": true,
+      "seo": {
+        "title": "TimeWarriors - Epic Strategy War Game Through Ages",
+        "description": "Lead your army from the Stone Age to the future in TimeWarriors! A strategy game of conquest, resource management, and historical battles. Play now!",
+        "keywords": "timewarriors, strategy game, war game, historical game, base building, rts, online game"
+      }
+    },
+    {
+      "slug": "Crazy_Vikings_Life",
+      "title": "Crazy Vikings Life",
+      "description": "Embark on a wild, cartoon-style adventure in <b>Crazy Vikings Life</b>, where you lead a fearless Viking clan on a chaotic quest for glory! [19] In <b>Crazy Vikings Life</b>, you'll raid islands for valuable loot, upgrade your humble raft into a formidable warship, and expand your base into a bustling Viking stronghold. [4] Recruit a variety of warriors, train them for intense battles, and conquer the high seas with a perfect blend of humor and strategic chaos. Live the ultimate Viking experience in <b>Crazy Vikings Life</b> and carve your name into legend!",
+      "coverImage": "/images/games/Crazy_Vikings_Life.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/crazy-vikings-life/index.html",
+      "rating": 4.6,
+      "howToPlay": [
+        "Move: Use the WASD keys to navigate your character.",
+        "Interact: Use the left mouse button to interact with the game's user interface, manage your base, and command your Vikings."
+      ],
+      "features": [
+        "Wild cartoon-style strategy and adventure gameplay. [1]",
+        "Raid islands for loot and resources to build your stronghold. [1]",
+        "Upgrade your raft into a powerful warship.",
+        "Recruit and train a variety of Viking warriors for your clan.",
+        "Conquer the seas through strategic battles and humorous chaos."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "isRelated": true,
+      "seo": {
+        "title": "Crazy Vikings Life - Strategy Adventure Game",
+        "description": "Lead a fearless Viking clan in Crazy Vikings Life! Raid islands, build your base, and conquer the seas in this wild and chaotic strategy adventure.",
+        "keywords": "crazy vikings life, viking game, strategy game, adventure game, base building, boat game, online game"
+      }
+    },
+    {
+      "slug": "Mahjong_Unlimited",
+      "title": "Mahjong Unlimited",
+      "description": "Experience the timeless classic with <b>Mahjong Unlimited</b>, a beautiful oriental puzzle game that offers the ultimate Mahjong experience. [2] Whether you are a seasoned master or a newcomer, <b>Mahjong Unlimited</b> provides a perfect mix of relaxation and mental challenge. [6] Thanks to its advanced generator, the game offers infinitely generated levels, ensuring you never play the same puzzle twice. [2, 6] With customizable features and guaranteed solvable puzzles, <b>Mahjong Unlimited</b> is the definitive Mahjong game for endless enjoyment. [2, 6]",
+      "coverImage": "/images/games/Mahjong_Unlimited.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/mahjong-unlimited/index.html",
+      "rating": 4.35,
+      "howToPlay": [
+        "Select Tiles: Use the left mouse button to click on two identical, unblocked tiles.",
+        "Objective: Remove all tiles from the playing field to win the game."
+      ],
+      "features": [
+        "Classic Mahjong gameplay with a modern interface.",
+        "Infinitely generated, solvable puzzles for endless replayability. [2, 6]",
+        "Dynamically adjusts difficulty based on player stats. [2]",
+        "Over 100 featured layouts to choose from. [2, 11]",
+        "Customizable tile sets and high-quality backgrounds. [18]",
+        "No time limit for a relaxing and stress-free experience. [6]"
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "isRelated": true,
+      "seo": {
+        "title": "Mahjong Unlimited - Classic Puzzle Game",
+        "description": "Play Mahjong Unlimited, the classic oriental puzzle game. Enjoy infinitely generated levels, customizable features, and relaxing, solvable puzzles.",
+        "keywords": "mahjong unlimited, mahjong, puzzle game, board game, tile matching, classic game, online game"
+      }
+    },
+    {
+      "slug": "Swimming_Pool_Romance",
+      "title": "Swimming Pool Romance",
+      "description": "Dive into a flirty and fun adventure with <b>Swimming Pool Romance</b>, a delightful kissing game that's simple yet captivating. In <b>Swimming Pool Romance</b>, you'll help Lucas and Natasha share a secret kiss at the pool without getting caught by watchful eyes. [13] This game is all about timing and sneaking in romantic moments. Enjoy the lighthearted challenge and charming story of <b>Swimming Pool Romance</b>, where love is in the air, but privacy is key. Can you help them fill the love meter before time runs out? [23]",
+      "coverImage": "/images/games/Swimming_Pool_Romance.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/swimming-pool-romance/index.html",
+      "rating": 4.1,
+      "howToPlay": [
+        "Kiss: Click and hold the left mouse button to make the couple kiss.",
+        "Avoid Getting Caught: Release the mouse button when you see an exclamation mark, indicating someone is about to look.",
+        "Objective: Fill the kissing meter at the top of the screen before the time runs out."
+      ],
+      "features": [
+        "Fun and easy-to-learn kissing gameplay. [5]",
+        "Challenging levels that increase in difficulty. [5]",
+        "Colorful and playful summer-themed graphics. [5]",
+        "Lighthearted and romantic storyline. [3, 22]",
+        "Features a dress-up stage after completing kissing levels. [13, 23]"
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "isRelated": true,
+      "seo": {
+        "title": "Swimming Pool Romance - Fun Kissing Game",
+        "description": "Play Swimming Pool Romance! Help Lucas and Natasha kiss at the pool without getting caught. A fun and simple kissing game with a romantic twist.",
+        "keywords": "swimming pool romance, kissing game, love game, fun game, casual game, romance game, online game"
+      }
+    },
   {
     "slug": "Baseball",
     "title": "Baseball",
@@ -49,7 +228,7 @@
     ],
     "isTopPick": true,
     "isHot": true,
-    "isHeader": true,
+    "isHeader": false,
     "isRelated": true,
     "seo": {
       "title": "Play Baseball Online | Free Browser Sports Game",

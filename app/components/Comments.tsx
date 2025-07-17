@@ -140,10 +140,10 @@ export default function Comments({ gameSlug = 'homepage', title = 'Comments' }: 
 
   return (
     <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-      <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center">
+      <h2 className="text-lg font-bold text-gray-900 mb-4 flex items-center">
         <i className="fas fa-comments text-blue-500 mr-2 text-sm"></i>
         {title} ({comments.length})
-      </h3>
+      </h2>
 
       {/* Comment Form */}
       <form onSubmit={handleSubmitComment} className="mb-4">

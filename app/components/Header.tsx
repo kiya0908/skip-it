@@ -31,8 +31,8 @@ export default function Header() {
   // 搜索输入框的状态
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Filter games to show in the header
-  const headerGames = games.filter(game => game.isHeader === true);
+  // 选择header组件的游戏 (first 5 games with isHeader: true)
+  const headerGames = games.filter(game => game.isHeader === true).slice(0, 5);
 
   // 处理搜索表单提交
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
