@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import gamesData from '../data/games.json';
+import gamesData from '../../data/games.json';
 
 // 游戏类型声明，便于类型检查
 interface Game {

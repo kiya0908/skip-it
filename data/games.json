@@ -1224,36 +1224,6 @@
     
   },
   {
-    "slug": "Basket_Random",
-    "title": "Basket Random",
-    "description": "<b>Basket Random</b> is a fun and chaotic 2-player basketball game with ragdoll physics. The first to 5 points wins! Each round features different courts, player appearances, and ball types, making every match a new and hilarious experience.",
-    "coverImage": "/images/games/Basket_Random.jpg",
-    "youtube": "",
-    "playUrl": "https://games.crazygames.com/en_US/basket-random/index.html",
-    "rating": 4.4,
-    "howToPlay": [
-      "Player 1: Use the 'W' key to jump and shoot.",
-      "Player 2: Use the 'Up Arrow' key to jump and shoot.",
-      "The first team to score 5 points wins the game."
-    ],
-    "features": [
-      "Hilarious and unpredictable random physics.",
-      "Wacky characters with ragdoll movements.",
-      "Changing environments and ball types each round.",
-      "Simple one-button controls.",
-      "Designed for two-player competitive fun."
-    ],
-    "isTopPick": true,
-    "isHot": true,
-    "isRelated": true,
-    "seo": {
-      "title": "Play Basket Random on Doodle Baseball",
-      "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
-      "keywords": "Basket Random, 2 player game, basketball game, arcade game, sports game, wacky game, physics game"
-    }
-    
-  },
-  {
     "slug": "Moto_X3M_6_Spooky_Land",
     "title": "Moto X3M 6: Spooky Land",
     "description": "<b>Moto X3M 6: Spooky Land</b> is the sixth installment of the popular Moto X3M series, this time with a spooky Halloween theme. Navigate through 22 challenging levels filled with bone-spikes, green goo, and other creepy obstacles.",
