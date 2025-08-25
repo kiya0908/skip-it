@@ -10,6 +10,8 @@ export default function GameSection() {
   const [loadError, setLoadError] = useState(false);
   const [showShareMenu, setShowShareMenu] = useState(false);
   const [isLiked, setIsLiked] = useState(false); // State for the like button
+  const [isMobile, setIsMobile] = useState(false); // State for mobile detection
+  const [showFloatingControls, setShowFloatingControls] = useState(false); // State for floating controls
 
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const shareBtnRef = useRef<HTMLButtonElement>(null);
@@ -35,6 +37,18 @@ export default function GameSection() {
     }
   }, []);
 
+  // Mobile detection effect
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const handleIframeLoad = () => {
     setIsLoading(false);
     setLoadError(false);
@@ -44,7 +58,15 @@ export default function GameSection() {
     setIsLoading(false);
     setLoadError(true);
     console.error("Iframe failed to load content for URL:", gameUrl);
-    console.log("可能是由于跨域限制或X-Frame-Options导致iframe加载失败");
+    console.log("可能的原因:");
+    console.log("1. X-Frame-Options 或 CSP 限制");
+    console.log("2. 网络连接问题");
+    console.log("3. URL不可访问");
+    console.log("4. HTTPS/HTTP协议混合问题");
+    
+    // 检查当前协议
+    console.log("当前页面协议:", window.location.protocol);
+    console.log("游戏URL协议:", gameUrl?.startsWith('https') ? 'https:' : 'http:');
   };
 
   const reloadGame = () => {
@@ -120,6 +142,30 @@ export default function GameSection() {
     };
   }, [showShareMenu]);
 
+  // Effect for closing floating controls when clicking outside (mobile)
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      if (showFloatingControls && gameContainerRef.current) {
+        const target = event.target as Element;
+        const floatingControls = gameContainerRef.current.querySelector('.floating-controls');
+        if (floatingControls && !floatingControls.contains(target)) {
+          setShowFloatingControls(false);
+          setShowShareMenu(false);
+        }
+      }
+    };
+    
+    if (isMobile && showFloatingControls) {
+      document.addEventListener('mousedown', handleClickOutside as EventListener);
+      document.addEventListener('touchstart', handleClickOutside as EventListener);
+    }
+    
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside as EventListener);
+      document.removeEventListener('touchstart', handleClickOutside as EventListener);
+    };
+  }, [showFloatingControls, isMobile]);
+
   return (
     <div className="bg-white min-h-screen">
       <section id="play" className="py-6 bg-white">
@@ -127,7 +173,9 @@ export default function GameSection() {
           <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Doodle Baseball Game</h1>
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
-              <div ref={gameContainerRef} className="game-container relative w-full aspect-video bg-gray-900">
+              <div ref={gameContainerRef} className={`game-container relative w-full bg-gray-900 ${
+                isMobile ? 'h-[80vh]' : 'aspect-video'
+              }`}>
                 {isLoading && (
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-80 flex flex-col items-center justify-center text-white z-30">
                     <svg className="animate-spin h-10 w-10 text-white mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -158,11 +206,113 @@ export default function GameSection() {
                     allow="autoplay; fullscreen"
                     onLoad={handleIframeLoad}
                     onError={handleIframeError}
+                    onLoadStart={() => {
+                      console.log("开始加载游戏:", gameUrl);
+                    }}
                     style={{ display: isLoading || loadError ? 'none' : 'block' }}
+                    title="Game"
                   ></iframe>
                 )}
+
+                {/* Floating Controls for Mobile */}
+                {isMobile && (
+                  <div className="floating-controls absolute bottom-4 right-4 z-40">
+                    {/* Main Control Button */}
+                    <button
+                      onClick={() => setShowFloatingControls(!showFloatingControls)}
+                      className="bg-blue-600 hover:bg-blue-700 text-white rounded-full p-4 shadow-lg transition-all duration-200 mb-2 min-h-[56px] min-w-[56px] flex items-center justify-center"
+                      title="Game Controls"
+                    >
+                      <i className="fas fa-gamepad text-xl"></i>
+                    </button>
+
+                    {/* Expanded Controls */}
+                    {showFloatingControls && (
+                      <div className="absolute bottom-full right-0 mb-2 bg-gray-800 bg-opacity-95 rounded-lg shadow-xl p-2 min-w-[160px]">
+                        {/* Game Info */}
+                        <div className="text-white text-sm mb-3 px-2">
+                          <p className="font-bold truncate">{gamesData[0]?.title}</p>
+                          <div className="flex items-center mt-1">
+                            {[...Array(5)].map((_, i) => (
+                              <i
+                                key={i}
+                                className={`fas fa-star text-xs ${i < Math.floor(gamesData[0]?.rating ?? 0) ? 'text-yellow-400' : 'text-gray-400'}`}
+                              ></i>
+                            ))}
+                            <span className="text-xs ml-1">{gamesData[0]?.rating?.toFixed(1)}</span>
+                          </div>
+                        </div>
+
+                        {/* Control Buttons */}
+                        <div className="flex flex-col space-y-1">
+                          <button
+                            onClick={() => setIsLiked(!isLiked)}
+                            className="flex items-center text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                          >
+                            <i className={`fas fa-heart mr-2 ${isLiked ? 'text-red-500' : 'text-gray-400'}`}></i>
+                            {isLiked ? 'Liked' : 'Like'}
+                          </button>
+
+                          <button
+                            onClick={() => setShowShareMenu(!showShareMenu)}
+                            className="flex items-center text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                          >
+                            <i className="fas fa-share-alt mr-2 text-blue-400"></i>
+                            Share
+                          </button>
+
+                          <button
+                            onClick={handleFullscreen}
+                            className="flex items-center text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                          >
+                            <i className="fas fa-expand-arrows-alt mr-2 text-green-400"></i>
+                            Fullscreen
+                          </button>
+
+                          <button
+                            onClick={reloadGame}
+                            className="flex items-center text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                          >
+                            <i className="fas fa-redo mr-2 text-orange-400"></i>
+                            Reload
+                          </button>
+                        </div>
+
+                        {/* Share Menu for Mobile */}
+                        {showShareMenu && (
+                          <div className="mt-2 pt-2 border-t border-gray-600">
+                            <button 
+                              onClick={() => handleShare('copy')}
+                              className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                            >
+                              <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link
+                            </button>
+                            <button 
+                              onClick={() => handleShare('facebook')}
+                              className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                            >
+                              <i className="fab fa-facebook text-blue-400 mr-2"></i> Facebook
+                            </button>
+                            <button 
+                              onClick={() => handleShare('twitter')}
+                              className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                            >
+                              <i className="fab fa-twitter text-blue-400 mr-2"></i> Twitter
+                            </button>
+                            <button 
+                              onClick={() => handleShare('whatsapp')}
+                              className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
+                            >
+                              <i className="fab fa-whatsapp text-green-400 mr-2"></i> WhatsApp
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
-              <div className="game-footer text-white flex justify-between items-center p-4">
+              <div className={`game-footer text-white flex justify-between items-center p-4 ${isMobile ? 'hidden' : ''}`}>
                 <div className="flex items-center">
                   <p className="text-xl font-bangers mr-4 text-gray-900">{gamesData[0].title}</p>
                   <div className="star-rating">
