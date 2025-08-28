@@ -111,7 +111,9 @@ export default function Header() {
                 Games
               </Link>
               {/* 热门游戏列表 */}
+              {/* 遍历 headerGames，将每个游戏渲染为一个导航链接 */}
               {headerGames.map((game) => (
+                // 单个游戏链接项
                 <Link
                   key={game.slug}
                   href={`/games/${game.slug}`}
@@ -119,6 +121,7 @@ export default function Header() {
                   aria-label={`Play ${game.title}`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  {/* 链接文本：显示游戏名称 */}
                   {game.title}
                 </Link>
               ))}

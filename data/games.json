@@ -25,6 +25,96 @@
       "keywords": "doodle baseball, baseball game, online game, free game"
     }
   },
+  {
+    "slug": "Space_Hex_War_Merge_Shooter",
+    "title": "Space Hex: War Merge Shooter",
+    "description": "Prepare for an interstellar conflict in <b>Space Hex: War Merge Shooter</b>, a game that revolutionizes the space shooter genre with deep strategic elements. Your battleship is a dynamic hexagonal grid, where every placement and merger decision is critical for survival. The core of your power comes from merging identical weapon towers to create superior artillery with enhanced firepower. As you advance, you'll face increasingly challenging waves of alien invaders that test your tactical prowess. Success in <b>Space Hex: War Merge Shooter</b> depends not just on firepower, but on clever ship design and adaptive strategy. Fine-tune your layout, create impenetrable defenses with shields, and master the art of the merge. If you love strategic tower defense and action-packed space battles, you'll be captivated by <b>Space Hex: War Merge Shooter</b>.",
+    "coverImage": "/images/games/Space Hex_ War Merge Shooter.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/space-hex-war-merge-shooter/index.html",
+    "rating": 4.55,
+    "howToPlay": [
+      "Objective: Survive relentless waves of enemies by building and upgrading your defenses.",
+      "Placement: Use the left mouse button to drag weapon towers from your inventory onto the hexagonal grid of your ship.",
+      "Merging: Drag an identical tower on top of another one to merge them into a more powerful, upgraded version.",
+      "Strategy: Position your towers strategically to create effective firing angles and defensive choke points."
+    ],
+    "features": [
+      "Strategic Hexagonal Grid: Uniquely design your battleship layout on a hex grid for customized defense.",
+      "Powerful Merging System: Combine identical towers to unlock exponentially more powerful weapons.",
+      "Endless Enemy Waves: Test your tactical skills against increasingly difficult waves of alien forces.",
+      "Immersive Space Combat: Experience engaging visuals and action-packed gameplay in the thrilling universe of <b>Space Hex: War Merge Shooter</b>."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Space Hex: War Merge Shooter - Online Strategy Game",
+      "description": "Engage in epic space battles in Space Hex: War Merge Shooter! Merge towers, design your hex ship, and defend against endless enemy waves. Play for free!",
+      "keywords": "space shooter, merge game, tower defense, strategy game, space hex, online game, free game"
+    }
+  },
+  {
+    "slug": "Open_House",
+    "title": "Open House",
+    "description": "Welcome to <b>Open House</b>, a captivating puzzle game where you turn a neglected property into the home of your dreams! Your journey begins on a mysterious island where a real estate deal has gone wrong, leaving you with a dilapidated house. The only way to restore it is by solving fun and challenging match-3 puzzles. Each puzzle you complete earns you the resources needed to clean, repair, and decorate. In <b>Open House</b>, you are the designer—choose from a wide variety of furniture, flooring, and decor to express your unique style in every room. Follow the engaging story of Oscar, uncover secrets, and interact with quirky neighbors. With countless levels and design options, <b>Open House</b> offers a relaxing and creative escape that blends puzzle-solving with interior design.",
+    "coverImage": "/images/games/Open House.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/open-house/index.html",
+    "rating": 4.25,
+    "howToPlay": [
+      "Objective: Solve match-3 puzzles to earn stars and renovate a dilapidated house.",
+      "Match Tiles: Click and drag to swap adjacent tiles, creating lines of three or more identical items to clear them from the board.",
+      "Complete Goals: Each puzzle has a specific objective, such as collecting a certain number of tiles.",
+      "Renovate: Use the stars you earn to complete renovation tasks like cleaning, repairing, and buying new furniture."
+    ],
+    "features": [
+      "Engaging Match-3 Puzzles: Hundreds of fun and challenging levels to test your puzzle-solving skills.",
+      "Complete Creative Freedom: Renovate and decorate multiple rooms with a vast selection of stylish furniture and decor.",
+      "Heartwarming Storyline: Follow a compelling narrative, meet interesting characters, and uncover the island's secrets.",
+      "Mobile-Friendly Gameplay: Enjoy the creative fun of <b>Open House</b> on any device, anytime, anywhere."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Open House - Free Match-3 & Decorating Puzzle Game",
+      "description": "Design your dream home in Open House! Solve fun match-3 puzzles to renovate and decorate rooms. Uncover a charming story and play this relaxing game online.",
+      "keywords": "match-3, puzzle game, home decoration, renovation game, open house, free game, online puzzle"
+    }
+  },
+  {
+    "slug": "Piles_of_Mahjong",
+    "title": "Piles of Mahjong",
+    "description": "Discover a fresh and strategic twist on a timeless classic with <b>Piles of Mahjong</b>. This engaging puzzle game challenges you to clear a board stacked with tiles, but with an innovative rule: you must collect three identical tiles to make a match. Each tile you select is moved to a temporary holding area at the bottom of the screen, which can only hold seven tiles at a time. This simple change transforms the game into a thrilling strategic puzzle. You must think several moves ahead to avoid filling up your holding area and ending the game. <b>Piles of Mahjong</b> perfectly balances relaxing gameplay with brain-teasing challenges. With helpful boosters like reshuffles and undos, <b>Piles of Mahjong</b> is an addictive experience for both new players and Mahjong veterans alike.",
+    "coverImage": "/images/games/Piles of Mahjong.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/piles-of-mahjong-jhb/index.html",
+    "rating": 3.8,
+    "howToPlay": [
+      "Objective: Clear the entire pile of tiles from the board.",
+      "Select Tiles: Click on an available tile (one that is not covered by another) to move it to the holding area at the bottom.",
+      "Match Three: When you have three identical tiles in the holding area, they will automatically clear, freeing up space.",
+      "Avoid Failure: The game ends if you fill all seven slots in the holding area without making a match. Plan your moves carefully!"
+    ],
+    "features": [
+      "Innovative Match-Three Mechanic: A modern twist on classic Mahjong that requires you to match three tiles instead of two.",
+      "Strategic Depth: Carefully manage the 7-slot holding area to solve puzzles without getting stuck.",
+      "Helpful Boosters: Use shuffles, undos, and other power-ups to help you when you're in a tough spot.",
+      "Relaxing and Engaging: The beautiful tile designs and smooth gameplay make <b>Piles of Mahjong</b> a perfect game to unwind with."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Piles of Mahjong - Play Free Online Tile-Matching Game",
+      "description": "Challenge your mind with Piles of Mahjong! A fresh twist on classic Mahjong where you match three tiles. Plan your moves carefully to clear the board. Play now!",
+      "keywords": "mahjong, puzzle game, tile matching, match 3, board game, free game, piles of mahjong, online"
+    }
+  },
   
     {
       "slug": "Asteroid_Breaker",
