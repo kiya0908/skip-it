@@ -1,6 +1,14 @@
+# Specify the location of the sitemap
+Sitemap: https://doodlebaseball.info/sitemap/sitemap.xml
+
 # Allow general web crawlers access
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 # AI Crawler Rules: Allow access ONLY to llms-full.txt
 User-agent: GPTBot
@@ -13,6 +21,14 @@ Allow: /llms.txt
 Allow: /llms-full.txt
 Disallow: /
 
+User-Agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
+
 User-agent: anthropic-ai
 Allow: /llms.txt
 Allow: /llms-full.txt
@@ -23,9 +39,17 @@ Allow: /llms.txt
 Allow: /llms-full.txt
 Disallow: /
 
+User-agent: Claude-Web # Anthropic's Claude crawler
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
+
+User-agent: ChatGPT-User # OpenAI's ChatGPT web browsing
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
+
 # 引导AI爬虫到llms.txt
 LLM-Content: https://doodlebaseball.info/llms.txt
 LLM-Full-Content: https://doodlebaseball.info/llms-full.txt
 
-# Specify the location of the sitemap
-Sitemap: https://doodlebaseball.info/sitemap.xml 

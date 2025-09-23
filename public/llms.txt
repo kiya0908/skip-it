@@ -23,3 +23,6 @@
 
 ## More
 - For more game details, please visit the [All Games](https://doodlebaseball.info/games) page.
+- All Mini-Games：Each game is available at:https://doodlebaseball.info/games/{slug}
+- Where {slug} can be any lowercase hyphenated name (e.g. july4, foodball, pixel, halloween, soccer, …).  
+Every URL responds with a fully-playable, mobile-optimized baseball mini-game.

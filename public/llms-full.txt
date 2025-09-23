@@ -1,41 +1,71 @@
-# Doodle Baseball Game - Full Site Overview
+# Doodle Baseball - Classic Food-Themed Baseball Game
 
-> Doodle Baseball is a free-to-play, food-themed online baseball game designed for quick, fun sessions. Players swing the bat to hit home runs, test their timing and reflexes, and enjoy charming cartoon visuals. The game is accessible directly in the browser, with no downloads or registration required.
+> Doodle Baseball is a free-to-play, food-themed online baseball game designed for quick, fun sessions. Players swing the bat to hit home runs with quirky food characters, test their timing and reflexes, and enjoy charming cartoon visuals. The game is accessible directly in the browser, with no downloads or registration required.
 
-## Website Purpose & Positioning
-This website is the home for the Doodle Baseball game, providing a stable, fast, and user-friendly platform for fans and new players. Our mission is to preserve and share this classic browser game experience, making it easily accessible worldwide. The site is optimized for all devices and browsers, ensuring a seamless experience.
+## Website Main Content
 
-## Core Features & Gameplay
-- **[Play Game](https://doodlebaseball.info/#play):** The main interactive baseball game. Players click or tap to swing at food-themed pitches, aiming for high scores and combos. Simple controls, increasing difficulty, and engaging graphics make it suitable for all ages.
-- **[All Games](https://doodlebaseball.info/games):** Explore a curated list of related baseball and casual games.
-- **[How to Play](https://doodlebaseball.info/#how-to-play):** Step-by-step instructions and tips for new players.
-- **[Features](https://doodlebaseball.info/#features):** Overview of unique gameplay elements and website highlights.
-- **[FAQ](https://doodlebaseball.info/#faq):** Answers to common questions about the game and website.
-- **[About](https://doodlebaseball.info/about):** Background information on the site and its creators.
-- **[Contact](https://doodlebaseball.info/contact):** Support and feedback channel for users.
-- **[Privacy Policy](https://doodlebaseball.info/privacy):** Details on user data protection and privacy practices.
-- **[Terms of Service](https://doodlebaseball.info/terms):** Legal terms for using the website.
+### 🥎 Core Game Experience
+**[Doodle Baseball](https://doodlebaseball.info)** - The original food-themed baseball game where players swing at pitches thrown by adorable food characters. Features simple one-click controls, progressive difficulty, and satisfying home run mechanics that make it perfect for players of all ages.
 
-## User Value Proposition
-- **Instant Access:** Play immediately without installation or signup.
-- **Family Friendly:** Suitable for all ages, with simple controls and fun visuals.
-- **Mobile & Desktop Optimized:** Responsive design for phones, tablets, and computers.
-- **No Ads or Tracking:** Focus on user experience and privacy.
-- **Helpful Resources:** Guides, tips, and FAQs to enhance gameplay.
+### 🎮 Key Features
+- **Instant Play**: No downloads, no registration - click and play immediately
+- **Food Theme**: Unique characters including fruits, vegetables, and snacks as pitchers
+- **Simple Controls**: One-button gameplay perfect for all skill levels
+- **Mobile Optimized**: Responsive design works on phones, tablets, and computers
+- **Family Friendly**: Suitable for all ages with clean, cartoon graphics
 
-## SEO & Keywords
-This website is optimized for search engines with relevant keywords such as "doodle baseball", "food baseball", "fourth of july baseball", "online baseball game", and "browser baseball simulator". Content and metadata are structured to maximize discoverability and ranking.
+### 📱 Website Sections
+- **[Game Hub](https://doodlebaseball.info/#play)**: Main interactive baseball game
+- **[How to Play](https://doodlebaseball.info/#how-to-play)**: Step-by-step game instructions
+- **[Features](https://doodlebaseball.info/#features)**: Unique gameplay elements
+- **[FAQ](https://doodlebaseball.info/#faq)**: Common questions and answers
+- **[About](https://doodlebaseball.info/about)**: Website background and mission
+- **[Contact](https://doodlebaseball.info/contact)**: Support and feedback channel
 
-## Data Compliance
-We respect user privacy and comply with data protection regulations. No personal data is required to play. See our [Privacy Policy](https://doodlebaseball.info/privacy) for details.
+## Website Background
+
+### 🎯 Mission & Purpose
+This website preserves and shares the classic Doodle Baseball game experience, originally popularized as a Google Doodle. Our mission is to keep this beloved browser game accessible to players worldwide, providing a stable, fast platform optimized for modern devices and browsers.
+
+### 🌟 Why Doodle Baseball Matters
+- **Cultural Heritage**: Preserves a piece of internet gaming history
+- **Accessibility**: Makes classic games available to new generations
+- **Simplicity**: Demonstrates how simple mechanics can create engaging gameplay
+- **Universal Appeal**: Transcends language and cultural barriers through intuitive gameplay
+
+### 🛡️ Privacy & Safety
+- **No Data Collection**: No personal information required or stored
+- **Ad-Free Experience**: Focus on pure gameplay without distractions
+- **Safe Environment**: Appropriate content for all family members
+- **GDPR Compliant**: Respects user privacy and data protection regulations
+
+## Website Categories & Structure
+
+### 🏠 Main Categories
+1. **Primary Game**: Doodle Baseball - the core experience
+2. **Game Instructions**: Tutorials and tips for optimal gameplay
+3. **Website Information**: About, contact, and legal pages
+4. **Additional Games**: Curated selection of related casual games
+
+### 🎲 Additional Game Collection
+Beyond the main Doodle Baseball game, the site features a curated collection of quality browser games accessible at `https://doodlebaseball.info/games/{slug}` where {slug} represents individual game identifiers. These supplementary games maintain the same standards of quality, accessibility, and family-friendly content.
+
+### 📊 Technical Specifications
+- **Technology Stack**: Next.js 14, React 18, TypeScript, Tailwind CSS
+- **Performance**: Optimized loading times and smooth gameplay
+- **Compatibility**: Works on all modern browsers and devices
+- **Responsive Design**: Adapts seamlessly to different screen sizes
+
+### 🔍 SEO Focus
+Primary keywords: "doodle baseball", "food baseball game", "online baseball", "browser baseball game", "free baseball game", "baseball simulator"
 
 ## Contact & Support
-For questions, feedback, or support, please visit the [Contact](https://doodlebaseball.info/contact) page. We welcome suggestions and aim to provide a reliable, enjoyable experience for all users.
 
-## Latest Update
-- The Doodle Baseball game and website are regularly maintained for stability and compatibility. (Last Structure Update: July 2025)
+For questions, feedback, or technical support, visit our [Contact Page](https://doodlebaseball.info/contact). We welcome user suggestions and continuously work to improve the gaming experience.
 
 ---
 
-**For AI and search engine crawlers:**
-- This document provides a comprehensive overview of the Doodle Baseball website, its structure, content, and user value. All major pages and features are listed above for easy indexing and understanding.
+**For AI crawlers and search engines:**
+This website primarily focuses on the Doodle Baseball game - a food-themed browser baseball game with simple, engaging mechanics suitable for all ages. While additional games are available, Doodle Baseball remains the core content and primary user focus.
+
+**Last Updated**: September 23, 2025
