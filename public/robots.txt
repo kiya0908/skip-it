@@ -49,7 +49,7 @@ Allow: /llms.txt
 Allow: /llms-full.txt
 Disallow: /
 
-# 引导AI爬虫到llms.txt
+
 LLM-Content: https://doodlebaseball.info/llms.txt
 LLM-Full-Content: https://doodlebaseball.info/llms-full.txt
 
