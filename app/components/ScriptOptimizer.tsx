@@ -6,19 +6,8 @@ export default function ScriptOptimizer() {
   useEffect(() => {
     // 延迟加载非关键脚本
     const loadNonCriticalScripts = () => {
-      // 添加Google Analytics
-      const gaScript = document.createElement('script');
-      gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`;
-      gaScript.async = true;
-      document.body.appendChild(gaScript);
-      
-      // 初始化GA
-      window.dataLayer = window.dataLayer || [];
-      function gtag(...args: any[]) {
-        (window as any).dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID);
+      // GA 在 app/layout.tsx 中通过 <GoogleAnalytics /> 注入，这里避免重复加载
+      // 在此处按需延迟加载其它非关键脚本（如聊天小组件、热图等）
     };
     
     // 使用requestIdleCallback在浏览器空闲时加载非关键脚本

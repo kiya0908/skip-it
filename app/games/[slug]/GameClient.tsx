@@ -27,6 +27,7 @@ export default function GameClient({ game }: { game: Game }) {
   console.log('GameClient received:', game);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
+  const [currentSrc, setCurrentSrc] = useState<string | undefined>(undefined); // defer iframe src until visible
   const [showShareMenu, setShowShareMenu] = useState(false);
   const [isLiked, setIsLiked] = useState(false); // State for the like button
   const [isMobile, setIsMobile] = useState(false); // State for mobile detection
@@ -37,6 +38,37 @@ export default function GameClient({ game }: { game: Game }) {
   const shareMenuRef = useRef<HTMLDivElement>(null);
   const fullscreenBtnRef = useRef<HTMLButtonElement>(null);
   const gameContainerRef = useRef<HTMLDivElement>(null); // Ref for the game container div
+  // Defer setting iframe src until container is visible
+  useEffect(() => {
+    if (!game?.playUrl) return;
+    if (!gameContainerRef.current) return;
+
+    let observer: IntersectionObserver | null = null;
+    const node = gameContainerRef.current;
+
+    const onIntersect: IntersectionObserverCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsLoading(true);
+          setLoadError(false);
+          setCurrentSrc((prev) => prev ?? game.playUrl);
+          observer && observer.unobserve(node);
+        }
+      });
+    };
+
+    if ('IntersectionObserver' in window) {
+      observer = new IntersectionObserver(onIntersect, { root: null, rootMargin: '0px', threshold: 0.01 });
+      observer.observe(node);
+    } else {
+      setCurrentSrc((prev) => prev ?? game.playUrl);
+    }
+
+    return () => {
+      if (observer && node) observer.unobserve(node);
+    };
+  }, [game?.playUrl]);
+
 
   // Mobile detection effect
   useEffect(() => {
@@ -76,7 +108,8 @@ export default function GameClient({ game }: { game: Game }) {
     if (iframeRef.current) {
       const timestamp = new Date().getTime();
       const url = game.playUrl + (game.playUrl.includes('?') ? '&' : '?') + 'timestamp=' + timestamp;
-      iframeRef.current.src = url;
+      // Update state so SSR hydration stays consistent
+      setCurrentSrc(url);
     }
   };
 
@@ -209,19 +242,21 @@ export default function GameClient({ game }: { game: Game }) {
                   </button>
                 </div>
                 {/* 游戏iframe */}
-                <iframe
-                  id="game-iframe"
-                  ref={iframeRef}
-                  src={game.playUrl}
-                  className="absolute inset-0 w-full h-full"
-                  frameBorder="0"
-                  scrolling="no"
-                  allowFullScreen
-                  allow="autoplay; fullscreen"
-                  onLoad={handleIframeLoad}
-                  onError={handleIframeError}
-                  style={{ display: isLoading || loadError ? 'none' : 'block' }}
-                ></iframe>
+                {currentSrc && (
+                  <iframe
+                    id="game-iframe"
+                    ref={iframeRef}
+                    src={currentSrc}
+                    className="absolute inset-0 w-full h-full"
+                    frameBorder="0"
+                    scrolling="no"
+                    allowFullScreen
+                    allow="autoplay; fullscreen"
+                    onLoad={handleIframeLoad}
+                    onError={handleIframeError}
+                    style={{ display: isLoading || loadError ? 'none' : 'block' }}
+                  ></iframe>
+                )}
 
                 {/* Floating Controls for Mobile */}
                 {isMobile && (

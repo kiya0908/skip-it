@@ -7,6 +7,7 @@ import TopPicksGame from '@/app/components/TopPicksGame';
 export default function GameSection() {
   const [isLoading, setIsLoading] = useState(true);
   const [gameUrl, setGameUrl] = useState<string | undefined>(undefined);
+  const [currentSrc, setCurrentSrc] = useState<string | undefined>(undefined); // defer iframe src until visible
   const [loadError, setLoadError] = useState(false);
   const [showShareMenu, setShowShareMenu] = useState(false);
   const [isLiked, setIsLiked] = useState(false); // State for the like button
@@ -36,6 +37,38 @@ export default function GameSection() {
       setIsLoading(false);
     }
   }, []);
+
+  // Defer setting iframe src until the container enters viewport
+  useEffect(() => {
+    if (!gameUrl) return;
+    if (!gameContainerRef.current) return;
+
+    let observer: IntersectionObserver | null = null;
+    const node = gameContainerRef.current;
+
+    const onIntersect: IntersectionObserverCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // start loading when visible
+          setIsLoading(true);
+          setCurrentSrc((prev) => prev ?? gameUrl);
+          observer && observer.unobserve(node);
+        }
+      });
+    };
+
+    if ('IntersectionObserver' in window) {
+      observer = new IntersectionObserver(onIntersect, { root: null, rootMargin: '0px', threshold: 0.01 });
+      observer.observe(node);
+    } else {
+      // Fallback: load immediately
+      setCurrentSrc((prev) => prev ?? gameUrl);
+    }
+
+    return () => {
+      if (observer && node) observer.unobserve(node);
+    };
+  }, [gameUrl]);
 
   // Mobile detection effect
   useEffect(() => {
@@ -71,9 +104,11 @@ export default function GameSection() {
 
   const reloadGame = () => {
     if (gamesData && gamesData.length > 0 && gamesData[0].playUrl) {
-      setGameUrl(gamesData[0].playUrl + (gamesData[0].playUrl.includes('?') ? '&' : '?') + 'timestamp=' + new Date().getTime());
+      const base = gamesData[0].playUrl;
+      const withTs = base + (base.includes('?') ? '&' : '?') + 'timestamp=' + new Date().getTime();
       setIsLoading(true);
       setLoadError(false);
+      setCurrentSrc(withTs);
     }
   };
 
@@ -195,10 +230,10 @@ export default function GameSection() {
                     </button>
                   </div>
                 )}
-                {gameUrl && (
+                {currentSrc && (
                   <iframe
                     ref={iframeRef}
-                    src={gameUrl}
+                    src={currentSrc}
                     className="absolute inset-0 w-full h-full"
                     frameBorder="0"
                     scrolling="no"
@@ -207,7 +242,7 @@ export default function GameSection() {
                     onLoad={handleIframeLoad}
                     onError={handleIframeError}
                     onLoadStart={() => {
-                      console.log("开始加载游戏:", gameUrl);
+                      console.log("开始加载游戏:", currentSrc);
                     }}
                     style={{ display: isLoading || loadError ? 'none' : 'block' }}
                     title="Game"
