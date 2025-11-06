@@ -14,14 +14,26 @@ Disallow: /data/
 User-agent: GPTBot
 Allow: /llms.txt
 Allow: /llms-full.txt
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 User-agent: Google-Extended # Google's AI crawler
 Allow: /llms.txt
 Allow: /llms-full.txt
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 User-Agent: Googlebot
+Allow: /llms.txt
+Allow: /llms-full.txt
 Allow: /
 Disallow: /api/
 Disallow: /_next/
@@ -32,22 +44,42 @@ Disallow: /data/
 User-agent: anthropic-ai
 Allow: /llms.txt
 Allow: /llms-full.txt
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 User-agent: CCBot # Common Crawl bot
 Allow: /llms.txt
 Allow: /llms-full.txt
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 User-agent: Claude-Web # Anthropic's Claude crawler
 Allow: /llms.txt
 Allow: /llms-full.txt
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 User-agent: ChatGPT-User # OpenAI's ChatGPT web browsing
 Allow: /llms.txt
 Allow: /llms-full.txt
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /data/
 
 
 LLM-Content: https://doodlebaseball.info/llms.txt
