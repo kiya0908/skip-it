@@ -21,7 +21,7 @@ const bangers = Bangers({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.doodlebaseball.com"),
+  metadataBase: new URL("https://doodlebaseball.info"),
   title: "Doodle Baseball | Fun Food Baseball Game Online Free",
   description: "Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!",
   keywords: "doodle baseball, baseball game, food baseball, online free, baseball simulator, unlocked game, sports game",
