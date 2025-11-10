@@ -179,13 +179,28 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* 文字指南 */}
               <div className="text-left md:pr-5 shadcn-card p-6 border border-gray-200 rounded-lg">
-                <ol className="list-decimal list-inside text-lg text-gray-700 space-y-1">
-                  <li><strong>Start the Game:</strong> Click the "Play Now" button to launch <strong>Doodle Baseball</strong> instantly in your browser.</li>
-                  <li><strong>Wait for the Pitch:</strong> The peanut pitcher will throw a food-themed baseball (hot dog, popcorn, etc.). Watch the pitcher's hat color for hints about the ball's movement.</li>
-                  <li><strong>Swing the Bat:</strong> Click your mouse or tap the screen at the perfect moment to swing. Timing is crucial—swing too early or too late and you'll get a strike!</li>
-                  <li><strong>Score Runs:</strong> Hit the ball to score points. Aim for home runs to maximize your score in this addictive <strong>baseball game</strong>.</li>
-                  <li><strong>Avoid Strikes:</strong> Three strikes and the game is over. Keep practicing to improve your reflexes and beat your high score!</li>
-                </ol>
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">1. Start the Game</h3>
+                    <p className="text-base text-gray-700">Click the "Play Now" button to launch <strong>Doodle Baseball</strong> instantly in your browser.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">2. Wait for the Pitch</h3>
+                    <p className="text-base text-gray-700">The peanut pitcher will throw a food-themed baseball (hot dog, popcorn, etc.). Watch the pitcher's hat color for hints about the ball's movement.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">3. Swing the Bat</h3>
+                    <p className="text-base text-gray-700">Click your mouse or tap the screen at the perfect moment to swing. Timing is crucial—swing too early or too late and you'll get a strike!</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">4. Score Runs</h3>
+                    <p className="text-base text-gray-700">Hit the ball to score points. Aim for home runs to maximize your score in this addictive <strong>baseball game</strong>.</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">5. Avoid Strikes</h3>
+                    <p className="text-base text-gray-700">Three strikes and the game is over. Keep practicing to improve your reflexes and beat your high score!</p>
+                  </div>
+                </div>
                 <p className="mt-6 text-base text-gray-600">
                   <strong>Tip:</strong> Each pitcher's hat color in <strong>Doodle Baseball</strong> signals a different pitch style. Learn the patterns to anticipate the ball and hit more home runs!
                 </p>

@@ -21,9 +21,9 @@ const HotGame = () => {
 
   return (
     <div className="w-full bg-[#0c2461] rounded-lg p-3"> 
-      <h2 className="text-2xl font-bangers text-white mb-4">
+      <p className="text-2xl font-bangers text-white mb-4">
         Hot Games
-      </h2>
+      </p>
       <div className="grid grid-cols-2 gap-4">
           {hotGames.map((game) => (
             <Link 

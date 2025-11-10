@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 
 interface Game {
   slug: string;
@@ -11,17 +11,17 @@ interface Game {
 interface GameGridProps {
   games: Game[];
   title: string;
+  currentPage?: number; // 从URL参数接收当前页码
 }
 
-export default function GameGrid({ games, title }: GameGridProps) {
-  // 分页相关状态
-  const [currentPage, setCurrentPage] = useState(1);
+export default function GameGrid({ games, title, currentPage = 1 }: GameGridProps) {
+  // 分页相关常量
   const pageSize = 30;
   const totalPages = Math.ceil(games.length / pageSize);
   // 当前页要显示的游戏
   const pagedGames = games.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
-  // 生成页码按钮（最多显示前5页，后面是“下一页”和“最后一页”）
+  // 生成页码按钮（最多显示前5页，后面是"下一页"和"最后一页"）
   const renderPagination = () => {
     if (totalPages <= 1) return null;
     const pageButtons = [];
@@ -30,40 +30,40 @@ export default function GameGrid({ games, title }: GameGridProps) {
     // 只显示前maxPageButtons页
     for (let i = 1; i <= Math.min(totalPages, maxPageButtons); i++) {
       pageButtons.push(
-        <button
+        <Link
           key={i}
-          onClick={() => setCurrentPage(i)}
+          href={`/games?page=${i}`}
           className={`w-12 h-12 mx-1 rounded-lg border-2 flex items-center justify-center text-lg font-bold transition-colors
             ${currentPage === i ? "bg-red-700 border-yellow-400 text-yellow-100" : "bg-[#102c6e] border-white text-white hover:bg-blue-900"}`}
           style={{ outline: currentPage === i ? '2px solid #FFD600' : 'none' }}
-          aria-label={`第${i}页`}
+          aria-label={`page ${i}`}
         >
           {i}
-        </button>
+        </Link>
       );
     }
     // 下一页按钮
     if (showNext) {
       pageButtons.push(
-        <button
+        <Link
           key="next"
-          onClick={() => setCurrentPage(currentPage + 1)}
+          href={`/games?page=${currentPage + 1}`}
           className="w-12 h-12 mx-1 rounded-lg border-2 border-white bg-[#102c6e] text-white flex items-center justify-center text-lg font-bold hover:bg-blue-900"
-          aria-label="下一页"
+          aria-label="next page"
         >
           <span>&rarr;</span>
-        </button>
+        </Link>
       );
       // 跳转到最后一页按钮
       pageButtons.push(
-        <button
+        <Link
           key="last"
-          onClick={() => setCurrentPage(totalPages)}
+          href={`/games?page=${totalPages}`}
           className="w-12 h-12 mx-1 rounded-lg border-2 border-white bg-[#102c6e] text-white flex items-center justify-center text-lg font-bold hover:bg-blue-900"
-          aria-label="最后一页"
+          aria-label="final page"
         >
           <span>&#8677;</span>
-        </button>
+        </Link>
       );
     }
     return (
@@ -76,7 +76,7 @@ export default function GameGrid({ games, title }: GameGridProps) {
   return (
     <section className="py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold mb-6">{title}</h2>
+        {title && <h2 className="text-2xl font-bold mb-6">{title}</h2>}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {pagedGames.map((game) => (
             <Link href={`/games/${game.slug}`} key={game.slug} className="group flex flex-col items-center">
@@ -91,7 +91,7 @@ export default function GameGrid({ games, title }: GameGridProps) {
                   style={{ width: 187, height: 106 }}
                 />
               </div>
-              <h3 className="mt-2 text-sm text-gray-700 text-center">{game.title}</h3>
+              <h2 className="mt-2 text-sm text-gray-700 text-center">{game.title}</h2>
             </Link>
           ))}
         </div>

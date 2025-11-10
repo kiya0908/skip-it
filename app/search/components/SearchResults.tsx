@@ -14,13 +14,23 @@ interface Game {
 
 interface SearchResultsProps {
   query: string;
+  currentPage: number;
 }
 
-export default function SearchResults({ query }: SearchResultsProps) {
+export default function SearchResults({ query, currentPage }: SearchResultsProps) {
   const lowerCaseQuery = query.toLowerCase();
 
+  // 过滤搜索结果
   const filteredGames = games.filter(
     (game) => game.title.toLowerCase().includes(lowerCaseQuery)
+  );
+
+  // 分页逻辑
+  const pageSize = 30;
+  const totalPages = Math.ceil(filteredGames.length / pageSize);
+  const pagedGames = filteredGames.slice(
+    (currentPage - 1) * pageSize,
+    currentPage * pageSize
   );
 
   const hotGames = games.filter((game) => game.isHot);
@@ -43,15 +53,72 @@ export default function SearchResults({ query }: SearchResultsProps) {
     );
   };
 
+  // 渲染分页按钮（复用GameGrid的样式）
+  const renderPagination = () => {
+    if (totalPages <= 1) return null;
+
+    const pageButtons = [];
+    const maxPageButtons = 5;
+    const showNext = currentPage < totalPages;
+
+    // 只显示前maxPageButtons页
+    for (let i = 1; i <= Math.min(totalPages, maxPageButtons); i++) {
+      pageButtons.push(
+        <Link
+          key={i}
+          href={`/search?q=${encodeURIComponent(query)}&page=${i}`}
+          className={`w-12 h-12 mx-1 rounded-lg border-2 flex items-center justify-center text-lg font-bold transition-colors
+            ${currentPage === i ? "bg-red-700 border-yellow-400 text-yellow-100" : "bg-[#102c6e] border-white text-white hover:bg-blue-900"}`}
+          style={{ outline: currentPage === i ? '2px solid #FFD600' : 'none' }}
+          aria-label={`page ${i}`}
+        >
+          {i}
+        </Link>
+      );
+    }
+
+    // 下一页按钮
+    if (showNext) {
+      pageButtons.push(
+        <Link
+          key="next"
+          href={`/search?q=${encodeURIComponent(query)}&page=${currentPage + 1}`}
+          className="w-12 h-12 mx-1 rounded-lg border-2 border-white bg-[#102c6e] text-white flex items-center justify-center text-lg font-bold hover:bg-blue-900"
+          aria-label="next page"
+        >
+          <span>&rarr;</span>
+        </Link>
+      );
+
+      // 跳转到最后一页按钮
+      pageButtons.push(
+        <Link
+          key="last"
+          href={`/search?q=${encodeURIComponent(query)}&page=${totalPages}`}
+          className="w-12 h-12 mx-1 rounded-lg border-2 border-white bg-[#102c6e] text-white flex items-center justify-center text-lg font-bold hover:bg-blue-900"
+          aria-label="final page"
+        >
+          <span>&#8677;</span>
+        </Link>
+      );
+    }
+
+    return (
+      <div className="flex justify-center mt-8">
+        {pageButtons}
+      </div>
+    );
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {filteredGames.length > 0 ? (
         <div>
           <h1 className="text-2xl font-bold mb-6">
-            Results for &apos;{query}&apos;
+            Results for &apos;{query}&apos; ({filteredGames.length} {filteredGames.length === 1 ? 'result' : 'results'})
           </h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {filteredGames.map((game: Game) => (
+            {pagedGames.map((game: Game) => (
               <Link
                 href={`/games/${game.slug}`}
                 key={game.slug}
@@ -67,12 +134,15 @@ export default function SearchResults({ query }: SearchResultsProps) {
                     style={{ width: 187, height: 106 }}
                   />
                 </div>
-                <h3 className="mt-2 text-sm text-gray-700">
+                <h2 className="mt-2 text-sm text-gray-700">
                   {highlightQuery(game.title)}
-                </h3>
+                </h2>
               </Link>
             ))}
           </div>
+
+          {/* 分页导航 */}
+          {renderPagination()}
         </div>
       ) : (
         <div className="text-center">
@@ -108,7 +178,7 @@ export default function SearchResults({ query }: SearchResultsProps) {
                         className="w-full h-full object-cover object-center group-hover:opacity-75"
                       />
                     </div>
-                    <h3 className="mt-2 text-sm text-gray-700">{game.title}</h3>
+                    <h2 className="mt-2 text-sm text-gray-700">{game.title}</h2>
                   </Link>
                 ))}
               </div>

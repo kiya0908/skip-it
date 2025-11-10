@@ -6,9 +6,11 @@ import SearchResults from "./components/SearchResults";
 export async function generateMetadata({
   searchParams,
 }: {
-  searchParams: { q?: string };
+  searchParams: { q?: string; page?: string };
 }): Promise<Metadata> {
   const query = searchParams.q || "";
+  const page = searchParams.page || "1";
+  const pageNumber = Number(page);
 
   // 为空搜索提供默认元数据
   if (!query) {
@@ -22,10 +24,14 @@ export async function generateMetadata({
     };
   }
 
-  // 动态生成基于搜索词的元数据
-  const title = `Searching for: ${query}`;
-  const description = `Searching for: ${query}`;
-  const canonicalUrl = `https://doodlebaseball.info/search?q=${encodeURIComponent(query)}`;
+  // 动态生成基于搜索词和页码的元数据
+  const baseTitle = `Searching for: ${query}`;
+  const title = pageNumber > 1 ? `${baseTitle} - Page ${pageNumber}` : baseTitle;
+  const description = pageNumber > 1 ? `Search results for: ${query} - Page ${pageNumber}` : `Search results for: ${query}`;
+
+  const canonicalUrl = pageNumber > 1
+    ? `https://doodlebaseball.info/search?q=${encodeURIComponent(query)}&page=${pageNumber}`
+    : `https://doodlebaseball.info/search?q=${encodeURIComponent(query)}`;
 
   return {
     title,
@@ -49,13 +55,14 @@ export async function generateMetadata({
 export default function SearchPage({
   searchParams,
 }: {
-  searchParams: { q?: string };
+  searchParams: { q?: string; page?: string };
 }) {
   const query = searchParams.q || "";
+  const currentPage = Number(searchParams.page) || 1;
 
   return (
     <Suspense fallback={<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">Loading...</div>}>
-      <SearchResults query={query} />
+      <SearchResults query={query} currentPage={currentPage} />
     </Suspense>
   );
 }

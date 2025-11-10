@@ -1,14 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cd \"C:\\Users\\LENOVO\\Desktop\\doodlebaseball-v2\")",
-      "Bash(python -c \"\nimport json\nimport os\n\n# 读取JSON文件\nwith open(''data/games.json'', ''r'', encoding=''utf-8'') as f:\n    games = json.load(f)\n\n# 为每个游戏添加isRelated字段\nfor i, game in enumerate(games):\n    if i < 30:  # 前30个游戏\n        game[''isRelated''] = True\n    else:  # 其余游戏\n        game[''isRelated''] = False\n\n# 写回文件，保持原有格式\nwith open(''data/games.json'', ''w'', encoding=''utf-8'') as f:\n    json.dump(games, f, indent=2, ensure_ascii=False)\n\nprint(f''已为{len(games)}个游戏添加isRelated字段'')\nprint(f''前30个游戏: isRelated = true'')\nprint(f''其余{len(games)-30}个游戏: isRelated = false'')\n\")",
-      "WebFetch(domain:doodlebaseball.info)",
-      "Bash(npm run build:*)",
-      "Bash(npx tsc:*)",
-      "Bash(npm run dev:*)"
+      "Bash(timeout /t 5)",
+      "Bash(nul)",
+      "Bash(copy \"app\\components\\GameGrid.tsx\" \"app\\components\\GameGrid.tsx.backup_20251110\")",
+      "Bash(copy \"app\\games\\page.tsx\" \"app\\games\\page.tsx.backup_20251110\")",
+      "Bash(ping 127.0.0.1 -n 6)",
+      "Bash(curl -s http://localhost:3002/games)",
+      "Bash(curl -s \"http://localhost:3002/games?page=2\")",
+      "Bash(curl -s \"http://localhost:3003/search?q=ball\")"
     ],
     "deny": [],
+    "ask": [],
     "defaultMode": "acceptEdits"
   }
 }

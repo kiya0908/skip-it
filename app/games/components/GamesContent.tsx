@@ -5,7 +5,11 @@ import Link from 'next/link';
 import gamesData from '../../../data/games.json';
 import GameGrid from '../../components/GameGrid';
 
-export default function GamesContent() {
+interface GamesContentProps {
+  currentPage: number;
+}
+
+export default function GamesContent({ currentPage }: GamesContentProps) {
   const games = gamesData;
   return (
     <main className="bg-[#f0f2f5] min-h-screen py-6 sm:py-10">
@@ -20,7 +24,7 @@ export default function GamesContent() {
             </span>
           </Link>
         </div>
-        <GameGrid games={games} title="" />
+        <GameGrid games={games} title="" currentPage={currentPage} />
       </div>
     </main>
   );
