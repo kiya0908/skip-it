@@ -43,24 +43,31 @@ export default function RootLayout({
       <head>
         {/* Google AdSense Script - 延迟加载 */}
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <script 
           async 
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7718142048250196"
           crossOrigin="anonymous"
         ></script>
-        {/* Font Awesome CDN - Direct stylesheet loading */}
+        {/* Font Awesome CDN 样式 */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         {/* 游戏资源预连接优化 */}
         <link rel="preconnect" href="https://games.crazygames.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://1games.io" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://games.crazygames.com" />
         <link rel="dns-prefetch" href="https://1games.io" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.youtube-nocookie.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.youtube-nocookie.com" />
+        <link rel="preload" as="image" href="/images/games/doodlebaseball.png" />
       </head>
       <body className={`${poppins.variable} ${bangers.variable} antialiased`}>
         <Header />

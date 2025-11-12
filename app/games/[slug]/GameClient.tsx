@@ -200,6 +200,25 @@ export default function GameClient({ game }: { game: Game }) {
       document.removeEventListener('touchstart', handleClickOutside as EventListener);
     };
   }, [showFloatingControls, isMobile]);
+
+  const renderDescriptionParagraphs = useCallback((description: string) => {
+    if (!description) return null;
+    const normalized = description
+      .replace(/\r?\n+/g, ' ')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+    const segments = normalized.split(/(?<=\.)\s+(?=[A-Z<])/g);
+
+    return segments
+      .filter(Boolean)
+      .map((segment, idx) => (
+        <p
+          key={`desc-${idx}`}
+          className="text-base text-gray-700 leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: segment }}
+        />
+      ));
+  }, []);
   return (
     <main className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
       {/* 游戏区域 */}
@@ -437,7 +456,9 @@ export default function GameClient({ game }: { game: Game }) {
               <h2 id="about" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
                 <a href="#about" className="text-gray-900 hover:underline">About {game.title}</a>
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto" dangerouslySetInnerHTML={{ __html: game.description + ' ' }} />
+              <div className="max-w-5xl mx-auto space-y-4 text-left">
+                {renderDescriptionParagraphs(game.description)}
+              </div>
             </div>
           </div>
 
@@ -448,7 +469,7 @@ export default function GameClient({ game }: { game: Game }) {
                 <a href="#how-to-play" className="text-gray-900 hover:underline">How to Play {game.title}</a>
               </h2>
             </div>
-            <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-3xl mx-auto">
+            <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-5xl mx-auto">
               <ol className="list-decimal list-inside text-gray-700 space-y-2 text-base">
                 {game.howToPlay.map((step: string, idx: number) => <li key={idx} dangerouslySetInnerHTML={{ __html: step }} />)}
               </ol>
@@ -465,7 +486,7 @@ export default function GameClient({ game }: { game: Game }) {
                 <a href="#features" className="text-gray-900 hover:underline">Special Features</a>
               </h2>
             </div>
-            <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-3xl mx-auto">
+            <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-5xl mx-auto">
               <ul className="space-y-2">
                 {game.features.map((f: string, idx: number) => (
                   <li key={idx} className="flex items-start">

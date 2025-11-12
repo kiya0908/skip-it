@@ -112,3 +112,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Performance Optimization (2025-11-12)
+
+- Added bundle analyzer tooling and reduced dependencies by removing unused Font Awesome React packages, keeping CDN icons only.
+- Deferred heavy homepage game iframe until user interaction; first paint now uses an optimized static preview with preloaded imagery to lower LCP/TBT risk.
+- Converted comment and related-game modules to dynamic imports to trim the main bundle, and expanded preconnect/dns-prefetch coverage for all third-party domains.
+- Documented outstanding server-side bottleneck (TTFB ≈ 3.5s from upstream host) and outlined CDN/hosting actions in `doc/performance-optimization-plan.md`.

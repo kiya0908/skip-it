@@ -1,9 +1,25 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import GameSection from './GameSection';
-import RelatedGames from './components/RelatedGames';
-import Comments from './components/Comments';
+
+const Comments = dynamic(() => import('./components/Comments'), {
+  ssr: false,
+  loading: () => (
+    <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4 py-8 text-center text-sm text-gray-500">
+      Loading comments…
+    </div>
+  ),
+});
+
+const RelatedGames = dynamic(() => import('./components/RelatedGames'), {
+  loading: () => (
+    <div className="py-10 text-center text-white bg-[#0c2461]">
+      Loading related games…
+    </div>
+  ),
+});
 
 // 为页面添加元数据
 export const metadata: Metadata = {

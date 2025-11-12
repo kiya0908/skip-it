@@ -1,6 +1,12 @@
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+  openAnalyzer: false,
+  generateStatsFile: true,
+});
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 直接移除 experimental 字段
+  reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+module.exports = withBundleAnalyzer(nextConfig);
