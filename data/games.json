@@ -1569,7 +1569,139 @@
         "description": "Test your math skills with Get 1000! A tricky and fun puzzle game where your goal is to reach 1000. Plan your moves carefully and use multipliers to win.",
         "keywords": "Get 1000, puzzle game, math puzzle, number game, challenging game, brain game"
       }
+    },
+    {
+      "slug": "Skydom",
+      "title": "Skydom",
+      "description": "<b>Skydom</b> — A casual match-3 puzzle with map progression and periodic competitive levels. Clear level objectives by matching gems, build special pieces with combos, earn coins and diamonds, and unlock new features such as the Alchemist to craft bonus items. The game balances quick sessions with strategic planning and optional PvP challenges.",
+      "coverImage": "/images/games/Skydom.jpg",
+      "youtube": "",
+      "playUrl": "https://games.crazygames.com/en_US/skydom/index.html",
+      "rating": 3.9,
+      "howToPlay": [
+        "Drag or click to swap two adjacent pieces to match 3 or more of the same color.",
+        "Match 4+ or create specific patterns to form special gems with powerful effects.",
+        "Complete the objective shown at the start of each level (e.g., clear X gemstones).",
+        "Every second level may be a competitive challenge against another player.",
+        "Use coins and diamonds to buy boosters and power-ups in the store.",
+        "Turn off hints in Settings for a harder, more strategic experience."
+      ],
+      "features": [
+        "Classic match-3 mechanics with special gem combos and chain reactions.",
+        "Map progression with alternating solo and PvP challenge levels.",
+        "Unlockable Alchemist system to craft bonus pieces.",
+        "Two currencies (coins and diamonds) for boosters and upgrades.",
+        "Daily Challenges and timed events to earn extra rewards.",
+        "Settings to customize difficulty and interface (hints, language)."
+      ],
+      "isTopPick": true,
+      "isHot": true,
+      "isHeader": true,
+      "isRelated": true,
+      "seo": {
+        "title": "Skydom — Puzzle Game",
+        "description": "Play Skydom, a match-3 puzzle with map progression, special gem combos and PvP challenge levels. Unlock the Alchemist and complete daily challenges.",
+        "keywords": "Skydom, match-3, puzzle, Alchemist, PvP, daily challenge"
+      }
+  },
+  {
+    "slug": "Steal_Brainrot_Online",
+    "title": "Steal Brainrot Online",
+    "description": "<b>Steal Brainrot Online</b> — A fast-paced multiplayer heist game where players collect rare Brainrot items, raid other players’ bases, and defend their own. Balance stealing, base defenses and reinvestment to grow your collection and climb leaderboards. The game emphasizes social risk-and-reward play with upgrades and rebirth progression.",
+    "coverImage": "/images/games/Steal Brainrot Online.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/steal-brainrot-online/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "WASD = move, Space = jump, E = interact (desktop controls).",
+      "Mobile: left joystick = move, swipe = look, UI buttons for jump and interact.",
+      "Enter unlocked bases to steal Brainrots; carrying loot slows you and alerts owners.",
+      "Defend your base with locks, traps and temporary shields (shields last ~60s).",
+      "If caught, use the home button (G) to return to base — stolen items are lost.",
+      "Spend money to buy Brainrots, upgrades and base defenses; rebirths grant long-term bonuses."
+    ],
+    "features": [
+      "Real-time multiplayer raids and base defense mechanics.",
+      "Collectible Brainrot items that generate income for upgrades.",
+      "Base customization with locks, traps and temporary shields.",
+      "Rebirth system for permanent progression bonuses.",
+      "Timed events and leaderboards to encourage competition."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Steal Brainrot Online — Multiplayer Heist Game",
+      "description": "Steal Brainrot Online is a multiplayer heist game: raid bases, collect Brainrots and defend your stash while competing on leaderboards.",
+      "keywords": "Steal Brainrot Online, multiplayer, heist, base defense, Brainrot"
     }
+  },
+  {
+    "slug": "Tropical_Merge",
+    "title": "Tropical Merge",
+    "description": "<b>Tropical Merge</b> — Build and expand a tropical island by merging items, completing quests, and discovering new objects. Merge three or more identical items to create higher-tier objects, unlock new areas, and recruit helpers to restore the island’s beauty.",
+    "coverImage": "/images/games/Tropical Merge.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tropical-merge/index.html",
+    "rating": 4.25,
+    "howToPlay": [
+      "Drag items together to merge 3 or more identical objects into a higher-tier item.",
+      "Merging more than three at once yields bonus items and speeds progression.",
+      "Complete quests to earn gold, energy and unlock new map areas.",
+      "Use gold, watch optional ads, or claim daily rewards to restore energy.",
+      "Zoom with the scroll wheel and drag to organize your island efficiently."
+    ],
+    "features": [
+      "Merge mechanics with deep upgrade chains and discovery.",
+      "Story-driven island restoration and character helpers.",
+      "Quests, daily tasks and timed events to maintain engagement.",
+      "Energy and currency systems to pace progression.",
+      "Hundreds of mergeable items and decorative customization."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Tropical Merge — Merge & Build Game",
+      "description": "Create a tropical island by merging items, completing quests and unlocking new areas in Tropical Merge.",
+      "keywords": "Tropical Merge, merge game, island, quests, casual"
+    }
+  },
+  {
+    "slug": "Screw_Out_Bolts_and_Nuts",
+    "title": "Screw Out: Bolts and Nuts",
+    "description": "<b>Screw Out: Bolts and Nuts</b> — A logic puzzle where you unscrew bolts from shapes and sort them into matching color containers. Plan moves carefully because extra slot space is limited; fill containers to refresh colors and clear shapes without overflowing the extras.",
+    "coverImage": "/images/games/Screw Out_ Bolts and Nuts.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/screw-out-bolts-and-nuts/index.html",
+    "rating": 4.3,
+    "howToPlay": [
+      "Use the left mouse button to unscrew bolts and place them into matching top containers.",
+      "Only unscrew screws that match an available container; any unmatched screw occupies limited extra slots.",
+      "When a container fills, it refreshes with a new color and frees space — aim to fill containers quickly.",
+      "Use power-ups (Magnet, Drill, Hammer) strategically to handle difficult shapes or free space.",
+      "If extra slots become full and you unscrew another unmatched screw, the round ends."
+    ],
+    "features": [
+      "Logic-driven gameplay focused on planning and color matching.",
+      "Limited extra slots create strategic pressure.",
+      "Tools and power-ups to help clear tricky levels.",
+      "Progressive difficulty across levels for increasing challenge.",
+      "Mobile-friendly controls and short-session design."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Screw Out: Bolts and Nuts — Puzzle Game",
+      "description": "Unscrew and sort bolts by color in Screw Out: Bolts and Nuts. Use strategy and limited slots to clear shapes across increasingly challenging levels.",
+      "keywords": "Screw Out: Bolts and Nuts, puzzle, logic, unscrew, color match"
+    }
+  }
+
   
 
 ]
