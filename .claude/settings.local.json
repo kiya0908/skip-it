@@ -8,7 +8,15 @@
       "Bash(ping 127.0.0.1 -n 6)",
       "Bash(curl -s http://localhost:3002/games)",
       "Bash(curl -s \"http://localhost:3002/games?page=2\")",
-      "Bash(curl -s \"http://localhost:3003/search?q=ball\")"
+      "Bash(curl -s \"http://localhost:3003/search?q=ball\")",
+      "Bash(npm install @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons)",
+      "Bash(npm run build)",
+      "Bash(git restore app/contact/page.tsx)",
+      "Bash(git add package.json package-lock.json)",
+      "Bash(git commit -m \"fix: add missing Font Awesome dependencies for contact page\")",
+      "Bash(git push)",
+      "Bash(git add data/games.json \"public/images/games/Screw Out_ Bolts and Nuts.jpg\" \"public/images/games/Skydom.jpg\" \"public/images/games/Steal Brainrot Online.jpg\" \"public/images/games/Tropical Merge.jpg\")",
+      "Bash(git commit -m \"feat: add 4 new games (Skydom, Steal Brainrot Online, Tropical Merge, Screw Out)\")"
     ],
     "deny": [],
     "ask": [],
