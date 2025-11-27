@@ -4,6 +4,8 @@ import Image from 'next/image';
 import gamesData from '@/data/games.json';
 import HotGame from '@/app/components/HotGame';
 import TopPicksGame from '@/app/components/TopPicksGame';
+import AdUnit from '@/app/components/AdUnit';
+import { ADSENSE_TOP_SLOT } from '@/lib/adsense';
 
 export default function GameSection() {
   const [isLoading, setIsLoading] = useState(false);
@@ -180,6 +182,8 @@ export default function GameSection() {
       document.removeEventListener('touchstart', handleClickOutside as EventListener);
     };
   }, [showFloatingControls, isMobile]);
+
+  const hasSidebarAd = Boolean(ADSENSE_TOP_SLOT);
 
   return (
     <div className="bg-white min-h-screen">
@@ -411,7 +415,12 @@ export default function GameSection() {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-80">
+            <div className="w-full lg:w-80 space-y-4">
+              {hasSidebarAd && (
+                <div className="rounded-lg border border-gray-100 shadow-sm p-2 bg-white">
+                  <AdUnit slot={ADSENSE_TOP_SLOT} className="my-0" />
+                </div>
+              )}
               <HotGame />
             </div>
           </div>

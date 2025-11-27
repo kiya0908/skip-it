@@ -13,7 +13,7 @@ interface Game {
 const HotGame = () => {
   const allGames: Game[] = gamesData as Game[];
   // 只筛选 isHot 为 true 的游戏，并限制显示前10个
-  const hotGames = allGames.filter((game) => game.isHot).slice(0, 10);
+  const hotGames = allGames.filter((game) => game.isHot).slice(0, 6);
 
   if (hotGames.length === 0) {
     return null; 

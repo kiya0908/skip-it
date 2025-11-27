@@ -4,10 +4,7 @@ import GameClient from './GameClient';
 import { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 import AdUnit from '@/app/components/AdUnit';
-import {
-  ADSENSE_BOTTOM_SLOT,
-  ADSENSE_TOP_SLOT,
-} from '@/lib/adsense';
+import { ADSENSE_BOTTOM_SLOT } from '@/lib/adsense';
 
 
 // 动态生成元数据
@@ -47,7 +44,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
 export default function GamePage({ params }: { params: { slug: string } }) {
   const game = games.find((g) => g.slug === params.slug);
-  const hasTopAd = Boolean(ADSENSE_TOP_SLOT);
   const hasBottomAd = Boolean(ADSENSE_BOTTOM_SLOT);
   
   if (!game) {
@@ -93,11 +89,6 @@ export default function GamePage({ params }: { params: { slug: string } }) {
       />
       {/* 页面主内容 */}
       <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-        {hasTopAd && (
-          <div className="my-4">
-            <AdUnit slot={ADSENSE_TOP_SLOT} />
-          </div>
-        )}
         <GameClient game={game} />
         {hasBottomAd && (
           <div className="my-8">

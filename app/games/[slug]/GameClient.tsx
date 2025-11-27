@@ -5,6 +5,8 @@ import TopPicksGame from '../../components/TopPicksGame';
 import HotGame from '../../components/HotGame';
 import RelatedGames from '../../components/RelatedGames';//导入ralatedgame组件
 import Comments from '../../components/Comments'; // 导入评论组件
+import AdUnit from '../../components/AdUnit';
+import { ADSENSE_TOP_SLOT } from '@/lib/adsense';
 
 interface Game {
   slug: string;
@@ -219,6 +221,8 @@ export default function GameClient({ game }: { game: Game }) {
         />
       ));
   }, []);
+  const hasSidebarAd = Boolean(ADSENSE_TOP_SLOT);
+
   return (
     <main className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
       {/* 游戏区域 */}
@@ -438,6 +442,11 @@ export default function GameClient({ game }: { game: Game }) {
             </div>
             {/* Hotgames 区域，和首页gamesection一致 */}
             <div className="w-full lg:w-80 space-y-6">
+              {hasSidebarAd && (
+                <div className="rounded-lg border border-gray-100 shadow-sm p-2 bg-white">
+                  <AdUnit slot={ADSENSE_TOP_SLOT} className="my-0" />
+                </div>
+              )}
               <HotGame />
             </div>
           </div>
