@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Poppins, Bangers } from 'next/font/google';
-import { GoogleAnalytics } from '@next/third-parties/google';
-import ClientOptimizer from './components/ClientOptimizer';
+import { Poppins, Bangers } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import ClientOptimizer from "./components/ClientOptimizer";
+import Script from "next/script"; // 新增引入  next Script 组件
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -44,11 +45,7 @@ export default function RootLayout({
         {/* Google AdSense Script - 延迟加载 */}
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
-        <script 
-          async 
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7718142048250196"
-          crossOrigin="anonymous"
-        ></script>
+
         {/* Font Awesome CDN 样式 */}
         <link
           rel="stylesheet"
@@ -74,9 +71,18 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <ClientOptimizer />
+      
+      {/* 【新增 3】AdSense 核心脚本移到这里 */}
+        {/* strategy="afterInteractive" 确保页面可交互后再加载，避免白屏和 React 冲突 */}
+        <Script
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7718142048250196"
+          crossOrigin="anonymous"
+        />
+        {/* 添加Google Analytics */}
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ""} />
       </body>
-      {/* 添加Google Analytics */}
-      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''} />
     </html>
   );
 }

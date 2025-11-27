@@ -113,6 +113,29 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+## Monetization & Analytics
+
+Set the following environment variables (e.g., in `.env.local`) before running the site:
+
+```env
+NEXT_PUBLIC_ADSENSE_TOP_SLOT= # Header 下方广告位 Slot ID
+NEXT_PUBLIC_ADSENSE_BOTTOM_SLOT= # 游戏内容下方广告位 Slot ID
+NEXT_PUBLIC_GA_MEASUREMENT_ID= # Google Analytics 4 ID，例如 G-XXXXXXX
+```
+
+AdSense 的加载逻辑与优化手册 `doc/adsense优化操作方法.md` 一致：
+
+- `app/layout.tsx` 通过 `next/script` 在页面可交互后加载 `adsbygoogle.js`，避免白屏或被 React 水合阶段清除。
+- `app/components/AdUnit.tsx` 是带 `key={pathname + slot}` 的客户端组件，确保在页面跳转时强制刷新广告位并重新计算曝光。
+- 首页 `app/page.tsx` 以及动态详情页 `app/games/[slug]/page.tsx` 均在 Header 下方与主要游戏内容下方各插入一个广告位，并使用外层留白（`my-4`/`my-8`）防止误触。
+
+### AdSense Integration (2025-11-27)
+
+- 统一用环境变量管理 Slot ID，方便在后台调整广告策略。
+- 新增 `AdUnit` 客户端组件，若未来需要更多广告位，可以复用该组件并传入新的 Slot ID。
+- Root Layout 现使用 `strategy="afterInteractive"` 延迟加载 AdSense，其它第三方资源仍保留必要的 `preconnect/dns-prefetch`。
+- 后续可进一步在 `doc/adsense优化操作方法.md` 基础上记录统计数据（CTR、RPM）与实验结果，便于持续调优。
+
 ## Performance Optimization (2025-11-12)
 
 - Added bundle analyzer tooling and reduced dependencies by removing unused Font Awesome React packages, keeping CDN icons only.

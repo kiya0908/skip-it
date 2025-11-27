@@ -3,6 +3,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import GameSection from './GameSection';
+import AdUnit from './components/AdUnit';
+import {
+  ADSENSE_BOTTOM_SLOT,
+  ADSENSE_TOP_SLOT,
+} from '@/lib/adsense';
 
 const Comments = dynamic(() => import('./components/Comments'), {
   ssr: false,
@@ -115,6 +120,9 @@ const faqJsonLd = {
 
 
 export default function HomePage() {
+  const hasTopAd = Boolean(ADSENSE_TOP_SLOT);
+  const hasBottomAd = Boolean(ADSENSE_BOTTOM_SLOT);
+
   return (
     <>
       {/* 添加结构化数据 */}
@@ -127,6 +135,12 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
+      {hasTopAd && (
+        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4 mt-4">
+          <AdUnit slot={ADSENSE_TOP_SLOT} className="my-4" />
+        </div>
+      )}
+
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="gap-8">
           <div>
@@ -134,6 +148,12 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+
+      {hasBottomAd && (
+        <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4 mt-8">
+          <AdUnit slot={ADSENSE_BOTTOM_SLOT} className="my-4" />
+        </div>
+      )}
 
       {/* 游戏内容综合区域 */}
       <section className="py-16 bg-white">
