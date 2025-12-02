@@ -456,69 +456,100 @@ export default function GameClient({ game }: { game: Game }) {
       {/* TopPicksGame 区域，和首页一致 */}
       <TopPicksGame />
 
-      {/* 游戏内容综合区域 */}
-      <section className="py-8 bg-white" id="about">
+      {/* 3. 核心内容区域 (重构部分) */}
+      {/* 使用 bg-white 和圆角卡片，把零散的内容聚合成一个整体 */}
+      <section className="py-8" id="game-details">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-          {/* 关于游戏部分 */}
-          <div className="mb-16">
-            <div className="text-center mb-8">
-              <h2 id="about" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
-                <a href="#about" className="text-gray-900 hover:underline">About {game.title}</a>
-              </h2>
-              <div className="max-w-5xl mx-auto space-y-4 text-left">
-                {renderDescriptionParagraphs(game.description)}
-              </div>
-            </div>
-          </div>
+          <div className="flex flex-col gap-8 items-start max-w-7xl mx-auto">
+            
+            {/* 左侧主要内容区：Description + How to Play + Features */}
+            <div className="flex-1 space-y-8 w-full">
+                
+                {/* 3.1 About Game Block */}
+                <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+                    <div className="flex flex-col md:flex-row gap-6">
+                        {/* 如果有封面图，在左侧显示一个小图增强视觉，或者放在右侧 */}
+                         <div className="flex-1">
+                            <h2 className="text-3xl font-bangers text-gray-900 mb-4 flex items-center">
+                                <i className="fas fa-info-circle text-blue-500 mr-3 text-2xl"></i>
+                                <a href="#about" className="text-gray-900 hover:underline">About {game.title}</a>
+                            </h2>
+                            <div className="prose prose-slate max-w-none">
+                                {renderDescriptionParagraphs(game.description)}
+                            </div>
+                         </div>
+                         {/* 可选：右侧放一个小的封面图卡片 */}
+                         <div className="w-full md:w-48 shrink-0">
+                            <div className="aspect-square rounded-lg overflow-hidden bg-gray-100 shadow-inner relative">
+                                <img 
+                                    src={game.coverImage} 
+                                    alt={game.title} 
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                                />
+                            </div>
+                            <div className="mt-3 text-center">
+                                <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full font-semibold">
+                                    Puzzle
+                                </span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
 
-          {/* 如何游玩部分 */}
-          <div className="mb-16" id="how-to-play">
-            <div className="text-center mb-8">
-              <h2 id="how-to-play" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
-                <a href="#how-to-play" className="text-gray-900 hover:underline">How to Play {game.title}</a>
-              </h2>
-            </div>
-            <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-5xl mx-auto">
-              <ol className="list-decimal list-inside text-gray-700 space-y-2 text-base">
-                {game.howToPlay.map((step: string, idx: number) => <li key={idx} dangerouslySetInnerHTML={{ __html: step }} />)}
-              </ol>
-              <p className="mt-6 text-base text-gray-600">
-                Want to master more games? Visit our <a href="/games" className="text-blue-600 hover:underline">All Games</a> page for more fun baseball experiences.
-              </p>
-            </div>
-          </div>
+                {/* 3.2 How to Play Block */}
+                <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+                    <h2 className="text-3xl font-bangers text-gray-900 mb-6 flex items-center">
+                         <i className="fas fa-gamepad text-green-500 mr-3 text-2xl"></i>
+                         How to Play
+                    </h2>
+                    {/* 使用 Grid 布局代替简单的 ol 列表，增加视觉丰富度 */}
+                    <div className="grid gap-4">
+                        {game.howToPlay.map((step: string, idx: number) => (
+                            <div key={idx} className="flex items-start bg-gray-50 p-4 rounded-lg border border-gray-100 hover:border-blue-200 transition-colors">
+                                <div className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold mr-4 shadow-sm">
+                                    {idx + 1}
+                                </div>
+                                <div className="text-gray-700 leading-relaxed pt-1" dangerouslySetInnerHTML={{ __html: step }}></div>
+                            </div>
+                        ))}
+                    </div>
+                    {/* 修正了原本的 Baseball 文案，改为 generic */}
+                    <div className="mt-6 p-4 bg-blue-50 rounded-lg text-blue-800 text-sm flex items-center">
+                        <i className="fas fa-lightbulb text-yellow-500 mr-3 text-lg"></i>
+                        <span>
+                            Mastered this game? Check out our <a href="/games" className="font-bold underline hover:text-blue-600">All Games</a> page for more brain-teasing challenges!
+                        </span>
+                    </div>
+                </div>
 
-          {/* 游戏特点部分 */}
-          <div className="mb-16" id="features">
-            <div className="text-center mb-8">
-              <h2 id="features" className="text-4xl font-bangers font-bold text-gray-900 mb-4 tracking-wide">
-                <a href="#features" className="text-gray-900 hover:underline">Special Features</a>
-              </h2>
-            </div>
-            <div className="shadcn-card p-6 border border-gray-200 rounded-lg max-w-5xl mx-auto">
-              <ul className="space-y-2">
-                {game.features.map((f: string, idx: number) => (
-                  <li key={idx} className="flex items-start">
-                    <i className="fas fa-check-circle text-green-500 text-lg mr-3 mt-0.5"></i>
-                    <span dangerouslySetInnerHTML={{ __html: f }} />
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-6 text-base text-gray-600">
-                Looking for more unique games? Explore our <a href="/games" className="text-blue-600 hover:underline">full collection</a>.
-              </p>
+                {/* 3.3 Features Block */}
+                <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+                    <h2 className="text-3xl font-bangers text-gray-900 mb-6 flex items-center">
+                        <i className="fas fa-star text-yellow-500 mr-3 text-2xl"></i>
+                        Game Features
+                    </h2>
+                    {/* 将列表转换为卡片网格 */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {game.features.map((f: string, idx: number) => (
+                            <div key={idx} className="flex items-start p-4 bg-gradient-to-r from-gray-50 to-white rounded-lg border border-gray-100 shadow-sm">
+                                <i className="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span className="text-gray-700 font-medium" dangerouslySetInnerHTML={{ __html: f }} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/*Comments 组件 */}
+                <div>
+                  <Comments />
+                </div>
+
             </div>
           </div>
-          {/*Comments 组件 */}
-          <div>
-            <Comments />
-          </div>
-            {/* RelatedGames 组件 */}
-            <div>
-              <RelatedGames />
-            </div>
         </div>
       </section>
+      {/* RelatedGames 组件：与 TopPicksGame 一致的全宽布局 */}
+      <RelatedGames />
     </main>
   );
 }
