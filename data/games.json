@@ -20,7 +20,7 @@
     ],
     "isHeader": true,
     "seo": {
-      "title": "Doodle Baseball | Fun Food Baseball Game",
+      "title": "Play Doodle Baseball Online Free | Doodle Baseball",
       "description": "Play Doodle Baseball and other fun online games for free. Enjoy food-themed baseball action and more!",
       "keywords": "doodle baseball, baseball game, online game, free game"
     }
@@ -50,7 +50,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Space Hex: War Merge Shooter - Online Strategy Game",
+      "title": "Play Space Hex: War Merge Shooter Online Free | Doodle Baseball",
       "description": "Engage in epic space battles in Space Hex: War Merge Shooter! Merge towers, design your hex ship, and defend against endless enemy waves. Play for free!",
       "keywords": "space shooter, merge game, tower defense, strategy game, space hex, online game, free game"
     }
@@ -80,7 +80,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Open House - Free Match-3 & Decorating Puzzle Game",
+      "title": "Play Open House Online Free | Doodle Baseball",
       "description": "Design your dream home in Open House! Solve fun match-3 puzzles to renovate and decorate rooms. Uncover a charming story and play this relaxing game online.",
       "keywords": "match-3, puzzle game, home decoration, renovation game, open house, free game, online puzzle"
     }
@@ -110,190 +110,189 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Piles of Mahjong - Play Free Online Tile-Matching Game",
+      "title": "Play Piles of Mahjong Online Free | Doodle Baseball",
       "description": "Challenge your mind with Piles of Mahjong! A fresh twist on classic Mahjong where you match three tiles. Plan your moves carefully to clear the board. Play now!",
       "keywords": "mahjong, puzzle game, tile matching, match 3, board game, free game, piles of mahjong, online"
     }
   },
-  
-    {
-      "slug": "Asteroid_Breaker",
-      "title": "Asteroid Breaker",
-      "description": "Get ready for non-stop action with <b>Asteroid Breaker</b>, the ultimate idle defense game where your fully automated turret faces endless waves of asteroids. For those who crave hands-on control, you can manually aim for devastating precision shots. As you play <b>Asteroid Breaker</b>, you'll earn XP to unlock powerful roguelite-style upgrades, making you stronger with each wave. Invest your earnings in a permanent skill tree to build a turret so formidable that no asteroid can withstand its power. Dive into the cosmic chaos of <b>Asteroid Breaker</b> and become the ultimate defender of the galaxy!",
-      "coverImage": "/images/games/Asteroid_Breaker.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/asteroid-breaker-ezu/index.html",
-      "rating": 4.65,
-      "howToPlay": [
-        "Interact with UI: Use the left mouse button.",
-        "Use Abilities: Press keys 1, 2, 3, 4, or 5 to activate special powers."
-      ],
-      "features": [
-        "Engaging idle defense gameplay with auto-firing turret.",
-        "Manual control option for precision targeting.",
-        "Roguelite upgrade system for varied and replayable runs. [16]",
-        "Permanent skill tree for long-term power progression.",
-        "Endless waves of increasingly challenging asteroids."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Asteroid Breaker - Online Idle Defense Game",
-        "description": "Blast endless asteroids in Asteroid Breaker! An idle defense game with roguelite upgrades and a permanent skill tree. Build the ultimate turret today!",
-        "keywords": "asteroid breaker, idle game, defense game, turret game, space shooter, roguelite, online game"
-      }
-    },
-    {
-      "slug": "Tap_Reveal",
-      "title": "Tap Reveal",
-      "description": "Exercise your mind with <b>Tap Reveal</b>, a captivating casual puzzle game designed to put your logic to the ultimate test. Your goal is to tap away colorful blocks to methodically uncover the beautiful hidden images concealed beneath. Each puzzle in <b>Tap Reveal</b> is a unique brain teaser, meticulously crafted to challenge your reasoning and provide a deeply satisfying sense of accomplishment. Whether you want to unwind or sharpen your intellect, <b>Tap Reveal</b> offers an addictive and relaxing gameplay experience for puzzle enthusiasts of all ages. [20]",
-      "coverImage": "/images/games/Tap_Reveal.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/tap-reveal/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Move Arrow (PC): Left-click on an arrow to move it in its indicated direction.",
-        "Move Arrow (Mobile): Tap on an arrow to move it.",
-        "Adjust View: Drag the left-click button or your finger to move the camera. Use the scroll wheel or pinch to zoom in and out."
-      ],
-      "features": [
-        "Relaxing and satisfying tap-based puzzle gameplay. [7]",
-        "Hundreds of handcrafted levels with unique hidden images. [7]",
-        "Engaging logic puzzles that sharpen your mind. [7]",
-        "Beautifully designed artwork and calming visuals. [7]",
-        "Stress-relieving mechanics perfect for unwinding."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Tap Reveal - Relaxing Logic Puzzle Game",
-        "description": "Uncover hidden images in Tap Reveal! Tap away blocks in this relaxing and addictive logic puzzle game. Perfect for brain training and stress relief.",
-        "keywords": "tap reveal, puzzle game, logic game, brain teaser, relaxing game, casual game, image puzzle"
-      }
-    },
-    {
-      "slug": "TimeWarriors",
-      "title": "TimeWarriors",
-      "description": "Embark on an epic journey through history with <b>TimeWarriors</b>, a thrilling strategy game where you command an army from the Stone Age to futuristic warfare. In <b>TimeWarriors</b>, you will upgrade your troops, construct mighty bases, and deploy unique units and tactics to vanquish your foes. Master the art of war in every era, outsmart your opponents, and rise as the ultimate commander. Your strategic prowess will determine your success in <b>TimeWarriors</b>, where victory depends on balancing attack, defense, and resource management to rewrite history! [9]",
-      "coverImage": "/images/games/TimeWarriors.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/timewarriors/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Interact: Use the left mouse button to select units, upgrade your base, and manage resources.",
-        "Deploy Troops: When you have enough food, click on a unit's icon to send them into battle.",
-        "Objective: Destroy the enemy's base while defending your own to advance through the ages."
-      ],
-      "features": [
-        "Lead your army through different historical eras, from Stone Age to future tech. [9]",
-        "Strategic gameplay focused on resource management and tactical deployment. [10, 12]",
-        "Unlock and command a variety of units, each with unique abilities. [10, 15]",
-        "Upgrade your base and troops to gain an advantage in battle. [14, 15]",
-        "Engaging battles that test your ability to attack, defend, and strategize."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": false,
-      "isRelated": true,
-      "seo": {
-        "title": "TimeWarriors - Epic Strategy War Game Through Ages",
-        "description": "Lead your army from the Stone Age to the future in TimeWarriors! A strategy game of conquest, resource management, and historical battles. Play now!",
-        "keywords": "timewarriors, strategy game, war game, historical game, base building, rts, online game"
-      }
-    },
-    {
-      "slug": "Crazy_Vikings_Life",
-      "title": "Crazy Vikings Life",
-      "description": "Embark on a wild, cartoon-style adventure in <b>Crazy Vikings Life</b>, where you lead a fearless Viking clan on a chaotic quest for glory! [19] In <b>Crazy Vikings Life</b>, you'll raid islands for valuable loot, upgrade your humble raft into a formidable warship, and expand your base into a bustling Viking stronghold. [4] Recruit a variety of warriors, train them for intense battles, and conquer the high seas with a perfect blend of humor and strategic chaos. Live the ultimate Viking experience in <b>Crazy Vikings Life</b> and carve your name into legend!",
-      "coverImage": "/images/games/Crazy_Vikings_Life.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/crazy-vikings-life/index.html",
-      "rating": 4.6,
-      "howToPlay": [
-        "Move: Use the WASD keys to navigate your character.",
-        "Interact: Use the left mouse button to interact with the game's user interface, manage your base, and command your Vikings."
-      ],
-      "features": [
-        "Wild cartoon-style strategy and adventure gameplay. [1]",
-        "Raid islands for loot and resources to build your stronghold. [1]",
-        "Upgrade your raft into a powerful warship.",
-        "Recruit and train a variety of Viking warriors for your clan.",
-        "Conquer the seas through strategic battles and humorous chaos."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Crazy Vikings Life - Strategy Adventure Game",
-        "description": "Lead a fearless Viking clan in Crazy Vikings Life! Raid islands, build your base, and conquer the seas in this wild and chaotic strategy adventure.",
-        "keywords": "crazy vikings life, viking game, strategy game, adventure game, base building, boat game, online game"
-      }
-    },
-    {
-      "slug": "Mahjong_Unlimited",
-      "title": "Mahjong Unlimited",
-      "description": "Experience the timeless classic with <b>Mahjong Unlimited</b>, a beautiful oriental puzzle game that offers the ultimate Mahjong experience. [2] Whether you are a seasoned master or a newcomer, <b>Mahjong Unlimited</b> provides a perfect mix of relaxation and mental challenge. [6] Thanks to its advanced generator, the game offers infinitely generated levels, ensuring you never play the same puzzle twice. [2, 6] With customizable features and guaranteed solvable puzzles, <b>Mahjong Unlimited</b> is the definitive Mahjong game for endless enjoyment. [2, 6]",
-      "coverImage": "/images/games/Mahjong_Unlimited.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/mahjong-unlimited/index.html",
-      "rating": 4.35,
-      "howToPlay": [
-        "Select Tiles: Use the left mouse button to click on two identical, unblocked tiles.",
-        "Objective: Remove all tiles from the playing field to win the game."
-      ],
-      "features": [
-        "Classic Mahjong gameplay with a modern interface.",
-        "Infinitely generated, solvable puzzles for endless replayability. [2, 6]",
-        "Dynamically adjusts difficulty based on player stats. [2]",
-        "Over 100 featured layouts to choose from. [2, 11]",
-        "Customizable tile sets and high-quality backgrounds. [18]",
-        "No time limit for a relaxing and stress-free experience. [6]"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Mahjong Unlimited - Classic Puzzle Game",
-        "description": "Play Mahjong Unlimited, the classic oriental puzzle game. Enjoy infinitely generated levels, customizable features, and relaxing, solvable puzzles.",
-        "keywords": "mahjong unlimited, mahjong, puzzle game, board game, tile matching, classic game, online game"
-      }
-    },
-    {
-      "slug": "Swimming_Pool_Romance",
-      "title": "Swimming Pool Romance",
-      "description": "Dive into a flirty and fun adventure with <b>Swimming Pool Romance</b>, a delightful kissing game that's simple yet captivating. In <b>Swimming Pool Romance</b>, you'll help Lucas and Natasha share a secret kiss at the pool without getting caught by watchful eyes. [13] This game is all about timing and sneaking in romantic moments. Enjoy the lighthearted challenge and charming story of <b>Swimming Pool Romance</b>, where love is in the air, but privacy is key. Can you help them fill the love meter before time runs out? [23]",
-      "coverImage": "/images/games/Swimming_Pool_Romance.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/swimming-pool-romance/index.html",
-      "rating": 4.1,
-      "howToPlay": [
-        "Kiss: Click and hold the left mouse button to make the couple kiss.",
-        "Avoid Getting Caught: Release the mouse button when you see an exclamation mark, indicating someone is about to look.",
-        "Objective: Fill the kissing meter at the top of the screen before the time runs out."
-      ],
-      "features": [
-        "Fun and easy-to-learn kissing gameplay. [5]",
-        "Challenging levels that increase in difficulty. [5]",
-        "Colorful and playful summer-themed graphics. [5]",
-        "Lighthearted and romantic storyline. [3, 22]",
-        "Features a dress-up stage after completing kissing levels. [13, 23]"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Swimming Pool Romance - Fun Kissing Game",
-        "description": "Play Swimming Pool Romance! Help Lucas and Natasha kiss at the pool without getting caught. A fun and simple kissing game with a romantic twist.",
-        "keywords": "swimming pool romance, kissing game, love game, fun game, casual game, romance game, online game"
-      }
-    },
+  {
+    "slug": "Asteroid_Breaker",
+    "title": "Asteroid Breaker",
+    "description": "Get ready for non-stop action with <b>Asteroid Breaker</b>, the ultimate idle defense game where your fully automated turret faces endless waves of asteroids. For those who crave hands-on control, you can manually aim for devastating precision shots. As you play <b>Asteroid Breaker</b>, you'll earn XP to unlock powerful roguelite-style upgrades, making you stronger with each wave. Invest your earnings in a permanent skill tree to build a turret so formidable that no asteroid can withstand its power. Dive into the cosmic chaos of <b>Asteroid Breaker</b> and become the ultimate defender of the galaxy!",
+    "coverImage": "/images/games/Asteroid_Breaker.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/asteroid-breaker-ezu/index.html",
+    "rating": 4.65,
+    "howToPlay": [
+      "Interact with UI: Use the left mouse button.",
+      "Use Abilities: Press keys 1, 2, 3, 4, or 5 to activate special powers."
+    ],
+    "features": [
+      "Engaging idle defense gameplay with auto-firing turret.",
+      "Manual control option for precision targeting.",
+      "Roguelite upgrade system for varied and replayable runs. [16]",
+      "Permanent skill tree for long-term power progression.",
+      "Endless waves of increasingly challenging asteroids."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Asteroid Breaker Online Free | Doodle Baseball",
+      "description": "Blast endless asteroids in Asteroid Breaker! An idle defense game with roguelite upgrades and a permanent skill tree. Build the ultimate turret today!",
+      "keywords": "asteroid breaker, idle game, defense game, turret game, space shooter, roguelite, online game"
+    }
+  },
+  {
+    "slug": "Tap_Reveal",
+    "title": "Tap Reveal",
+    "description": "Exercise your mind with <b>Tap Reveal</b>, a captivating casual puzzle game designed to put your logic to the ultimate test. Your goal is to tap away colorful blocks to methodically uncover the beautiful hidden images concealed beneath. Each puzzle in <b>Tap Reveal</b> is a unique brain teaser, meticulously crafted to challenge your reasoning and provide a deeply satisfying sense of accomplishment. Whether you want to unwind or sharpen your intellect, <b>Tap Reveal</b> offers an addictive and relaxing gameplay experience for puzzle enthusiasts of all ages. [20]",
+    "coverImage": "/images/games/Tap_Reveal.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tap-reveal/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Move Arrow (PC): Left-click on an arrow to move it in its indicated direction.",
+      "Move Arrow (Mobile): Tap on an arrow to move it.",
+      "Adjust View: Drag the left-click button or your finger to move the camera. Use the scroll wheel or pinch to zoom in and out."
+    ],
+    "features": [
+      "Relaxing and satisfying tap-based puzzle gameplay. [7]",
+      "Hundreds of handcrafted levels with unique hidden images. [7]",
+      "Engaging logic puzzles that sharpen your mind. [7]",
+      "Beautifully designed artwork and calming visuals. [7]",
+      "Stress-relieving mechanics perfect for unwinding."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Tap Reveal Online Free | Doodle Baseball",
+      "description": "Uncover hidden images in Tap Reveal! Tap away blocks in this relaxing and addictive logic puzzle game. Perfect for brain training and stress relief.",
+      "keywords": "tap reveal, puzzle game, logic game, brain teaser, relaxing game, casual game, image puzzle"
+    }
+  },
+  {
+    "slug": "TimeWarriors",
+    "title": "TimeWarriors",
+    "description": "Embark on an epic journey through history with <b>TimeWarriors</b>, a thrilling strategy game where you command an army from the Stone Age to futuristic warfare. In <b>TimeWarriors</b>, you will upgrade your troops, construct mighty bases, and deploy unique units and tactics to vanquish your foes. Master the art of war in every era, outsmart your opponents, and rise as the ultimate commander. Your strategic prowess will determine your success in <b>TimeWarriors</b>, where victory depends on balancing attack, defense, and resource management to rewrite history! [9]",
+    "coverImage": "/images/games/TimeWarriors.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/timewarriors/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Interact: Use the left mouse button to select units, upgrade your base, and manage resources.",
+      "Deploy Troops: When you have enough food, click on a unit's icon to send them into battle.",
+      "Objective: Destroy the enemy's base while defending your own to advance through the ages."
+    ],
+    "features": [
+      "Lead your army through different historical eras, from Stone Age to future tech. [9]",
+      "Strategic gameplay focused on resource management and tactical deployment. [10, 12]",
+      "Unlock and command a variety of units, each with unique abilities. [10, 15]",
+      "Upgrade your base and troops to gain an advantage in battle. [14, 15]",
+      "Engaging battles that test your ability to attack, defend, and strategize."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play TimeWarriors Online Free | Doodle Baseball",
+      "description": "Lead your army from the Stone Age to the future in TimeWarriors! A strategy game of conquest, resource management, and historical battles. Play now!",
+      "keywords": "timewarriors, strategy game, war game, historical game, base building, rts, online game"
+    }
+  },
+  {
+    "slug": "Crazy_Vikings_Life",
+    "title": "Crazy Vikings Life",
+    "description": "Embark on a wild, cartoon-style adventure in <b>Crazy Vikings Life</b>, where you lead a fearless Viking clan on a chaotic quest for glory! [19] In <b>Crazy Vikings Life</b>, you'll raid islands for valuable loot, upgrade your humble raft into a formidable warship, and expand your base into a bustling Viking stronghold. [4] Recruit a variety of warriors, train them for intense battles, and conquer the high seas with a perfect blend of humor and strategic chaos. Live the ultimate Viking experience in <b>Crazy Vikings Life</b> and carve your name into legend!",
+    "coverImage": "/images/games/Crazy_Vikings_Life.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/crazy-vikings-life/index.html",
+    "rating": 4.6,
+    "howToPlay": [
+      "Move: Use the WASD keys to navigate your character.",
+      "Interact: Use the left mouse button to interact with the game's user interface, manage your base, and command your Vikings."
+    ],
+    "features": [
+      "Wild cartoon-style strategy and adventure gameplay. [1]",
+      "Raid islands for loot and resources to build your stronghold. [1]",
+      "Upgrade your raft into a powerful warship.",
+      "Recruit and train a variety of Viking warriors for your clan.",
+      "Conquer the seas through strategic battles and humorous chaos."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Crazy Vikings Life Online Free | Doodle Baseball",
+      "description": "Lead a fearless Viking clan in Crazy Vikings Life! Raid islands, build your base, and conquer the seas in this wild and chaotic strategy adventure.",
+      "keywords": "crazy vikings life, viking game, strategy game, adventure game, base building, boat game, online game"
+    }
+  },
+  {
+    "slug": "Mahjong_Unlimited",
+    "title": "Mahjong Unlimited",
+    "description": "Experience the timeless classic with <b>Mahjong Unlimited</b>, a beautiful oriental puzzle game that offers the ultimate Mahjong experience. [2] Whether you are a seasoned master or a newcomer, <b>Mahjong Unlimited</b> provides a perfect mix of relaxation and mental challenge. [6] Thanks to its advanced generator, the game offers infinitely generated levels, ensuring you never play the same puzzle twice. [2, 6] With customizable features and guaranteed solvable puzzles, <b>Mahjong Unlimited</b> is the definitive Mahjong game for endless enjoyment. [2, 6]",
+    "coverImage": "/images/games/Mahjong_Unlimited.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/mahjong-unlimited/index.html",
+    "rating": 4.35,
+    "howToPlay": [
+      "Select Tiles: Use the left mouse button to click on two identical, unblocked tiles.",
+      "Objective: Remove all tiles from the playing field to win the game."
+    ],
+    "features": [
+      "Classic Mahjong gameplay with a modern interface.",
+      "Infinitely generated, solvable puzzles for endless replayability. [2, 6]",
+      "Dynamically adjusts difficulty based on player stats. [2]",
+      "Over 100 featured layouts to choose from. [2, 11]",
+      "Customizable tile sets and high-quality backgrounds. [18]",
+      "No time limit for a relaxing and stress-free experience. [6]"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Mahjong Unlimited Online Free | Doodle Baseball",
+      "description": "Play Mahjong Unlimited, the classic oriental puzzle game. Enjoy infinitely generated levels, customizable features, and relaxing, solvable puzzles.",
+      "keywords": "mahjong unlimited, mahjong, puzzle game, board game, tile matching, classic game, online game"
+    }
+  },
+  {
+    "slug": "Swimming_Pool_Romance",
+    "title": "Swimming Pool Romance",
+    "description": "Dive into a flirty and fun adventure with <b>Swimming Pool Romance</b>, a delightful kissing game that's simple yet captivating. In <b>Swimming Pool Romance</b>, you'll help Lucas and Natasha share a secret kiss at the pool without getting caught by watchful eyes. [13] This game is all about timing and sneaking in romantic moments. Enjoy the lighthearted challenge and charming story of <b>Swimming Pool Romance</b>, where love is in the air, but privacy is key. Can you help them fill the love meter before time runs out? [23]",
+    "coverImage": "/images/games/Swimming_Pool_Romance.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/swimming-pool-romance/index.html",
+    "rating": 4.1,
+    "howToPlay": [
+      "Kiss: Click and hold the left mouse button to make the couple kiss.",
+      "Avoid Getting Caught: Release the mouse button when you see an exclamation mark, indicating someone is about to look.",
+      "Objective: Fill the kissing meter at the top of the screen before the time runs out."
+    ],
+    "features": [
+      "Fun and easy-to-learn kissing gameplay. [5]",
+      "Challenging levels that increase in difficulty. [5]",
+      "Colorful and playful summer-themed graphics. [5]",
+      "Lighthearted and romantic storyline. [3, 22]",
+      "Features a dress-up stage after completing kissing levels. [13, 23]"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Swimming Pool Romance Online Free | Doodle Baseball",
+      "description": "Play Swimming Pool Romance! Help Lucas and Natasha kiss at the pool without getting caught. A fun and simple kissing game with a romantic twist.",
+      "keywords": "swimming pool romance, kissing game, love game, fun game, casual game, romance game, online game"
+    }
+  },
   {
     "slug": "Baseball",
     "title": "Baseball",
@@ -321,7 +320,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Baseball Online | Free Browser Sports Game",
+      "title": "Play Baseball Online Free | Doodle Baseball",
       "description": "Step up to the plate in our free online Baseball game! Play two exciting modes, hit home runs, and lead your team to victory. No download needed.",
       "keywords": "baseball, online baseball game, free sports game, browser baseball, batting game"
     }
@@ -360,7 +359,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Squid Game Online: Free Multiplayer Survival Challenge",
+      "title": "Play Squid Game Online Online Free | Doodle Baseball",
       "description": "Play Squid Game Online—compete in 7 viral mini-games with 30 players. Survive, win, and experience true Squid Game thrills online.",
       "keywords": "Squid Game Online, multiplayer survival, browser game, Netflix, mini-games"
     }
@@ -397,7 +396,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Squid Game: Online Survival Multiplayer Game",
+      "title": "Play Squid Game Online Free | Doodle Baseball",
       "description": "Play Squid Game—compete online in deadly survival challenges. Unlock weapons and level up. Join the action now!",
       "keywords": "Squid Game, online survival, Kogama, multiplayer, obstacle course, Netflix"
     }
@@ -409,7 +408,7 @@
     "coverImage": "/images/games/Hotfoot_Baseball.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/hotfoot-baseball/index.html",
-    "rating": 4.0,
+    "rating": 4,
     "howToPlay": [
       "Use the left mouse button to swing the bat when the ball is over the plate.",
       "After a successful hit, your player will automatically run to first base.",
@@ -426,7 +425,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Hotfoot Baseball Free Online | Fast-Paced Action Game",
+      "title": "Play Hotfoot Baseball Online Free | Doodle Baseball",
       "description": "Play Hotfoot Baseball! Experience cartoony sports action with easy one-click controls. Swing, run, and make strategic decisions to win the championship!",
       "keywords": "hotfoot baseball, arcade baseball, one-click game, sports game, free online game"
     }
@@ -456,7 +455,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play ESPN Arcade Baseball Online | Free Sports Game",
+      "title": "Play ESPN Arcade Baseball Online Free | Doodle Baseball",
       "description": "Play ESPN Arcade Baseball! Two modes: aim for target scores in Precision Hitter or clutch a win in Bottom of the Ninth. An official ESPN Arcade production!",
       "keywords": "espn arcade baseball, espn game, baseball game, arcade sports, free game"
     }
@@ -487,7 +486,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Baseball Pro - Free Online Batting Game | Become a Pro",
+      "title": "Play Baseball Pro Online Free | Doodle Baseball",
       "description": "Play Baseball Pro and become a batting legend! Hit every incoming ball to get the highest score in this addictive and free online sports game.",
       "keywords": "baseball pro, pro baseball, batting game, baseball arcade, high score game"
     }
@@ -516,7 +515,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Monster Bash FRVR | Free Arcade Baseball Upgrade Game",
+      "title": "Play Monster Bash FRVR Online Free | Doodle Baseball",
       "description": "Play Monster Bash FRVR! A fun arcade baseball game where you hit for max distance. Bash mushrooms for gold, get monster boosts, and upgrade your gear for top scores!",
       "keywords": "monster bash frvr, monster baseball, arcade game, upgrade game, distance game"
     }
@@ -547,7 +546,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Superstars - Free 1v1 Basketball Game",
+      "title": "Play Basketball Superstars Online Free | Doodle Baseball",
       "description": "Become a legend in Basketball Superstars! Create and train your player, customize gear, and dominate in fast-paced 1v1 matches. Play for free and show your skills.",
       "keywords": "Basketball Superstars, online basketball, sports game, 1v1, free basketball, customization, arcade"
     }
@@ -585,7 +584,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Basketball Stars - Free 2 Player Basketball Game",
+      "title": "Play Basketball Stars Online Free | Doodle Baseball",
       "description": "Challenge friends in Basketball Stars, a fast-paced 2-player game. Play as legends, use super shots, and compete in tournaments. Play Basketball Stars free!",
       "keywords": "Basketball Stars, 2 player, madpuffers, sports game, free basketball, basketball legends, online"
     }
@@ -612,7 +611,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Basket Random - Wacky 2 Player Physics Basketball Game",
+      "title": "Play Basket Random Online Free | Doodle Baseball",
       "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
       "keywords": "Basket Random, physics game, 2 player, wacky basketball, one button, random game, funny sports game"
     }
@@ -641,7 +640,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Basketball Orbit - The Ultimate Long-Shot Basketball Game",
+      "title": "Play Basketball Orbit Online Free | Doodle Baseball",
       "description": "Launch basketballs into space in Basketball Orbit! Master one-click timing, upgrade your skills, and conquer challenging levels. Can you make the ultimate shot?",
       "keywords": "Basketball Orbit, basketball shooting, one-click game, physics, sports game, free basketball, skill"
     }
@@ -668,7 +667,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "BasketBros - Free Online Multiplayer Basketball Game",
+      "title": "Play BasketBros Online Free | Doodle Baseball",
       "description": "Jump into the action with BasketBros! A fast-paced online basketball game with deep customization and 2-player mode. Throw dunks and dominate the court. Play free!",
       "keywords": "BasketBros, BasketBros.io, online basketball, 2 player, multiplayer sports, basketball arcade"
     }
@@ -696,7 +695,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Tap-Tap Shots - Endless Basketball Tapping Game",
+      "title": "Play Tap-Tap Shots Online Free | Doodle Baseball",
       "description": "How many hoops can you score in Tap-Tap Shots? Tap to keep the ball airborne and score before time runs out. Play this addictive one-button basketball game free!",
       "keywords": "Tap-Tap Shots, tapping game, one button, basketball game, arcade, skill game, endless, high score"
     }
@@ -734,7 +733,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Legends 2020 - 2 Player Sports Game",
+      "title": "Play Basketball Legends 2020 Online Free | Doodle Baseball",
       "description": "Play as your favorite stars in Basketball Legends 2020! Compete in 1v1 or 2v2 matches with a friend. Unleash super shots and become a champion. Play free!",
       "keywords": "Basketball Legends 2020, basketball legends, 2 player, sports, madpuffers, free basketball game"
     }
@@ -761,7 +760,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Hoop World 3D - Free Flip and Dunk Basketball Game",
+      "title": "Play Hoop World 3D Online Free | Doodle Baseball",
       "description": "Experience the thrill of Hoop World 3D! Perform amazing flips and spectacular dunks in this stunning 3D basketball game. Master the timing and score big. Play now!",
       "keywords": "Hoop World 3D, dunk game, 3d basketball, flipping game, skill game, arcade, sports, one touch"
     }
@@ -789,7 +788,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Ragdoll Throw Challenge - Physics-Based Casual Game",
+      "title": "Play Ragdoll Throw Challenge Online Free | Doodle Baseball",
       "description": "Take on the Ragdoll Throw Challenge! Control a wobbly character in hilarious physics-based tasks like archery and basketball. Enjoy the ultimate chaos free online.",
       "keywords": "Ragdoll Throw Challenge, ragdoll, physics game, funny game, casual, skill, challenge, wobbly"
     }
@@ -816,7 +815,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Basket Battle - Intense 1v1 Basketball Shooting Game",
+      "title": "Play Basket Battle Online Free | Doodle Baseball",
       "description": "Challenge opponents in a fast-paced Basket Battle! Aim, shoot, and defend in this intense 1v1 basketball game. Master your timing to dominate the court. Play now!",
       "keywords": "Basket Battle, basketball game, shooting, 1v1, sports game, skill game, arcade basketball"
     }
@@ -845,7 +844,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basket Blitz 2 - Free Basketball Shooting Game",
+      "title": "Play Basket Blitz 2 Online Free | Doodle Baseball",
       "description": "Aim for the perfect shot in Basket Blitz 2! Flick the ball and score as many swishes as you can before time runs out. Get the highest score and play for free.",
       "keywords": "Basket Blitz 2, basketball shooting, arcade, skill, sports, swish game, high score, flick game"
     }
@@ -857,7 +856,7 @@
     "coverImage": "/images/games/Flappy_Dunk.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/flappy-dunk/index.html",
-    "rating": 4.0,
+    "rating": 4,
     "howToPlay": [
       "Use the left mouse button or tap the screen to make the ball 'flap' upwards.",
       "Time your taps to guide the ball through the hoops without hitting anything."
@@ -872,7 +871,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Flappy Dunk - Free Casual Basketball Tapping Game",
+      "title": "Play Flappy Dunk Online Free | Doodle Baseball",
       "description": "Tap to guide your basketball through endless hoops in Flappy Dunk! An addictive one-touch game that's easy to learn but hard to master. Chase the high score!",
       "keywords": "Flappy Dunk, flappy game, tapping, one touch, basketball, casual, endless, skill, high score"
     }
@@ -900,7 +899,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Basketball FRVR - Free Basketball Hoop Shooter Game",
+      "title": "Play Basketball FRVR Online Free | Doodle Baseball",
       "description": "Shoot some hoops in Basketball FRVR, a relaxing and fun basketball shooter. With no time limit and a moving basket, it's the perfect challenge. Play for free!",
       "keywords": "Basketball FRVR, basketball shooter, frvr games, hoop game, sports, casual, free basketball"
     }
@@ -928,7 +927,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Basketball Clash - Online Multiplayer Shooting Game",
+      "title": "Play Basketball Clash Online Free | Doodle Baseball",
       "description": "Compete against players worldwide in Basketball Clash! Showcase your talent in thrilling multiplayer shootouts and climb the global leaderboard. Play for free!",
       "keywords": "Basketball Clash, multiplayer basketball, shooting, online sports, pvp, basketball competition"
     }
@@ -955,7 +954,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Jump Up 3D: Mini Basketball - Free Trampoline Game",
+      "title": "Play Jump Up 3D: Mini Basketball Online Free | Doodle Baseball",
       "description": "Bounce and shoot in Jump Up 3D: Mini Basketball! A fun trampoline basketball game with simple controls and vibrant graphics. Beat your high score. Play free!",
       "keywords": "Jump Up 3D Mini Basketball, trampoline, basketball, 3d, mini, casual, one touch, skill"
     }
@@ -988,7 +987,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Bloxd.io on Doodle Baseball",
+      "title": "Play Bloxd.io Online Free | Doodle Baseball",
       "description": "Enjoy Bloxd.io, a free-to-play online game with various modes like survival and parkour. Build, fight, and explore in this blocky multiplayer world.",
       "keywords": "Bloxd.io, block game, multiplayer, minecraft game, online game, free game"
     }
@@ -1018,7 +1017,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Paper.io 2 on Doodle Baseball",
+      "title": "Play Paper.io 2 Online Free | Doodle Baseball",
       "description": "Capture as much territory as you can in Paper.io 2, a free multiplayer .io game. Compete with players worldwide and become the biggest on the map.",
       "keywords": "Paper.io 2, paper.io, .io game, multiplayer game, online game, free game"
     }
@@ -1052,7 +1051,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Kirka.io on Doodle Baseball",
+      "title": "Play Kirka.io Online Free | Doodle Baseball",
       "description": "Jump into the action with Kirka.io, a free-to-play browser FPS with voxel graphics. Compete in various game modes, customize your loadout, and climb the leaderboards.",
       "keywords": "Kirka.io, Kirka, .io game, browser FPS, online shooter, free to play FPS"
     }
@@ -1082,7 +1081,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Penalty Shooters 2 on Doodle Baseball",
+      "title": "Play Penalty Shooters 2 Online Free | Doodle Baseball",
       "description": "Experience the thrill of a penalty shootout in Penalty Shooters 2. Play as both kicker and goalie, and lead your team to victory in this free online soccer game.",
       "keywords": "Penalty Shooters 2, penalty shootout game, soccer game, football game, free online games, sports games"
     }
@@ -1113,7 +1112,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Moto X3M on Doodle Baseball",
+      "title": "Play Moto X3M Online Free | Doodle Baseball",
       "description": "Race through 22 challenging levels in Moto X3M, a free online bike game. Perform stunts, overcome obstacles, and unlock new bikes. Play now!",
       "keywords": "Moto X3M, bike racing game, stunt game, physics game, free online game, motorcycle game"
     }
@@ -1142,7 +1141,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Soccer Legends 2021 on Doodle Baseball",
+      "title": "Play Soccer Legends 2021 Online Free | Doodle Baseball",
       "description": "Play Soccer Legends 2021, a fast-paced, arcade-style soccer game. Compete with friends in 2-player mode or win the tournament as your favorite legend.",
       "keywords": "Soccer Legends 2021, soccer legends, 2 player soccer game, football legends, soccer games, free online games"
     }
@@ -1174,11 +1173,10 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Shell Shockers on Doodle Baseball",
+      "title": "Play Shell Shockers Online Free | Doodle Baseball",
       "description": "Join the action in Shell Shockers, the world's most popular egg-based multiplayer shooter. Grab your weapon and crack some eggs!",
       "keywords": "Shell Shockers, Shellshock.io, egg game, online shooter, free to play, multiplayer game, FPS game"
     }
-    
   },
   {
     "slug": "Smash_Karts",
@@ -1205,11 +1203,10 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Smash Karts on Doodle Baseball",
+      "title": "Play Smash Karts Online Free | Doodle Baseball",
       "description": "Jump into the driver's seat in Smash Karts! A fast-paced, online multiplayer kart battle game. Pick up weapons, destroy your opponents, and customize your kart.",
       "keywords": "Smash Karts, .io game, multiplayer kart game, online battle arena, kart racing game, free to play game"
     }
-    
   },
   {
     "slug": "Bullet_Force",
@@ -1240,11 +1237,10 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Bullet Force on Doodle Baseball",
+      "title": "Play Bullet Force Online Free | Doodle Baseball",
       "description": "Join the action in Bullet Force, a free-to-play online FPS with extensive customization and multiple game modes. Play now in your browser!",
       "keywords": "Bullet Force, FPS game, multiplayer shooter, online shooter, free FPS game, military shooter"
     }
-    
   },
   {
     "slug": "Pixel_Warfare",
@@ -1275,11 +1271,10 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Pixel Warfare on Doodle Baseball",
+      "title": "Play Pixel Warfare Online Free | Doodle Baseball",
       "description": "Experience the classic blocky shooter, Pixel Warfare. Join fast-paced multiplayer battles with a huge arsenal of weapons. Play for free in your browser!",
       "keywords": "Pixel Warfare, blocky shooting game, retro FPS, Minecraft-style shooter, free browser FPS, multiplayer games"
     }
-    
   },
   {
     "slug": "Crazy_Roll_3D",
@@ -1307,11 +1302,10 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Crazy Roll 3D on Doodle Baseball",
+      "title": "Play Crazy Roll 3D Online Free | Doodle Baseball",
       "description": "Test your reflexes in Crazy Roll 3D, an addictive 3D endless running game. Steer the ball, avoid obstacles, and see how far you can go!",
       "keywords": "Crazy Roll 3D, endless running game, 3D ball game, arcade game, online game, free game, skill game"
     }
-    
   },
   {
     "slug": "Moto_X3M_6_Spooky_Land",
@@ -1337,13 +1331,12 @@
     ],
     "isTopPick": true,
     "isHot": true,
-    "isRelated":true,
+    "isRelated": true,
     "seo": {
-      "title": "Play Moto X3M 6: Spooky Land on Doodle Baseball",
+      "title": "Play Moto X3M 6: Spooky Land Online Free | Doodle Baseball",
       "description": "Race through a spooky world in Moto X3M 6: Spooky Land! A free online bike game with 22 Halloween-themed levels. Perform stunts and unlock new riders.",
       "keywords": "Moto X3M 6, Spooky Land, Halloween game, motorcycle game, stunt game, bike game, racing game"
     }
-    
   },
   {
     "slug": "Getaway_Shootout",
@@ -1371,238 +1364,236 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Getaway Shootout on Doodle Baseball",
+      "title": "Play Getaway Shootout Online Free | Doodle Baseball",
       "description": "Race to freedom in Getaway Shootout, a chaotic and funny multiplayer game. Use weapons and quirky physics to beat your opponents to the getaway vehicle.",
       "keywords": "Getaway Shootout, action racing game, multiplayer physics game, funny multiplayer games, indie action game"
     }
-    
   },
-  
-    {
-      "slug": "Poxelio",
-      "title": "Poxel.io",
-      "description": "<b>Poxel.io</b> is a fast-paced, first-person shooter that immerses you in intense, pixelated battles across a wide variety of maps. With a vast arsenal of weapons to choose from, various game modes to master, and rivals to outplay, <b>Poxel.io</b> tests your skills and strategic thinking. Invite friends for real-time matches, level up to earn PX coins, and unlock a massive selection of skins, characters, and accessories. In the chaotic multiplayer world of <b>Poxel.io</b>, sharp reflexes and intelligent movement are crucial for survival. Climb the leaderboard and prove you have what it takes to dominate the battlefield and become number one in <b>Poxel.io</b>. The game features over 30 unique maps and more than 20 weapons, ensuring every match is a fresh challenge.",
-      "coverImage": "/images/games/Poxelio.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/poxel-io/index.html",
-      "rating": 4.35,
-      "howToPlay": [
-        "WASD = Move",
-        "Space = Jump",
-        "X or Q = Dash",
-        "Enter = Chat",
-        "P or Esc = Pause",
-        "Left-click = Shoot",
-        "Right-click or E = Aim Down Sights"
-      ],
-      "features": [
-        "Fast-paced first-person shooter action.",
-        "Engaging pixelated, block-style graphics.",
-        "Over 30 unique maps to explore and conquer.",
-        "Extensive arsenal of over 20 different weapons.",
-        "Multiple game modes including FFA, TDM, Kill Confirmed, and Domination.",
-        "In-depth customization with over 1,500 unlockable items.",
-        "Host private games to play with friends in real-time."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Poxel.io: Online Multiplayer FPS Action",
-        "description": "Jump into Poxel.io, a fast-paced, blocky FPS. Battle across 30+ maps with 20+ weapons and dominate the leaderboard in various game modes. Play now!",
-        "keywords": "Poxel.io, FPS game, multiplayer shooter, online games, pixelated graphics, action game"
-      }
-    },
-    {
-      "slug": "Raccoon_Adventure_City_Simulator_3D",
-      "title": "Raccoon Adventure: City Simulator 3D",
-      "description": "In <b>Raccoon Adventure: City Simulator 3D</b>, you play as a curious raccoon exploring a vast, open-world city. This top-tier city simulation app offers a unique gameplay experience where you roam a gorgeous cityscape and undertake exciting quests. With <b>Raccoon Adventure: City Simulator 3D</b>, you can do everything from finding food and making deliveries to driving cars and boats. The possibilities are truly endless. You can even start your own raccoon family by finding a mate and raising baby raccoons. Customize your character's appearance, choose a name and gender, and immerse yourself in the amazing world of <b>Raccoon Adventure: City Simulator 3D</b>, where every street corner holds a new adventure.",
-      "coverImage": "/images/games/Raccoon_Adventure_City_Simulator_3D.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/raccoon-adventure-city-simulator-3d/index.html",
-      "rating": 4.5,
-      "howToPlay": [
-        "WASD or Arrow Keys = Move",
-        "Left Mouse Button = Attack / Interact with UI",
-        "Space Bar = Jump",
-        "Shift = Run",
-        "C = Toggle Sneak"
-      ],
-      "features": [
-        "Expansive 3D open-world city to explore.",
-        "Play as a fully customizable raccoon.",
-        "Engaging quests and tasks, including driving vehicles.",
-        "Ability to start and raise your own raccoon family.",
-        "Detailed character customization for your raccoon avatar.",
-        "Dynamic gameplay that combines adventure and simulation."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Raccoon Adventure: City Simulator 3D Game",
-        "description": "Live the life of a raccoon in Raccoon Adventure: City Simulator 3D! Explore a huge city, drive cars, complete quests, and even start a family. Play now!",
-        "keywords": "raccoon simulator, city adventure, 3d simulator, animal game, open world, raccoon game"
-      }
-    },
-    {
-      "slug": "Knockout",
-      "title": "Knockout",
-      "description": "<b>Knockout</b> is the ultimate casual yet competitive game where survival depends on your focus and sharp reflexes. In <b>Knockout</b>, your goal is to be the last player standing by strategically eliminating everyone else. Test your timing and strategy in this thrilling challenge. But be warned—one small mistake or a moment of hesitation in <b>Knockout</b> can result in permanent elimination. Do you have the skill and precision to outlast the competition and claim victory? Every round is an intense test of nerves, making <b>Knockout</b> a highly replayable and addictive experience.",
-      "coverImage": "/images/games/Knockout.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/knockout-games-nwi/index.html",
-      "rating": 4.2,
-      "howToPlay": [
-        "Use the Left Mouse Button to interact with the in-game User Interface."
-      ],
-      "features": [
-        "Fast-paced, competitive gameplay.",
-        "Tests player reflexes, timing, and strategic thinking.",
-        "Simple, intuitive one-touch controls.",
-        "Last-player-standing elimination format.",
-        "Engaging and highly replayable casual game."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Knockout: Last Player Standing Game",
-        "description": "Test your reflexes in Knockout! Be the last one standing in this intense and competitive casual game. One mistake and you're out. Play Knockout today!",
-        "keywords": "Knockout, competitive game, casual game, reflex game, timing, last player standing"
-      }
-    },
-    {
-      "slug": "Blocky_Parkour_Only_Up_Adventure",
-      "title": "Blocky Parkour: Only Up Adventure",
-      "description": "Embark on an exhilarating journey in <b>Blocky Parkour: Only Up Adventure</b>, a captivating world defined by its charming, boxy graphics. Your mission is simple but challenging: climb to the highest point of this blocky universe in the fastest time possible. In this adrenaline-pumping game, you will defy gravity, leap over obstacles, and master gravity-defying terrains. Strive to beat your own records and compete with friends to earn the coveted title of 'Blocky Parkour Master.' With its distinct blocky aesthetic and compelling objective, <b>Blocky Parkour: Only Up Adventure</b> offers a perfect blend of nostalgic visuals and modern adventure. This game will test your platforming skills to the limit, making <b>Blocky Parkour: Only Up Adventure</b> a must-play for parkour fans.",
-      "coverImage": "/images/games/Blocky_Parkour_Only_Up_Adventure.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/blocky-parkour-only-up-adventure/index.html",
-      "rating": 3.95,
-      "howToPlay": [
-        "WASD = Move",
-        "Mouse = Look Around",
-        "Hold L-Shift = Run",
-        "Space = Jump",
-        "T = Open Teleport Menu",
-        "Right-click = Dive / Glide",
-        "Left-click = Attack",
-        "F = Dash",
-        "Tab = Pause / Unpause"
-      ],
-      "features": [
-        "Adrenaline-pumping 3D parkour gameplay.",
-        "Charming and nostalgic blocky graphics.",
-        "Simple objective: ascend to the highest point.",
-        "Compete against time to set new records.",
-        "Defy gravity with challenging jumps and obstacles.",
-        "Intuitive controls for running, jumping, and dashing."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Blocky Parkour: Only Up Adventure | 3D Platformer",
-        "description": "Climb to the top in Blocky Parkour: Only Up Adventure! Race against time in this thrilling 3D parkour game with charming blocky graphics. Can you reach the zenith?",
-        "keywords": "parkour game, blocky graphics, 3d platformer, only up, adventure game, jumping game"
-      }
-    },
-    {
-      "slug": "Capybara_Block_Shot",
-      "title": "Capybara Block Shot",
-      "description": "<b>Capybara Block Shot</b> is a chill and cozy puzzle adventure designed for relaxation. Your primary goal is to merge number blocks, unlock high scores, and maintain a peaceful vibe. In <b>Capybara Block Shot</b>, you'll join the world's most relaxed capybara on a satisfying journey to reach the 2048 tile and even go beyond. The gameplay is simple to pick up, making it perfect for a quick brain break or a longer, focused session of fun. If you're looking for a game to help you unwind while still providing a gentle mental challenge, <b>Capybara Block Shot</b> is the ideal choice. The calming visuals and atmosphere make every move a delight.",
-      "coverImage": "/images/games/Capybara_Block_Shot.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/capybara-block-shot/index.html",
-      "rating": 4.65,
-      "howToPlay": [
-        "Use the Left Mouse Button to select a column and drop the block."
-      ],
-      "features": [
-        "Relaxing and cozy puzzle gameplay.",
-        "Simple and intuitive drag-and-drop controls.",
-        "Merge number blocks to achieve high scores, similar to 2048.",
-        "Calming visuals and a tranquil atmosphere.",
-        "Designed for calm, focused fun at your own pace.",
-        "Features a charming and relaxed capybara character."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Capybara Block Shot: A Relaxing Puzzle Game",
-        "description": "Unwind with Capybara Block Shot, a cozy puzzle game about merging number blocks. Reach 2048 and beyond in this chill and relaxing adventure. Play now!",
-        "keywords": "puzzle game, capybara, 2048 game, merge blocks, relaxing game, casual game, number puzzle"
-      }
-    },
-    {
-      "slug": "Get_1000",
-      "title": "Get 1000",
-      "description": "<b>Get 1000</b> is a fun and highly challenging puzzle game where your objective is to move a numbered tile to the center of the grid and successfully reach the number 1000. While the goal of <b>Get 1000</b> sounds simple, the gameplay is deceptively tricky, requiring you to think strategically about every move. Each move costs one life, but you can earn additional lives by reaching the center of the grid. The grid in <b>Get 1000</b> contains special squares with multiplication values, like x5 or x10, which you must use to your advantage to create larger numbers. This game demands immense concentration and careful planning. Can you conquer the challenge and <b>Get 1000</b>?",
-      "coverImage": "/images/games/Get_1000.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/get-1000/index.html",
-      "rating": 4.3,
-      "howToPlay": [
-        "Drag the Left Mouse Button to move a numbered tile."
-      ],
-      "features": [
-        "Challenging mathematical puzzle gameplay.",
-        "Strategic tile-merging mechanics.",
-        "Unique life system that adds a layer of difficulty.",
-        "Utilize multiplication squares to reach the target number.",
-        "Requires concentration and forward-thinking.",
-        "Simple drag-and-drop controls."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Get 1000: Challenging Math Puzzle Game",
-        "description": "Test your math skills with Get 1000! A tricky and fun puzzle game where your goal is to reach 1000. Plan your moves carefully and use multipliers to win.",
-        "keywords": "Get 1000, puzzle game, math puzzle, number game, challenging game, brain game"
-      }
-    },
-    {
-      "slug": "Skydom",
-      "title": "Skydom",
-      "description": "<b>Skydom</b> — A casual match-3 puzzle with map progression and periodic competitive levels. Clear level objectives by matching gems, build special pieces with combos, earn coins and diamonds, and unlock new features such as the Alchemist to craft bonus items. The game balances quick sessions with strategic planning and optional PvP challenges.",
-      "coverImage": "/images/games/Skydom.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/skydom/index.html",
-      "rating": 3.9,
-      "howToPlay": [
-        "Drag or click to swap two adjacent pieces to match 3 or more of the same color.",
-        "Match 4+ or create specific patterns to form special gems with powerful effects.",
-        "Complete the objective shown at the start of each level (e.g., clear X gemstones).",
-        "Every second level may be a competitive challenge against another player.",
-        "Use coins and diamonds to buy boosters and power-ups in the store.",
-        "Turn off hints in Settings for a harder, more strategic experience."
-      ],
-      "features": [
-        "Classic match-3 mechanics with special gem combos and chain reactions.",
-        "Map progression with alternating solo and PvP challenge levels.",
-        "Unlockable Alchemist system to craft bonus pieces.",
-        "Two currencies (coins and diamonds) for boosters and upgrades.",
-        "Daily Challenges and timed events to earn extra rewards.",
-        "Settings to customize difficulty and interface (hints, language)."
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Skydom — Puzzle Game",
-        "description": "Play Skydom, a match-3 puzzle with map progression, special gem combos and PvP challenge levels. Unlock the Alchemist and complete daily challenges.",
-        "keywords": "Skydom, match-3, puzzle, Alchemist, PvP, daily challenge"
-      }
+  {
+    "slug": "Poxelio",
+    "title": "Poxel.io",
+    "description": "<b>Poxel.io</b> is a fast-paced, first-person shooter that immerses you in intense, pixelated battles across a wide variety of maps. With a vast arsenal of weapons to choose from, various game modes to master, and rivals to outplay, <b>Poxel.io</b> tests your skills and strategic thinking. Invite friends for real-time matches, level up to earn PX coins, and unlock a massive selection of skins, characters, and accessories. In the chaotic multiplayer world of <b>Poxel.io</b>, sharp reflexes and intelligent movement are crucial for survival. Climb the leaderboard and prove you have what it takes to dominate the battlefield and become number one in <b>Poxel.io</b>. The game features over 30 unique maps and more than 20 weapons, ensuring every match is a fresh challenge.",
+    "coverImage": "/images/games/Poxelio.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/poxel-io/index.html",
+    "rating": 4.35,
+    "howToPlay": [
+      "WASD = Move",
+      "Space = Jump",
+      "X or Q = Dash",
+      "Enter = Chat",
+      "P or Esc = Pause",
+      "Left-click = Shoot",
+      "Right-click or E = Aim Down Sights"
+    ],
+    "features": [
+      "Fast-paced first-person shooter action.",
+      "Engaging pixelated, block-style graphics.",
+      "Over 30 unique maps to explore and conquer.",
+      "Extensive arsenal of over 20 different weapons.",
+      "Multiple game modes including FFA, TDM, Kill Confirmed, and Domination.",
+      "In-depth customization with over 1,500 unlockable items.",
+      "Host private games to play with friends in real-time."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Poxel.io Online Free | Doodle Baseball",
+      "description": "Jump into Poxel.io, a fast-paced, blocky FPS. Battle across 30+ maps with 20+ weapons and dominate the leaderboard in various game modes. Play now!",
+      "keywords": "Poxel.io, FPS game, multiplayer shooter, online games, pixelated graphics, action game"
+    }
+  },
+  {
+    "slug": "Raccoon_Adventure_City_Simulator_3D",
+    "title": "Raccoon Adventure: City Simulator 3D",
+    "description": "In <b>Raccoon Adventure: City Simulator 3D</b>, you play as a curious raccoon exploring a vast, open-world city. This top-tier city simulation app offers a unique gameplay experience where you roam a gorgeous cityscape and undertake exciting quests. With <b>Raccoon Adventure: City Simulator 3D</b>, you can do everything from finding food and making deliveries to driving cars and boats. The possibilities are truly endless. You can even start your own raccoon family by finding a mate and raising baby raccoons. Customize your character's appearance, choose a name and gender, and immerse yourself in the amazing world of <b>Raccoon Adventure: City Simulator 3D</b>, where every street corner holds a new adventure.",
+    "coverImage": "/images/games/Raccoon_Adventure_City_Simulator_3D.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/raccoon-adventure-city-simulator-3d/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "WASD or Arrow Keys = Move",
+      "Left Mouse Button = Attack / Interact with UI",
+      "Space Bar = Jump",
+      "Shift = Run",
+      "C = Toggle Sneak"
+    ],
+    "features": [
+      "Expansive 3D open-world city to explore.",
+      "Play as a fully customizable raccoon.",
+      "Engaging quests and tasks, including driving vehicles.",
+      "Ability to start and raise your own raccoon family.",
+      "Detailed character customization for your raccoon avatar.",
+      "Dynamic gameplay that combines adventure and simulation."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Raccoon Adventure: City Simulator 3D Online Free | Doodle Baseball",
+      "description": "Live the life of a raccoon in Raccoon Adventure: City Simulator 3D! Explore a huge city, drive cars, complete quests, and even start a family. Play now!",
+      "keywords": "raccoon simulator, city adventure, 3d simulator, animal game, open world, raccoon game"
+    }
+  },
+  {
+    "slug": "Knockout",
+    "title": "Knockout",
+    "description": "<b>Knockout</b> is the ultimate casual yet competitive game where survival depends on your focus and sharp reflexes. In <b>Knockout</b>, your goal is to be the last player standing by strategically eliminating everyone else. Test your timing and strategy in this thrilling challenge. But be warned—one small mistake or a moment of hesitation in <b>Knockout</b> can result in permanent elimination. Do you have the skill and precision to outlast the competition and claim victory? Every round is an intense test of nerves, making <b>Knockout</b> a highly replayable and addictive experience.",
+    "coverImage": "/images/games/Knockout.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/knockout-games-nwi/index.html",
+    "rating": 4.2,
+    "howToPlay": [
+      "Use the Left Mouse Button to interact with the in-game User Interface."
+    ],
+    "features": [
+      "Fast-paced, competitive gameplay.",
+      "Tests player reflexes, timing, and strategic thinking.",
+      "Simple, intuitive one-touch controls.",
+      "Last-player-standing elimination format.",
+      "Engaging and highly replayable casual game."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Knockout Online Free | Doodle Baseball",
+      "description": "Test your reflexes in Knockout! Be the last one standing in this intense and competitive casual game. One mistake and you're out. Play Knockout today!",
+      "keywords": "Knockout, competitive game, casual game, reflex game, timing, last player standing"
+    }
+  },
+  {
+    "slug": "Blocky_Parkour_Only_Up_Adventure",
+    "title": "Blocky Parkour: Only Up Adventure",
+    "description": "Embark on an exhilarating journey in <b>Blocky Parkour: Only Up Adventure</b>, a captivating world defined by its charming, boxy graphics. Your mission is simple but challenging: climb to the highest point of this blocky universe in the fastest time possible. In this adrenaline-pumping game, you will defy gravity, leap over obstacles, and master gravity-defying terrains. Strive to beat your own records and compete with friends to earn the coveted title of 'Blocky Parkour Master.' With its distinct blocky aesthetic and compelling objective, <b>Blocky Parkour: Only Up Adventure</b> offers a perfect blend of nostalgic visuals and modern adventure. This game will test your platforming skills to the limit, making <b>Blocky Parkour: Only Up Adventure</b> a must-play for parkour fans.",
+    "coverImage": "/images/games/Blocky_Parkour_Only_Up_Adventure.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/blocky-parkour-only-up-adventure/index.html",
+    "rating": 3.95,
+    "howToPlay": [
+      "WASD = Move",
+      "Mouse = Look Around",
+      "Hold L-Shift = Run",
+      "Space = Jump",
+      "T = Open Teleport Menu",
+      "Right-click = Dive / Glide",
+      "Left-click = Attack",
+      "F = Dash",
+      "Tab = Pause / Unpause"
+    ],
+    "features": [
+      "Adrenaline-pumping 3D parkour gameplay.",
+      "Charming and nostalgic blocky graphics.",
+      "Simple objective: ascend to the highest point.",
+      "Compete against time to set new records.",
+      "Defy gravity with challenging jumps and obstacles.",
+      "Intuitive controls for running, jumping, and dashing."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Blocky Parkour: Only Up Adventure Online Free | Doodle Baseball",
+      "description": "Climb to the top in Blocky Parkour: Only Up Adventure! Race against time in this thrilling 3D parkour game with charming blocky graphics. Can you reach the zenith?",
+      "keywords": "parkour game, blocky graphics, 3d platformer, only up, adventure game, jumping game"
+    }
+  },
+  {
+    "slug": "Capybara_Block_Shot",
+    "title": "Capybara Block Shot",
+    "description": "<b>Capybara Block Shot</b> is a chill and cozy puzzle adventure designed for relaxation. Your primary goal is to merge number blocks, unlock high scores, and maintain a peaceful vibe. In <b>Capybara Block Shot</b>, you'll join the world's most relaxed capybara on a satisfying journey to reach the 2048 tile and even go beyond. The gameplay is simple to pick up, making it perfect for a quick brain break or a longer, focused session of fun. If you're looking for a game to help you unwind while still providing a gentle mental challenge, <b>Capybara Block Shot</b> is the ideal choice. The calming visuals and atmosphere make every move a delight.",
+    "coverImage": "/images/games/Capybara_Block_Shot.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/capybara-block-shot/index.html",
+    "rating": 4.65,
+    "howToPlay": [
+      "Use the Left Mouse Button to select a column and drop the block."
+    ],
+    "features": [
+      "Relaxing and cozy puzzle gameplay.",
+      "Simple and intuitive drag-and-drop controls.",
+      "Merge number blocks to achieve high scores, similar to 2048.",
+      "Calming visuals and a tranquil atmosphere.",
+      "Designed for calm, focused fun at your own pace.",
+      "Features a charming and relaxed capybara character."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Capybara Block Shot Online Free | Doodle Baseball",
+      "description": "Unwind with Capybara Block Shot, a cozy puzzle game about merging number blocks. Reach 2048 and beyond in this chill and relaxing adventure. Play now!",
+      "keywords": "puzzle game, capybara, 2048 game, merge blocks, relaxing game, casual game, number puzzle"
+    }
+  },
+  {
+    "slug": "Get_1000",
+    "title": "Get 1000",
+    "description": "<b>Get 1000</b> is a fun and highly challenging puzzle game where your objective is to move a numbered tile to the center of the grid and successfully reach the number 1000. While the goal of <b>Get 1000</b> sounds simple, the gameplay is deceptively tricky, requiring you to think strategically about every move. Each move costs one life, but you can earn additional lives by reaching the center of the grid. The grid in <b>Get 1000</b> contains special squares with multiplication values, like x5 or x10, which you must use to your advantage to create larger numbers. This game demands immense concentration and careful planning. Can you conquer the challenge and <b>Get 1000</b>?",
+    "coverImage": "/images/games/Get_1000.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/get-1000/index.html",
+    "rating": 4.3,
+    "howToPlay": [
+      "Drag the Left Mouse Button to move a numbered tile."
+    ],
+    "features": [
+      "Challenging mathematical puzzle gameplay.",
+      "Strategic tile-merging mechanics.",
+      "Unique life system that adds a layer of difficulty.",
+      "Utilize multiplication squares to reach the target number.",
+      "Requires concentration and forward-thinking.",
+      "Simple drag-and-drop controls."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Get 1000 Online Free | Doodle Baseball",
+      "description": "Test your math skills with Get 1000! A tricky and fun puzzle game where your goal is to reach 1000. Plan your moves carefully and use multipliers to win.",
+      "keywords": "Get 1000, puzzle game, math puzzle, number game, challenging game, brain game"
+    }
+  },
+  {
+    "slug": "Skydom",
+    "title": "Skydom",
+    "description": "<b>Skydom</b> — A casual match-3 puzzle with map progression and periodic competitive levels. Clear level objectives by matching gems, build special pieces with combos, earn coins and diamonds, and unlock new features such as the Alchemist to craft bonus items. The game balances quick sessions with strategic planning and optional PvP challenges.",
+    "coverImage": "/images/games/Skydom.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/skydom/index.html",
+    "rating": 3.9,
+    "howToPlay": [
+      "Drag or click to swap two adjacent pieces to match 3 or more of the same color.",
+      "Match 4+ or create specific patterns to form special gems with powerful effects.",
+      "Complete the objective shown at the start of each level (e.g., clear X gemstones).",
+      "Every second level may be a competitive challenge against another player.",
+      "Use coins and diamonds to buy boosters and power-ups in the store.",
+      "Turn off hints in Settings for a harder, more strategic experience."
+    ],
+    "features": [
+      "Classic match-3 mechanics with special gem combos and chain reactions.",
+      "Map progression with alternating solo and PvP challenge levels.",
+      "Unlockable Alchemist system to craft bonus pieces.",
+      "Two currencies (coins and diamonds) for boosters and upgrades.",
+      "Daily Challenges and timed events to earn extra rewards.",
+      "Settings to customize difficulty and interface (hints, language)."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Skydom Online Free | Doodle Baseball",
+      "description": "Play Skydom, a match-3 puzzle with map progression, special gem combos and PvP challenge levels. Unlock the Alchemist and complete daily challenges.",
+      "keywords": "Skydom, match-3, puzzle, Alchemist, PvP, daily challenge"
+    }
   },
   {
     "slug": "Steal_Brainrot_Online",
@@ -1632,7 +1623,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Steal Brainrot Online — Multiplayer Heist Game",
+      "title": "Play Steal Brainrot Online Online Free | Doodle Baseball",
       "description": "Steal Brainrot Online is a multiplayer heist game: raid bases, collect Brainrots and defend your stash while competing on leaderboards.",
       "keywords": "Steal Brainrot Online, multiplayer, heist, base defense, Brainrot"
     }
@@ -1664,7 +1655,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Tropical Merge — Merge & Build Game",
+      "title": "Play Tropical Merge Online Free | Doodle Baseball",
       "description": "Create a tropical island by merging items, completing quests and unlocking new areas in Tropical Merge.",
       "keywords": "Tropical Merge, merge game, island, quests, casual"
     }
@@ -1696,12 +1687,9 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Screw Out: Bolts and Nuts — Puzzle Game",
+      "title": "Play Screw Out: Bolts and Nuts Online Free | Doodle Baseball",
       "description": "Unscrew and sort bolts by color in Screw Out: Bolts and Nuts. Use strategy and limited slots to clear shapes across increasingly challenging levels.",
       "keywords": "Screw Out: Bolts and Nuts, puzzle, logic, unscrew, color match"
     }
   }
-
-  
-
 ]
