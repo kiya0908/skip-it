@@ -487,11 +487,7 @@ export default function GameClient({ game }: { game: Game }) {
                                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
-                            <div className="mt-3 text-center">
-                                <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full font-semibold">
-                                    Puzzle
-                                </span>
-                            </div>
+
                          </div>
                     </div>
                 </div>
