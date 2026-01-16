@@ -19,7 +19,10 @@
       "Bash(git commit -m \"feat: add 4 new games (Skydom, Steal Brainrot Online, Tropical Merge, Screw Out)\")",
       "Bash(copy \"C:\\Users\\LENOVO\\Desktop\\doodlebaseball-v2\\data\\games.json\" \"C:\\Users\\LENOVO\\Desktop\\doodlebaseball-v2\\data\\games.json.backup_20251202\")",
       "Bash(node update-seo-titles.js:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(cat:*)",
+      "Bash(powershell -Command \"Get-Content ''C:\\Users\\LENOVO\\Desktop\\doodlebaseball-v2\\React2Shell 安全公告 _Vercel 知识库.html'' | Select-String -Pattern ''Next\\.js|version|版本|14\\.|15\\.|13\\.'' | Select-Object -First 50\")",
+      "Bash(powershell -Command \"Get-Content ''C:\\Users\\LENOVO\\Desktop\\doodlebaseball-v2\\React2Shell 安全公告 _Vercel 知识库.html'' | Select-String -Pattern ''CVE|critical|严重|patch|补丁|affected version|受影响|Server Actions|middleware|14\\.[0-9]|15\\.[0-9]|13\\.[0-9]'' -AllMatches | Select-Object -First 30\")"
     ],
     "deny": [],
     "ask": [],

@@ -41,4 +41,11 @@ yarn-error.log*
 next-env.d.ts
 
 # documentation (internal use only)
-/doc/
+/doc
+
+# kiro
+/.kiro
+
+#claude
+/.claude
+

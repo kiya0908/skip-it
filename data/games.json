@@ -26,6 +26,283 @@
     }
   },
   {
+    "slug": "merge_and_munch",
+    "title": "Merge and Munch",
+    "description": "<b>Merge and Munch</b> is a fun and relaxing 2D casual merge puzzle game where cute vegetables fall, merge, and grow into bigger ones. Experience the joy of synthesis as you watch tiny sprouts turn into giant pumpkins. With healing art style and simple yet addictive gameplay, it's the perfect choice to pass the time.",
+    "coverImage": "/images/games/merge_and_munch.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/merge-and-munch/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Merge identical vegetables to grow them into bigger ones and aim for the highest score.",
+      "Controls: Use the mouse to interact with the game UI, click and drag to merge."
+    ],
+    "features": [
+      "Relaxing 2D casual gameplay",
+      "Cute vegetable characters",
+      "Addictive merge mechanics"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Merge and Munch Online Free | Doodle Baseball",
+      "description": "Experience Merge and Munch! A relaxing vegetable merge puzzle game. Merge cute vegetables, challenge the high score, and enjoy endless fun.",
+      "keywords": "Merge and Munch, merge game, puzzle game, casual game, free online game"
+    }
+  },
+  {
+    "slug": "dreamspace",
+    "title": "Dreamspace",
+    "description": "<b>Dreamspace</b> takes you into a fantastic dream defense world. Although sleeping, you must stay sharp! Your cozy bed leads to a wild dream realm filled with axe-wielding ogres, nightmare bees, and endless waves of monsters. <b>Merge</b> quirky vegetable towers like carrots and leeks, upgrade them into powerful defenses, and place them strategically to protect your sleeping self.",
+    "coverImage": "/images/games/dreamspace.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/dreamspace/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Build and upgrade vegetable towers to defend against waves of monsters.",
+      "Controls: Use the mouse to drag and drop vegetables to merge and deploy. Click to grab."
+    ],
+    "features": [
+      "Unique dream-themed tower defense",
+      "Innovative merge upgrade mechanics",
+      "Rich monster types and defense strategies"
+    ],
+    "isTopPick": false,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Dreamspace - Free Online Tower Defense Game | Doodle Baseball",
+      "description": "Defend your sweet dreams in Dreamspace! Merge vegetable towers and use strategy to fend off ogres and monsters. Play this unique tower defense game for free.",
+      "keywords": "Dreamspace, tower defense, merge strategy, free game, dream defense"
+    }
+  },
+  {
+    "slug": "obby_vs_brainrot",
+    "title": "Obby vs Brainrot",
+    "description": "<b>Obby vs Brainrot</b> is a fast-paced action platformer where you fight hordes of 'Brainrot' meme monsters and cleanse worlds one by one. Ready for the challenge? In this action-packed world, dodge attacks, use sword skills to defeat enemies, and complete various parkour challenges. Whether on PC or mobile, enjoy the ultimate combat experience.",
+    "coverImage": "/images/games/obby_vs_brainrot.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/obby-vs-brainrot/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Defeat all enemies and cleanse the levels.",
+      "PC Controls: WASD to move, Space to jump, Left Mouse to attack.",
+      "Mobile Controls: Virtual joystick to move, buttons to jump and attack."
+    ],
+    "features": [
+      "Fast-paced action combat experience",
+      "Various popular internet meme enemies",
+      "Cross-platform support for PC and Mobile"
+    ],
+    "isTopPick": false,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Obby vs Brainrot - Action Parkour Game | Doodle Baseball",
+      "description": "Join the fight in Obby vs Brainrot! Battle crazy Brainrot monsters and experience thrilling action parkour gameplay. Play free online.",
+      "keywords": "Obby vs Brainrot, action game, parkour game, platformer, free online play"
+    }
+  },
+  {
+    "slug": "zombie_siege_defense_line",
+    "title": "Zombie Siege: Defense Line",
+    "description": "In <b>Zombie Siege: Defense Line</b>, you play as a fearless line defender standing between humanity and the zombie army. Control your character, hold your ground, and blast through endless waves of undead swarming from all directions. Upgrade your weapons, strengthen your defense, and survive in this apocalyptic world.",
+    "coverImage": "/images/games/zombie_siege_defense_line.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/zombiesiege/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Eliminate incoming zombies and prevent the defense line from being breached.",
+      "PC Controls: AD/Arrow keys to move, Left-click to interact/shoot.",
+      "Mobile Controls: Drag left/right to move, Tap to interact."
+    ],
+    "features": [
+      "Intense zombie shooting experience",
+      "Endless zombie waves challenge",
+      "Simple controls with satisfying combat"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Zombie Siege - Free Shooting Defense Game | Doodle Baseball",
+      "description": "Resist the zombie frenzy! Hold the line in Zombie Siege: Defense Line and wipe out endless undead. Start your survival challenge now.",
+      "keywords": "Zombie Siege, zombie game, shooting game, defense game, survival game"
+    }
+  },
+  {
+    "slug": "tank_snipers",
+    "title": "Tank Snipers",
+    "description": "<b>Tank Snipers</b> is a World War II combat game that places you directly in command of a battle tank. Choose attack routes, occupy strategic positions, and decide when to advance or hold ground. Through <b>precise aiming</b> and calm reaction under pressure, eliminate enemy forces, complete missions, and prove your tactical mastery on the battlefield.",
+    "coverImage": "/images/games/tank_snipers.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tank-snipers/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Command the tank to eliminate all enemy targets.",
+      "PC Controls: WASD/Arrow keys to drive, Hold Mouse to aim, Release to fire.",
+      "Mobile Controls: Screen joystick to drive, Hold aim button when stopped, Release to fire."
+    ],
+    "features": [
+      "Realistic World War II tank combat",
+      "Gameplay requiring both strategy and skill",
+      "Beautiful 3D battlefield environments"
+    ],
+    "isTopPick": true,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Tank Snipers - 3D Tank Battle Game | Doodle Baseball",
+      "description": "Drive WW2 tanks and experience real battlefield combat! Aim, shoot, and destroy enemies in Tank Snipers. Play tank battles online for free.",
+      "keywords": "Tank Snipers, tank game, WW2 game, shooting game, 3D war"
+    }
+  },
+  {
+    "slug": "number_snap",
+    "title": "Number Snap",
+    "description": "Welcome to <b>Number Snap</b>. Your goal is simple but addictive: place number tiles on the grid to build perfect sequences from 1 to 9. Once completed, the sequence clears the tiles and makes space, rewarding you with points and combos. A puzzle game that tests logic and planning, suitable for players of all ages.",
+    "coverImage": "/images/games/number_snap.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/number-snap/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Arrange numbers on the grid to form sequences 1-9 to clear them.",
+      "Controls: Use the mouse to interact with the UI and place tiles."
+    ],
+    "features": [
+      "Minimalist number puzzle gameplay",
+      "Tests logic and strategy",
+      "Relaxing background music and sound effects"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Number Snap - Logic Puzzle Elimination Game | Doodle Baseball",
+      "description": "Challenge your brain! Arrange numbers and create perfect sequences in Number Snap. An addictive number puzzle game.",
+      "keywords": "Number Snap, number game, puzzle elimination, logic game, brain training"
+    }
+  },
+  {
+    "slug": "rocketgoal_io",
+    "title": "RocketGoal.io",
+    "description": "<b>RocketGoal.io</b> is a high-octane vehicular soccer experience that throws you into intense competitive matches. Control rocket-powered cars, speed across the arena, and pull off daring aerial maneuvers. By mastering speed, timing, and precision, outplay rivals, score spectacular goals, and prove your skill in thrilling car showdowns. Rocket League style web experience!",
+    "coverImage": "/images/games/rocketgoalio.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/rocketgoal-io/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Drive cars to hit the soccer ball into the opponent's goal.",
+      "Controls: WASD to drive, Right Click/K to jump, Left Click/J to boost, Shift to drift.",
+      "Tips: Use aerial rolls and flips to gain an advantage."
+    ],
+    "features": [
+      "Multiplayer online competitive sports game",
+      "Cool rocket car actions",
+      "Fast-paced 3-minute matches"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "RocketGoal.io - Rocket Car Soccer | Doodle Baseball",
+      "description": "Experience web-based Rocket League! Drive rocket cars and play soccer in RocketGoal.io, competing with global players. Play free online.",
+      "keywords": "RocketGoal.io, car soccer, sports competitive, multiplayer IO game, racing game"
+    }
+  },
+  {
+    "slug": "stickman_rebirth",
+    "title": "Stickman Rebirth",
+    "description": "<b>Stickman Rebirth</b> is a fun 2D action-adventure, physics-based stickman fighting game. Fight in a giant futuristic laboratory and uncover the mystery behind the story. Use various skills and combos to defeat enemies blocking your way. Smooth action and satisfying combat will keep you hooked.",
+    "coverImage": "/images/games/stickman_rebirth.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/stickman-rebirth/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Clear levels and defeat enemies and bosses.",
+      "Controls: WASD to move, K/J/L to use skills and attack, Spacebar to go to next level."
+    ],
+    "features": [
+      "Classic stickman action style",
+      "Physics-based combat system",
+      "Rich skills and level design"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Stickman Rebirth - Action Fighting Game | Doodle Baseball",
+      "description": "Join the stickman fight! Stickman Rebirth offers the purest combat experience. Challenge levels, defeat bosses, and uncover lab secrets.",
+      "keywords": "Stickman Rebirth, stickman game, action fighting, adventure game, free online play"
+    }
+  },
+  {
+    "slug": "marble_shooter",
+    "title": "Marble Shooter",
+    "description": "<b>Marble Shooter</b> is the ultimate ball-blasting game that will keep you engaged for hours. In this thrilling experience, colorful spheres race through winding tracks, and your mission is to burst them all before a maximum of five balls reach their destination. Classic Zuma gameplay with modern visuals.",
+    "coverImage": "/images/games/marble_shooter.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/marble-shooter/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Shoot marbles to match 3 or more of the same color to clear them before they reach the hole.",
+      "Controls: Move mouse to aim, Left click to shoot, Right click to switch marble color."
+    ],
+    "features": [
+      "Classic Zuma elimination gameplay",
+      "Challenging levels",
+      "Various power-ups to help you win"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Marble Shooter - Classic Zuma Game | Doodle Baseball",
+      "description": "Relive classic Zuma fun! Marble Shooter is an addictive marble elimination game. Aim, shoot, and clear marbles before they roll into the hole.",
+      "keywords": "Marble Shooter, Zuma game, elimination game, puzzle game, casual game"
+    }
+  },
+  {
+    "slug": "Planetary_Defense",
+    "title": "Planetary Defense",
+    "description": "Prepare for an intense survival challenge in <b>Planetary Defense</b>, a fast-paced shooter that combines modular building with bullet-hell action. As the commander of a customizable battle machine, your mission is to defend against waves of relentless alien threats. The core of the game lies in its <b>modular block system</b>: mix and match defense turrets, powerful weapons, and economic generators to craft a fortress that suits your playstyle. As you progress, you'll face increasing dangers from flying saucers, swarm drones, and massive comets. Success in <b>Planetary Defense</b> requires quick reflexes and strategic planning—use the breaks between waves to purchase upgrades, merge identical blocks for stronger variants, and evolve your machine into an unstoppable planetary guardian. If you love roguelite survival games with deep customization, <b>Planetary Defense</b> will keep you hooked.",
+    "coverImage": "/images/games/planetary-defense-thumbnail.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/planetary-defense/index.html?isNewUser=true&skipPrerollFirstSession=true&v=1.348",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Survive as long as possible against endless waves of enemies and protect your core.",
+      "Movement: Use the <b>WASD</b>, <b>Arrow Keys</b>, or simply move your mouse to pilot your battle machine.",
+      "Combat: Hold <b>Left Click</b> or <b>Space</b> to unleash a barrage of fire upon incoming threats.",
+      "Building & Upgrading: Between waves, drag and drop blocks to expand your ship. <b>Merge identical blocks</b> by dragging them on top of each other to level them up and increase their power."
+    ],
+    "features": [
+      "Modular Building System: freely assemble your ship with weapon, defense, and utility blocks.",
+      "Merge Mechanics: Combine duplicate items to create exponentially stronger versions.",
+      "Endless Survival: Test your skills against progressively harder waves of unique enemies.",
+      "Dynamic Strategy: Adapt your build on the fly to counter different enemy types and boss-like threats."
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Planetary Defense Online Free | Doodle Baseball",
+      "description": "Build, defend, and survive in Planetary Defense! Assemble your battle machine with modular blocks, merge upgrades, and fight off alien waves. Play for free now!",
+      "keywords": "planetary defense, survival shooter, modular building game, merge game, space shooter, tower defense, online game, free game"
+    }
+  },
+  {
     "slug": "Space_Hex_War_Merge_Shooter",
     "title": "Space Hex: War Merge Shooter",
     "description": "Prepare for an interstellar conflict in <b>Space Hex: War Merge Shooter</b>, a game that revolutionizes the space shooter genre with deep strategic elements. Your battleship is a dynamic hexagonal grid, where every placement and merger decision is critical for survival. The core of your power comes from merging identical weapon towers to create superior artillery with enhanced firepower. As you advance, you'll face increasingly challenging waves of alien invaders that test your tactical prowess. Success in <b>Space Hex: War Merge Shooter</b> depends not just on firepower, but on clever ship design and adaptive strategy. Fine-tune your layout, create impenetrable defenses with shields, and master the art of the merge. If you love strategic tower defense and action-packed space battles, you'll be captivated by <b>Space Hex: War Merge Shooter</b>.",
@@ -1692,355 +1969,353 @@
       "keywords": "Screw Out: Bolts and Nuts, puzzle, logic, unscrew, color match"
     }
   },
-  
-    {
-      "slug": "Royal_Square",
-      "title": "Royal Square",
-      "description": "Welcome to <b>Royal Square</b>, a clever and addictive puzzle game designed to test your logic and strategy. In <b>Royal Square</b>, your objective is simple yet challenging: merge matching numbered tiles to create larger values, inspired by the timeless mechanics of 2048. As you dive deeper into <b>Royal Square</b>, you will discover endless opportunities to refine your tactics and improve your focus. With its smooth sliding controls and vibrant visuals, <b>Royal Square</b> offers a satisfying gameplay loop that keeps you coming back. whether you are a casual player or a puzzle master, <b>Royal Square</b> provides the perfect platform to aim for higher scores and sharpen your mind.",
-      "coverImage": "/images/games/Royal_Square.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/royal-square/index.html",
-      "rating": 4.6,
-      "howToPlay": [
-        "Click and hold the left mouse button on a tile.",
-        "Drag the mouse in the direction you want the tile to move.",
-        "Release to slide the tile and merge it with matching numbers.",
-        "Plan your moves ahead to prevent the board from filling up."
-      ],
-      "features": [
-        "Classic 2048-inspired merge mechanics",
-        "Vibrant and clean visual design",
-        "Smooth and intuitive sliding controls",
-        "Endless gameplay for high-score chasing",
-        "Strategic puzzle elements to train your brain"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Royal Square Online Free | Doodle Baseball",
-        "description": "Play Royal Square, a clever 2048-style puzzle game. Merge numbers, plan moves, and achieve high scores in Royal Square online for free.",
-        "keywords": "Royal Square, 2048 game, merge puzzle, number puzzle, strategy game, online brain game"
-      }
-    },
-    {
-      "slug": "Hole_Digger_in_Russia",
-      "title": "Hole Digger in Russia",
-      "description": "<b>Hole Digger in Russia</b> is a humorous and engaging digging adventure that starts with a simple mishap: missing car keys. In <b>Hole Digger in Russia</b>, you are armed with nothing but a shovel as you excavate the Russian soil to recover Grandpa's prized possession. As you progress through <b>Hole Digger in Russia</b>, you will uncover valuable resources, underground secrets, and strange surprises hidden deep within the earth. Upgrade your gear to dig faster and fly higher in <b>Hole Digger in Russia</b> to ensure Grandpa gets his keys back before he becomes too grumpy!",
-      "coverImage": "/images/games/Hole_Digger_in_Russia.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/dig-a-hole-in-russia/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Use WASD keys to move your character around the map.",
-        "Press Space to jump over obstacles.",
-        "Double tap and hold Space to fly (requires Jetpack).",
-        "Click the Left Mouse Button to dig or collect resources.",
-        "Press E to interact with garage elements for upgrades.",
-        "Press Q to return to the main menu."
-      ],
-      "features": [
-        "Humorous storyline set in Russia",
-        "Deep digging and exploration mechanics",
-        "Resource collection and management",
-        "Upgradeable tools and jetpack equipment",
-        "Hidden underground secrets and surprises"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Hole Digger in Russia Online Free | Doodle Baseball",
-        "description": "Dig deep in Hole Digger in Russia! Find the missing keys, collect resources, and upgrade your gear in this hilarious arcade adventure game.",
-        "keywords": "Hole Digger in Russia, digging game, arcade adventure, mining game, upgrades, funny games"
-      }
-    },
-    {
-      "slug": "Vault_Room_Escape",
-      "title": "Vault Room Escape",
-      "description": "<b>Vault Room Escape</b> is an immersive interactive adventure that traps you in a locked room filled with mysteries. In <b>Vault Room Escape</b>, you must rely on your keen observation skills to solve clever challenges and break free. The game requires you to tap items, combine objects, and use a magnifying glass to uncover hidden details essential for your success in <b>Vault Room Escape</b>. Every puzzle you solve in <b>Vault Room Escape</b> brings you one step closer to freedom, testing your creativity and logic in a thrilling escape scenario.",
-      "coverImage": "/images/games/Vault_Room_Escape.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/vault-room-escape/index.html",
-      "rating": 4.6,
-      "howToPlay": [
-        "Use the Mouse to click and interact with objects in the room.",
-        "Tap items in your inventory to select or use them.",
-        "Combine different objects to create new tools.",
-        "Use the magnifying glass to inspect items for clues."
-      ],
-      "features": [
-        "Intricate logic puzzles and riddles",
-        "Interactive point-and-click gameplay",
-        "Inventory system for item management",
-        "Magnifying glass tool for detailed inspection",
-        "Atmospheric mystery setting"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Vault Room Escape Online Free | Doodle Baseball",
-        "description": "Solve puzzles and break free in Vault Room Escape. Use logic, combine items, and find clues in this exciting point-and-click escape game.",
-        "keywords": "Vault Room Escape, escape room game, puzzle game, logic game, point and click, mystery"
-      }
-    },
-    {
-      "slug": "Brainrot_Evolution_2048_Merge_Fight",
-      "title": "Brainrot Evolution: 2048 Merge Fight",
-      "description": "<b>Brainrot Evolution: 2048 Merge Fight</b> is a chaotic and hilarious twist on the classic 2048 formula. In <b>Brainrot Evolution: 2048 Merge Fight</b>, you merge iconic internet meme animals to evolve them into powerful fighters. Unlock legendary creatures like the Cappuccino Assassino as you progress through <b>Brainrot Evolution: 2048 Merge Fight</b> to battle evil clones. This fast-paced game challenges you to think smart and merge quickly, ensuring that <b>Brainrot Evolution: 2048 Merge Fight</b> delivers a unique blend of humor, strategy, and meme culture energy.",
-      "coverImage": "/images/games/Brainrot_Evolution__2048_Merge_Fight.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/brainrot-evolution-2048-merge-fight/index.html",
-      "rating": 4.55,
-      "howToPlay": [
-        "Use Arrow Keys or WASD to move tiles on the board.",
-        "Swipe with the Left Mouse Button to merge identical creatures.",
-        "Evolve your units to unlock stronger meme characters.",
-        "Defeat evil clones by building a powerful squad."
-      ],
-      "features": [
-        "Unique mix of 2048 puzzles and combat",
-        "Unlockable famous meme characters",
-        "Fast-paced evolution mechanics",
-        "Humorous sound effects and visuals",
-        "Strategic grid-based gameplay"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Brainrot Evolution: 2048 Merge Fight Online Free | Doodle Baseball",
-        "description": "Merge memes and fight clones in Brainrot Evolution: 2048 Merge Fight. Evolve characters and enjoy a chaotic twist on the classic 2048 game.",
-        "keywords": "Brainrot Evolution 2048 Merge Fight, meme game, 2048 merge, funny puzzle, battle game"
-      }
-    },
-    {
-      "slug": "Tram_Simulator",
-      "title": "Tram Simulator",
-      "description": "<b>Tram Simulator</b> offers a realistic driving experience that puts you in control of public transport in Moscow. In <b>Tram Simulator</b>, you navigate lively streets, manage five different tram models, and ensure passenger safety. Your precision and timing are tested in <b>Tram Simulator</b> as you respect traffic rules and stop at designated stations. With immersive controls and authentic city atmosphere, <b>Tram Simulator</b> challenges you to become the best driver in the city, balancing speed with the responsibility of a true professional.",
-      "coverImage": "/images/games/Tram_Simulator.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/tram-simulator/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Press W to accelerate and S to brake.",
-        "Use A/D or Q/E for turn signals.",
-        "Press 1 to open or close tram doors.",
-        "Use H to ring the bell and L for headlights.",
-        "Press C to change camera views."
-      ],
-      "features": [
-        "Realistic tram driving physics",
-        "Five distinct tram models to operate",
-        "Authentic Moscow city environment",
-        "Interactive controls including doors and lights",
-        "Dynamic passenger and traffic systems"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Tram Simulator Online Free | Doodle Baseball",
-        "description": "Drive trams through Moscow in Tram Simulator. Manage passengers, obey traffic rules, and master 5 different tram models in this realistic game.",
-        "keywords": "Tram Simulator, driving simulator, train game, Moscow transport, vehicle simulation, 3D game"
-      }
-    },
-    {
-      "slug": "Block_Blaster",
-      "title": "Block Blaster",
-      "description": "<b>Block Blaster</b> is an engaging puzzle game that combines grid-based challenges with classic block matching fun. In <b>Block Blaster</b>, you must strategically drag and drop cubes into an 8x8 grid to clear rows and columns. Unlike other games, blocks in <b>Block Blaster</b> cannot be rotated, adding a layer of difficulty and uncertainty. As you navigate through the levels of <b>Block Blaster</b>, you will sharpen your skills and elevate your IQ score, making every cleared line a satisfying victory in this world of pure puzzle bliss.",
-      "coverImage": "/images/games/Block_Blaster.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/block-puzzle-master/index.html",
-      "rating": 4.3,
-      "howToPlay": [
-        "Drag cube blocks from the bottom panel.",
-        "Drop them into the 8x8 grid to fill spaces.",
-        "Complete full rows or columns to eliminate blocks.",
-        "Plan carefully as blocks cannot be rotated.",
-        "Game over if no space remains for new blocks."
-      ],
-      "features": [
-        "Classic 8x8 grid block puzzle gameplay",
-        "No-rotation mechanic increases difficulty",
-        "Adventure mode with story elements",
-        "IQ score tracking and skill progression",
-        "Relaxing yet challenging brain training"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Block Blaster Online Free | Doodle Baseball",
-        "description": "Challenge your brain with Block Blaster. Drag and drop blocks in an 8x8 grid, clear lines, and boost your IQ in this addictive puzzle game.",
-        "keywords": "Block Blaster, block puzzle, tetris style, brain teaser, logic game, grid puzzle"
-      }
-    },
-    {
-      "slug": "Steal_Brainrot_Online",
-      "title": "Steal Brainrot Online",
-      "description": "<b>Steal Brainrot Online</b> is a fast-paced heist game where you compete to collect rare memes. In <b>Steal Brainrot Online</b>, you can build your wealth by stealing from other players or buying from the red carpet. Protect your collection in <b>Steal Brainrot Online</b> using traps and locks, or sneak into enemy bases to snatch legendary items like Tralalero Tralala. With boosters, leaderboards, and a rebirth system, <b>Steal Brainrot Online</b> offers a chaotic social standoff where greed and caution are your best tools for survival.",
-      "coverImage": "/images/games/Steal_Brainrot_Online.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/steal-brainrot-online/index.html",
-      "rating": 4.5,
-      "howToPlay": [
-        "Use WASD keys or Left Joystick to move.",
-        "Press Space or Up Arrow to jump.",
-        "Press E or Hand Icon to interact with items.",
-        "Sneak into bases to steal Brainrot items.",
-        "Use the G key to teleport back home quickly."
-      ],
-      "features": [
-        "Multiplayer heist and defense gameplay",
-        "Collect rare Brainrot meme characters",
-        "Base building with traps and locks",
-        "Rebirth system for long-term progression",
-        "Global leaderboards and social interaction"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Steal Brainrot Online Online Free | Doodle Baseball",
-        "description": "Steal rare memes and defend your base in Steal Brainrot Online. Outsmart other players, build defenses, and climb the leaderboard.",
-        "keywords": "Steal Brainrot Online, heist game, multiplayer, meme game, base building, stealing simulator"
-      }
-    },
-    {
-      "slug": "Mahjongg_Solitaire",
-      "title": "Mahjongg Solitaire",
-      "description": "<b>Mahjongg Solitaire</b> is a refined online puzzle board game that brings traditional rules to a modern format. In <b>Mahjongg Solitaire</b>, you race against the clock to match identical tiles and clear the board. Unlike many versions, <b>Mahjongg Solitaire</b> does not feature shuffles, making every move critical. You can use unlimited hints if you get stuck, but the true challenge of <b>Mahjongg Solitaire</b> lies in spotting the patterns and managing your time effectively to achieve the highest possible score.",
-      "coverImage": "/images/games/Mahjongg_Solitaire.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/mahjongg-solitaire/index.html",
-      "rating": 3.95,
-      "howToPlay": [
-        "Look for matching pairs of free tiles.",
-        "Click a tile with the Left Mouse Button to select it.",
-        "Click a matching tile to clear both from the board.",
-        "Match special flower or season tiles with any in their group.",
-        "Use the Hint button if you cannot find a move."
-      ],
-      "features": [
-        "Traditional Mahjong rules and tile sets",
-        "Timed gameplay for added excitement",
-        "No-shuffle mechanic for pure strategy",
-        "Unlimited hints to assist beginners",
-        "High-quality visuals and relaxing atmosphere"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Mahjongg Solitaire Online Free | Doodle Baseball",
-        "description": "Enjoy Mahjongg Solitaire, a classic timed puzzle game. Match tiles, use hints, and clear the board without shuffles in this strategy game.",
-        "keywords": "Mahjongg Solitaire, mahjong, board game, puzzle, solitaire, tile matching"
-      }
-    },
-    {
-      "slug": "Ludo_King",
-      "title": "Ludo King",
-      "description": "<b>Ludo King</b> is the ultimate digital version of the classic Pachisi board game. In <b>Ludo King</b>, you can compete against friends, online players, or computer bots to move your tokens home. The game features cross-platform multiplayer, allowing you to challenge opponents worldwide in <b>Ludo King</b>. With its engaging chat system, funny emojis, and strategic dice rolls, <b>Ludo King</b> provides hours of entertainment. Whether playing solo or with a group, <b>Ludo King</b> remains the top choice for casual board game fans.",
-      "coverImage": "/images/games/Ludo_King.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/ludo-king/index.html",
-      "rating": 4.0,
-      "howToPlay": [
-        "Roll the dice by clicking or tapping on it.",
-        "Click a token to move it forward based on the roll.",
-        "Roll a 6 to release a token from the base.",
-        "Land on opponent tokens to send them back to start.",
-        "Reach the home triangle with all 4 tokens to win."
-      ],
-      "features": [
-        "Cross-platform online multiplayer",
-        "Local multiplayer for 2 to 4 players",
-        "Offline Computer mode for solo play",
-        "In-game chat with fun emojis",
-        "Save/Load game functionality"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Ludo King Online Free | Doodle Baseball",
-        "description": "Play Ludo King, the hit multiplayer board game. Challenge friends or the computer, roll the dice, and race your tokens to victory online.",
-        "keywords": "Ludo King, board game, multiplayer, dice game, ludo online, family game"
-      }
-    },
-    {
-      "slug": "Color_Tap_Coloring_by_Numbers",
-      "title": "Color Tap: Coloring by Numbers",
-      "description": "<b>Color Tap: Coloring by Numbers</b> is a serene relaxation game that invites you into a world of creativity. In <b>Color Tap: Coloring by Numbers</b>, you can destress by filling in detailed pictures one tap at a time. The game offers a zooming palette and diverse artworks, making <b>Color Tap: Coloring by Numbers</b> suitable for both novices and pros. Whether following the numbers or exploring your own style, <b>Color Tap: Coloring by Numbers</b> provides a mindful journey to unwind and express your inner artist.",
-      "coverImage": "/images/games/Color_Tap__Coloring_by_Numbers.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/color-tap-coloring-by-numbers/index.html",
-      "rating": 4.45,
-      "howToPlay": [
-        "Use the mouse wheel to zoom in and out of the image.",
-        "Click a color from the palette to select it.",
-        "Tap the corresponding numbered area to paint it.",
-        "Complete all numbered sections to finish the masterpiece."
-      ],
-      "features": [
-        "Relaxing color-by-number gameplay",
-        "Wide variety of detailed images",
-        "Intuitive zoom and pan controls",
-        "Stress-relief and mindfulness focus",
-        "Suitable for all ages and skill levels"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Color Tap: Coloring by Numbers Online Free | Doodle Baseball",
-        "description": "Relax with Color Tap: Coloring by Numbers. Paint detailed images, reduce stress, and enjoy a creative art experience online for free.",
-        "keywords": "Color Tap Coloring by Numbers, art game, relaxation, coloring book, paint by number"
-      }
-    },
-    {
-      "slug": "Grow_A_Garden__Growdenio",
-      "title": "Grow A Garden | Growden.io",
-      "description": "<b>Grow A Garden | Growden.io</b> is a delightful .io farming game where you cultivate your own plot of land. In <b>Grow A Garden | Growden.io</b>, you start with simple seeds and work your way up to exotic crops like the rare moon blossom. The game features a rotating community of players, allowing you to trade, chat, and showcase your farming mastery in <b>Grow A Garden | Growden.io</b>. With weather events, mutations, and a generous reward system, <b>Grow A Garden | Growden.io</b> offers an addictive and social gardening experience.",
-      "coverImage": "/images/games/Grow_A_Garden___Growden.io.jpg",
-      "youtube": "",
-      "playUrl": "https://games.crazygames.com/en_US/grow-a-garden---growden-io/index.html",
-      "rating": 0.0,
-      "howToPlay": [
-        "Use WASD or Arrow Keys to move your character.",
-        "Press E to interact, pick up plants, or use shops.",
-        "Select seeds from your inventory and click on plots to plant.",
-        "Wait for crops to grow, then harvest and sell for profit.",
-        "Hold Right Mouse Button to rotate the camera."
-      ],
-      "features": [
-        "Multiplayer farming with community rooms",
-        "Progression from basic to rare exotic seeds",
-        "Dynamic weather events affecting crop growth",
-        "Plant mutation system for higher value",
-        "Pet system and backpack inventory management"
-      ],
-      "isTopPick": true,
-      "isHot": true,
-      "isHeader": true,
-      "isRelated": true,
-      "seo": {
-        "title": "Play Grow A Garden | Growden.io Online Free | Doodle Baseball",
-        "description": "Build your dream farm in Grow A Garden | Growden.io. Plant seeds, harvest rare crops, and interact with players in this multiplayer farming game.",
-        "keywords": "Grow A Garden, Growden.io, farming game, multiplayer io, gardening simulator, agriculture game"
-      }
+  {
+    "slug": "Royal_Square",
+    "title": "Royal Square",
+    "description": "Welcome to <b>Royal Square</b>, a clever and addictive puzzle game designed to test your logic and strategy. In <b>Royal Square</b>, your objective is simple yet challenging: merge matching numbered tiles to create larger values, inspired by the timeless mechanics of 2048. As you dive deeper into <b>Royal Square</b>, you will discover endless opportunities to refine your tactics and improve your focus. With its smooth sliding controls and vibrant visuals, <b>Royal Square</b> offers a satisfying gameplay loop that keeps you coming back. whether you are a casual player or a puzzle master, <b>Royal Square</b> provides the perfect platform to aim for higher scores and sharpen your mind.",
+    "coverImage": "/images/games/Royal_Square.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/royal-square/index.html",
+    "rating": 4.6,
+    "howToPlay": [
+      "Click and hold the left mouse button on a tile.",
+      "Drag the mouse in the direction you want the tile to move.",
+      "Release to slide the tile and merge it with matching numbers.",
+      "Plan your moves ahead to prevent the board from filling up."
+    ],
+    "features": [
+      "Classic 2048-inspired merge mechanics",
+      "Vibrant and clean visual design",
+      "Smooth and intuitive sliding controls",
+      "Endless gameplay for high-score chasing",
+      "Strategic puzzle elements to train your brain"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Royal Square Online Free | Doodle Baseball",
+      "description": "Play Royal Square, a clever 2048-style puzzle game. Merge numbers, plan moves, and achieve high scores in Royal Square online for free.",
+      "keywords": "Royal Square, 2048 game, merge puzzle, number puzzle, strategy game, online brain game"
     }
-  
+  },
+  {
+    "slug": "Hole_Digger_in_Russia",
+    "title": "Hole Digger in Russia",
+    "description": "<b>Hole Digger in Russia</b> is a humorous and engaging digging adventure that starts with a simple mishap: missing car keys. In <b>Hole Digger in Russia</b>, you are armed with nothing but a shovel as you excavate the Russian soil to recover Grandpa's prized possession. As you progress through <b>Hole Digger in Russia</b>, you will uncover valuable resources, underground secrets, and strange surprises hidden deep within the earth. Upgrade your gear to dig faster and fly higher in <b>Hole Digger in Russia</b> to ensure Grandpa gets his keys back before he becomes too grumpy!",
+    "coverImage": "/images/games/Hole_Digger_in_Russia.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/dig-a-hole-in-russia/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Use WASD keys to move your character around the map.",
+      "Press Space to jump over obstacles.",
+      "Double tap and hold Space to fly (requires Jetpack).",
+      "Click the Left Mouse Button to dig or collect resources.",
+      "Press E to interact with garage elements for upgrades.",
+      "Press Q to return to the main menu."
+    ],
+    "features": [
+      "Humorous storyline set in Russia",
+      "Deep digging and exploration mechanics",
+      "Resource collection and management",
+      "Upgradeable tools and jetpack equipment",
+      "Hidden underground secrets and surprises"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Hole Digger in Russia Online Free | Doodle Baseball",
+      "description": "Dig deep in Hole Digger in Russia! Find the missing keys, collect resources, and upgrade your gear in this hilarious arcade adventure game.",
+      "keywords": "Hole Digger in Russia, digging game, arcade adventure, mining game, upgrades, funny games"
+    }
+  },
+  {
+    "slug": "Vault_Room_Escape",
+    "title": "Vault Room Escape",
+    "description": "<b>Vault Room Escape</b> is an immersive interactive adventure that traps you in a locked room filled with mysteries. In <b>Vault Room Escape</b>, you must rely on your keen observation skills to solve clever challenges and break free. The game requires you to tap items, combine objects, and use a magnifying glass to uncover hidden details essential for your success in <b>Vault Room Escape</b>. Every puzzle you solve in <b>Vault Room Escape</b> brings you one step closer to freedom, testing your creativity and logic in a thrilling escape scenario.",
+    "coverImage": "/images/games/Vault_Room_Escape.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/vault-room-escape/index.html",
+    "rating": 4.6,
+    "howToPlay": [
+      "Use the Mouse to click and interact with objects in the room.",
+      "Tap items in your inventory to select or use them.",
+      "Combine different objects to create new tools.",
+      "Use the magnifying glass to inspect items for clues."
+    ],
+    "features": [
+      "Intricate logic puzzles and riddles",
+      "Interactive point-and-click gameplay",
+      "Inventory system for item management",
+      "Magnifying glass tool for detailed inspection",
+      "Atmospheric mystery setting"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Vault Room Escape Online Free | Doodle Baseball",
+      "description": "Solve puzzles and break free in Vault Room Escape. Use logic, combine items, and find clues in this exciting point-and-click escape game.",
+      "keywords": "Vault Room Escape, escape room game, puzzle game, logic game, point and click, mystery"
+    }
+  },
+  {
+    "slug": "Brainrot_Evolution_2048_Merge_Fight",
+    "title": "Brainrot Evolution: 2048 Merge Fight",
+    "description": "<b>Brainrot Evolution: 2048 Merge Fight</b> is a chaotic and hilarious twist on the classic 2048 formula. In <b>Brainrot Evolution: 2048 Merge Fight</b>, you merge iconic internet meme animals to evolve them into powerful fighters. Unlock legendary creatures like the Cappuccino Assassino as you progress through <b>Brainrot Evolution: 2048 Merge Fight</b> to battle evil clones. This fast-paced game challenges you to think smart and merge quickly, ensuring that <b>Brainrot Evolution: 2048 Merge Fight</b> delivers a unique blend of humor, strategy, and meme culture energy.",
+    "coverImage": "/images/games/Brainrot_Evolution__2048_Merge_Fight.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/brainrot-evolution-2048-merge-fight/index.html",
+    "rating": 4.55,
+    "howToPlay": [
+      "Use Arrow Keys or WASD to move tiles on the board.",
+      "Swipe with the Left Mouse Button to merge identical creatures.",
+      "Evolve your units to unlock stronger meme characters.",
+      "Defeat evil clones by building a powerful squad."
+    ],
+    "features": [
+      "Unique mix of 2048 puzzles and combat",
+      "Unlockable famous meme characters",
+      "Fast-paced evolution mechanics",
+      "Humorous sound effects and visuals",
+      "Strategic grid-based gameplay"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Brainrot Evolution: 2048 Merge Fight Online Free | Doodle Baseball",
+      "description": "Merge memes and fight clones in Brainrot Evolution: 2048 Merge Fight. Evolve characters and enjoy a chaotic twist on the classic 2048 game.",
+      "keywords": "Brainrot Evolution 2048 Merge Fight, meme game, 2048 merge, funny puzzle, battle game"
+    }
+  },
+  {
+    "slug": "Tram_Simulator",
+    "title": "Tram Simulator",
+    "description": "<b>Tram Simulator</b> offers a realistic driving experience that puts you in control of public transport in Moscow. In <b>Tram Simulator</b>, you navigate lively streets, manage five different tram models, and ensure passenger safety. Your precision and timing are tested in <b>Tram Simulator</b> as you respect traffic rules and stop at designated stations. With immersive controls and authentic city atmosphere, <b>Tram Simulator</b> challenges you to become the best driver in the city, balancing speed with the responsibility of a true professional.",
+    "coverImage": "/images/games/Tram_Simulator.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tram-simulator/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Press W to accelerate and S to brake.",
+      "Use A/D or Q/E for turn signals.",
+      "Press 1 to open or close tram doors.",
+      "Use H to ring the bell and L for headlights.",
+      "Press C to change camera views."
+    ],
+    "features": [
+      "Realistic tram driving physics",
+      "Five distinct tram models to operate",
+      "Authentic Moscow city environment",
+      "Interactive controls including doors and lights",
+      "Dynamic passenger and traffic systems"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Tram Simulator Online Free | Doodle Baseball",
+      "description": "Drive trams through Moscow in Tram Simulator. Manage passengers, obey traffic rules, and master 5 different tram models in this realistic game.",
+      "keywords": "Tram Simulator, driving simulator, train game, Moscow transport, vehicle simulation, 3D game"
+    }
+  },
+  {
+    "slug": "Block_Blaster",
+    "title": "Block Blaster",
+    "description": "<b>Block Blaster</b> is an engaging puzzle game that combines grid-based challenges with classic block matching fun. In <b>Block Blaster</b>, you must strategically drag and drop cubes into an 8x8 grid to clear rows and columns. Unlike other games, blocks in <b>Block Blaster</b> cannot be rotated, adding a layer of difficulty and uncertainty. As you navigate through the levels of <b>Block Blaster</b>, you will sharpen your skills and elevate your IQ score, making every cleared line a satisfying victory in this world of pure puzzle bliss.",
+    "coverImage": "/images/games/Block_Blaster.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/block-puzzle-master/index.html",
+    "rating": 4.3,
+    "howToPlay": [
+      "Drag cube blocks from the bottom panel.",
+      "Drop them into the 8x8 grid to fill spaces.",
+      "Complete full rows or columns to eliminate blocks.",
+      "Plan carefully as blocks cannot be rotated.",
+      "Game over if no space remains for new blocks."
+    ],
+    "features": [
+      "Classic 8x8 grid block puzzle gameplay",
+      "No-rotation mechanic increases difficulty",
+      "Adventure mode with story elements",
+      "IQ score tracking and skill progression",
+      "Relaxing yet challenging brain training"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Block Blaster Online Free | Doodle Baseball",
+      "description": "Challenge your brain with Block Blaster. Drag and drop blocks in an 8x8 grid, clear lines, and boost your IQ in this addictive puzzle game.",
+      "keywords": "Block Blaster, block puzzle, tetris style, brain teaser, logic game, grid puzzle"
+    }
+  },
+  {
+    "slug": "Steal_Brainrot_Online",
+    "title": "Steal Brainrot Online",
+    "description": "<b>Steal Brainrot Online</b> is a fast-paced heist game where you compete to collect rare memes. In <b>Steal Brainrot Online</b>, you can build your wealth by stealing from other players or buying from the red carpet. Protect your collection in <b>Steal Brainrot Online</b> using traps and locks, or sneak into enemy bases to snatch legendary items like Tralalero Tralala. With boosters, leaderboards, and a rebirth system, <b>Steal Brainrot Online</b> offers a chaotic social standoff where greed and caution are your best tools for survival.",
+    "coverImage": "/images/games/Steal_Brainrot_Online.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/steal-brainrot-online/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Use WASD keys or Left Joystick to move.",
+      "Press Space or Up Arrow to jump.",
+      "Press E or Hand Icon to interact with items.",
+      "Sneak into bases to steal Brainrot items.",
+      "Use the G key to teleport back home quickly."
+    ],
+    "features": [
+      "Multiplayer heist and defense gameplay",
+      "Collect rare Brainrot meme characters",
+      "Base building with traps and locks",
+      "Rebirth system for long-term progression",
+      "Global leaderboards and social interaction"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Steal Brainrot Online Online Free | Doodle Baseball",
+      "description": "Steal rare memes and defend your base in Steal Brainrot Online. Outsmart other players, build defenses, and climb the leaderboard.",
+      "keywords": "Steal Brainrot Online, heist game, multiplayer, meme game, base building, stealing simulator"
+    }
+  },
+  {
+    "slug": "Mahjongg_Solitaire",
+    "title": "Mahjongg Solitaire",
+    "description": "<b>Mahjongg Solitaire</b> is a refined online puzzle board game that brings traditional rules to a modern format. In <b>Mahjongg Solitaire</b>, you race against the clock to match identical tiles and clear the board. Unlike many versions, <b>Mahjongg Solitaire</b> does not feature shuffles, making every move critical. You can use unlimited hints if you get stuck, but the true challenge of <b>Mahjongg Solitaire</b> lies in spotting the patterns and managing your time effectively to achieve the highest possible score.",
+    "coverImage": "/images/games/Mahjongg_Solitaire.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/mahjongg-solitaire/index.html",
+    "rating": 3.95,
+    "howToPlay": [
+      "Look for matching pairs of free tiles.",
+      "Click a tile with the Left Mouse Button to select it.",
+      "Click a matching tile to clear both from the board.",
+      "Match special flower or season tiles with any in their group.",
+      "Use the Hint button if you cannot find a move."
+    ],
+    "features": [
+      "Traditional Mahjong rules and tile sets",
+      "Timed gameplay for added excitement",
+      "No-shuffle mechanic for pure strategy",
+      "Unlimited hints to assist beginners",
+      "High-quality visuals and relaxing atmosphere"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Mahjongg Solitaire Online Free | Doodle Baseball",
+      "description": "Enjoy Mahjongg Solitaire, a classic timed puzzle game. Match tiles, use hints, and clear the board without shuffles in this strategy game.",
+      "keywords": "Mahjongg Solitaire, mahjong, board game, puzzle, solitaire, tile matching"
+    }
+  },
+  {
+    "slug": "Ludo_King",
+    "title": "Ludo King",
+    "description": "<b>Ludo King</b> is the ultimate digital version of the classic Pachisi board game. In <b>Ludo King</b>, you can compete against friends, online players, or computer bots to move your tokens home. The game features cross-platform multiplayer, allowing you to challenge opponents worldwide in <b>Ludo King</b>. With its engaging chat system, funny emojis, and strategic dice rolls, <b>Ludo King</b> provides hours of entertainment. Whether playing solo or with a group, <b>Ludo King</b> remains the top choice for casual board game fans.",
+    "coverImage": "/images/games/Ludo_King.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/ludo-king/index.html",
+    "rating": 4.0,
+    "howToPlay": [
+      "Roll the dice by clicking or tapping on it.",
+      "Click a token to move it forward based on the roll.",
+      "Roll a 6 to release a token from the base.",
+      "Land on opponent tokens to send them back to start.",
+      "Reach the home triangle with all 4 tokens to win."
+    ],
+    "features": [
+      "Cross-platform online multiplayer",
+      "Local multiplayer for 2 to 4 players",
+      "Offline Computer mode for solo play",
+      "In-game chat with fun emojis",
+      "Save/Load game functionality"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Ludo King Online Free | Doodle Baseball",
+      "description": "Play Ludo King, the hit multiplayer board game. Challenge friends or the computer, roll the dice, and race your tokens to victory online.",
+      "keywords": "Ludo King, board game, multiplayer, dice game, ludo online, family game"
+    }
+  },
+  {
+    "slug": "Color_Tap_Coloring_by_Numbers",
+    "title": "Color Tap: Coloring by Numbers",
+    "description": "<b>Color Tap: Coloring by Numbers</b> is a serene relaxation game that invites you into a world of creativity. In <b>Color Tap: Coloring by Numbers</b>, you can destress by filling in detailed pictures one tap at a time. The game offers a zooming palette and diverse artworks, making <b>Color Tap: Coloring by Numbers</b> suitable for both novices and pros. Whether following the numbers or exploring your own style, <b>Color Tap: Coloring by Numbers</b> provides a mindful journey to unwind and express your inner artist.",
+    "coverImage": "/images/games/Color_Tap__Coloring_by_Numbers.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/color-tap-coloring-by-numbers/index.html",
+    "rating": 4.45,
+    "howToPlay": [
+      "Use the mouse wheel to zoom in and out of the image.",
+      "Click a color from the palette to select it.",
+      "Tap the corresponding numbered area to paint it.",
+      "Complete all numbered sections to finish the masterpiece."
+    ],
+    "features": [
+      "Relaxing color-by-number gameplay",
+      "Wide variety of detailed images",
+      "Intuitive zoom and pan controls",
+      "Stress-relief and mindfulness focus",
+      "Suitable for all ages and skill levels"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Color Tap: Coloring by Numbers Online Free | Doodle Baseball",
+      "description": "Relax with Color Tap: Coloring by Numbers. Paint detailed images, reduce stress, and enjoy a creative art experience online for free.",
+      "keywords": "Color Tap Coloring by Numbers, art game, relaxation, coloring book, paint by number"
+    }
+  },
+  {
+    "slug": "Grow_A_Garden__Growdenio",
+    "title": "Grow A Garden | Growden.io",
+    "description": "<b>Grow A Garden | Growden.io</b> is a delightful .io farming game where you cultivate your own plot of land. In <b>Grow A Garden | Growden.io</b>, you start with simple seeds and work your way up to exotic crops like the rare moon blossom. The game features a rotating community of players, allowing you to trade, chat, and showcase your farming mastery in <b>Grow A Garden | Growden.io</b>. With weather events, mutations, and a generous reward system, <b>Grow A Garden | Growden.io</b> offers an addictive and social gardening experience.",
+    "coverImage": "/images/games/Grow_A_Garden___Growden.io.jpg",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/grow-a-garden---growden-io/index.html",
+    "rating": 0.0,
+    "howToPlay": [
+      "Use WASD or Arrow Keys to move your character.",
+      "Press E to interact, pick up plants, or use shops.",
+      "Select seeds from your inventory and click on plots to plant.",
+      "Wait for crops to grow, then harvest and sell for profit.",
+      "Hold Right Mouse Button to rotate the camera."
+    ],
+    "features": [
+      "Multiplayer farming with community rooms",
+      "Progression from basic to rare exotic seeds",
+      "Dynamic weather events affecting crop growth",
+      "Plant mutation system for higher value",
+      "Pet system and backpack inventory management"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Grow A Garden | Growden.io Online Free | Doodle Baseball",
+      "description": "Build your dream farm in Grow A Garden | Growden.io. Plant seeds, harvest rare crops, and interact with players in this multiplayer farming game.",
+      "keywords": "Grow A Garden, Growden.io, farming game, multiplayer io, gardening simulator, agriculture game"
+    }
+  }
 ]
