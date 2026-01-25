@@ -2317,5 +2317,411 @@
       "description": "Build your dream farm in Grow A Garden | Growden.io. Plant seeds, harvest rare crops, and interact with players in this multiplayer farming game.",
       "keywords": "Grow A Garden, Growden.io, farming game, multiplayer io, gardening simulator, agriculture game"
     }
+  },
+  {
+    "slug": "clean",
+    "title": "Clean",
+    "description": "Dive into a satisfying puzzle experience where your goal is to clear the hexagonal board of colorful tiles. Every tap changes a tile's color and can trigger massive chain reactions, but be careful not to leave any isolated pieces behind. With special mechanic tiles like bombs and skulls, this game offers the perfect blend of relaxation and brain-teasing strategy.",
+    "coverImage": "/images/games/clean.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/clean/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Clear the entire hexagonal board by popping all colored tiles through matching.",
+      "Controls: Use the Mouse to tap tiles. Tapping creates a color shift (Red -> Yellow -> Green -> Red).",
+      "Instructions: Match 3 or more adjacent tiles of the same color to remove them. Avoid leaving single isolated tiles that cannot form a group. Prioritize destroying 'Skull Tiles' early to stop them from spawning more clutter."
+    ],
+    "features": [
+      "Satisfying chain-reaction puzzle mechanics",
+      "Special tiles including Bombs, Skulls, and Locks add depth",
+      "Daily Level mode ensures a fresh challenge every 24 hours",
+      "Relaxing visual style with strategic depth"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Clean Online | Free on Doodle Baseball",
+      "description": "Play Clean directly in your browser. A relaxing yet challenging hex puzzle game where you must clear the board using clever color-matching strategies.",
+      "keywords": "clean, puzzle game, hex puzzle, logic game, free online game"
+    }
+  },
+  {
+    "slug": "arrow_escape",
+    "title": "Arrow Escape",
+    "description": "Test your logic in this fast-paced maze puzzle where every move counts. Navigate intricate arrow paths and tap them away in the correct order to clear the board without crashing. With a limited number of hearts and increasing complexity, you'll need sharp reflexes and forward-thinking to escape each level before time runs out.",
+    "coverImage": "/images/games/arrow_escape.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/arrow-exit-puzzle/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Clear all arrows from the board by tapping them in the correct sequence before time runs out.",
+      "Controls: Left-click (PC) or Tap (Mobile) on an arrow to move it in its facing direction.",
+      "Instructions: Analyze the path of each arrow. Ensure the path is clear before tapping, as collisions cost you a heart. You have 3 hearts—lose them all and the game ends."
+    ],
+    "features": [
+      "Intense logic puzzle with a time limit",
+      "Increasingly complex mazes with looping paths",
+      "High-pressure gameplay that tests planning and speed",
+      "Simple one-tap controls suitable for all devices"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Arrow Escape Online | Free on Doodle Baseball",
+      "description": "Play Arrow Escape directly in your browser. A strategic arrow maze puzzle where you must clear the board by tapping arrows in the right order.",
+      "keywords": "arrow escape, puzzle game, logic maze, brain teaser, free game"
+    }
+  },
+  {
+    "slug": "simply_city",
+    "title": "Simply City",
+    "description": "Experience total freedom in this vibrant open-world city sandbox. Whether you want to drive fast cars, deliver packages for cash, or just explore the streets on foot, Simply City lets you play at your own pace. With multiplayer elements, character customization, and no pressure, it's the ultimate chill-out game for urban explorers.",
+    "coverImage": "/images/games/simply_city.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/simply-city/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Explore the city, earn cash from jobs, and unlock new vehicles and items.",
+      "Controls: WASD/Arrows to move, Space to Jump, Shift to Sprint/Nitro.",
+      "Instructions: Use 'R' to switch between walking and driving. Press 'I' to open the shop and 'G' for the garage. Take on delivery missions to earn money or just hang out with other players."
+    ],
+    "features": [
+      "Open-world sandbox with driving and on-foot exploration",
+      "Jobs and missions to earn in-game currency",
+      "Multiplayer social features including chat and dancing",
+      "Wide variety of vehicles and character customizations"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Simply City Online | Free on Doodle Baseball",
+      "description": "Play Simply City directly in your browser. An open-world sandbox game where you can drive, explore, work jobs, and customize your life.",
+      "keywords": "simply city, open world, driving game, sandbox, free online game"
+    }
+  },
+  {
+    "slug": "tank_stars",
+    "title": "Tank Stars",
+    "description": "Engage in explosive turn-based tank warfare! Choose from a mighty arsenal of nukes, railguns, and plasma cannons to obliterate your opponents. It’s a test of ballistics and strategy—calculate the perfect angle and power to destroy enemy war machines before they take you down.",
+    "coverImage": "/images/games/tank_stars.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tank-stars-online/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Destroy the opponent's tank before they destroy yours in turn-based combat.",
+      "Controls: WASD/Arrows to move; Mouse to Aim; Space/Click to Fire.",
+      "Instructions: Position your tank strategically. Drag to aim your weapon's trajectory. Fire quickly and accurately to deplete the enemy's health bar. Upgrade weapons for maximum damage."
+    ],
+    "features": [
+      "Turn-based artillery combat similar to Worms",
+      "Massive arsenal of weapons including Nukes and Lasers",
+      "Strategic gameplay requiring precise aiming and positioning",
+      "Playable against friends or AI opponents"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Tank Stars Online | Free on Doodle Baseball",
+      "description": "Play Tank Stars directly in your browser. A turn-based tank battle game where you aim powerful weapons to destroy enemy tanks.",
+      "keywords": "tank stars, tank game, artillery game, turn based strategy, free game"
+    }
+  },
+  {
+    "slug": "path_of_survivor",
+    "title": "Path of Survivor",
+    "description": "Survive the zombie apocalypse in this gritty first-person shooter. You are a lone survivor fighting to return home through chaos-filled streets. Scavenge for ammo, upgrade your weapons, and face relentless waves of the undead and mutated monsters. Trust no one and keep your finger on the trigger.",
+    "coverImage": "/images/games/path_of_survivor.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/path-of-survivor/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Fight through zombie-infested areas to survive and reach your destination.",
+      "Controls: WASD to Move, Left Click to Shoot, Right Click to Aim, R to Reload.",
+      "Instructions: Manage your ammo and health carefully. Use 'E' to interact with loot and 'Q' to heal. Switch weapons with the Mouse Wheel to adapt to different enemy types."
+    ],
+    "features": [
+      "Intense FPS combat with realistic weapons",
+      "Character upgrade system and inventory management",
+      "Story-driven survival campaign",
+      "Diverse zombie types including heavy bosses"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Path of Survivor Online | Free on Doodle Baseball",
+      "description": "Play Path of Survivor directly in your browser. A first-person zombie shooter where you must scavenge, upgrade, and fight to survive the apocalypse.",
+      "keywords": "path of survivor, zombie shooter, fps, survival game, horror game"
+    }
+  },
+  {
+    "slug": "super_bowling_mania",
+    "title": "Super Bowling Mania",
+    "description": "Experience the thrill of the bowling alley right from your browser. Master the physics of the lane, adjust your spin, and aim for the perfect strike. With realistic 3D graphics and smooth controls, this is the ultimate casual bowling simulation for players of all skill levels.",
+    "coverImage": "/images/games/super_bowling_mania.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/super-bowling-mania/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Knock down as many pins as possible to achieve the highest score (300 is perfect).",
+      "Controls: Click, Drag, and Release the mouse to throw the ball.",
+      "Instructions: Drag the ball left or right to position your shot. Swiftly drag forward to throw—the angle and speed of your mouse movement determine the curve and power of the ball."
+    ],
+    "features": [
+      "Realistic bowling physics and pin action",
+      "Simple drag-and-throw controls",
+      "Immersive 3D alley environment",
+      "Perfect for quick casual matches"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Super Bowling Mania Online | Free on Doodle Baseball",
+      "description": "Play Super Bowling Mania directly in your browser. A realistic 3D bowling game with intuitive controls and physics-based gameplay.",
+      "keywords": "super bowling mania, bowling game, sports game, 3d bowling, free online game"
+    }
+  },
+  {
+    "slug": "evolutionary_tribe",
+    "title": "Evolutionary Tribe",
+    "description": "Lead your civilization from the Stone Age to the Modern Era in this deep incremental strategy game. Start by gathering wood and food with your bare hands, then automate your workforce, research new technologies, and manage your economy. Can you balance resource production and population growth to build a thriving empire?",
+    "coverImage": "/images/games/evolutionary_tribe.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/evolutionary-tribe-mqd/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Evolve your tribe through four historical eras by managing resources and technology.",
+      "Controls: Left Click to interact. Spacebar to quick-gather wood. Number keys 1-6 for shortcuts.",
+      "Instructions: Gather food constantly to prevent starvation. Craft tools like Pickaxes to unlock Mines. Rebirth your civilization to gain permanent prestige bonuses."
+    ],
+    "features": [
+      "Progression through Stone, Bronze, Middle, and Modern Ages",
+      "Complex resource management (Food, Wood, Metal, Gold)",
+      "Survival mechanics: manage food to keep workers efficient",
+      "Prestige 'Rebirth' system for long-term progression"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Evolutionary Tribe Online | Free on Doodle Baseball",
+      "description": "Play Evolutionary Tribe directly in your browser. A civilization-building strategy game where you evolve from Stone Age to Modern Age.",
+      "keywords": "evolutionary tribe, strategy game, civilization, incremental game, idle game"
+    }
+  },
+  {
+    "slug": "hyper_wave_trial",
+    "title": "Hyper Wave Trial",
+    "description": "Navigate a high-speed neon wave through a treacherous obstacle course. This rhythmic arcade game tests your reflexes as you dodge barriers and collect coins in a vibrant cyberpunk world. Unlock new skins and worlds as you master the art of the perfect run.",
+    "coverImage": "/images/games/hyper_wave_trial.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/hyper-wave-trial/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Reach the end of the level without hitting any obstacles.",
+      "Controls: Hold Left Mouse/Space to Fly Up. Release to Fly Down.",
+      "Instructions: Maintain your rhythm to weave through gaps. In Practice Mode, use 'Q' to set checkpoints and 'E' to remove them. Collect coins to unlock new wave skins."
+    ],
+    "features": [
+      "30 challenging levels across 3 neon words",
+      "One-button rhythmic gameplay",
+      "Practice mode with checkpoint system",
+      "49 unlockable skins for customization"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Hyper Wave Trial Online | Free on Doodle Baseball",
+      "description": "Play Hyper Wave Trial directly in your browser. A fast-paced neon arcade game where you control a wave through difficult obstacle courses.",
+      "keywords": "hyper wave trial, arcade game, reaction game, neon game, geometry dash style"
+    }
+  },
+  {
+    "slug": "my_home_planet",
+    "title": "My Home Planet",
+    "description": "Embark on an intergalactic journey to explore strange worlds and rebuild your fallen home planet. Gather resources, fight off alien creatures, and construct new buildings to expand your territory. It’s a mix of adventure, combat, and base-building in a charming sci-fi setting.",
+    "coverImage": "/images/games/my_home_planet.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/my-home-planet-rho/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Gather resources and build structures to restore the planet.",
+      "Controls: WASD to Move. Tab to toggle cursor. Right Mouse to rotate camera.",
+      "Instructions: Explore the map to find resource nodes. Defeat enemies to protect your base. Use collected materials to upgrade your character and expand your settlement."
+    ],
+    "features": [
+      "Exploration and resource gathering mechanics",
+      "Base building and upgrading system",
+      "Combat against unique alien creatures",
+      "Vibrant 3D planetary environments"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play My Home Planet Online | Free on Doodle Baseball",
+      "description": "Play My Home Planet directly in your browser. An adventure game where you explore planets, gather resources, and build a thriving colony.",
+      "keywords": "my home planet, adventure game, base building, survival game, space game"
+    }
+  },
+  {
+    "slug": "chigiri_paper_puzzle",
+    "title": "Chigiri: Paper Puzzle",
+    "description": "Unleash your inner artist in this soothing puzzle game inspired by Japanese 'Chigiri-e' paper art. Tear, arrange, and paste colorful paper pieces to solve creative puzzles or craft your own masterpieces. It's a meditative experience that celebrates the beauty of imperfection and creativity.",
+    "coverImage": "/images/games/chigiri_paper_puzzle.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/chigiri-paper-puzzle-fng/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Create specific shapes or images using torn paper pieces.",
+      "Controls: Left Click and Drag to move and arrange paper pieces.",
+      "Instructions: Look at the suggested object pattern. Drag the torn paper pieces onto the canvas, rotating and layering them to match the target shape. There is no time limit—take your time."
+    ],
+    "features": [
+      "Unique art style based on Japanese Chigiri-e",
+      "Relaxing, non-competitive gameplay",
+      "Creative freedom to design custom images",
+      "Satisfying paper-tearing aesthetics"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Chigiri: Paper Puzzle Online | Free on Doodle Baseball",
+      "description": "Play Chigiri: Paper Puzzle directly in your browser. A relaxing artistic puzzle game based on Japanese paper collage art.",
+      "keywords": "chigiri, paper puzzle, art game, relaxing game, puzzle game"
+    }
+  },
+  {
+    "slug": "when_civilians_dig_holes",
+    "title": "When Civilians Dig Holes",
+    "description": "Start digging a hole to the other side of the world in this quirky incremental game. Hire a team of civilians/worms, uncover buried artifacts, and upgrade your excavation tools. What starts as a simple hole in the ground becomes a massive underground operation in your quest to reach the core.",
+    "coverImage": "/images/games/when_civilians_dig_holes.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/when-civilians-dig-holes/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Dig as deep as possible and manage your excavation team.",
+      "Controls: Left Click on grid blocks to dig manually.",
+      "Instructions: Click to break blocks and clear dirt. Use the resources you find to hire workers who dig for you. Buy upgrades to increase digging speed and efficiency."
+    ],
+    "features": [
+      "Addictive incremental/idle gameplay loop",
+      "Hire and manage a digging team",
+      "Uncover hidden treasures and artifacts",
+      "Simple but satisfying digging mechanics"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play When Civilians Dig Holes Online | Free on Doodle Baseball",
+      "description": "Play When Civilians Dig Holes directly in your browser. An idle digging game where you manage a team to dig to the center of the earth.",
+      "keywords": "when civilians dig holes, idle game, digging game, clicker game, free online game"
+    }
+  },
+  {
+    "slug": "escape_from_school_angry_teacher",
+    "title": "Escape From School: Angry Teacher!",
+    "description": "Escape the clutches of Mrs. Evily in this thrilling school breakout adventure! Navigate through dangerous corridors, solve puzzles, and survive intense 'Obby' parkour challenges. From battling bosses to dodging traps, every step is a fight for freedom in this action-packed escape game.",
+    "coverImage": "/images/games/escape_from_school_angry_teacher.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/escape-from-school-angry-teacher/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Complete tasks and parkour courses to escape the school.",
+      "Controls: WASD to Move; Mouse to Look/Interact.",
+      "Instructions: Follow the mission markers to find keys and exits. Jump over obstacles in parkour sections. Avoid being caught by the angry teacher or other enemies."
+    ],
+    "features": [
+      "Mix of Parkour (Obby), Puzzle, and Horror elements",
+      "Boss battles and shooter segments",
+      "Variety of challenging school environments",
+      "First-person perspective immersion"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Escape From School: Angry Teacher! Online | Free on Doodle Baseball",
+      "description": "Play Escape From School: Angry Teacher! directly in your browser. A thrilling escape game with parkour and puzzles inside a spooky school.",
+      "keywords": "escape from school, angry teacher, obby, parkour game, roblox style"
+    }
+  },
+  {
+    "slug": "car_eats_car_winter_adventure",
+    "title": "Car Eats Car Winter Adventure",
+    "description": "The battle cars are back in a frozen wonderland! Take control of a monster vehicle in this action-packed racing platformer. Outrun the police, smash through enemies with bombs, and collect gems to upgrade your ride. It’s survival of the fittest on these icy tracks.",
+    "coverImage": "/images/games/car_eats_car_winter_adventure.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/car-eats-car-winter-adventure-ajd/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Reach the end of the level while escaping the police and destroying enemies.",
+      "Controls: WASD/Arrows to Drive and Balance. X for Turbo. Space to drop Bombs.",
+      "Instructions: Drive fast but keep your balance on hills. Use Turbo to jump gaps. Drop bombs to destroy cars chasing you. Collect red gems to buy upgrades in the garage."
+    ],
+    "features": [
+      "Action-packed racing with combat elements",
+      "Winter-themed levels with slippery ice physics",
+      "Car upgrade system (armor, turbo, damage)",
+      "Egg hatching system to unlock new cars"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Car Eats Car Winter Adventure Online | Free on Doodle Baseball",
+      "description": "Play Car Eats Car Winter Adventure directly in your browser. Drive monster cars, fight enemies, and survive icy tracks in this racing game.",
+      "keywords": "car eats car, winter adventure, racing game, car battle, monster truck"
+    }
+  },
+  {
+    "slug": "king_of_cash_business_idle",
+    "title": "King of Cash Business Idle",
+    "description": "Rise from a small shop owner to a mega-CEO in this addictive business simulation. Manage your investments, buy out competitors, and hire managers to automate your profits. Click your way to billions and build the ultimate main street empire.",
+    "coverImage": "/images/games/king_of_cash_business_idle.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/king-of-cash-idle-business-sim/index.html",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Earn as much money as possible and buy all businesses in the town.",
+      "Controls: Mouse Click to interact and collect cash.",
+      "Instructions: Click on businesses to generate revenue. Use earned cash to buy upgrades that increase profit speed. Hire managers to automate the clicking process for you."
+    ],
+    "features": [
+      "Classic idle/tycoon progression system",
+      "Buy out rival businesses in hostile takeovers",
+      "Hire managers for automation",
+      "Vibrant 3D village graphics"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play King of Cash Business Idle Online | Free on Doodle Baseball",
+      "description": "Play King of Cash Business Idle directly in your browser. A business tycoon game where you build an empire and become a billionaire.",
+      "keywords": "king of cash, idle game, business simulator, tycoon game, clicker"
+    }
   }
 ]
