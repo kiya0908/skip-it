@@ -10,14 +10,13 @@ const baseUrl = 'https://doodlebaseball.info';
 const GAMES_PER_PAGE = 30; // ⚠️ 页面实际的分页数量
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // 1. 静态页面路由（首页、about、contact等）
+  // 1. 静态页面路由（首页、about、contact等；games 分页见下方 paginationRoutes）
   const staticRoutes = [
     '', // 首页
     'about',
     'contact',
     'privacy',
     'terms',
-    'games', // games的第1页
   ].map((route) => ({
     url: route === '' ? `${baseUrl}/` : `${baseUrl}/${route}`,
     lastModified: new Date(), // 官方推荐直接用Date对象
@@ -35,19 +34,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     }));
   
-  // 3. games游戏列表页动态生成分页路由 
-  // 计算总页数
+  // 3. games 游戏列表分页：/games/1、/games/2、...
   const totalGames = gamesData.length;
   const totalPages = Math.ceil(totalGames / GAMES_PER_PAGE);
-  
   const paginationRoutes = [];
-  // 从第2页开始循环 (因为第1页就是 /games，已经在 staticRoutes 里了)
-  for (let i = 2; i <= totalPages; i++) {
+  for (let i = 1; i <= totalPages; i++) {
     paginationRoutes.push({
-      url: `${baseUrl}/games?page=${i}`,
+      url: `${baseUrl}/games/${i}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
-      priority: 0.7, // 分页的重要性通常比详情页和首页低一点
+      priority: 0.7,
     });
   }
 

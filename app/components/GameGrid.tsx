@@ -32,7 +32,7 @@ export default function GameGrid({ games, title, currentPage = 1 }: GameGridProp
       pageButtons.push(
         <Link
           key={i}
-          href={`/games?page=${i}`}
+          href={`/games/${i}`}
           className={`w-12 h-12 mx-1 rounded-lg border-2 flex items-center justify-center text-lg font-bold transition-colors
             ${currentPage === i ? "bg-red-700 border-yellow-400 text-yellow-100" : "bg-[#102c6e] border-white text-white hover:bg-blue-900"}`}
           style={{ outline: currentPage === i ? '2px solid #FFD600' : 'none' }}
@@ -47,7 +47,7 @@ export default function GameGrid({ games, title, currentPage = 1 }: GameGridProp
       pageButtons.push(
         <Link
           key="next"
-          href={`/games?page=${currentPage + 1}`}
+          href={`/games/${currentPage + 1}`}
           className="w-12 h-12 mx-1 rounded-lg border-2 border-white bg-[#102c6e] text-white flex items-center justify-center text-lg font-bold hover:bg-blue-900"
           aria-label="next page"
         >
@@ -58,7 +58,7 @@ export default function GameGrid({ games, title, currentPage = 1 }: GameGridProp
       pageButtons.push(
         <Link
           key="last"
-          href={`/games?page=${totalPages}`}
+          href={`/games/${totalPages}`}
           className="w-12 h-12 mx-1 rounded-lg border-2 border-white bg-[#102c6e] text-white flex items-center justify-center text-lg font-bold hover:bg-blue-900"
           aria-label="final page"
         >

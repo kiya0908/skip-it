@@ -70,6 +70,7 @@ Key pages and their URL structures include:
 
 - **Homepage:** `/` (`https://doodlebaseball.info/`)
 - **Static Pages:** Accessed directly by their names, e.g., `/about` (`https://doodlebaseball.info/about`), `/contact` (`https://doodlebaseball.info/contact`), `/privacy` (`https://doodlebaseball.info/privacy`), `/terms` (`https://doodlebaseball.info/terms`).
+- **Games List & Pagination:** `/games` 重定向到 `/games/1`；分页使用路径形式 `/games/1`、`/games/2` 等（不再使用 `?page=` 查询参数）。
 - **Dynamic Game Detail Pages:** Accessed using the game's unique slug from `data/games.json`, following the pattern `/games/[slug]`, e.g., `https://doodlebaseball.info/games/doodle-baseball`.
 
 ## Getting Started
