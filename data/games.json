@@ -2723,5 +2723,498 @@
       "description": "Play King of Cash Business Idle directly in your browser. A business tycoon game where you build an empire and become a billionaire.",
       "keywords": "king of cash, idle game, business simulator, tycoon game, clicker"
     }
+  },
+  {
+    "slug": "stunt_horizon_play",
+    "title": "Stunt Horizon Play",
+    "description": "Stunt Horizon is an adrenaline-pumping driving game where you conquer massive ramps and defy gravity with extreme aerial stunts. Take control of customizable cars to perform flips, loops, and daring jumps across challenging tracks. Experience realistic physics as you push your vehicle to the limit.",
+    "coverImage": "/images/games/stunt_horizon_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/stunt-horizon/index.html?isNewUser=true&skipPrerollFirstSession=true&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Master high-speed stunts and complete gravity-defying tracks without crashing.",
+      "Controls: Use WASD or Arrow Keys to steer; Press Space for handbrake; Press R to reset the car.",
+      "Instructions: Accelerate towards ramps to gain airtime, perform tricks mid-air, and land safely to progress through levels."
+    ],
+    "features": [
+      "Realistic physics-based driving and jumping mechanics",
+      "Huge ramps, spinning platforms, loops, and freestyle aerial stunts",
+      "Multiple cars with customization options",
+      "Challenging missions and competitive stages"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Stunt Horizon Play Online | Free on Doodle Baseball",
+      "description": "Play Stunt Horizon Play directly in your browser. Stunt Horizon is an extreme car stunt challenge packed with high-speed action.",
+      "keywords": "stunt horizon play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "crazy_city_multiplayer_play",
+    "title": "Crazy City Multiplayer Play",
+    "description": "Dive into the chaos of Crazy City Multiplayer, a free-roaming 2D action game where you compete against players worldwide. Explore the open world, customize your character and car, and engage in frantic deathmatches or races. Create your own story in this fast-paced urban sandbox.",
+    "coverImage": "/images/games/crazy_city_multiplayer_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/crazy-city-multiplayer/index.html?isNewUser=false&skipPrerollFirstSession=true&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Dominate the city by winning races and defeating opponents in multiplayer battles.",
+      "Controls: Move with WASD or Arrow Keys; Aim and shoot using the Left Mouse Button.",
+      "Instructions: Roam the city to find challenges, upgrade your gear, and team up or fight against others in real-time."
+    ],
+    "features": [
+      "Fast-paced, top-down 2D multiplayer gameplay",
+      "Open, free-roaming city environment",
+      "Character and car customization",
+      "Various game modes including races and deathmatches"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Crazy City Multiplayer Play Online | Free on Doodle Baseball",
+      "description": "Play Crazy City Multiplayer Play directly in your browser. Crazy City Multiplayer is a fast-paced, top-down 2D multiplayer game.",
+      "keywords": "crazy city multiplayer play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "sea_strike_play",
+    "title": "Sea Strike Play",
+    "description": "Command a powerful warship in Sea Strike, an intense 3D naval combat game. Engage in strategic battles across multiple modes including PvP, Escort, and Defense to dominate the high seas. Build your fleet and unleash devastating attacks on enemy vessels.",
+    "coverImage": "/images/games/sea_strike_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/sea-strike-ivp/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Sink enemy fleets and complete tactical missions to control the ocean.",
+      "Controls: WASD to steer; K/I to dive/surface; Numpad 1-3 to fire weapons; C to change camera.",
+      "Instructions: Maneuver your ship to dodge enemy fire while strategically using your arsenal to destroy targets."
+    ],
+    "features": [
+      "Intense PVP naval combat battles",
+      "Multiple game modes: Battle, Escort, and Defense",
+      "Strategic fleet building and ship upgrades",
+      "Realistic 3D water and combat effects"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Sea Strike Play Online | Free on Doodle Baseball",
+      "description": "Play Sea Strike Play directly in your browser. Sea Strike is an action-packed battleship game that drops you into intense naval warfare.",
+      "keywords": "sea strike play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "snooker_play",
+    "title": "Snooker Play",
+    "description": "Experience the precision of Snooker in this realistic online simulation. Plan your shots carefully to pot red and colored balls in the correct sequence and outscore your opponent. Perfect your aim and strategy to clear the table and become a champion.",
+    "coverImage": "/images/games/snooker_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/snooker/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Score more points than your opponent by potting balls in the correct rules-based order.",
+      "Controls: Move Mouse to aim; Pull back and release Left Click to shoot; Drag white ball to position it when allowed.",
+      "Instructions: Pot a red ball (1 pt) followed by a color ball (2-7 pts), repeating the cycle until the table is cleared."
+    ],
+    "features": [
+      "Realistic physics and ball movement",
+      "Standard Snooker rules and scoring system",
+      "Intuitive mouse-based aiming and shooting",
+      "Helpful visual guides for shot direction"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Snooker Play Online | Free on Doodle Baseball",
+      "description": "Play Snooker Play directly in your browser. Snooker is a classic cue sport played with strategy and precision.",
+      "keywords": "snooker play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "cat_and_granny_2_play",
+    "title": "Cat and Granny 2 Play",
+    "description": "Unleash feline chaos in Cat and Granny 2, a hilarious simulation where you play as a mischievous cat. Explore a new house and garden, annoy the granny, and cause as much destruction as possible. Knock over items, scratch furniture, and escape before you're caught!",
+    "coverImage": "/images/games/cat_and_granny_2_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/cat-and-granny-2/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Cause trouble and complete quests to drive the granny crazy without getting caught.",
+      "Controls: WASD to move; Space to jump; T to grab/throw items; R to interact.",
+      "Instructions: Knock over items, destroy the garden, and use your agility to escape the angry granny's reach."
+    ],
+    "features": [
+      "Expansive new location with house, garden, and pool",
+      "Hilarious physics-based destruction and pranks",
+      "Multiple quests and interactive objects",
+      "Fun cat simulation mechanics"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Cat and Granny 2 Play Online | Free on Doodle Baseball",
+      "description": "Play Cat and Granny 2 Play directly in your browser. Wreak havoc and get revenge in this funny cat simulator.",
+      "keywords": "cat and granny 2 play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "openfront_play",
+    "title": "Openfront Play",
+    "description": "Fight for survival in Openfront, a massive tactical shooter and battle royale experience. Forge alliances, scavenge for resources, and use strategic weaponry to be the last one standing. Dominate the map with nuclear strikes and superior tactics.",
+    "coverImage": "/images/games/openfront_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/openfront-gsw/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Survive against hundreds of players and dominate the battlefield.",
+      "Controls: Use Mouse to interact with the UI and command your units or character.",
+      "Instructions: Deploy troops, manage your economy, and strike enemies strategically to expand your territory."
+    ],
+    "features": [
+      "Massive multiplayer PvP battles",
+      "Strategy and alliance building mechanics",
+      "Nuclear strike capabilities",
+      "Large scale map domination"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Openfront Play Online | Free on Doodle Baseball",
+      "description": "Play Openfront Play directly in your browser. OpenFront is an intense PvP battle-royale where hundreds clash.",
+      "keywords": "openfront play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "tank_stars_play",
+    "title": "Tank Stars Play",
+    "description": "Enter the battlefield in Tank Stars, an explosive turn-based tank game. Choose from a variety of heavy weapons and aim perfectly to destroy enemy tanks before they destroy you. Upgrade your arsenal including nukes, lasers, and missiles for maximum destruction.",
+    "coverImage": "/images/games/tank_stars_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/tank-stars-online/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Eliminate opponent tanks using a vast arsenal of projectile weapons.",
+      "Controls: AD or Arrows to move; Mouse to aim; Space or Click to fire.",
+      "Instructions: Calculate your angle and power carefully to hit enemies over obstacles and terrain."
+    ],
+    "features": [
+      "Turn-based tank combat strategy",
+      "Huge variety of weapons from missiles to nukes",
+      "Multiple tanks to unlock and upgrade",
+      "Multiplayer duels against friends or AI"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Tank Stars Play Online | Free on Doodle Baseball",
+      "description": "Play Tank Stars Play directly in your browser. Welcome to Tank Stars, one of the best battle tank games.",
+      "keywords": "tank stars play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "join_clash_3d_play",
+    "title": "Join Clash 3D Play",
+    "description": "Lead a growing army in Join Clash 3D, an addictive obstacle course runner. Gather stickman followers, dodge deadly traps, and besiege the enemy castle in an epic final battle. Timing and reflexes are key to keeping your crowd alive.",
+    "coverImage": "/images/games/join_clash_3d_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/join-clash-3d/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Build the largest crowd possible to defeat the final boss and capture the castle.",
+      "Controls: Use WASD, Arrow Keys, or Mouse Drag to steer your leader.",
+      "Instructions: Touch neutral characters to recruit them while avoiding obstacles that deplete your numbers."
+    ],
+    "features": [
+      "Crowd-gathering mechanic combined with endless running",
+      "Deadly traps and obstacles to navigate",
+      "Epic castle siege boss fights",
+      "Satisfying physics and combat"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Join Clash 3D Play Online | Free on Doodle Baseball",
+      "description": "Play Join Clash 3D Play directly in your browser. Jump into a fast-paced crowd runner where every decision matters.",
+      "keywords": "join clash 3d play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "battle_for_resources_play",
+    "title": "Battle for Resources Play",
+    "description": "Build and defend your base in Battle for Resources, a fast-paced RTS game. Gather materials, train heroes, and engage in minute-long skirmishes to prove your strategic superiority. Construct defenses and lead your army to victory in intense arena battles.",
+    "coverImage": "/images/games/battle_for_resources_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/battle-for-resources/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Construct a powerful base and defeat opponents in quick strategy duels.",
+      "Controls: Use Left Mouse Button to select units, build structures, and interact with the game.",
+      "Instructions: Balance resource gathering with army production to overpower enemy defenses."
+    ],
+    "features": [
+      "Fast-paced real-time strategy gameplay",
+      "Hero recruitment and base building",
+      "Quick PvP arena battles",
+      "Resource management and tactical combat"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Battle for Resources Play Online | Free on Doodle Baseball",
+      "description": "Play Battle for Resources Play directly in your browser. Engage in fierce real-time strategy battles in PvP Res Battle.",
+      "keywords": "battle for resources play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "daily_solitaire_challenge_play",
+    "title": "Daily Solitaire Challenge Play",
+    "description": "Test your card skills with Daily Solitaire Challenge, offering a unique, solvable puzzle every day. Enjoy a polished interface and track your streak as you master the classic game of Klondike. Perfect for quick mental breaks and strategy training.",
+    "coverImage": "/images/games/daily_solitaire_challenge_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/daily-solitaire-challenge/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Sort all cards into the four foundation piles by suit and rank.",
+      "Controls: Drag with Left Mouse Button to move cards; Double-click to auto-move.",
+      "Instructions: Arrange tabletop cards in descending alternating colors to reveal hidden cards and build your stacks."
+    ],
+    "features": [
+      "New solvable challenge every day",
+      "Classic Klondike Solitaire rules",
+      "Clean and premium visual interface",
+      "Streak tracking and performance stats"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Daily Solitaire Challenge Play Online | Free on Doodle Baseball",
+      "description": "Play Daily Solitaire Challenge Play directly in your browser. Daily Solitaire Challenge puts a fresh spin on classic Klondike Solitaire.",
+      "keywords": "daily solitaire challenge play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "hyper_wave_trial_play",
+    "title": "Hyper Wave Trial Play",
+    "description": "Glide through neon worlds in Hyper Wave Trial, a rhythm-based geometry challenge. Control the wave's flight, dodge obstacles, and collect coins in this test of reflexes and precision. Unlock new skins and conquer increasingly difficult levels.",
+    "coverImage": "/images/games/hyper_wave_trial_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/hyper-wave-trial/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Fly through obstacles and reach the end of the level without crashing.",
+      "Controls: Hold Left Mouse/Space to fly up; Release to fly down.",
+      "Instructions: Time your movements perfectly to navigate through tight gaps and moving barriers."
+    ],
+    "features": [
+      "Rhythm-based one-button gameplay",
+      "Colorful neon graphics and soundtrack",
+      "Multiple worlds and challenging levels",
+      "Unlockable skins and customization"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Hyper Wave Trial Play Online | Free on Doodle Baseball",
+      "description": "Play Hyper Wave Trial Play directly in your browser. Control the Wave, avoid obstacles, collect coins.",
+      "keywords": "hyper wave trial play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "lamplighter_merge_magic_play",
+    "title": "Lamplighter: Merge & Magic Play",
+    "description": "Restore light to a corrupted world in Lamplighter: Merge & Magic. Solve puzzles by merging magical items, rebuilding the town, and lifting the shadow that has fallen over the land. Experience a cozy story of hope and restoration.",
+    "coverImage": "/images/games/lamplighter_merge_magic_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/lamplighter-merge-magic/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Merge identical items to create powerful artifacts and heal the corrupted land.",
+      "Controls: Use Left Mouse Button to drag and combine items.",
+      "Instructions: Clear fog, unlock new areas, and help townsfolk by fulfilling their item requests."
+    ],
+    "features": [
+      "Relaxing merge puzzle gameplay",
+      "Engaging story of restoring a magical town",
+      "Beautiful visuals and atmosphere",
+      "Hundreds of items to discover and merge"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Lamplighter: Merge & Magic Play Online | Free on Doodle Baseball",
+      "description": "Play Lamplighter: Merge & Magic Play directly in your browser. A dark corruption has spread across Lantern Town.",
+      "keywords": "lamplighter: merge & magic play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "dig_out_of_prison_play",
+    "title": "Dig out of Prison Play",
+    "description": "Plot your escape in Dig out of Prison, a crafty puzzle-adventure game. Use simple tools to tunnel your way to freedom, trade with inmates, and avoid the guards' suspicion. Plan your route carefully and prove your innocence.",
+    "coverImage": "/images/games/dig_out_of_prison_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/dig-out-of-prison/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Dig a tunnel to freedom without being detected by the guards.",
+      "Controls: WASD to move; Left Mouse to dig; Space to jump.",
+      "Instructions: Hide your tunnel under the rug and manage your energy while slowly excavating your escape route."
+    ],
+    "features": [
+      "Stealth and strategy based gameplay",
+      "Inventory management and trading system",
+      "Tense moments avoiding guards",
+      "Funny storyline and characters"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Dig out of Prison Play Online | Free on Doodle Baseball",
+      "description": "Play Dig out of Prison Play directly in your browser. Dig Out of Prison is a casual puzzle game where you are an innocent man.",
+      "keywords": "dig out of prison play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "obby_party_multiplayer_play",
+    "title": "Obby Party Multiplayer Play",
+    "description": "Compete in hilarious minigames in Obby Party Multiplayer. Race through obstacle courses, solve puzzles, and outlast other players in a vibrant world of fun and chaos. Team up with friends or challenge the world!",
+    "coverImage": "/images/games/obby_party_multiplayer_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/obby-party-multiplayer-ozu/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Win various minigame rounds to earn rewards and climb the leaderboard.",
+      "Controls: WASD to move; Space to jump; Right Mouse to look around.",
+      "Instructions: Follow the specific rules of each round, from racing to survival, and try to be the last one standing."
+    ],
+    "features": [
+      "Variety of fun multiplayer minigames",
+      "Colorful 3D graphics",
+      "Character customization and skins",
+      "Social party gameplay experience"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Obby Party Multiplayer Play Online | Free on Doodle Baseball",
+      "description": "Play Obby Party Multiplayer Play directly in your browser. Jump in, team up, and take on wild party challenges!",
+      "keywords": "obby party multiplayer play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "obby_plane_power_challenge_fly_play",
+    "title": "Obby Plane Power Challenge: Fly Play",
+    "description": "Take to the skies in Obby Plane Power Challenge: Fly. Launch your glider, collect energy boosts, and upgrade your aircraft to explore distant islands and unlock new worlds. Master the art of flight in this addictive distance game.",
+    "coverImage": "/images/games/obby_plane_power_challenge_fly_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/obby-plane-power-challenge-fly/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Fly as far as possible to earn currency for better planes and upgrades.",
+      "Controls: WASD to steer your plane; Spacebar to jump/launch.",
+      "Instructions: Gather energy orbs in the air to extend your flight and avoid losing momentum."
+    ],
+    "features": [
+      "Addictive flight and upgrade system",
+      "Multiple planes and trails to unlock",
+      "Expansive world to explore",
+      "Rebirth system for endless progression"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Obby Plane Power Challenge: Fly Play Online | Free on Doodle Baseball",
+      "description": "Play Obby Plane Power Challenge: Fly Play directly in your browser. Welcome to the world of Aviation Obby.",
+      "keywords": "obby plane power challenge: fly play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "obby_tycoon_build_the_city_play",
+    "title": "Obby Tycoon Build the City Play",
+    "description": "Become a business mogul in Obby Tycoon Build the City. Construct skyscrapers, manage businesses, and grow your wealth to build the ultimate metropolis from scratch. Automate your income and watch your city thrive.",
+    "coverImage": "/images/games/obby_tycoon_build_the_city_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/obby-tycoon-build-the-city/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Earn money and expand your city by building and upgrading structures.",
+      "Controls: WASD to move; Space to jump; Mouse to interact with build buttons.",
+      "Instructions: Step on buttons to purchase buildings and collect income to fund further expansion."
+    ],
+    "features": [
+      "Classic tycoon building mechanics",
+      "Detailed city simulation",
+      "Automated income upgrades",
+      "Expansive map to develop"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Obby Tycoon Build the City Play Online | Free on Doodle Baseball",
+      "description": "Play Obby Tycoon Build the City Play directly in your browser. Obby Tycoon: Build the City lets you create and expand your own financial empire.",
+      "keywords": "obby tycoon build the city play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "noob_vs_pro_4_lucky_block_play",
+    "title": "Noob vs Pro 4: Lucky Block Play",
+    "description": "Join the hilarious duo in Noob vs Pro 4: Lucky Block. Battle zombies, drive vehicles, and open lucky blocks in this Minecraft-inspired adventure. Help Noob and Pro survive traps and defeat the Cheater in a story filled with surprises.",
+    "coverImage": "/images/games/noob_vs_pro_4_lucky_block_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/noob-vs-pro-4-lucky-block-afw/index.html?isNewUser=false&v=1.350",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Complete levels by defeating enemies and overcoming traps to progress the story.",
+      "Controls: AD/Arrows to move; Space/E to attack; Q for special power.",
+      "Instructions: Navigate the blocky world, fight bosses, and unlock the secrets of the Lucky Block."
+    ],
+    "features": [
+      "Story-driven adventure mode",
+      "Minecraft-style voxel graphics",
+      "Lucky block mechanic with random effects",
+      "Boss fights and vehicle sections"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Noob vs Pro 4: Lucky Block Play Online | Free on Doodle Baseball",
+      "description": "Play Noob vs Pro 4: Lucky Block Play directly in your browser. Embark on a story-driven adventure full of unexpected twists.",
+      "keywords": "noob vs pro 4: lucky block play, free game, online game, browser game"
+    }
   }
 ]
