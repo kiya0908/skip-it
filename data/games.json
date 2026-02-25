@@ -26,6 +26,388 @@
     }
   },
   {
+    "slug": "island_expander",
+    "title": "Island Expander",
+    "description": "Island Expander is a cozy crafting game where you transform a tiny island into a thriving paradise. Collect resources, discover 30+ recipes, and craft everything from simple tools to complex machines as your island grows tile by tile.",
+    "coverImage": "/images/games/island_expander_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/island-expander/index.html?isNewUser=true&skipPrerollFirstSession=true&v=1.351",
+    "rating": 4.6,
+    "howToPlay": [
+      "Objective: Transform your tiny starting island into a full paradise by collecting resources and crafting increasingly complex items.",
+      "Controls: WASD / Arrow keys = move character | Mouse = look around | Keys 1–4 = equip tools | Left-click = use tool | E = interact with objects | Tab = open inventory | P = pause menu | B = unlock mouse cursor",
+      "Instructions: Gather raw materials from your island, open your inventory (Tab) to access crafting recipes, craft tools and machines to unlock more building options, then expand your island tile by tile. Unlock all 30+ recipes to complete your paradise."
+    ],
+    "features": [
+      "Relaxing, meditative gameplay with a calm and rewarding atmosphere",
+      "30+ unique recipes to discover — from basic tools to complex machines",
+      "Expand your island tile by tile with a satisfying sense of progress",
+      "Full PC and mobile control support for play anywhere"
+    ],
+    "isTopPick": false,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Island Expander Online | Free on Doodle Baseball",
+      "description": "Play Island Expander directly in your browser. A cozy crafting game where you build your dream island from scratch — collect, craft, and expand for free!",
+      "keywords": "island expander, crafting game, island building, free online game, browser game"
+    }
+  },
+  {
+    "slug": "mahjong_royal",
+    "title": "Mahjong Royal",
+    "description": "Mahjong Royal is a beautifully crafted oriental solitaire puzzle that captivates with its elegant tile-matching gameplay. Match pairs of identical tiles to clear the board, unlock new levels, and master special tiles like seasons, flowers, and scissors.",
+    "coverImage": "/images/games/mahjong_royal_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/mahjong-royal/index.html?isNewUser=false&skipPrerollFirstSession=true&v=1.351",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Clear the entire board by matching all pairs of identical tiles, or find all special tiles within the time limit.",
+      "Controls: Left mouse button = select and match mahjong tiles. Only tiles that are free on at least one side can be selected.",
+      "Instructions: Click a free tile to select it, then click its matching pair to remove both. Season tiles match any other season tile regardless of design; flower tiles work the same way. Rock tiles have no special effect. Some tiles are face-down and flip when selected. To free trapped tiles, match scissors to release them. Match quickly to earn medals and awards to unlock more levels."
+    ],
+    "features": [
+      "Classic Mahjong solitaire gameplay with elegant oriental theme",
+      "Progressive difficulty with multiple levels unlocked by earning medals",
+      "Special tile types including season tiles, flower tiles, rock tiles, reversed tiles, and scissors",
+      "Award system that rewards fast matching with bronze, silver, and gold medals"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Mahjong Royal Online | Free on Doodle Baseball",
+      "description": "Play Mahjong Royal directly in your browser. Match tile pairs, unlock levels, and master special tiles in this elegant oriental solitaire puzzle — free to play!",
+      "keywords": "mahjong royal, mahjong solitaire, tile matching game, free online game, browser game"
+    }
+  },
+  {
+    "slug": "iron_legion",
+    "title": "Iron Legion",
+    "description": "Iron Legion is an action-packed tank combat game where you command legendary military vehicles across diverse battlefields. Choose from 10+ tank models, capture control points, and dominate in both offline PvE and online PvP multiplayer modes.",
+    "coverImage": "/images/games/iron_legion_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/iron-legion/index.html?isNewUser=false&v=1.351",
+    "rating": 4.7,
+    "howToPlay": [
+      "Objective: Capture and hold strategic control points across the map to secure victory for your team. Destroy enemy tanks and dominate the battlefield.",
+      "Controls: WASD / Arrow keys = move tank | Left mouse button = shoot | Right mouse button = iron sight (zoom) | Tab = view player statistics | P = pause",
+      "Instructions: Select your tank from light recon vehicles to heavy assault tanks, then choose a battlefield (Suburb, City, Oasis, Industrial Zone, Sun City, or Random). Capture control points by driving onto them. Upgrade your tank using the in-game upgrade system. In PvP mode, coordinate with up to 10 players in real-time team battles."
+    ],
+    "features": [
+      "10+ legendary classic tank models with unique strengths and upgrade paths",
+      "5 detailed battlefields with distinct terrain affecting tactical options",
+      "Offline PvE mode vs AI and Online PvP mode with up to 10 players",
+      "Realistic 3D graphics with physically correct explosions and destruction effects",
+      "Performance ratings based on hits landed, vehicles destroyed, and control points captured"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Iron Legion Online | Free on Doodle Baseball",
+      "description": "Play Iron Legion directly in your browser. Command powerful tanks, capture control points, and battle in PvP multiplayer — the ultimate free tank combat game!",
+      "keywords": "iron legion, tank game, tank combat, multiplayer tank game, free online game, browser game"
+    }
+  },
+  {
+    "slug": "goal_gang",
+    "title": "Goal Gang",
+    "description": "Goal Gang is a chaotic online multiplayer football game where physics-based hits, explosive power-ups, and wild match modifiers create pure mayhem on the pitch. With cross-platform support for up to 18 players, teamwork and adaptability are the keys to victory.",
+    "coverImage": "/images/games/goal_gang_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/goal-gang/index.html?isNewUser=false&v=1.351",
+    "rating": 4.6,
+    "howToPlay": [
+      "Objective: Score the most goals while using physics-based gameplay, power-ups, and team coordination to dominate matches of up to 18 players.",
+      "Controls: Arrow Keys / WASD = move player | Space = jump | Shift = sprint | Left mouse button = kick the ball | Right mouse button = tackle | Mouse = aim | E = ping | Keys 1–4 = emotes",
+      "Instructions: Join a match and coordinate with your team to control the pitch. Use physics-based hits to dispossess opponents and claim the ball. Activate power-up modifiers when they appear to gain match-changing advantages. Curve your shots with precise mouse control and time your tackles carefully. Use voice chat on public or private servers to coordinate with teammates."
+    ],
+    "features": [
+      "Chaotic online multiplayer with up to 18 players per match",
+      "Physics-first gameplay with real-time collisions and ball mechanics — no scripted outcomes",
+      "Wild modifiers that introduce match-changing powers and unpredictable rounds",
+      "Full cross-play support across PC, mobile, and web",
+      "Global leaderboards and integrated voice chat for social play",
+      "Wide range of outfit, skin, and emote customizations"
+    ],
+    "isTopPick": false,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Goal Gang Online | Free on Doodle Baseball",
+      "description": "Play Goal Gang directly in your browser. A chaotic 18-player football game with physics collisions, power-ups, and full cross-platform multiplayer — free to play!",
+      "keywords": "goal gang, multiplayer football, online soccer, browser game, free online game"
+    }
+  },
+  {
+    "slug": "merge_archers",
+    "title": "Merge Archers",
+    "description": "Merge Archers is a strategic merge-and-defend game where you combine identical archers to create increasingly powerful warriors. Use precise curved-shot aiming to defeat waves of incoming enemies and build your ultimate archer formation.",
+    "coverImage": "/images/games/merge_archers_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/merge-archers/index.html?isNewUser=false&v=1.351",
+    "rating": 4.4,
+    "howToPlay": [
+      "Objective: Defeat all enemies in each wave by building and upgrading a powerful formation of archers through strategic merging.",
+      "Controls: Left mouse button drag = merge identical archers or aim arrows | Release = shoot. All actions are performed with a single mouse drag.",
+      "Instructions: Drag identical archers onto each other to merge them into a stronger, higher-tier version. Stronger archers deal increased damage per shot. To fire, drag and aim your archer — arrows follow a curved trajectory, so adjust for arc. Defeat all enemies in each wave to advance to the next level."
+    ],
+    "features": [
+      "Strategic merge mechanic — combine identical archers to unlock stronger tiers",
+      "Curved arrow trajectories add depth to aiming and tactics",
+      "Progressive difficulty with increasingly tough enemy waves",
+      "Simple one-button drag control, accessible on both desktop and mobile"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Merge Archers Online | Free on Doodle Baseball",
+      "description": "Play Merge Archers directly in your browser. Merge identical archers to power up your formation and defeat every enemy wave — free strategy game online!",
+      "keywords": "merge archers, merge game, archer defense, free online game, browser game"
+    }
+  },
+  {
+    "slug": "speed_dash",
+    "title": "Speed Dash",
+    "description": "Speed Dash is a pulse-pounding 2D action platformer that pushes your reflexes and precision to the absolute limit. Race through complex, obstacle-packed levels using your dash ability to slice through dangers and reach the exit door.",
+    "coverImage": "/images/games/speed_dash_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/speed-dash/index.html?isNewUser=false&v=1.351",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Navigate through increasingly complex obstacle-filled levels as fast as possible and reach the exit door to advance.",
+      "Controls: A = move left | D = move right | W = jump | S = dash. All movement is controlled via keyboard.",
+      "Instructions: Move through each level using A/D to run and W to jump over obstacles. Use S to dash and dodge dangers in split seconds — timing your dash is crucial in tight corridors. Avoid all obstacles and reach the exit to complete the level. Repeat with increasing difficulty as levels become more complex."
+    ],
+    "features": [
+      "Highly challenging 2D platformer designed to test reflexes and precision",
+      "Signature dash ability that is essential for dodging fast-moving obstacles",
+      "Complex levels with tight spaces and multi-layered trap designs",
+      "Fast-paced gameplay that rewards practice and quick decision-making"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Speed Dash Online | Free on Doodle Baseball",
+      "description": "Play Speed Dash directly in your browser. A lightning-fast 2D platformer with precision dashing through deadly obstacle courses — free to play online!",
+      "keywords": "speed dash, platformer game, dash game, reflex game, free online game, browser game"
+    }
+  },
+  {
+    "slug": "escape_portal",
+    "title": "Escape Portal",
+    "description": "Escape Portal is a dark atmospheric adventure game where your soul is trapped between worlds. Explore gloomy catacombs, solve interactive puzzles, fight demons by exploiting their weaknesses, and collect magical artifacts to activate the ancient portal and escape the underworld.",
+    "coverImage": "/images/games/escape_portal_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/escape-portal/index.html?isNewUser=false&v=1.351",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Explore the underworld, discover each demon's weakness, collect magical artifacts, solve all puzzles, and activate the ancient portal to escape.",
+      "Controls: WASD = move character | Mouse movement = rotate view | E = interact with objects / use combat magic | H = view hint | Tab = open inventory | Keys 1–4 = activate magic spells (1=Freeze, 2=Transformation, 3=Supervision, 4=Invisibility)",
+      "Instructions: Explore catacombs and interact (E) with objects to find clues and items. Open your inventory (Tab) to manage artifacts. Avoid traps and discover hidden paths. To defeat demons, find their weakness first — they cannot be beaten by direct combat alone. Use the right magic spell (1–4) to exploit each demon's vulnerability. Solve all interactive puzzles to unlock the portal."
+    ],
+    "features": [
+      "Dark, atmospheric world with gloomy catacombs and a mystical story full of twists",
+      "4 unique magical abilities — Freeze, Transformation, Supervision, and Invisibility",
+      "Enemies that cannot be defeated directly — players must discover each demon's weakness",
+      "Interactive puzzles and hidden paths reward thorough exploration",
+      "Full PC and mobile control scheme"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Escape Portal Online | Free on Doodle Baseball",
+      "description": "Play Escape Portal directly in your browser. Explore dark catacombs, use magic spells, and solve puzzles to escape the underworld — free adventure game online!",
+      "keywords": "escape portal, adventure game, dark game, puzzle game, free online game, browser game"
+    }
+  },
+  {
+    "slug": "brainzombie_log_escape",
+    "title": "BrainZombie Log Escape",
+    "description": "BrainZombie Log Escape is a frantic survival runner where you control a hero sprinting across dangerous terrain to escape relentless rolling logs. React fast, jump over obstacles, choose the right paths, and survive as long as possible to set a new high score.",
+    "coverImage": "/images/games/brainzombie_log_escape_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/brainzombie-log-escape/index.html?isNewUser=false&v=1.351",
+    "rating": 4.4,
+    "howToPlay": [
+      "Objective: Survive as long as possible by outrunning the rolling logs that relentlessly chase you across the map. React quickly and don't get crushed.",
+      "Controls: WASD = move character in all directions | Spacebar = jump over obstacles | Tab = enable/disable cursor for menu navigation",
+      "Instructions: Start running as soon as the level begins — logs will quickly start chasing you. Use WASD to navigate around obstacles and choose safe paths. Jump (Spacebar) over any obstacles blocking your route. The logs move faster over time, so stay ahead and don't hesitate. Compete for the longest survival time and try to beat your personal record each run."
+    ],
+    "features": [
+      "Fast-paced survival runner with relentless rolling log enemies",
+      "Reflex-based gameplay that increases in intensity the longer you survive",
+      "Multiple paths and obstacle types keep each run unique and unpredictable",
+      "Competitive scoring system — survive longer each run to beat your high score"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play BrainZombie Log Escape Online | Free on Doodle Baseball",
+      "description": "Play BrainZombie Log Escape directly in your browser. Sprint, jump, and dodge rolling logs in this intense survival runner — free to play online!",
+      "keywords": "brainzombie log escape, survival runner, endless runner, free online game, browser game"
+    }
+  },
+  {
+    "slug": "neon_core_breaker",
+    "title": "Neon Core Breaker",
+    "description": "Neon Core Breaker is a mesmerizing idle Arkanoid-style game set in a vibrant neon world. Guide the ball to smash through waves of glowing blocks, earn passive rewards over time, and upgrade your power to push into ever more challenging levels — even while away.",
+    "coverImage": "/images/games/neon_core_breaker_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/neon-core-breaker/index.html?isNewUser=false&v=1.351",
+    "rating": 4.3,
+    "howToPlay": [
+      "Objective: Break through all blocks in each wave to progress deeper into increasingly challenging neon levels. Earn upgrades to boost your power even while idle.",
+      "Controls: Left mouse button = click to guide the ball toward a specific target location. All gameplay is controlled with a single mouse click.",
+      "Instructions: Click anywhere on the screen to send the ball toward that position and break the blocks in its path. Earn rewards from destroyed blocks and invest them into upgrades to increase ball speed and damage. The game continues earning progress even when you are not actively playing. Aim strategically to chain multiple block breaks in one shot."
+    ],
+    "features": [
+      "Idle Arkanoid-style gameplay — progress continues even when you are offline",
+      "Vibrant neon visual world with glowing blocks and dynamic effects",
+      "Upgrade system to increase ball power and push deeper into challenging levels",
+      "Simple single-click control makes it accessible to all players"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Neon Core Breaker Online | Free on Doodle Baseball",
+      "description": "Play Neon Core Breaker directly in your browser. An idle neon Arkanoid game where you smash through glowing blocks and upgrade your power — free to play!",
+      "keywords": "neon core breaker, idle game, arkanoid, brick breaker, free online game, browser game"
+    }
+  },
+  {
+    "slug": "war_machine_clash",
+    "title": "War Machine Clash",
+    "description": "War Machine Clash is a strategic tank army builder where you drag and merge tanks to build the ultimate war machine formation. Outmaneuver your opponents, expand your territory, and prove your tactical genius in this addictive battlefield strategy game.",
+    "coverImage": "/images/games/war_machine_clash_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/war-machine-clash/index.html?isNewUser=false&v=1.351",
+    "rating": 4.4,
+    "howToPlay": [
+      "Objective: Build a superior tank army by strategically merging and positioning your tanks to defeat enemy formations and capture new territories.",
+      "Controls: Left mouse button = drag tanks onto the battlefield | Drag two identical tanks together = merge into a stronger tank. All actions use mouse drag.",
+      "Instructions: Drag tanks from your reserve onto the battlefield to deploy them. Drag two identical tanks onto each other to merge them into a more powerful version. Position your tanks to create an optimal mix of offensive and defensive roles. Defeat the enemy formation to win the battle and unlock new territories. Adapt your combination of tanks to counter different enemy configurations."
+    ],
+    "features": [
+      "Strategic tank merge mechanic — combine identical units to create more powerful war machines",
+      "Territorial expansion system — win battles to unlock and conquer new regions",
+      "Tactical positioning with distinct offensive and defensive tank roles",
+      "Progressive challenge with increasingly powerful enemy formations"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play War Machine Clash Online | Free on Doodle Baseball",
+      "description": "Play War Machine Clash directly in your browser. Merge tanks, build your army, and conquer enemy territories in this strategic tank battle game — free to play!",
+      "keywords": "war machine clash, tank strategy, merge tanks, free online game, browser game"
+    }
+  },
+  {
+    "slug": "3d_soccer_mania",
+    "title": "3D Soccer Mania",
+    "description": "3D Soccer Mania is a fun, fast-paced 3D soccer game that delivers exciting matches with simple, accessible controls. Score stunning goals, tackle opponents, sprint down the wing, and enjoy quick friendly competitions in this browser-based football experience.",
+    "coverImage": "/images/games/3d_soccer_mania_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/3d-soccer-mania/index.html?isNewUser=false&v=1.351",
+    "rating": 4.4,
+    "howToPlay": [
+      "Objective: Score more goals than your opponent by passing, sprinting, and shooting with precision. Win the match to advance.",
+      "Controls: WASD / Arrow keys = move player | Space = shoot | V = pass to teammate | Shift = sprint | F = switch to nearest player",
+      "Instructions: Use WASD or arrow keys to move your player across the pitch. Hold Shift to sprint when you need a burst of speed. Press V to pass to an open teammate, then look for a shooting opportunity. Press Space to shoot when in range of the goal. Switch players with F to intercept the ball defensively or to position for a pass."
+    ],
+    "features": [
+      "Full 3D soccer gameplay with fluid player movement and ball physics",
+      "Easy-to-learn controls perfectly suited for quick play sessions",
+      "Sprint, pass, and shoot mechanics allow for varied attacking play",
+      "Player switching (F key) adds a tactical defensive dimension to the game"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play 3D Soccer Mania Online | Free on Doodle Baseball",
+      "description": "Play 3D Soccer Mania directly in your browser. A fun and fast 3D football game with easy controls — score goals and win matches completely free online!",
+      "keywords": "3d soccer mania, soccer game, football game, free online game, browser game"
+    }
+  },
+  {
+    "slug": "chair_force_buzz",
+    "title": "Chair Force Buzz",
+    "description": "Chair Force Buzz is a furious top-down roguelite action game where you play as Gus, a security guard defending his office from endless intruder waves. Level up mid-run, choose powerful upgrades, and combine weapons to create a devastating build in this arcade-style survival shooter.",
+    "coverImage": "/images/games/chair_force_buzz_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/chair-force-buzz/index.html?isNewUser=false&v=1.351",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Survive endless waves of office intruders by shooting them down, leveling up, and choosing the right upgrades to build the most effective loadout.",
+      "Controls: Left mouse button = aim at enemies and shoot. The character moves and fires automatically — use the mouse to direct your aim.",
+      "Instructions: Guide Gus through increasingly chaotic rooms filled with waves of intruders. Point your mouse at approaching enemies to aim — your weapons will fire automatically. After defeating enough enemies to reach the next level, choose from a selection of upgrades to enhance your build. Adapt your choices to counter escalating threats and survive as long as possible."
+    ],
+    "features": [
+      "Roguelite run structure — choose from unique upgrades each time you level up",
+      "Top-down perspective with auto-shoot mechanics and mouse-aimed targeting",
+      "Escalating difficulty with increasingly chaotic and dense enemy waves",
+      "Arcade-style fast gameplay that keeps every run fresh with different upgrade combinations"
+    ],
+    "isTopPick": false,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Chair Force Buzz Online | Free on Doodle Baseball",
+      "description": "Play Chair Force Buzz directly in your browser. A top-down roguelite shooter where you defend your office from waves of intruders — free to play online!",
+      "keywords": "chair force buzz, top-down shooter, roguelite game, arcade game, free online game, browser game"
+    }
+  },
+  {
+    "slug": "zombie_derby_pixel_survival",
+    "title": "Zombie Derby: Pixel Survival",
+    "description": "Zombie Derby: Pixel Survival drops you into a pixel-art zombie apocalypse where your vehicle is your only weapon. Race through zombie-infested tracks, crush endless hordes, blast enemies with your guns, and push your fuel and distance limits to survive each intense run.",
+    "coverImage": "/images/games/zombie_derby_pixel_survival_play.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/zombie-derby-pixel-survival/index.html?isNewUser=false&v=1.351",
+    "rating": 4.6,
+    "howToPlay": [
+      "Objective: Drive as far as possible through zombie-infested tracks, crush hordes, and survive each run by managing your fuel and using your weapons strategically.",
+      "Controls: W / Up Arrow = accelerate forward | A / Left Arrow = tilt vehicle backward | D / Right Arrow = tilt vehicle forward | Spacebar = shoot weapon | Left Shift / N = activate nitro boost",
+      "Instructions: Accelerate forward with W/Up arrow and use A/D to tilt your vehicle to maintain balance on uneven terrain. Drive into zombies to crush them and clear your path. Press Spacebar to fire your mounted weapon at zombies ahead. When you need a speed burst, activate nitro (Shift or N). Manage your fuel by collecting canisters — running out ends your run. Upgrade your vehicle between runs to go farther."
+    ],
+    "features": [
+      "Intense vehicle-based zombie survival with pixel-art aesthetic and stylized low-poly visuals",
+      "Multiple weapons — crush zombies with your vehicle or blast them with mounted guns",
+      "Nitro boost system for explosive speed bursts to escape tight zombie clusters",
+      "Fuel management adds a strategic layer — collect canisters or the run ends",
+      "Progressive upgrade system to improve your vehicle for longer survival runs"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Zombie Derby: Pixel Survival Online | Free on Doodle Baseball",
+      "description": "Play Zombie Derby: Pixel Survival directly in your browser. Race through zombie hordes, blast enemies, and survive as long as possible in this pixel arcade game — free to play!",
+      "keywords": "zombie derby pixel survival, zombie racing game, pixel game, free online game, browser game"
+    }
+  },
+  {
     "slug": "merge_and_munch",
     "title": "Merge and Munch",
     "description": "<b>Merge and Munch</b> is a fun and relaxing 2D casual merge puzzle game where cute vegetables fall, merge, and grow into bigger ones. Experience the joy of synthesis as you watch tiny sprouts turn into giant pumpkins. With healing art style and simple yet addictive gameplay, it's the perfect choice to pass the time.",
