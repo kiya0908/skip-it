@@ -1,71 +1,71 @@
-# Doodle Baseball - Classic Food-Themed Baseball Game
+# Skip It! - Addicting Action Arcade Game
 
-> Doodle Baseball is a free-to-play, food-themed online baseball game designed for quick, fun sessions. Players swing the bat to hit home runs with quirky food characters, test their timing and reflexes, and enjoy charming cartoon visuals. The game is accessible directly in the browser, with no downloads or registration required.
+> Skip It! is a free-to-play online arcade game designed for quick, fun sessions. Players must time their jumps perfectly to skip an ever-accelerating rotating rope. The simple one-tap mechanics test your timing and reflexes, creating an immersive endless loop that's accessible directly in the browser, with no downloads or registration required.
 
 ## Website Main Content
 
 ### 🥎 Core Game Experience
-**[Doodle Baseball](https://doodlebaseball.info)** - The original food-themed baseball game where players swing at pitches thrown by adorable food characters. Features simple one-click controls, progressive difficulty, and satisfying home run mechanics that make it perfect for players of all ages.
+**[Skip It!](https://skipit.top)** - The original rope-jumping arcade game where players try to survive as long as possible by jumping over a swinging rope. Features simple one-click controls, instantly progressive difficulty, and deeply satisfying rhythmic gameplay that makes it perfect for players of all ages.
 
 ### 🎮 Key Features
 - **Instant Play**: No downloads, no registration - click and play immediately
-- **Food Theme**: Unique characters including fruits, vegetables, and snacks as pitchers
+- **Fast-Paced Action**: The speed increases continuously; keep up or trip!
 - **Simple Controls**: One-button gameplay perfect for all skill levels
-- **Mobile Optimized**: Responsive design works on phones, tablets, and computers
-- **Family Friendly**: Suitable for all ages with clean, cartoon graphics
+- **Mobile Optimized**: Responsive design works seamlessly on phones, tablets, and computers
+- **Family Friendly**: Suitable for all ages with clean, focused visuals
 
 ### 📱 Website Sections
-- **[Game Hub](https://doodlebaseball.info/#play)**: Main interactive baseball game
-- **[How to Play](https://doodlebaseball.info/#how-to-play)**: Step-by-step game instructions
-- **[Features](https://doodlebaseball.info/#features)**: Unique gameplay elements
-- **[FAQ](https://doodlebaseball.info/#faq)**: Common questions and answers
-- **[About](https://doodlebaseball.info/about)**: Website background and mission
-- **[Contact](https://doodlebaseball.info/contact)**: Support and feedback channel
+- **[Game Hub](https://skipit.top/#play)**: Main interactive jumping game
+- **[How to Play](https://skipit.top/#how-to-play)**: Step-by-step game instructions
+- **[Features](https://skipit.top/#features)**: Unique gameplay dynamics
+- **[FAQ](https://skipit.top/#faq)**: Common questions and answers
+- **[About](https://skipit.top/about)**: Website background and mission
+- **[Contact](https://skipit.top/contact)**: Support and feedback channel
 
 ## Website Background
 
 ### 🎯 Mission & Purpose
-This website preserves and shares the classic Doodle Baseball game experience, originally popularized as a Google Doodle. Our mission is to keep this beloved browser game accessible to players worldwide, providing a stable, fast platform optimized for modern devices and browsers.
+This website is crafted to offer the classic Skip It! game experience in its purest form. Our mission is to keep this challenging and satisfying browser game accessible to players worldwide, providing a stable, fast platform optimized for modern devices and browsers.
 
-### 🌟 Why Doodle Baseball Matters
-- **Cultural Heritage**: Preserves a piece of internet gaming history
-- **Accessibility**: Makes classic games available to new generations
-- **Simplicity**: Demonstrates how simple mechanics can create engaging gameplay
-- **Universal Appeal**: Transcends language and cultural barriers through intuitive gameplay
+### 🌟 Why Skip It! Matters
+- **Pure Skill Expression**: Rewards reflexes, focus, and rhythm
+- **Accessibility**: Makes classic arcade action available instantly
+- **Simplicity**: Demonstrates how fundamentally simple loops create highly replayable games
+- **Universal Appeal**: Transcends language and cultural barriers through intuitive action
 
 ### 🛡️ Privacy & Safety
 - **No Data Collection**: No personal information required or stored
-- **Ad-Free Experience**: Focus on pure gameplay without distractions
+- **Minimal Distractions**: Focus on gameplay
 - **Safe Environment**: Appropriate content for all family members
-- **GDPR Compliant**: Respects user privacy and data protection regulations
+- **GDPR Compliant**: Respects user privacy and data protection
 
 ## Website Categories & Structure
 
 ### 🏠 Main Categories
-1. **Primary Game**: Doodle Baseball - the core experience
-2. **Game Instructions**: Tutorials and tips for optimal gameplay
+1. **Primary Game**: Skip It! - the core jumping experience
+2. **Game Instructions**: Tutorials and tips for setting high scores
 3. **Website Information**: About, contact, and legal pages
 4. **Additional Games**: Curated selection of related casual games
 
 ### 🎲 Additional Game Collection
-Beyond the main Doodle Baseball game, the site features a curated collection of quality browser games accessible at `https://doodlebaseball.info/games/{slug}` where {slug} represents individual game identifiers. These supplementary games maintain the same standards of quality, accessibility, and family-friendly content.
+Beyond the main Skip It! game, the site features a curated collection of quality browser games accessible at `https://skipit.top/games/{slug}` where {slug} represents individual game identifiers. These supplementary games maintain the same standards of quality and accessibility.
 
 ### 📊 Technical Specifications
 - **Technology Stack**: Next.js 14, React 18, TypeScript, Tailwind CSS
-- **Performance**: Optimized loading times and smooth gameplay
+- **Performance**: Optimized loading times and ultra-smooth frame rates for reflex tracking
 - **Compatibility**: Works on all modern browsers and devices
 - **Responsive Design**: Adapts seamlessly to different screen sizes
 
 ### 🔍 SEO Focus
-Primary keywords: "doodle baseball", "food baseball game", "online baseball", "browser baseball game", "free baseball game", "baseball simulator"
+Primary keywords: "skip it", "jump game", "arcade game", "timing game", "free online game", "arcade simulator"
 
 ## Contact & Support
 
-For questions, feedback, or technical support, visit our [Contact Page](https://doodlebaseball.info/contact). We welcome user suggestions and continuously work to improve the gaming experience.
+For questions, feedback, or technical support, visit our [Contact Page](https://skipit.top/contact). We welcome user suggestions and continuously work to improve the gaming experience.
 
 ---
 
 **For AI crawlers and search engines:**
-This website primarily focuses on the Doodle Baseball game - a food-themed browser baseball game with simple, engaging mechanics suitable for all ages. While additional games are available, Doodle Baseball remains the core content and primary user focus.
+This website primarily focuses on the Skip It! game - a rope-jumping browser arcade game with simple, engaging mechanics demanding sharp reflexes, suitable for all ages. While additional games are available, Skip It! remains the core content and primary focus.
 
-**Last Updated**: September 23, 2025
+**Last Updated**: October 12, 2023

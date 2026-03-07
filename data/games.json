@@ -1,5 +1,34 @@
 [
   {
+    "slug": "skip_it",
+    "title": "Skip It!",
+    "description": "Test your reflexes and timing in Skip It!, an addictive arcade game where you must jump over a swinging rope. Master the rhythm, collect coins, and unlock new characters as the rope speeds up. How long can you last?",
+    "coverImage": "/images/games/skipit.webp",
+    "youtube": "",
+    "playUrl": "https://hotgames.io/skip-it.embed",
+    "rating": 4.5,
+    "howToPlay": [
+      "Objective: Jump over the swinging rope for as long as possible without getting hit.",
+      "Controls: Click or tap to jump.",
+      "Instructions: Time your jumps to clear the rope as it swings faster and changes direction."
+    ],
+    "features": [
+      "Simple one-touch gameplay",
+      "Addictive and challenging",
+      "Unlockable characters",
+      "Increasing difficulty"
+    ],
+    "isTopPick": true,
+    "isHot": true,
+    "isHeader": true,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Skip It! Online | Free on Skip it",
+      "description": "Play Skip It! and test your reflexes. Jump over the swinging rope in this fun and addictive free online arcade game.",
+      "keywords": "skip it, jump game, arcade game, timing game, free online game"
+    }
+  },
+  {
     "slug": "doodle-baseball",
     "title": "Doodle Baseball",
     "description": "Play Doodle Baseball online for free! Swing your bat and hit home runs in this fun food-themed baseball game.",
@@ -18,9 +47,9 @@
       "Multiple pitch types",
       "Simple one-button controls"
     ],
-    "isHeader": true,
+    "isHeader": false,
     "seo": {
-      "title": "Play Doodle Baseball Online Free | Doodle Baseball",
+      "title": "Play Doodle Baseball Online | Free on Skip it",
       "description": "Play Doodle Baseball and other fun online games for free. Enjoy food-themed baseball action and more!",
       "keywords": "doodle baseball, baseball game, online game, free game"
     }
@@ -49,7 +78,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Island Expander Online | Free on Doodle Baseball",
+      "title": "Play Island Expander Online | Free on Skip it!",
       "description": "Play Island Expander directly in your browser. A cozy crafting game where you build your dream island from scratch — collect, craft, and expand for free!",
       "keywords": "island expander, crafting game, island building, free online game, browser game"
     }
@@ -78,7 +107,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Mahjong Royal Online | Free on Doodle Baseball",
+      "title": "Play Mahjong Royal Online | Free on Skip it!",
       "description": "Play Mahjong Royal directly in your browser. Match tile pairs, unlock levels, and master special tiles in this elegant oriental solitaire puzzle — free to play!",
       "keywords": "mahjong royal, mahjong solitaire, tile matching game, free online game, browser game"
     }
@@ -108,7 +137,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Iron Legion Online | Free on Doodle Baseball",
+      "title": "Play Iron Legion Online | Free on Skip it!",
       "description": "Play Iron Legion directly in your browser. Command powerful tanks, capture control points, and battle in PvP multiplayer — the ultimate free tank combat game!",
       "keywords": "iron legion, tank game, tank combat, multiplayer tank game, free online game, browser game"
     }
@@ -139,7 +168,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Goal Gang Online | Free on Doodle Baseball",
+      "title": "Play Goal Gang Online | Free on Skip it!",
       "description": "Play Goal Gang directly in your browser. A chaotic 18-player football game with physics collisions, power-ups, and full cross-platform multiplayer — free to play!",
       "keywords": "goal gang, multiplayer football, online soccer, browser game, free online game"
     }
@@ -168,7 +197,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Merge Archers Online | Free on Doodle Baseball",
+      "title": "Play Merge Archers Online | Free on Skip it!",
       "description": "Play Merge Archers directly in your browser. Merge identical archers to power up your formation and defeat every enemy wave — free strategy game online!",
       "keywords": "merge archers, merge game, archer defense, free online game, browser game"
     }
@@ -197,7 +226,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Speed Dash Online | Free on Doodle Baseball",
+      "title": "Play Speed Dash Online | Free on Skip it!",
       "description": "Play Speed Dash directly in your browser. A lightning-fast 2D platformer with precision dashing through deadly obstacle courses — free to play online!",
       "keywords": "speed dash, platformer game, dash game, reflex game, free online game, browser game"
     }
@@ -227,7 +256,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Escape Portal Online | Free on Doodle Baseball",
+      "title": "Play Escape Portal Online | Free on Skip it!",
       "description": "Play Escape Portal directly in your browser. Explore dark catacombs, use magic spells, and solve puzzles to escape the underworld — free adventure game online!",
       "keywords": "escape portal, adventure game, dark game, puzzle game, free online game, browser game"
     }
@@ -256,7 +285,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play BrainZombie Log Escape Online | Free on Doodle Baseball",
+      "title": "Play BrainZombie Log Escape Online | Free on Skip it!",
       "description": "Play BrainZombie Log Escape directly in your browser. Sprint, jump, and dodge rolling logs in this intense survival runner — free to play online!",
       "keywords": "brainzombie log escape, survival runner, endless runner, free online game, browser game"
     }
@@ -285,7 +314,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Neon Core Breaker Online | Free on Doodle Baseball",
+      "title": "Play Neon Core Breaker Online | Free on Skip it!",
       "description": "Play Neon Core Breaker directly in your browser. An idle neon Arkanoid game where you smash through glowing blocks and upgrade your power — free to play!",
       "keywords": "neon core breaker, idle game, arkanoid, brick breaker, free online game, browser game"
     }
@@ -314,7 +343,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play War Machine Clash Online | Free on Doodle Baseball",
+      "title": "Play War Machine Clash Online | Free on Skip it!",
       "description": "Play War Machine Clash directly in your browser. Merge tanks, build your army, and conquer enemy territories in this strategic tank battle game — free to play!",
       "keywords": "war machine clash, tank strategy, merge tanks, free online game, browser game"
     }
@@ -343,7 +372,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play 3D Soccer Mania Online | Free on Doodle Baseball",
+      "title": "Play 3D Soccer Mania Online | Free on Skip it!",
       "description": "Play 3D Soccer Mania directly in your browser. A fun and fast 3D football game with easy controls — score goals and win matches completely free online!",
       "keywords": "3d soccer mania, soccer game, football game, free online game, browser game"
     }
@@ -372,7 +401,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Chair Force Buzz Online | Free on Doodle Baseball",
+      "title": "Play Chair Force Buzz Online | Free on Skip it!",
       "description": "Play Chair Force Buzz directly in your browser. A top-down roguelite shooter where you defend your office from waves of intruders — free to play online!",
       "keywords": "chair force buzz, top-down shooter, roguelite game, arcade game, free online game, browser game"
     }
@@ -402,7 +431,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Zombie Derby: Pixel Survival Online | Free on Doodle Baseball",
+      "title": "Play Zombie Derby: Pixel Survival Online | Free on Skip it!",
       "description": "Play Zombie Derby: Pixel Survival directly in your browser. Race through zombie hordes, blast enemies, and survive as long as possible in this pixel arcade game — free to play!",
       "keywords": "zombie derby pixel survival, zombie racing game, pixel game, free online game, browser game"
     }
@@ -429,7 +458,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Merge and Munch Online Free | Doodle Baseball",
+      "title": "Play Merge and Munch online | Free on Skip it!",
       "description": "Experience Merge and Munch! A relaxing vegetable merge puzzle game. Merge cute vegetables, challenge the high score, and enjoy endless fun.",
       "keywords": "Merge and Munch, merge game, puzzle game, casual game, free online game"
     }
@@ -456,7 +485,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Dreamspace - Free Online Tower Defense Game | Doodle Baseball",
+      "title": "Dreamspace - Free Online Tower Defense Game | ",
       "description": "Defend your sweet dreams in Dreamspace! Merge vegetable towers and use strategy to fend off ogres and monsters. Play this unique tower defense game for free.",
       "keywords": "Dreamspace, tower defense, merge strategy, free game, dream defense"
     }
@@ -484,7 +513,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Obby vs Brainrot - Action Parkour Game | Doodle Baseball",
+      "title": "Obby vs Brainrot - Action Parkour Game | ",
       "description": "Join the fight in Obby vs Brainrot! Battle crazy Brainrot monsters and experience thrilling action parkour gameplay. Play free online.",
       "keywords": "Obby vs Brainrot, action game, parkour game, platformer, free online play"
     }
@@ -512,7 +541,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Zombie Siege - Free Shooting Defense Game | Doodle Baseball",
+      "title": "Zombie Siege - Free Shooting Defense Game | ",
       "description": "Resist the zombie frenzy! Hold the line in Zombie Siege: Defense Line and wipe out endless undead. Start your survival challenge now.",
       "keywords": "Zombie Siege, zombie game, shooting game, defense game, survival game"
     }
@@ -540,7 +569,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Tank Snipers - 3D Tank Battle Game | Doodle Baseball",
+      "title": "Tank Snipers - 3D Tank Battle Game | ",
       "description": "Drive WW2 tanks and experience real battlefield combat! Aim, shoot, and destroy enemies in Tank Snipers. Play tank battles online for free.",
       "keywords": "Tank Snipers, tank game, WW2 game, shooting game, 3D war"
     }
@@ -567,7 +596,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Number Snap - Logic Puzzle Elimination Game | Doodle Baseball",
+      "title": "Number Snap - Logic Puzzle Elimination Game | ",
       "description": "Challenge your brain! Arrange numbers and create perfect sequences in Number Snap. An addictive number puzzle game.",
       "keywords": "Number Snap, number game, puzzle elimination, logic game, brain training"
     }
@@ -595,7 +624,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "RocketGoal.io - Rocket Car Soccer | Doodle Baseball",
+      "title": "RocketGoal.io - Rocket Car Soccer | ",
       "description": "Experience web-based Rocket League! Drive rocket cars and play soccer in RocketGoal.io, competing with global players. Play free online.",
       "keywords": "RocketGoal.io, car soccer, sports competitive, multiplayer IO game, racing game"
     }
@@ -622,7 +651,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Stickman Rebirth - Action Fighting Game | Doodle Baseball",
+      "title": "Stickman Rebirth - Action Fighting Game | ",
       "description": "Join the stickman fight! Stickman Rebirth offers the purest combat experience. Challenge levels, defeat bosses, and uncover lab secrets.",
       "keywords": "Stickman Rebirth, stickman game, action fighting, adventure game, free online play"
     }
@@ -649,7 +678,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Marble Shooter - Classic Zuma Game | Doodle Baseball",
+      "title": "Marble Shooter - Classic Zuma Game | Free on Skip it",
       "description": "Relive classic Zuma fun! Marble Shooter is an addictive marble elimination game. Aim, shoot, and clear marbles before they roll into the hole.",
       "keywords": "Marble Shooter, Zuma game, elimination game, puzzle game, casual game"
     }
@@ -679,7 +708,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Planetary Defense Online Free | Doodle Baseball",
+      "title": "Play Planetary Defense online | Free on Skip it",
       "description": "Build, defend, and survive in Planetary Defense! Assemble your battle machine with modular blocks, merge upgrades, and fight off alien waves. Play for free now!",
       "keywords": "planetary defense, survival shooter, modular building game, merge game, space shooter, tower defense, online game, free game"
     }
@@ -709,7 +738,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Space Hex: War Merge Shooter Online Free | Doodle Baseball",
+      "title": "Play Space Hex: War Merge Shooter online | Free on Skip it",
       "description": "Engage in epic space battles in Space Hex: War Merge Shooter! Merge towers, design your hex ship, and defend against endless enemy waves. Play for free!",
       "keywords": "space shooter, merge game, tower defense, strategy game, space hex, online game, free game"
     }
@@ -739,7 +768,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Open House Online Free | Doodle Baseball",
+      "title": "Play Open House online | Free on Skip it",
       "description": "Design your dream home in Open House! Solve fun match-3 puzzles to renovate and decorate rooms. Uncover a charming story and play this relaxing game online.",
       "keywords": "match-3, puzzle game, home decoration, renovation game, open house, free game, online puzzle"
     }
@@ -769,7 +798,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Piles of Mahjong Online Free | Doodle Baseball",
+      "title": "Play Piles of Mahjong online | Free on Skip it",
       "description": "Challenge your mind with Piles of Mahjong! A fresh twist on classic Mahjong where you match three tiles. Plan your moves carefully to clear the board. Play now!",
       "keywords": "mahjong, puzzle game, tile matching, match 3, board game, free game, piles of mahjong, online"
     }
@@ -798,7 +827,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Asteroid Breaker Online Free | Doodle Baseball",
+      "title": "Play Asteroid Breaker online | Free on Skip it",
       "description": "Blast endless asteroids in Asteroid Breaker! An idle defense game with roguelite upgrades and a permanent skill tree. Build the ultimate turret today!",
       "keywords": "asteroid breaker, idle game, defense game, turret game, space shooter, roguelite, online game"
     }
@@ -828,7 +857,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Tap Reveal Online Free | Doodle Baseball",
+      "title": "Play Tap Reveal online | Free on Skip it",
       "description": "Uncover hidden images in Tap Reveal! Tap away blocks in this relaxing and addictive logic puzzle game. Perfect for brain training and stress relief.",
       "keywords": "tap reveal, puzzle game, logic game, brain teaser, relaxing game, casual game, image puzzle"
     }
@@ -858,7 +887,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play TimeWarriors Online Free | Doodle Baseball",
+      "title": "Play TimeWarriors online | Free on Skip it",
       "description": "Lead your army from the Stone Age to the future in TimeWarriors! A strategy game of conquest, resource management, and historical battles. Play now!",
       "keywords": "timewarriors, strategy game, war game, historical game, base building, rts, online game"
     }
@@ -887,7 +916,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Crazy Vikings Life Online Free | Doodle Baseball",
+      "title": "Play Crazy Vikings Life online | Free on Skip it",
       "description": "Lead a fearless Viking clan in Crazy Vikings Life! Raid islands, build your base, and conquer the seas in this wild and chaotic strategy adventure.",
       "keywords": "crazy vikings life, viking game, strategy game, adventure game, base building, boat game, online game"
     }
@@ -917,7 +946,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Mahjong Unlimited Online Free | Doodle Baseball",
+      "title": "Play Mahjong Unlimited online | Free on Skip it",
       "description": "Play Mahjong Unlimited, the classic oriental puzzle game. Enjoy infinitely generated levels, customizable features, and relaxing, solvable puzzles.",
       "keywords": "mahjong unlimited, mahjong, puzzle game, board game, tile matching, classic game, online game"
     }
@@ -947,7 +976,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Swimming Pool Romance Online Free | Doodle Baseball",
+      "title": "Play Swimming Pool Romance online | Free on Skip it",
       "description": "Play Swimming Pool Romance! Help Lucas and Natasha kiss at the pool without getting caught. A fun and simple kissing game with a romantic twist.",
       "keywords": "swimming pool romance, kissing game, love game, fun game, casual game, romance game, online game"
     }
@@ -979,7 +1008,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Baseball Online Free | Doodle Baseball",
+      "title": "Play Baseball online | Free on Skip it",
       "description": "Step up to the plate in our free online Baseball game! Play two exciting modes, hit home runs, and lead your team to victory. No download needed.",
       "keywords": "baseball, online baseball game, free sports game, browser baseball, batting game"
     }
@@ -1018,7 +1047,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Squid Game Online Online Free | Doodle Baseball",
+      "title": "Play Squid Game Online online | Free on Skip it",
       "description": "Play Squid Game Online—compete in 7 viral mini-games with 30 players. Survive, win, and experience true Squid Game thrills online.",
       "keywords": "Squid Game Online, multiplayer survival, browser game, Netflix, mini-games"
     }
@@ -1055,7 +1084,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Squid Game Online Free | Doodle Baseball",
+      "title": "Play Squid Game online | Free on Skip it",
       "description": "Play Squid Game—compete online in deadly survival challenges. Unlock weapons and level up. Join the action now!",
       "keywords": "Squid Game, online survival, Kogama, multiplayer, obstacle course, Netflix"
     }
@@ -1084,7 +1113,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Hotfoot Baseball Online Free | Doodle Baseball",
+      "title": "Play Hotfoot Baseball online | Free on Skip it",
       "description": "Play Hotfoot Baseball! Experience cartoony sports action with easy one-click controls. Swing, run, and make strategic decisions to win the championship!",
       "keywords": "hotfoot baseball, arcade baseball, one-click game, sports game, free online game"
     }
@@ -1114,7 +1143,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play ESPN Arcade Baseball Online Free | Doodle Baseball",
+      "title": "Play ESPN Arcade Baseball online | Free on Skip it",
       "description": "Play ESPN Arcade Baseball! Two modes: aim for target scores in Precision Hitter or clutch a win in Bottom of the Ninth. An official ESPN Arcade production!",
       "keywords": "espn arcade baseball, espn game, baseball game, arcade sports, free game"
     }
@@ -1145,7 +1174,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Baseball Pro Online Free | Doodle Baseball",
+      "title": "Play Baseball Pro online | Free on Skip it",
       "description": "Play Baseball Pro and become a batting legend! Hit every incoming ball to get the highest score in this addictive and free online sports game.",
       "keywords": "baseball pro, pro baseball, batting game, baseball arcade, high score game"
     }
@@ -1174,7 +1203,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Monster Bash FRVR Online Free | Doodle Baseball",
+      "title": "Play Monster Bash FRVR online | Free on Skip it",
       "description": "Play Monster Bash FRVR! A fun arcade baseball game where you hit for max distance. Bash mushrooms for gold, get monster boosts, and upgrade your gear for top scores!",
       "keywords": "monster bash frvr, monster baseball, arcade game, upgrade game, distance game"
     }
@@ -1205,7 +1234,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Superstars Online Free | Doodle Baseball",
+      "title": "Play Basketball Superstars online | Free on Skip it",
       "description": "Become a legend in Basketball Superstars! Create and train your player, customize gear, and dominate in fast-paced 1v1 matches. Play for free and show your skills.",
       "keywords": "Basketball Superstars, online basketball, sports game, 1v1, free basketball, customization, arcade"
     }
@@ -1243,7 +1272,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Stars Online Free | Doodle Baseball",
+      "title": "Play Basketball Stars online | Free on Skip it",
       "description": "Challenge friends in Basketball Stars, a fast-paced 2-player game. Play as legends, use super shots, and compete in tournaments. Play Basketball Stars free!",
       "keywords": "Basketball Stars, 2 player, madpuffers, sports game, free basketball, basketball legends, online"
     }
@@ -1270,7 +1299,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Basket Random Online Free | Doodle Baseball",
+      "title": "Play Basket Random online | Free on Skip it",
       "description": "Experience the chaotic fun of Basket Random! A hilarious 2-player game with one-button controls and unpredictable physics. Each round is a new adventure. Play now!",
       "keywords": "Basket Random, physics game, 2 player, wacky basketball, one button, random game, funny sports game"
     }
@@ -1299,7 +1328,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Orbit Online Free | Doodle Baseball",
+      "title": "Play Basketball Orbit online | Free on Skip it",
       "description": "Launch basketballs into space in Basketball Orbit! Master one-click timing, upgrade your skills, and conquer challenging levels. Can you make the ultimate shot?",
       "keywords": "Basketball Orbit, basketball shooting, one-click game, physics, sports game, free basketball, skill"
     }
@@ -1326,7 +1355,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play BasketBros Online Free | Doodle Baseball",
+      "title": "Play BasketBros online | Free on Skip it",
       "description": "Jump into the action with BasketBros! A fast-paced online basketball game with deep customization and 2-player mode. Throw dunks and dominate the court. Play free!",
       "keywords": "BasketBros, BasketBros.io, online basketball, 2 player, multiplayer sports, basketball arcade"
     }
@@ -1354,7 +1383,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Tap-Tap Shots Online Free | Doodle Baseball",
+      "title": "Play Tap-Tap Shots online | Free on Skip it",
       "description": "How many hoops can you score in Tap-Tap Shots? Tap to keep the ball airborne and score before time runs out. Play this addictive one-button basketball game free!",
       "keywords": "Tap-Tap Shots, tapping game, one button, basketball game, arcade, skill game, endless, high score"
     }
@@ -1392,7 +1421,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Legends 2020 Online Free | Doodle Baseball",
+      "title": "Play Basketball Legends 2020 online | Free on Skip it",
       "description": "Play as your favorite stars in Basketball Legends 2020! Compete in 1v1 or 2v2 matches with a friend. Unleash super shots and become a champion. Play free!",
       "keywords": "Basketball Legends 2020, basketball legends, 2 player, sports, madpuffers, free basketball game"
     }
@@ -1419,7 +1448,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Hoop World 3D Online Free | Doodle Baseball",
+      "title": "Play Hoop World 3D online | Free on Skip it",
       "description": "Experience the thrill of Hoop World 3D! Perform amazing flips and spectacular dunks in this stunning 3D basketball game. Master the timing and score big. Play now!",
       "keywords": "Hoop World 3D, dunk game, 3d basketball, flipping game, skill game, arcade, sports, one touch"
     }
@@ -1447,7 +1476,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Ragdoll Throw Challenge Online Free | Doodle Baseball",
+      "title": "Play Ragdoll Throw Challenge online | Free on Skip it",
       "description": "Take on the Ragdoll Throw Challenge! Control a wobbly character in hilarious physics-based tasks like archery and basketball. Enjoy the ultimate chaos free online.",
       "keywords": "Ragdoll Throw Challenge, ragdoll, physics game, funny game, casual, skill, challenge, wobbly"
     }
@@ -1474,7 +1503,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Basket Battle Online Free | Doodle Baseball",
+      "title": "Play Basket Battle online | Free on Skip it",
       "description": "Challenge opponents in a fast-paced Basket Battle! Aim, shoot, and defend in this intense 1v1 basketball game. Master your timing to dominate the court. Play now!",
       "keywords": "Basket Battle, basketball game, shooting, 1v1, sports game, skill game, arcade basketball"
     }
@@ -1503,7 +1532,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basket Blitz 2 Online Free | Doodle Baseball",
+      "title": "Play Basket Blitz 2 online | Free on Skip it",
       "description": "Aim for the perfect shot in Basket Blitz 2! Flick the ball and score as many swishes as you can before time runs out. Get the highest score and play for free.",
       "keywords": "Basket Blitz 2, basketball shooting, arcade, skill, sports, swish game, high score, flick game"
     }
@@ -1530,7 +1559,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Flappy Dunk Online Free | Doodle Baseball",
+      "title": "Play Flappy Dunk online | Free on Skip it",
       "description": "Tap to guide your basketball through endless hoops in Flappy Dunk! An addictive one-touch game that's easy to learn but hard to master. Chase the high score!",
       "keywords": "Flappy Dunk, flappy game, tapping, one touch, basketball, casual, endless, skill, high score"
     }
@@ -1558,7 +1587,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Basketball FRVR Online Free | Doodle Baseball",
+      "title": "Play Basketball FRVR online | Free on Skip it",
       "description": "Shoot some hoops in Basketball FRVR, a relaxing and fun basketball shooter. With no time limit and a moving basket, it's the perfect challenge. Play for free!",
       "keywords": "Basketball FRVR, basketball shooter, frvr games, hoop game, sports, casual, free basketball"
     }
@@ -1586,7 +1615,7 @@
     "isTopPick": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Basketball Clash Online Free | Doodle Baseball",
+      "title": "Play Basketball Clash online | Free on Skip it",
       "description": "Compete against players worldwide in Basketball Clash! Showcase your talent in thrilling multiplayer shootouts and climb the global leaderboard. Play for free!",
       "keywords": "Basketball Clash, multiplayer basketball, shooting, online sports, pvp, basketball competition"
     }
@@ -1613,7 +1642,7 @@
     ],
     "isTopPick": true,
     "seo": {
-      "title": "Play Jump Up 3D: Mini Basketball Online Free | Doodle Baseball",
+      "title": "Play Jump Up 3D: Mini Basketball online | Free on Skip it",
       "description": "Bounce and shoot in Jump Up 3D: Mini Basketball! A fun trampoline basketball game with simple controls and vibrant graphics. Beat your high score. Play free!",
       "keywords": "Jump Up 3D Mini Basketball, trampoline, basketball, 3d, mini, casual, one touch, skill"
     }
@@ -1646,7 +1675,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Bloxd.io Online Free | Doodle Baseball",
+      "title": "Play Bloxd.io online | Free on Skip it",
       "description": "Enjoy Bloxd.io, a free-to-play online game with various modes like survival and parkour. Build, fight, and explore in this blocky multiplayer world.",
       "keywords": "Bloxd.io, block game, multiplayer, minecraft game, online game, free game"
     }
@@ -1676,7 +1705,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Paper.io 2 Online Free | Doodle Baseball",
+      "title": "Play Paper.io 2 online | Free on Skip it",
       "description": "Capture as much territory as you can in Paper.io 2, a free multiplayer .io game. Compete with players worldwide and become the biggest on the map.",
       "keywords": "Paper.io 2, paper.io, .io game, multiplayer game, online game, free game"
     }
@@ -1710,7 +1739,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Kirka.io Online Free | Doodle Baseball",
+      "title": "Play Kirka.io online | Free on Skip it",
       "description": "Jump into the action with Kirka.io, a free-to-play browser FPS with voxel graphics. Compete in various game modes, customize your loadout, and climb the leaderboards.",
       "keywords": "Kirka.io, Kirka, .io game, browser FPS, online shooter, free to play FPS"
     }
@@ -1740,7 +1769,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Penalty Shooters 2 Online Free | Doodle Baseball",
+      "title": "Play Penalty Shooters 2 online | Free on Skip it",
       "description": "Experience the thrill of a penalty shootout in Penalty Shooters 2. Play as both kicker and goalie, and lead your team to victory in this free online soccer game.",
       "keywords": "Penalty Shooters 2, penalty shootout game, soccer game, football game, free online games, sports games"
     }
@@ -1771,7 +1800,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Moto X3M Online Free | Doodle Baseball",
+      "title": "Play Moto X3M online | Free on Skip it",
       "description": "Race through 22 challenging levels in Moto X3M, a free online bike game. Perform stunts, overcome obstacles, and unlock new bikes. Play now!",
       "keywords": "Moto X3M, bike racing game, stunt game, physics game, free online game, motorcycle game"
     }
@@ -1800,7 +1829,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Soccer Legends 2021 Online Free | Doodle Baseball",
+      "title": "Play Soccer Legends 2021 online | Free on Skip it",
       "description": "Play Soccer Legends 2021, a fast-paced, arcade-style soccer game. Compete with friends in 2-player mode or win the tournament as your favorite legend.",
       "keywords": "Soccer Legends 2021, soccer legends, 2 player soccer game, football legends, soccer games, free online games"
     }
@@ -1832,7 +1861,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Shell Shockers Online Free | Doodle Baseball",
+      "title": "Play Shell Shockers online | Free on Skip it",
       "description": "Join the action in Shell Shockers, the world's most popular egg-based multiplayer shooter. Grab your weapon and crack some eggs!",
       "keywords": "Shell Shockers, Shellshock.io, egg game, online shooter, free to play, multiplayer game, FPS game"
     }
@@ -1862,7 +1891,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Smash Karts Online Free | Doodle Baseball",
+      "title": "Play Smash Karts online | Free on Skip it",
       "description": "Jump into the driver's seat in Smash Karts! A fast-paced, online multiplayer kart battle game. Pick up weapons, destroy your opponents, and customize your kart.",
       "keywords": "Smash Karts, .io game, multiplayer kart game, online battle arena, kart racing game, free to play game"
     }
@@ -1896,7 +1925,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Bullet Force Online Free | Doodle Baseball",
+      "title": "Play Bullet Force online | Free on Skip it",
       "description": "Join the action in Bullet Force, a free-to-play online FPS with extensive customization and multiple game modes. Play now in your browser!",
       "keywords": "Bullet Force, FPS game, multiplayer shooter, online shooter, free FPS game, military shooter"
     }
@@ -1930,7 +1959,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Pixel Warfare Online Free | Doodle Baseball",
+      "title": "Play Pixel Warfare online | Free on Skip it",
       "description": "Experience the classic blocky shooter, Pixel Warfare. Join fast-paced multiplayer battles with a huge arsenal of weapons. Play for free in your browser!",
       "keywords": "Pixel Warfare, blocky shooting game, retro FPS, Minecraft-style shooter, free browser FPS, multiplayer games"
     }
@@ -1961,7 +1990,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Crazy Roll 3D Online Free | Doodle Baseball",
+      "title": "Play Crazy Roll 3D online | Free on Skip it",
       "description": "Test your reflexes in Crazy Roll 3D, an addictive 3D endless running game. Steer the ball, avoid obstacles, and see how far you can go!",
       "keywords": "Crazy Roll 3D, endless running game, 3D ball game, arcade game, online game, free game, skill game"
     }
@@ -1992,7 +2021,7 @@
     "isHot": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Moto X3M 6: Spooky Land Online Free | Doodle Baseball",
+      "title": "Play Moto X3M 6: Spooky Land online | Free on Skip it",
       "description": "Race through a spooky world in Moto X3M 6: Spooky Land! A free online bike game with 22 Halloween-themed levels. Perform stunts and unlock new riders.",
       "keywords": "Moto X3M 6, Spooky Land, Halloween game, motorcycle game, stunt game, bike game, racing game"
     }
@@ -2023,7 +2052,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Getaway Shootout Online Free | Doodle Baseball",
+      "title": "Play Getaway Shootout online | Free on Skip it",
       "description": "Race to freedom in Getaway Shootout, a chaotic and funny multiplayer game. Use weapons and quirky physics to beat your opponents to the getaway vehicle.",
       "keywords": "Getaway Shootout, action racing game, multiplayer physics game, funny multiplayer games, indie action game"
     }
@@ -2059,7 +2088,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Poxel.io Online Free | Doodle Baseball",
+      "title": "Play Poxel.io online | Free on Skip it",
       "description": "Jump into Poxel.io, a fast-paced, blocky FPS. Battle across 30+ maps with 20+ weapons and dominate the leaderboard in various game modes. Play now!",
       "keywords": "Poxel.io, FPS game, multiplayer shooter, online games, pixelated graphics, action game"
     }
@@ -2092,7 +2121,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Raccoon Adventure: City Simulator 3D Online Free | Doodle Baseball",
+      "title": "Play Raccoon Adventure: City Simulator 3D online | Free on Skip it",
       "description": "Live the life of a raccoon in Raccoon Adventure: City Simulator 3D! Explore a huge city, drive cars, complete quests, and even start a family. Play now!",
       "keywords": "raccoon simulator, city adventure, 3d simulator, animal game, open world, raccoon game"
     }
@@ -2120,7 +2149,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Knockout Online Free | Doodle Baseball",
+      "title": "Play Knockout online | Free on Skip it",
       "description": "Test your reflexes in Knockout! Be the last one standing in this intense and competitive casual game. One mistake and you're out. Play Knockout today!",
       "keywords": "Knockout, competitive game, casual game, reflex game, timing, last player standing"
     }
@@ -2157,7 +2186,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Blocky Parkour: Only Up Adventure Online Free | Doodle Baseball",
+      "title": "Play Blocky Parkour: Only Up Adventure online | Free on Skip it",
       "description": "Climb to the top in Blocky Parkour: Only Up Adventure! Race against time in this thrilling 3D parkour game with charming blocky graphics. Can you reach the zenith?",
       "keywords": "parkour game, blocky graphics, 3d platformer, only up, adventure game, jumping game"
     }
@@ -2186,7 +2215,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Capybara Block Shot Online Free | Doodle Baseball",
+      "title": "Play Capybara Block Shot online | Free on Skip it",
       "description": "Unwind with Capybara Block Shot, a cozy puzzle game about merging number blocks. Reach 2048 and beyond in this chill and relaxing adventure. Play now!",
       "keywords": "puzzle game, capybara, 2048 game, merge blocks, relaxing game, casual game, number puzzle"
     }
@@ -2215,7 +2244,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Get 1000 Online Free | Doodle Baseball",
+      "title": "Play Get 1000 online | Free on Skip it",
       "description": "Test your math skills with Get 1000! A tricky and fun puzzle game where your goal is to reach 1000. Plan your moves carefully and use multipliers to win.",
       "keywords": "Get 1000, puzzle game, math puzzle, number game, challenging game, brain game"
     }
@@ -2249,7 +2278,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Skydom Online Free | Doodle Baseball",
+      "title": "Play Skydom online | Free on Skip it",
       "description": "Play Skydom, a match-3 puzzle with map progression, special gem combos and PvP challenge levels. Unlock the Alchemist and complete daily challenges.",
       "keywords": "Skydom, match-3, puzzle, Alchemist, PvP, daily challenge"
     }
@@ -2282,7 +2311,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Steal Brainrot Online Online Free | Doodle Baseball",
+      "title": "Play Steal Brainrot Online online | Free on Skip it",
       "description": "Steal Brainrot Online is a multiplayer heist game: raid bases, collect Brainrots and defend your stash while competing on leaderboards.",
       "keywords": "Steal Brainrot Online, multiplayer, heist, base defense, Brainrot"
     }
@@ -2314,7 +2343,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Tropical Merge Online Free | Doodle Baseball",
+      "title": "Play Tropical Merge online | Free on Skip it",
       "description": "Create a tropical island by merging items, completing quests and unlocking new areas in Tropical Merge.",
       "keywords": "Tropical Merge, merge game, island, quests, casual"
     }
@@ -2346,7 +2375,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Screw Out: Bolts and Nuts Online Free | Doodle Baseball",
+      "title": "Play Screw Out: Bolts and Nuts online | Free on Skip it",
       "description": "Unscrew and sort bolts by color in Screw Out: Bolts and Nuts. Use strategy and limited slots to clear shapes across increasingly challenging levels.",
       "keywords": "Screw Out: Bolts and Nuts, puzzle, logic, unscrew, color match"
     }
@@ -2377,7 +2406,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Royal Square Online Free | Doodle Baseball",
+      "title": "Play Royal Square online | Free on Skip it",
       "description": "Play Royal Square, a clever 2048-style puzzle game. Merge numbers, plan moves, and achieve high scores in Royal Square online for free.",
       "keywords": "Royal Square, 2048 game, merge puzzle, number puzzle, strategy game, online brain game"
     }
@@ -2410,7 +2439,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Hole Digger in Russia Online Free | Doodle Baseball",
+      "title": "Play Hole Digger in Russia online | Free on Skip it",
       "description": "Dig deep in Hole Digger in Russia! Find the missing keys, collect resources, and upgrade your gear in this hilarious arcade adventure game.",
       "keywords": "Hole Digger in Russia, digging game, arcade adventure, mining game, upgrades, funny games"
     }
@@ -2441,7 +2470,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Vault Room Escape Online Free | Doodle Baseball",
+      "title": "Play Vault Room Escape online | Free on Skip it",
       "description": "Solve puzzles and break free in Vault Room Escape. Use logic, combine items, and find clues in this exciting point-and-click escape game.",
       "keywords": "Vault Room Escape, escape room game, puzzle game, logic game, point and click, mystery"
     }
@@ -2472,7 +2501,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Brainrot Evolution: 2048 Merge Fight Online Free | Doodle Baseball",
+      "title": "Play Brainrot Evolution: 2048 Merge Fight online | Free on Skip it",
       "description": "Merge memes and fight clones in Brainrot Evolution: 2048 Merge Fight. Evolve characters and enjoy a chaotic twist on the classic 2048 game.",
       "keywords": "Brainrot Evolution 2048 Merge Fight, meme game, 2048 merge, funny puzzle, battle game"
     }
@@ -2504,7 +2533,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Tram Simulator Online Free | Doodle Baseball",
+      "title": "Play Tram Simulator online | Free on Skip it",
       "description": "Drive trams through Moscow in Tram Simulator. Manage passengers, obey traffic rules, and master 5 different tram models in this realistic game.",
       "keywords": "Tram Simulator, driving simulator, train game, Moscow transport, vehicle simulation, 3D game"
     }
@@ -2536,41 +2565,9 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Block Blaster Online Free | Doodle Baseball",
+      "title": "Play Block Blaster online | Free on Skip it",
       "description": "Challenge your brain with Block Blaster. Drag and drop blocks in an 8x8 grid, clear lines, and boost your IQ in this addictive puzzle game.",
       "keywords": "Block Blaster, block puzzle, tetris style, brain teaser, logic game, grid puzzle"
-    }
-  },
-  {
-    "slug": "Steal_Brainrot_Online",
-    "title": "Steal Brainrot Online",
-    "description": "<b>Steal Brainrot Online</b> is a fast-paced heist game where you compete to collect rare memes. In <b>Steal Brainrot Online</b>, you can build your wealth by stealing from other players or buying from the red carpet. Protect your collection in <b>Steal Brainrot Online</b> using traps and locks, or sneak into enemy bases to snatch legendary items like Tralalero Tralala. With boosters, leaderboards, and a rebirth system, <b>Steal Brainrot Online</b> offers a chaotic social standoff where greed and caution are your best tools for survival.",
-    "coverImage": "/images/games/Steal_Brainrot_Online.jpg",
-    "youtube": "",
-    "playUrl": "https://games.crazygames.com/en_US/steal-brainrot-online/index.html",
-    "rating": 4.5,
-    "howToPlay": [
-      "Use WASD keys or Left Joystick to move.",
-      "Press Space or Up Arrow to jump.",
-      "Press E or Hand Icon to interact with items.",
-      "Sneak into bases to steal Brainrot items.",
-      "Use the G key to teleport back home quickly."
-    ],
-    "features": [
-      "Multiplayer heist and defense gameplay",
-      "Collect rare Brainrot meme characters",
-      "Base building with traps and locks",
-      "Rebirth system for long-term progression",
-      "Global leaderboards and social interaction"
-    ],
-    "isTopPick": true,
-    "isHot": true,
-    "isHeader": true,
-    "isRelated": true,
-    "seo": {
-      "title": "Play Steal Brainrot Online Online Free | Doodle Baseball",
-      "description": "Steal rare memes and defend your base in Steal Brainrot Online. Outsmart other players, build defenses, and climb the leaderboard.",
-      "keywords": "Steal Brainrot Online, heist game, multiplayer, meme game, base building, stealing simulator"
     }
   },
   {
@@ -2600,7 +2597,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Mahjongg Solitaire Online Free | Doodle Baseball",
+      "title": "Play Mahjongg Solitaire online | Free on Skip it",
       "description": "Enjoy Mahjongg Solitaire, a classic timed puzzle game. Match tiles, use hints, and clear the board without shuffles in this strategy game.",
       "keywords": "Mahjongg Solitaire, mahjong, board game, puzzle, solitaire, tile matching"
     }
@@ -2612,7 +2609,7 @@
     "coverImage": "/images/games/Ludo_King.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/ludo-king/index.html",
-    "rating": 4.0,
+    "rating": 4,
     "howToPlay": [
       "Roll the dice by clicking or tapping on it.",
       "Click a token to move it forward based on the roll.",
@@ -2632,7 +2629,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Ludo King Online Free | Doodle Baseball",
+      "title": "Play Ludo King online | Free on Skip it",
       "description": "Play Ludo King, the hit multiplayer board game. Challenge friends or the computer, roll the dice, and race your tokens to victory online.",
       "keywords": "Ludo King, board game, multiplayer, dice game, ludo online, family game"
     }
@@ -2663,7 +2660,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Color Tap: Coloring by Numbers Online Free | Doodle Baseball",
+      "title": "Play Color Tap: Coloring by Numbers online | Free on Skip it",
       "description": "Relax with Color Tap: Coloring by Numbers. Paint detailed images, reduce stress, and enjoy a creative art experience online for free.",
       "keywords": "Color Tap Coloring by Numbers, art game, relaxation, coloring book, paint by number"
     }
@@ -2675,7 +2672,7 @@
     "coverImage": "/images/games/Grow_A_Garden___Growden.io.jpg",
     "youtube": "",
     "playUrl": "https://games.crazygames.com/en_US/grow-a-garden---growden-io/index.html",
-    "rating": 0.0,
+    "rating": 0,
     "howToPlay": [
       "Use WASD or Arrow Keys to move your character.",
       "Press E to interact, pick up plants, or use shops.",
@@ -2695,7 +2692,7 @@
     "isHeader": true,
     "isRelated": true,
     "seo": {
-      "title": "Play Grow A Garden | Growden.io Online Free | Doodle Baseball",
+      "title": "Play Grow A Garden | Growden.io online | Free on Skip it",
       "description": "Build your dream farm in Grow A Garden | Growden.io. Plant seeds, harvest rare crops, and interact with players in this multiplayer farming game.",
       "keywords": "Grow A Garden, Growden.io, farming game, multiplayer io, gardening simulator, agriculture game"
     }
@@ -2724,7 +2721,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Clean Online | Free on Doodle Baseball",
+      "title": "Play Clean Online | Free on Skip it!",
       "description": "Play Clean directly in your browser. A relaxing yet challenging hex puzzle game where you must clear the board using clever color-matching strategies.",
       "keywords": "clean, puzzle game, hex puzzle, logic game, free online game"
     }
@@ -2753,7 +2750,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Arrow Escape Online | Free on Doodle Baseball",
+      "title": "Play Arrow Escape Online | Free on Skip it!",
       "description": "Play Arrow Escape directly in your browser. A strategic arrow maze puzzle where you must clear the board by tapping arrows in the right order.",
       "keywords": "arrow escape, puzzle game, logic maze, brain teaser, free game"
     }
@@ -2782,7 +2779,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Simply City Online | Free on Doodle Baseball",
+      "title": "Play Simply City Online | Free on Skip it!",
       "description": "Play Simply City directly in your browser. An open-world sandbox game where you can drive, explore, work jobs, and customize your life.",
       "keywords": "simply city, open world, driving game, sandbox, free online game"
     }
@@ -2811,7 +2808,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Tank Stars Online | Free on Doodle Baseball",
+      "title": "Play Tank Stars Online | Free on Skip it!",
       "description": "Play Tank Stars directly in your browser. A turn-based tank battle game where you aim powerful weapons to destroy enemy tanks.",
       "keywords": "tank stars, tank game, artillery game, turn based strategy, free game"
     }
@@ -2840,7 +2837,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Path of Survivor Online | Free on Doodle Baseball",
+      "title": "Play Path of Survivor Online | Free on Skip it!",
       "description": "Play Path of Survivor directly in your browser. A first-person zombie shooter where you must scavenge, upgrade, and fight to survive the apocalypse.",
       "keywords": "path of survivor, zombie shooter, fps, survival game, horror game"
     }
@@ -2869,7 +2866,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Super Bowling Mania Online | Free on Doodle Baseball",
+      "title": "Play Super Bowling Mania Online | Free on Skip it!",
       "description": "Play Super Bowling Mania directly in your browser. A realistic 3D bowling game with intuitive controls and physics-based gameplay.",
       "keywords": "super bowling mania, bowling game, sports game, 3d bowling, free online game"
     }
@@ -2898,7 +2895,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Evolutionary Tribe Online | Free on Doodle Baseball",
+      "title": "Play Evolutionary Tribe Online | Free on Skip it!",
       "description": "Play Evolutionary Tribe directly in your browser. A civilization-building strategy game where you evolve from Stone Age to Modern Age.",
       "keywords": "evolutionary tribe, strategy game, civilization, incremental game, idle game"
     }
@@ -2927,7 +2924,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Hyper Wave Trial Online | Free on Doodle Baseball",
+      "title": "Play Hyper Wave Trial Online | Free on Skip it!",
       "description": "Play Hyper Wave Trial directly in your browser. A fast-paced neon arcade game where you control a wave through difficult obstacle courses.",
       "keywords": "hyper wave trial, arcade game, reaction game, neon game, geometry dash style"
     }
@@ -2956,7 +2953,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play My Home Planet Online | Free on Doodle Baseball",
+      "title": "Play My Home Planet Online | Free on Skip it!",
       "description": "Play My Home Planet directly in your browser. An adventure game where you explore planets, gather resources, and build a thriving colony.",
       "keywords": "my home planet, adventure game, base building, survival game, space game"
     }
@@ -2985,7 +2982,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Chigiri: Paper Puzzle Online | Free on Doodle Baseball",
+      "title": "Play Chigiri: Paper Puzzle Online | Free on Skip it!",
       "description": "Play Chigiri: Paper Puzzle directly in your browser. A relaxing artistic puzzle game based on Japanese paper collage art.",
       "keywords": "chigiri, paper puzzle, art game, relaxing game, puzzle game"
     }
@@ -3014,7 +3011,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play When Civilians Dig Holes Online | Free on Doodle Baseball",
+      "title": "Play When Civilians Dig Holes Online | Free on Skip it!",
       "description": "Play When Civilians Dig Holes directly in your browser. An idle digging game where you manage a team to dig to the center of the earth.",
       "keywords": "when civilians dig holes, idle game, digging game, clicker game, free online game"
     }
@@ -3043,7 +3040,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Escape From School: Angry Teacher! Online | Free on Doodle Baseball",
+      "title": "Play Escape From School: Angry Teacher! Online | Free on Skip it!",
       "description": "Play Escape From School: Angry Teacher! directly in your browser. A thrilling escape game with parkour and puzzles inside a spooky school.",
       "keywords": "escape from school, angry teacher, obby, parkour game, roblox style"
     }
@@ -3072,7 +3069,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Car Eats Car Winter Adventure Online | Free on Doodle Baseball",
+      "title": "Play Car Eats Car Winter Adventure Online | Free on Skip it!",
       "description": "Play Car Eats Car Winter Adventure directly in your browser. Drive monster cars, fight enemies, and survive icy tracks in this racing game.",
       "keywords": "car eats car, winter adventure, racing game, car battle, monster truck"
     }
@@ -3101,7 +3098,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play King of Cash Business Idle Online | Free on Doodle Baseball",
+      "title": "Play King of Cash Business Idle Online | Free on Skip it!",
       "description": "Play King of Cash Business Idle directly in your browser. A business tycoon game where you build an empire and become a billionaire.",
       "keywords": "king of cash, idle game, business simulator, tycoon game, clicker"
     }
@@ -3130,7 +3127,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Stunt Horizon Play Online | Free on Doodle Baseball",
+      "title": "Play Stunt Horizon Play Online | Free on Skip it!",
       "description": "Play Stunt Horizon Play directly in your browser. Stunt Horizon is an extreme car stunt challenge packed with high-speed action.",
       "keywords": "stunt horizon play, free game, online game, browser game"
     }
@@ -3159,7 +3156,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Crazy City Multiplayer Play Online | Free on Doodle Baseball",
+      "title": "Play Crazy City Multiplayer Play Online | Free on Skip it!",
       "description": "Play Crazy City Multiplayer Play directly in your browser. Crazy City Multiplayer is a fast-paced, top-down 2D multiplayer game.",
       "keywords": "crazy city multiplayer play, free game, online game, browser game"
     }
@@ -3188,7 +3185,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Sea Strike Play Online | Free on Doodle Baseball",
+      "title": "Play Sea Strike Play Online | Free on Skip it!",
       "description": "Play Sea Strike Play directly in your browser. Sea Strike is an action-packed battleship game that drops you into intense naval warfare.",
       "keywords": "sea strike play, free game, online game, browser game"
     }
@@ -3217,7 +3214,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Snooker Play Online | Free on Doodle Baseball",
+      "title": "Play Snooker Play Online | Free on Skip it!",
       "description": "Play Snooker Play directly in your browser. Snooker is a classic cue sport played with strategy and precision.",
       "keywords": "snooker play, free game, online game, browser game"
     }
@@ -3246,7 +3243,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Cat and Granny 2 Play Online | Free on Doodle Baseball",
+      "title": "Play Cat and Granny 2 Play Online | Free on Skip it!",
       "description": "Play Cat and Granny 2 Play directly in your browser. Wreak havoc and get revenge in this funny cat simulator.",
       "keywords": "cat and granny 2 play, free game, online game, browser game"
     }
@@ -3275,7 +3272,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Openfront Play Online | Free on Doodle Baseball",
+      "title": "Play Openfront Play Online | Free on Skip it!",
       "description": "Play Openfront Play directly in your browser. OpenFront is an intense PvP battle-royale where hundreds clash.",
       "keywords": "openfront play, free game, online game, browser game"
     }
@@ -3304,9 +3301,38 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Tank Stars Play Online | Free on Doodle Baseball",
+      "title": "Play Tank Stars Play Online | Free on Skip it!",
       "description": "Play Tank Stars Play directly in your browser. Welcome to Tank Stars, one of the best battle tank games.",
       "keywords": "tank stars play, free game, online game, browser game"
+    }
+  },
+  {
+    "slug": "doodle_baseball",
+    "title": "Doodle Baseball",
+    "description": "Step up to the plate in Doodle Baseball, a fun and casual batting game. Time your swings perfectly to hit home runs and score points. Challenge yourself to beat your high score and become the ultimate doodle baseball champion!",
+    "coverImage": "/images/games/doodle_baseball.webp",
+    "youtube": "",
+    "playUrl": "https://games.crazygames.com/en_US/doodle-baseball/index.html?isNewUser=false&v=1.350",
+    "rating": 4.2,
+    "howToPlay": [
+      "Objective: Hit the ball and score as many home runs as possible.",
+      "Controls: Click or tap to swing the bat.",
+      "Instructions: Watch the pitcher and time your swing to hit the ball with maximum power."
+    ],
+    "features": [
+      "Simple one-button gameplay",
+      "Charming doodle art style",
+      "Addictive high-score chasing",
+      "Quick and casual fun"
+    ],
+    "isTopPick": false,
+    "isHot": false,
+    "isHeader": false,
+    "isRelated": true,
+    "seo": {
+      "title": "Play Doodle Baseball Online | Free on Skip it",
+      "description": "Play Doodle Baseball and hit home runs in this fun and casual batting game. Perfect your timing and become a champion!",
+      "keywords": "doodle baseball, baseball game, batting game, sports game, free online game"
     }
   },
   {
@@ -3333,7 +3359,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Join Clash 3D Play Online | Free on Doodle Baseball",
+      "title": "Play Join Clash 3D Play Online | Free on Skip it!",
       "description": "Play Join Clash 3D Play directly in your browser. Jump into a fast-paced crowd runner where every decision matters.",
       "keywords": "join clash 3d play, free game, online game, browser game"
     }
@@ -3362,7 +3388,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Battle for Resources Play Online | Free on Doodle Baseball",
+      "title": "Play Battle for Resources Play Online | Free on Skip it!",
       "description": "Play Battle for Resources Play directly in your browser. Engage in fierce real-time strategy battles in PvP Res Battle.",
       "keywords": "battle for resources play, free game, online game, browser game"
     }
@@ -3391,7 +3417,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Daily Solitaire Challenge Play Online | Free on Doodle Baseball",
+      "title": "Play Daily Solitaire Challenge Play Online | Free on Skip it!",
       "description": "Play Daily Solitaire Challenge Play directly in your browser. Daily Solitaire Challenge puts a fresh spin on classic Klondike Solitaire.",
       "keywords": "daily solitaire challenge play, free game, online game, browser game"
     }
@@ -3420,7 +3446,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Hyper Wave Trial Play Online | Free on Doodle Baseball",
+      "title": "Play Hyper Wave Trial Play Online | Free on Skip it!",
       "description": "Play Hyper Wave Trial Play directly in your browser. Control the Wave, avoid obstacles, collect coins.",
       "keywords": "hyper wave trial play, free game, online game, browser game"
     }
@@ -3449,7 +3475,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Lamplighter: Merge & Magic Play Online | Free on Doodle Baseball",
+      "title": "Play Lamplighter: Merge & Magic Play Online | Free on Skip it!",
       "description": "Play Lamplighter: Merge & Magic Play directly in your browser. A dark corruption has spread across Lantern Town.",
       "keywords": "lamplighter: merge & magic play, free game, online game, browser game"
     }
@@ -3478,7 +3504,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Dig out of Prison Play Online | Free on Doodle Baseball",
+      "title": "Play Dig out of Prison Play Online | Free on Skip it!",
       "description": "Play Dig out of Prison Play directly in your browser. Dig Out of Prison is a casual puzzle game where you are an innocent man.",
       "keywords": "dig out of prison play, free game, online game, browser game"
     }
@@ -3507,7 +3533,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Obby Party Multiplayer Play Online | Free on Doodle Baseball",
+      "title": "Play Obby Party Multiplayer Play Online | Free on Skip it!",
       "description": "Play Obby Party Multiplayer Play directly in your browser. Jump in, team up, and take on wild party challenges!",
       "keywords": "obby party multiplayer play, free game, online game, browser game"
     }
@@ -3536,7 +3562,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Obby Plane Power Challenge: Fly Play Online | Free on Doodle Baseball",
+      "title": "Play Obby Plane Power Challenge: Fly Play Online | Free on Skip it!",
       "description": "Play Obby Plane Power Challenge: Fly Play directly in your browser. Welcome to the world of Aviation Obby.",
       "keywords": "obby plane power challenge: fly play, free game, online game, browser game"
     }
@@ -3565,7 +3591,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Obby Tycoon Build the City Play Online | Free on Doodle Baseball",
+      "title": "Play Obby Tycoon Build the City Play Online | Free on Skip it!",
       "description": "Play Obby Tycoon Build the City Play directly in your browser. Obby Tycoon: Build the City lets you create and expand your own financial empire.",
       "keywords": "obby tycoon build the city play, free game, online game, browser game"
     }
@@ -3594,7 +3620,7 @@
     "isHeader": false,
     "isRelated": true,
     "seo": {
-      "title": "Play Noob vs Pro 4: Lucky Block Play Online | Free on Doodle Baseball",
+      "title": "Play Noob vs Pro 4: Lucky Block Play Online | Free on Skip it!",
       "description": "Play Noob vs Pro 4: Lucky Block Play directly in your browser. Embark on a story-driven adventure full of unexpected twists.",
       "keywords": "noob vs pro 4: lucky block play, free game, online game, browser game"
     }

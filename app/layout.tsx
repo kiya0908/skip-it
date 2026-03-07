@@ -22,14 +22,14 @@ const bangers = Bangers({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://doodlebaseball.info"),
-  title: "Doodle Baseball | Fun Food Baseball Game Online Free",
-  description: "Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!",
-  keywords: "doodle baseball, baseball game, food baseball, online free, baseball simulator, unlocked game, sports game",
+  metadataBase: new URL("https://skipit.top"),
+  title: "Skip It! | Fun Rope Jumping Arcade Game Online Free",
+  description: "Play the addictive Skip It! game online for free! Test your timing and reflexes as you jump over the swinging rope in this fun arcade game.",
+  keywords: "skip it, jump game, arcade game, timing game, free online game, rope jumping, unlocked game",
   openGraph: {
-    title: "Doodle Baseball Game | Fun Food Baseball Game Online Free",
-    description: "Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!",
-    images: "/images/games/games.png", // 确保此图片路径相对于 public 文件夹是正确的
+    title: "Skip It! Game | Fun Rope Jumping Arcade Game Online Free",
+    description: "Play the addictive Skip It! game online for free! Test your timing and reflexes as you jump over the swinging rope in this fun arcade game.",
+    images: "/images/games/skipit.webp",
     type: "website"
   },
 };
@@ -54,25 +54,23 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         {/* 游戏资源预连接优化 */}
         <link rel="preconnect" href="https://games.crazygames.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://1games.io" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://hotgames.io" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://games.crazygames.com" />
-        <link rel="dns-prefetch" href="https://1games.io" />
+        <link rel="dns-prefetch" href="https://hotgames.io" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.youtube-nocookie.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.youtube-nocookie.com" />
-        <link rel="preload" as="image" href="/images/games/doodlebaseball.png" />
+        <link rel="preload" as="image" href="/images/games/skipit.webp" />
       </head>
       <body className={`${poppins.variable} ${bangers.variable} antialiased`}>
         <Header />
         <main>{children}</main>
         <Footer />
         <ClientOptimizer />
-      
-      {/* 【新增 3】AdSense 核心脚本移到这里 */}
+
+        {/* 【新增 3】AdSense 核心脚本移到这里 */}
         {/* strategy="afterInteractive" 确保页面可交互后再加载，避免白屏和 React 冲突 */}
         <Script
           id="adsbygoogle-init"

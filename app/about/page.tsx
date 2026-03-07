@@ -3,26 +3,26 @@ import type { Metadata } from 'next';
 
 // 建议为页面添加元数据
 export const metadata: Metadata = {
-  title: 'About Us - Doodle Baseball Game',
-  description: 'Learn more about Doodle Baseball and our fan-made website where you can play this food-themed baseball game for free!',
-  keywords: 'doodle baseball, about doodle baseball, baseball game online, free baseball game, baseball simulator, food baseball game',
+  title: 'About Us - Skip It! Game',
+  description: 'Learn more about Skip It! and our website where you can play this addicting rope-jumping arcade game for free!',
+  keywords: 'skip it, about skip it, arcade game online, free jump game, timing game, skip it game',
   openGraph: {
-    title: 'About Doodle Baseball | Play Online for Free',
-    description: 'Learn more about our fan-made Doodle Baseball website and the popular food-themed baseball game!',
+    title: 'About Skip It! | Play Online for Free',
+    description: 'Learn more about the Skip It! website and the popular rope-jumping arcade game!',
     images: [
       {
-        url: ' https://doodlebaseball.info/images/games/doodlebaseball.png', // 替换为您的实际图片URL
-        width: 1200, // 可选
-        height: 630, // 可选
-        alt: 'Doodle Baseball Preview', // 可选
+        url: 'https://skipit.top/images/games/skipit.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Skip It! Preview',
       },
     ],
-    url: 'https://doodlebaseball.info/about', // 替换为您的实际页面URL
+    url: 'https://skipit.top/about',
     type: 'website',
   },
   robots: "index, follow",
   alternates: {
-    canonical: 'https://doodlebaseball.info/about',
+    canonical: 'https://skipit.top/about',
   },
 };
 
@@ -34,42 +34,39 @@ export default function AboutPage() {
           <h1 className="text-4xl font-bangers mb-8 text-center text-gray-900">
             About Us
           </h1>
-          
-          <div className="prose prose-lg max-w-none text-gray-700"> {/* prose 类用于优化长文本显示 */}
+
+          <div className="prose prose-lg max-w-none text-gray-700">
             <p>
-              Welcome to <strong className="text-[#c0142d]">Doodle Baseball (doodlebaseball.info)</strong>!
+              Welcome to <strong className="text-[#c0142d]">Skip It! (skipit.top)</strong>!
             </p>
 
             <p>
-              We are a group of passionate fans who love the classic sports-themed game Doodle Baseball. We created this website to provide a convenient platform for enthusiasts to experience this fun game and find information about gameplay, tips, and frequently asked questions.
+              We are a team of passionate game enthusiasts who love simple, addicting arcade games. We created this website to provide a convenient platform for players to enjoy the Skip It! rope-jumping game and find useful information about gameplay, tips, and frequently asked questions.
             </p>
 
             <p>On this site, you can:</p>
-            <ul> {/* 使用 Tailwind prose 插件会自动处理列表样式 */}
-              <li>Play the Doodle Baseball game</li>
-              <li>Learn the basic rules and controls</li>
-              <li>Discover tips to improve your score</li>
-              <li>Learn about the different characters in the game</li>
+            <ul>
+              <li>Play the Skip It! rope-jumping arcade game</li>
+              <li>Learn the basic rules and one-tap controls</li>
+              <li>Discover tips to improve your high score</li>
+              <li>Explore a curated collection of other fun arcade games</li>
             </ul>
 
-            <div className="mt-6 p-4 border-l-4 border-yellow-400 bg-yellow-50"> {/* 强调免责声明 */}
-              <p className="font-semibold text-yellow-700 mb-2">Important Disclaimer:</p>
+            <div className="mt-6 p-4 border-l-4 border-yellow-400 bg-yellow-50">
+              <p className="font-semibold text-yellow-700 mb-2">Disclaimer:</p>
               <p className="mb-3">
-                Please note that <strong className="text-[#c0142d]">doodlebaseball.info</strong> is an <strong className="text-[#c0142d]">unofficial fan website</strong> dedicated to the popular game Doodle Baseball. 
+                <strong className="text-[#c0142d]">skipit.top</strong> is a fan-made gaming platform. The games featured on this site are provided via third-party embeds.
               </p>
               <p className="mb-3">
-                We <strong className="text-[#c0142d]">do not own the Doodle Baseball game</strong> or claim any rights to it. This website exists solely as a platform for fans to engage with and enjoy content related to the game. 
-              </p>
-              <p className="mb-3">
-                We are <strong className="text-[#c0142d]">not affiliated with or authorized by Google</strong>, the developer of the game. 
+                We <strong className="text-[#c0142d]">do not own the original game assets</strong> and provide this website purely for entertainment purposes.
               </p>
               <p>
-                We are not Google. If you encounter any technical issues or have gameplay questions about the game itself, please contact Google directly for official support. We can only provide assistance related to the content on this website.
+                If you encounter any technical issues, feel free to reach out through our <a href="/contact" className="text-blue-600 hover:underline">Contact</a> page and we'll do our best to help.
               </p>
             </div>
 
             <p className="mt-6">
-              Our goal is to provide a simple, fun, and content-rich platform for all Doodle Baseball enthusiasts. We hope you enjoy your time here! 
+              Our goal is to provide a simple, fun, and content-rich platform for all arcade game fans. We hope you enjoy your time here!
             </p>
           </div>
         </div>

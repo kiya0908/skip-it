@@ -8,7 +8,7 @@ import AdUnit from '@/app/components/AdUnit';
 import { ADSENSE_BOTTOM_SLOT } from '@/lib/adsense';
 
 const GAMES_PER_PAGE = 30;
-const baseUrl = 'https://doodlebaseball.info';
+const baseUrl = 'https://skipit.top';
 
 /** 判断是否为分页用的数字 slug（如 "1"、"2"），与游戏 slug 区分 */
 function isPageSlug(s: string): boolean {
@@ -17,17 +17,17 @@ function isPageSlug(s: string): boolean {
 
 /** 游戏列表页的元数据（用于 /games/1、/games/2 等） */
 function listMetadata(pageNumber: number) {
-  const baseTitle = 'All Games | Doodle Baseball - Free Online Games Collection';
-  const baseDescription = 'Browse our complete collection of free online games. Play baseball games, puzzle games, action games and more at Doodle Baseball.';
+  const baseTitle = 'All Games | Skip It! - Free Online Games Collection';
+  const baseDescription = 'Browse our complete collection of free online games. Play arcade games, puzzle games, action games and more at Skip It!.';
   const title = pageNumber > 1 ? `${baseTitle} - Page ${pageNumber}` : baseTitle;
   const description = pageNumber > 1 ? `${baseDescription} - Page ${pageNumber}` : baseDescription;
   const canonical = `${baseUrl}/games/${pageNumber}`;
   return {
     title,
     description,
-    keywords: 'online games, free games, baseball games, game collection, play games online',
+    keywords: 'online games, free games, arcade games, game collection, play games online, skip it',
     alternates: { canonical },
-    openGraph: { title, description, url: canonical, type: 'website' as const, images: '/images/games/games.png' },
+    openGraph: { title, description, url: canonical, type: 'website' as const, images: '/images/games/skipit.webp' },
     robots: 'index, follow' as const,
   };
 }
@@ -78,10 +78,10 @@ export default function GamePage({ params }: { params: { slug: string } }) {
     return <div className="max-w-2xl mx-auto py-20 text-center text-xl">Game Not Found</div>;
   }
 
-  if (game.slug === 'doodle-baseball') {
+  if (game.slug === 'skip-it' || game.slug === 'skip_it') {
     redirect('/');
   }
-  
+
   // JSON-LD 结构化数据 - 优化为更完整的游戏信息
   const jsonLd = {
     "@context": "https://schema.org",
@@ -89,8 +89,8 @@ export default function GamePage({ params }: { params: { slug: string } }) {
     "name": game.title,
     "description": game.description.replace(/<\/?b>/g, ''), // 移除HTML标签以确保纯文本
     "image": game.coverImage,
-    "url": `https://doodlebaseball.info/games/${game.slug}`,
-    "genre": ["Sports Game", "Browser Game", "Online Game"],
+    "url": `https://skipit.top/games/${game.slug}`,
+    "genre": ["Arcade Game", "Browser Game", "Online Game"],
     "playMode": "SinglePlayer",
     "applicationCategory": "Game",
     "offers": {
@@ -106,7 +106,7 @@ export default function GamePage({ params }: { params: { slug: string } }) {
       "ratingCount": "1"
     }
   };
-  
+
   return (
     <>
       {/* 添加结构化数据 */}

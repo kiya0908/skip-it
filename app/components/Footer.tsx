@@ -24,12 +24,10 @@ export default function Footer() {
         <div className="text-center text-gray-400 text-sm">
           &copy; 2025{" "}
           <a
-            href="https://link.zhihu.com/?target=https%3a%2f%2fdoodlebaseball.info"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://skipit.top"
             className="text-white underline hover:text-gray-200 transition-colors"
           >
-            Doodle Baseball
+            Skip It!
           </a>
           . All rights reserved.
         </div>

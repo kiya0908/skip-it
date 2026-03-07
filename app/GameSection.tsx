@@ -48,10 +48,10 @@ export default function GameSection() {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-    
+
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    
+
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
@@ -69,7 +69,7 @@ export default function GameSection() {
     console.log("2. 网络连接问题");
     console.log("3. URL不可访问");
     console.log("4. HTTPS/HTTP协议混合问题");
-    
+
     // 检查当前协议
     console.log("当前页面协议:", window.location.protocol);
     console.log("游戏URL协议:", gameUrl?.startsWith('https') ? 'https:' : 'http:');
@@ -121,7 +121,7 @@ export default function GameSection() {
   // Share Handler
   const handleShare = useCallback((platform: string) => {
     const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent(`Play ${gamesData[0]?.title || 'Doodle Baseball'} Online for Free!`);
+    const title = encodeURIComponent(`Play ${gamesData[0]?.title || 'Skip It!'} Online for Free!`);
 
     switch (platform) {
       case 'facebook':
@@ -171,12 +171,12 @@ export default function GameSection() {
         }
       }
     };
-    
+
     if (isMobile && showFloatingControls) {
       document.addEventListener('mousedown', handleClickOutside as EventListener);
       document.addEventListener('touchstart', handleClickOutside as EventListener);
     }
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside as EventListener);
       document.removeEventListener('touchstart', handleClickOutside as EventListener);
@@ -189,17 +189,16 @@ export default function GameSection() {
     <div className="bg-white min-h-screen">
       <section id="play" className="py-6 bg-white">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Doodle Baseball Game</h1>
+          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Skip It! Game</h1>
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
-              <div ref={gameContainerRef} className={`game-container relative w-full bg-gray-900 ${
-                isMobile ? 'h-[80vh]' : 'aspect-video'
-              }`}>
+              <div ref={gameContainerRef} className={`game-container relative w-full bg-gray-900 ${isMobile ? 'h-[80vh]' : 'aspect-video'
+                }`}>
                 {!hasRequestedPlay && (
                   <>
                     <Image
                       src={gamesData[0]?.coverImage || '/images/games/doodlebaseball.png'}
-                      alt={gamesData[0]?.title || 'Doodle Baseball'}
+                      alt={gamesData[0]?.title || 'Skip It!'}
                       fill
                       priority
                       quality={80}
@@ -209,7 +208,7 @@ export default function GameSection() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/60" />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-30 text-white">
                       <h2 className="text-3xl sm:text-4xl font-bangers mb-4 drop-shadow-lg">
-                        Play Doodle Baseball Instantly
+                        Play Skip It! Instantly
                       </h2>
 
                       <button
@@ -325,25 +324,25 @@ export default function GameSection() {
                         {/* Share Menu for Mobile */}
                         {showShareMenu && (
                           <div className="mt-2 pt-2 border-t border-gray-600">
-                            <button 
+                            <button
                               onClick={() => handleShare('copy')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
                               <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link
                             </button>
-                            <button 
+                            <button
                               onClick={() => handleShare('facebook')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
                               <i className="fab fa-facebook text-blue-400 mr-2"></i> Facebook
                             </button>
-                            <button 
+                            <button
                               onClick={() => handleShare('twitter')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
                               <i className="fab fa-twitter text-blue-400 mr-2"></i> Twitter
                             </button>
-                            <button 
+                            <button
                               onClick={() => handleShare('whatsapp')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >

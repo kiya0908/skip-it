@@ -3,26 +3,26 @@ import type { Metadata } from 'next';
 
 // 为页面添加元数据
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Doodle Baseball Game',
+  title: 'Privacy Policy - Skip It! Game',
   description: 'Read our privacy policy to understand how we protect your personal information.',
-  keywords: 'doodle baseball game privacy policy, data protection, user privacy',
+  keywords: 'skip it game privacy policy, data protection, user privacy',
   openGraph: {
     title: 'Privacy Policy | Play Online for Free',
     description: 'Read our privacy policy to understand how we protect your personal information！',
     images: [
       {
-        url: 'https://doodlebaseball.info/images/games/doodlebaseball.png', // 请替换为您的实际图片URL
+        url: 'https://skipit.top/images/games/skipit.webp', // 请替换为您的实际图片URL
         width: 1200,
         height: 630,
-        alt: 'Doodle Baseball Preview',
+        alt: 'Skip It! Preview',
       },
     ],
-    url: 'https://doodlebaseball.info/privacy', // 请替换为您的实际页面URL
+    url: 'https://skipit.top/privacy', // 请替换为您的实际页面URL
     type: 'website',
   },
   robots: "index, follow",
   alternates: {
-    canonical: 'https://doodlebaseball.info/privacy',
+    canonical: 'https://skipit.top/privacy',
   },
 };
 
@@ -34,10 +34,10 @@ export default function PrivacyPage() {
           <h1 className="text-4xl font-bangers mb-8 text-center text-gray-900">
             Privacy Policy
           </h1>
-          
+
           <div className="text-left mb-8">
             <p className="text-xl font-semibold text-gray-800">Information We Collect</p>
-            <p className="mb-2">When you use the REPO game, we collect minimal information, including:</p>
+            <p className="mb-2">When you use the Skip It! game, we collect minimal information, including:</p>
             <ul className="list-disc pl-6 text-gray-700 mb-4">
               <li>Basic device information (such as browser type and device type)</li>
               <li>Game progress and preferences (stored locally)</li>
@@ -59,10 +59,10 @@ export default function PrivacyPage() {
           <div className="text-left mb-8">
             <p className="text-xl font-semibold text-gray-800">Data Storage</p>
             <p className="text-gray-700">
-              The REPO game utilizes local storage in your browser to save game progress and settings. No personal information is stored on our servers. You can clear this data at any time through your browser settings.
+              The Skip It! game utilizes local storage in your browser to save game progress and settings. No personal information is stored on our servers. You can clear this data at any time through your browser settings.
             </p>
           </div>
-          
+
           <div className="text-left mb-8">
             <p className="text-xl font-semibold text-gray-800">Cookies and Local Storage</p>
             <p className="text-gray-700">
@@ -76,11 +76,11 @@ export default function PrivacyPage() {
               Our website may utilize third-party analytics services to enhance game performance and user experience. These services collect anonymous usage data and do not track personal information.
             </p>
           </div>
-        
+
           <div className="text-left mb-8">
             <p className="text-xl font-semibold text-gray-800">Children's Privacy</p>
             <p className="text-gray-700">
-              The REPO game is suitable for players of all ages. We do not knowingly collect personal information from children under 13. Our games can be played without providing any personal information.
+              The Skip It! game is suitable for players of all ages. We do not knowingly collect personal information from children under 13. Our games can be played without providing any personal information.
             </p>
           </div>
 

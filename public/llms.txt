@@ -1,28 +1,28 @@
-# Doodle Baseball Game
+# Skip It! Game
 
-> Play the addictive Doodle Baseball game online for free! Swing your bat, hit home runs in this fun food-themed baseball simulator. Test your timing & reflexes!
+> Play the addictive Skip It! game online for free! Jump over the rotating rope in this fun arcade simulator. Test your timing & reflexes!
 
 ## Core Content
-- [Play Game](https://doodlebaseball.info/#play): Experience the main Doodle Baseball gameplay.
-- [All Games](https://doodlebaseball.info/games): Browse and discover all available baseball mini-games.
+- [Play Game](https://skipit.top/#play): Experience the main Skip It! gameplay.
+- [All Games](https://skipit.top/games): Browse and discover all available arcade mini-games.
 
 ## Important Resources
-- [How to Play](https://doodlebaseball.info/#how-to-play): Step-by-step instructions for new players.
-- [Features](https://doodlebaseball.info/#features): Explore the key features of the Doodle Baseball website.
-- [FAQ](https://doodlebaseball.info/#faq): Frequently asked questions and answers.
-- [About](https://doodlebaseball.info/about): Learn more about our website and development team.
-- [Contact](https://doodlebaseball.info/contact): Get in touch for support or feedback.
-- [Privacy Policy](https://doodlebaseball.info/privacy): Read our privacy policy and data protection practices.
-- [Terms of Service](https://doodlebaseball.info/terms): Review the terms and conditions for using our site.
+- [How to Play](https://skipit.top/#how-to-play): Step-by-step instructions for new players.
+- [Features](https://skipit.top/#features): Explore the key features of the Skip It! website.
+- [FAQ](https://skipit.top/#faq): Frequently asked questions and answers.
+- [About](https://skipit.top/about): Learn more about our website and development team.
+- [Contact](https://skipit.top/contact): Get in touch for support or feedback.
+- [Privacy Policy](https://skipit.top/privacy): Read our privacy policy and data protection practices.
+- [Terms of Service](https://skipit.top/terms): Review the terms and conditions for using our site.
 
 ## Latest Update
-- [Main Game Stable](https://doodlebaseball.info/#play): The core game experience is stable and available.
+- [Main Game Stable](https://skipit.top/#play): The core game experience is stable and available.
 
 ## Support
-- [Contact Us](https://doodlebaseball.info/contact): Reach out to us for any questions or support needs.
+- [Contact Us](https://skipit.top/contact): Reach out to us for any questions or support needs.
 
 ## More
-- For more game details, please visit the [All Games](https://doodlebaseball.info/games) page.
-- All Mini-Games：Each game is available at:https://doodlebaseball.info/games/{slug}
-- Where {slug} can be any lowercase hyphenated name (e.g. july4, foodball, pixel, halloween, soccer, …).  
-Every URL responds with a fully-playable, mobile-optimized baseball mini-game.
+- For more game details, please visit the [All Games](https://skipit.top/games) page.
+- All Mini-Games：Each game is available at:https://skipit.top/games/{slug}
+- Where {slug} can be any lowercase hyphenated name.  
+Every URL responds with a fully-playable, mobile-optimized arcade mini-game.

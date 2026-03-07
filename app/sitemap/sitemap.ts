@@ -6,7 +6,7 @@ interface Game {
   slug: string;
 }
 
-const baseUrl = 'https://doodlebaseball.info';
+const baseUrl = 'https://skipit.top';
 const GAMES_PER_PAGE = 30; // ⚠️ 页面实际的分页数量
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -24,16 +24,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1.0 : 0.8,
   }));
 
-  // 2. 所有游戏详情页（不包含 doodle-baseball）
+  // 2. 所有游戏详情页（不包含 skip-it）
   const gamesRoutes = gamesData
-    .filter((game: Game) => game.slug && game.slug !== 'doodle-baseball')
+    .filter((game: Game) => game.slug && game.slug !== 'skip-it')
     .map((game: Game) => ({
       url: `${baseUrl}/games/${game.slug}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     }));
-  
+
   // 3. games 游戏列表分页：/games/1、/games/2、...
   const totalGames = gamesData.length;
   const totalPages = Math.ceil(totalGames / GAMES_PER_PAGE);

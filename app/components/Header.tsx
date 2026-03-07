@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import games from "@/data/games.json"; // Import game data
 
 // Define the structure of a game item
@@ -27,6 +28,7 @@ interface Game {
 }
 
 export default function Header() {
+  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   // 搜索输入框的状态
   const [searchQuery, setSearchQuery] = useState("");
@@ -39,7 +41,7 @@ export default function Header() {
     e.preventDefault();
     if (searchQuery.trim()) {
       // 跳转到 /search?q=关键词
-      window.location.href = `/search?q=${encodeURIComponent(searchQuery.trim())}`;
+      router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
 
@@ -51,13 +53,13 @@ export default function Header() {
           <Link href="/" className="flex-shrink-0 flex items-center">
             <Image
               className="h-10 w-auto"
-              src="/images/games/doodlebaseball.png"
-              alt="Doodle Baseball Logo"
+              src="/images/games/skipit.webp"
+              alt="Skip It! Logo"
               width={40}
               height={40}
               priority
             />
-            <p className="ml-2 text-2xl font-bangers text-white">Doodle Baseball</p>
+            <p className="ml-2 text-2xl font-bangers text-white">Skip It!</p>
           </Link>
           {/* PC端主导航+搜索表单 */}
           <nav className="hidden md:flex items-center space-x-4">

@@ -15,10 +15,10 @@ export async function generateMetadata({
   // 为空搜索提供默认元数据
   if (!query) {
     return {
-      title: "Search Games | Doodle Baseball",
-      description: "Search for your favorite games on Doodle Baseball",
+      title: "Search Games | Skip It!",
+      description: "Search for your favorite games on Skip It!",
       alternates: {
-        canonical: "https://doodlebaseball.info/search",
+        canonical: "https://skipit.top/search",
       },
       robots: "index, follow",
     };
@@ -30,8 +30,8 @@ export async function generateMetadata({
   const description = pageNumber > 1 ? `Search results for: ${query} - Page ${pageNumber}` : `Search results for: ${query}`;
 
   const canonicalUrl = pageNumber > 1
-    ? `https://doodlebaseball.info/search?q=${encodeURIComponent(query)}&page=${pageNumber}`
-    : `https://doodlebaseball.info/search?q=${encodeURIComponent(query)}`;
+    ? `https://skipit.top/search?q=${encodeURIComponent(query)}&page=${pageNumber}`
+    : `https://skipit.top/search?q=${encodeURIComponent(query)}`;
 
   return {
     title,
@@ -45,7 +45,7 @@ export async function generateMetadata({
       description,
       url: canonicalUrl,
       type: "website",
-      images: "/images/games/games.png",
+      images: "/images/games/skipit.webp",
     },
     robots: "index, follow",
   };
