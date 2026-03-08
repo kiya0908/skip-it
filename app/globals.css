@@ -139,7 +139,7 @@ button,
 :root {
   /* 如果您在 layout.tsx 中通过 className 控制 body 背景和文字颜色，这些可能不需要 */
   /* --foreground-rgb: 255, 255, 255; */ /* 示例：白色文字 */
-  /* --background-rgb: 12, 36, 97; */   /* 示例：深蓝色背景 */
+  /* --background-rgb: 51, 179, 250; */   /* 示例：亮蓝色背景 */
 }
 
 /*

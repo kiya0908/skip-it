@@ -392,7 +392,7 @@ export default function GameSection() {
                     <div
                       ref={shareMenuRef}
                       id="share-menu"
-                      className={`${showShareMenu ? '' : 'hidden'} absolute bottom-full right-0 mb-2 bg-[#0c2461] rounded-lg shadow-lg p-2 w-48 z-10`}
+                      className={`${showShareMenu ? '' : 'hidden'} absolute bottom-full right-0 mb-2 bg-[#33b3fa] rounded-lg shadow-lg p-2 w-48 z-10`}
                     >
                       <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('copy')}>
                         <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link

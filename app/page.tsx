@@ -17,7 +17,7 @@ const Comments = dynamic(() => import('./components/Comments'), {
 
 const RelatedGames = dynamic(() => import('./components/RelatedGames'), {
   loading: () => (
-    <div className="py-10 text-center text-white bg-[#0c2461]">
+    <div className="py-10 text-center text-white bg-[#33b3fa]">
       Loading related games…
     </div>
   ),
@@ -169,7 +169,7 @@ export default function HomePage() {
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
                   <i className="fas fa-bullseye text-blue-600 text-xl"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">1. Core Gameplay and Precision Mechanics</h3>
+                <h3 className="text-xl font-semibold mb-2">Core Gameplay and Precision Mechanics</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   The experience of playing <strong>Skip It!</strong> is defined by a precision-based launch and active mid-air navigation.
                 </p>
@@ -184,7 +184,7 @@ export default function HomePage() {
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
                   <i className="fas fa-arrow-up text-green-600 text-xl"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">2. Depth of the Upgrade and Progression System</h3>
+                <h3 className="text-xl font-semibold mb-2">Depth of the Upgrade and Progression System</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   Every meter covered in <strong>Skip It!</strong> is converted into currency to invest in four vital permanent upgrades:
                 </p>
@@ -200,7 +200,7 @@ export default function HomePage() {
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
                   <i className="fas fa-fire text-red-600 text-xl"></i>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">3. Why Skip It! is a Must-Play Experience</h3>
+                <h3 className="text-xl font-semibold mb-2">Why Skip It! is a Must-Play Experience</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   The appeal of <strong>Skip It!</strong> lies in its "just one more throw" philosophy. With quick, high-tension runs lasting 1–4 minutes, it offers immediate feedback and measurable growth. Reach distance milestones to unlock <strong>unique stone skins</strong> and cosmetic items. Whether for relaxing physics simulation or high-stakes challenge, <strong>Skip It!</strong> delivers a polished arcade experience for all ages.
                 </p>
@@ -475,7 +475,7 @@ export default function HomePage() {
                   <i className="fas fa-heart text-red-600 text-2xl"></i>
                 </div>
                 <div className="text-center md:text-left">
-                  <h3 className="text-2xl font-bold mb-2 text-gray-900">7. Stay Calm at High Speeds</h3>
+                  <h3 className="text-2xl font-bold mb-2 text-gray-900">Stay Calm at High Speeds</h3>
                   <p className="text-lg text-gray-700 italic leading-relaxed">
                     "As your stone accelerates, the window to react narrows. Watch the horizon, maintain a steady rhythm, and don't panic. Mastering your nerves is the ultimate key to dominating the Skip It! community!"
                   </p>

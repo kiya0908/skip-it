@@ -46,7 +46,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-[#0c2461] shadow-sm sticky top-0 z-50">
+    <header className="bg-[#33b3fa] shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* 左侧Logo */}
@@ -85,7 +85,7 @@ export default function Header() {
               />
               <button
                 type="submit"
-                className="bg-[#0c2461] hover:bg-red-600 text-white px-3 py-1 rounded-r-md text-sm font-medium"
+                className="bg-[#33b3fa] hover:bg-red-600 text-white px-3 py-1 rounded-r-md text-sm font-medium"
                 aria-label="Search"
               >
                 Search
@@ -106,7 +106,7 @@ export default function Header() {
         </div>
         {/* 移动端菜单抽屉，仅控制目录项 */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-[#0c2461] shadow-lg rounded-b-lg animate-fadeIn">
+          <div className="md:hidden bg-[#33b3fa] shadow-lg rounded-b-lg animate-fadeIn">
             <nav className="flex flex-col py-2 px-4 space-y-1">
               {/* Games 目录项 */}
               <Link href="/games" className="text-white font-bold py-2 px-2 rounded hover:bg-blue-900" aria-label="View all games" onClick={() => setMobileMenuOpen(false)}>
@@ -131,7 +131,7 @@ export default function Header() {
           </div>
         )}
         {/* 移动端搜索表单，始终显示 */}
-        <div className="md:hidden bg-[#0c2461] px-4 pb-2 pt-2">
+        <div className="md:hidden bg-[#33b3fa] px-4 pb-2 pt-2">
           <form className="flex items-center" onSubmit={handleSearch} aria-label="Search games">
             <input
               type="text"

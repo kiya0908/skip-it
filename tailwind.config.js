@@ -12,7 +12,7 @@ module.exports = {
         bangers: ['var(--font-bangers)'],
       },
       colors: {
-        'navy': '#0c2461',
+        'navy': '#33b3fa',
         'red': {
           500: '#d7263d',
           600: '#a81c2a',
