@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     images: "/images/games/skipit.webp",
     type: "website"
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -70,12 +73,12 @@ export default function RootLayout({
         <Footer />
         <ClientOptimizer />
 
-        {/* 【新增 3】AdSense 核心脚本移到这里 */}
+        {/*AdSense 核心脚本移到这里 */}
         {/* strategy="afterInteractive" 确保页面可交互后再加载，避免白屏和 React 冲突 */}
         <Script
           id="adsbygoogle-init"
           strategy="afterInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7718142048250196"
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID}`}
           crossOrigin="anonymous"
         />
         {/* 添加Google Analytics */}

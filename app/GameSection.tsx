@@ -189,7 +189,7 @@ export default function GameSection() {
     <div className="bg-white min-h-screen">
       <section id="play" className="py-6 bg-white">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
-          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Skip It! Game</h1>
+          <h1 className="text-4xl font-bangers font-bold text-center text-gray-900 mb-6">Skip It!</h1>
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
               <div ref={gameContainerRef} className={`game-container relative w-full bg-gray-900 ${isMobile ? 'h-[80vh]' : 'aspect-video'
