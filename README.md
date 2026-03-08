@@ -55,6 +55,7 @@
 在 `.env.local` 文件中配置以下变量以启用分析和广告：
 
 ```env
+NEXT_PUBLIC_ADSENSE_CLIENT_ID=ca-pub-XXXXXXXXX  # Google ADSENSE ID
 NEXT_PUBLIC_ADSENSE_TOP_SLOT=    # 顶部广告位 ID
 NEXT_PUBLIC_ADSENSE_BOTTOM_SLOT= # 底部广告位 ID
 NEXT_PUBLIC_GA_MEASUREMENT_ID=   # Google Analytics ID (G-XXXXXXX)
