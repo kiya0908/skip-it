@@ -77,10 +77,10 @@ export default function GameClient({ game }: { game: Game }) {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-    
+
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    
+
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
@@ -98,7 +98,7 @@ export default function GameClient({ game }: { game: Game }) {
     console.log("2. 网络连接问题");
     console.log("3. URL不可访问");
     console.log("4. HTTPS/HTTP协议混合问题");
-    
+
     // 检查当前协议
     console.log("当前页面协议:", window.location.protocol);
     console.log("游戏URL协议:", game.playUrl?.startsWith('https') ? 'https:' : 'http:');
@@ -191,12 +191,12 @@ export default function GameClient({ game }: { game: Game }) {
         }
       }
     };
-    
+
     if (isMobile && showFloatingControls) {
       document.addEventListener('mousedown', handleClickOutside as EventListener);
       document.addEventListener('touchstart', handleClickOutside as EventListener);
     }
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside as EventListener);
       document.removeEventListener('touchstart', handleClickOutside as EventListener);
@@ -234,9 +234,8 @@ export default function GameClient({ game }: { game: Game }) {
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="flex-1 bg-white rounded-lg shadow-lg overflow-hidden min-w-0">
               {/* 游戏区域 */}
-              <div ref={gameContainerRef} className={`game-container relative w-full bg-gray-900 ${
-                isMobile ? 'h-[80vh]' : 'aspect-video'
-              }`}>
+              <div ref={gameContainerRef} className={`game-container relative w-full bg-gray-900 ${isMobile ? 'h-[80vh]' : 'aspect-video'
+                }`}>
                 {/* Loading Indicator */}
                 <div
                   id="game-loading"
@@ -348,25 +347,25 @@ export default function GameClient({ game }: { game: Game }) {
                         {/* Share Menu for Mobile */}
                         {showShareMenu && (
                           <div className="mt-2 pt-2 border-t border-gray-600">
-                            <button 
+                            <button
                               onClick={() => handleShare('copy')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
                               <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link
                             </button>
-                            <button 
+                            <button
                               onClick={() => handleShare('facebook')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
                               <i className="fab fa-facebook text-blue-400 mr-2"></i> Facebook
                             </button>
-                            <button 
+                            <button
                               onClick={() => handleShare('twitter')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
                               <i className="fab fa-twitter text-blue-400 mr-2"></i> Twitter
                             </button>
-                            <button 
+                            <button
                               onClick={() => handleShare('whatsapp')}
                               className="flex items-center w-full text-white hover:bg-gray-700 px-4 py-3 rounded text-sm transition-colors min-h-[44px]"
                             >
@@ -393,8 +392,8 @@ export default function GameClient({ game }: { game: Game }) {
                       ))}
                     </div>
                     <span className="text-xl text-gray-900">{game.rating}</span>
-                    
-                  
+
+
                   </div>
                 </div>
                 <div className="flex space-x-3">
@@ -418,7 +417,7 @@ export default function GameClient({ game }: { game: Game }) {
                     <div
                       ref={shareMenuRef}
                       id="share-menu"
-                      className={`${showShareMenu ? '' : 'hidden'} absolute bottom-full right-0 mb-2 bg-[#0c2461] rounded-lg shadow-lg p-2 w-48 z-10`}
+                      className={`${showShareMenu ? '' : 'hidden'} absolute bottom-full right-0 mb-2 bg-[#33b3fa] rounded-lg shadow-lg p-2 w-48 z-10`}
                     >
                       <button className="w-full text-left px-3 py-2 hover:bg-[#1e3c72] rounded text-white share-button flex items-center" onClick={() => handleShare('copy')}>
                         <i className="fas fa-link text-blue-400 mr-2"></i> Copy Link
@@ -461,84 +460,84 @@ export default function GameClient({ game }: { game: Game }) {
       <section className="py-8" id="game-details">
         <div className="max-w-[1920px] mx-auto px-2 sm:px-3 lg:px-4">
           <div className="flex flex-col gap-8 items-start max-w-7xl mx-auto">
-            
+
             {/* 左侧主要内容区：Description + How to Play + Features */}
             <div className="flex-1 space-y-8 w-full">
-                
-                {/* 3.1 About Game Block */}
-                <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
-                    <div className="flex flex-col md:flex-row gap-6">
-                        {/* 如果有封面图，在左侧显示一个小图增强视觉，或者放在右侧 */}
-                         <div className="flex-1">
-                            <h2 className="text-3xl font-bangers text-gray-900 mb-4 flex items-center">
-                                <i className="fas fa-info-circle text-blue-500 mr-3 text-2xl"></i>
-                                <a href="#about" className="text-gray-900 hover:underline">About {game.title}</a>
-                            </h2>
-                            <div className="prose prose-slate max-w-none">
-                                {renderDescriptionParagraphs(game.description)}
-                            </div>
-                         </div>
-                         {/* 可选：右侧放一个小的封面图卡片 */}
-                         <div className="w-full md:w-48 shrink-0">
-                            <div className="aspect-square rounded-lg overflow-hidden bg-gray-100 shadow-inner relative">
-                                <img 
-                                    src={game.coverImage} 
-                                    alt={game.title} 
-                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                                />
-                            </div>
 
-                         </div>
-                    </div>
-                </div>
-
-                {/* 3.2 How to Play Block */}
-                <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
-                    <h2 className="text-3xl font-bangers text-gray-900 mb-6 flex items-center">
-                         <i className="fas fa-gamepad text-green-500 mr-3 text-2xl"></i>
-                         How to Play
+              {/* 3.1 About Game Block */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+                <div className="flex flex-col md:flex-row gap-6">
+                  {/* 如果有封面图，在左侧显示一个小图增强视觉，或者放在右侧 */}
+                  <div className="flex-1">
+                    <h2 className="text-3xl font-bangers text-gray-900 mb-4 flex items-center">
+                      <i className="fas fa-info-circle text-blue-500 mr-3 text-2xl"></i>
+                      <a href="#about" className="text-gray-900 hover:underline">About {game.title}</a>
                     </h2>
-                    {/* 使用 Grid 布局代替简单的 ol 列表，增加视觉丰富度 */}
-                    <div className="grid gap-4">
-                        {game.howToPlay.map((step: string, idx: number) => (
-                            <div key={idx} className="flex items-start bg-gray-50 p-4 rounded-lg border border-gray-100 hover:border-blue-200 transition-colors">
-                                <div className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold mr-4 shadow-sm">
-                                    {idx + 1}
-                                </div>
-                                <div className="text-gray-700 leading-relaxed pt-1" dangerouslySetInnerHTML={{ __html: step }}></div>
-                            </div>
-                        ))}
+                    <div className="prose prose-slate max-w-none">
+                      {renderDescriptionParagraphs(game.description)}
                     </div>
-                    {/* 修正了原本的 Baseball 文案，改为 generic */}
-                    <div className="mt-6 p-4 bg-blue-50 rounded-lg text-blue-800 text-sm flex items-center">
-                        <i className="fas fa-lightbulb text-yellow-500 mr-3 text-lg"></i>
-                        <span>
-                            Mastered this game? Check out our <a href="/games" className="font-bold underline hover:text-blue-600">All Games</a> page for more brain-teasing challenges!
-                        </span>
+                  </div>
+                  {/* 可选：右侧放一个小的封面图卡片 */}
+                  <div className="w-full md:w-48 shrink-0">
+                    <div className="aspect-square rounded-lg overflow-hidden bg-gray-100 shadow-inner relative">
+                      <img
+                        src={game.coverImage}
+                        alt={game.title}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                      />
                     </div>
-                </div>
 
-                {/* 3.3 Features Block */}
-                <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
-                    <h2 className="text-3xl font-bangers text-gray-900 mb-6 flex items-center">
-                        <i className="fas fa-star text-yellow-500 mr-3 text-2xl"></i>
-                        Game Features
-                    </h2>
-                    {/* 将列表转换为卡片网格 */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {game.features.map((f: string, idx: number) => (
-                            <div key={idx} className="flex items-start p-4 bg-gradient-to-r from-gray-50 to-white rounded-lg border border-gray-100 shadow-sm">
-                                <i className="fas fa-check text-green-500 mt-1 mr-3"></i>
-                                <span className="text-gray-700 font-medium" dangerouslySetInnerHTML={{ __html: f }} />
-                            </div>
-                        ))}
-                    </div>
+                  </div>
                 </div>
+              </div>
 
-                {/*Comments 组件 */}
-                <div>
-                  <Comments />
+              {/* 3.2 How to Play Block */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+                <h2 className="text-3xl font-bangers text-gray-900 mb-6 flex items-center">
+                  <i className="fas fa-gamepad text-green-500 mr-3 text-2xl"></i>
+                  How to Play
+                </h2>
+                {/* 使用 Grid 布局代替简单的 ol 列表，增加视觉丰富度 */}
+                <div className="grid gap-4">
+                  {game.howToPlay.map((step: string, idx: number) => (
+                    <div key={idx} className="flex items-start bg-gray-50 p-4 rounded-lg border border-gray-100 hover:border-blue-200 transition-colors">
+                      <div className="shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold mr-4 shadow-sm">
+                        {idx + 1}
+                      </div>
+                      <div className="text-gray-700 leading-relaxed pt-1" dangerouslySetInnerHTML={{ __html: step }}></div>
+                    </div>
+                  ))}
                 </div>
+                {/* 修正了原本的 Baseball 文案，改为 generic */}
+                <div className="mt-6 p-4 bg-blue-50 rounded-lg text-blue-800 text-sm flex items-center">
+                  <i className="fas fa-lightbulb text-yellow-500 mr-3 text-lg"></i>
+                  <span>
+                    Mastered this game? Check out our <a href="/games" className="font-bold underline hover:text-blue-600">All Games</a> page for more brain-teasing challenges!
+                  </span>
+                </div>
+              </div>
+
+              {/* 3.3 Features Block */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+                <h2 className="text-3xl font-bangers text-gray-900 mb-6 flex items-center">
+                  <i className="fas fa-star text-yellow-500 mr-3 text-2xl"></i>
+                  Game Features
+                </h2>
+                {/* 将列表转换为卡片网格 */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {game.features.map((f: string, idx: number) => (
+                    <div key={idx} className="flex items-start p-4 bg-gradient-to-r from-gray-50 to-white rounded-lg border border-gray-100 shadow-sm">
+                      <i className="fas fa-check text-green-500 mt-1 mr-3"></i>
+                      <span className="text-gray-700 font-medium" dangerouslySetInnerHTML={{ __html: f }} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/*Comments 组件 */}
+              <div>
+                <Comments />
+              </div>
 
             </div>
           </div>
