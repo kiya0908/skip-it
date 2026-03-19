@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // 2. 所有游戏详情页（不包含 skip-it）
   const gamesRoutes = gamesData
-    .filter((game: Game) => game.slug && game.slug !== 'skip-it')
+    .filter((game: Game) => game.slug && game.slug !== 'skip-it' && game.slug !== 'skip_it')
     .map((game: Game) => ({
       url: `${baseUrl}/games/${game.slug}`,
       lastModified: new Date(),
