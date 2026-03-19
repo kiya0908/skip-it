@@ -77,7 +77,7 @@ export default function GamePage({ params }: { params: { slug: string } }) {
   if (!game) {
     return <div className="max-w-2xl mx-auto py-20 text-center text-xl">Game Not Found</div>;
   }
-
+//games/skip_it 重定向到首页 middleware.ts中设置路由
   if (game.slug === 'skip-it' || game.slug === 'skip_it') {
     redirect('/');
   }

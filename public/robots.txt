@@ -1,5 +1,5 @@
 # Specify the location of the sitemap
-Sitemap: https://skipit.top/sitemap/sitemap.xml
+Sitemap: https://skipit.top/sitemap.xml
 
 # Allow general web crawlers access
 User-agent: *
